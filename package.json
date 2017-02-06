@@ -4,7 +4,8 @@
   "description": "Planning Center Icons",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "optimize": "svgo ./accounts --multipass && svgo ./apps --multipass && svgo ./check-ins --multipass && svgo ./giving --multipass && svgo ./groups --multipass && svgo ./interfaces --multipass && svgo ./people --multipass && svgo ./planning-center --multipass && svgo ./registrations --multipass && svgo ./services --multipass"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/planningcenter/icons/issues"
   },
-  "homepage": "https://github.com/planningcenter/icons#readme"
+  "homepage": "https://github.com/planningcenter/icons#readme",
+  "dependencies": {
+    "svgo": "^0.7.2"
+  }
 }
