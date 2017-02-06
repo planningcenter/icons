@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "optimize": "svgo ./accounts --multipass --config=svgo.yml && svgo ./apps --multipass --config=svgo.yml && svgo ./check-ins --multipass --config=svgo.yml && svgo ./giving --multipass --config=svgo.yml && svgo ./groups --multipass --config=svgo.yml && svgo ./interfaces --multipass --config=svgo.yml && svgo ./people --multipass --config=svgo.yml && svgo ./planning-center --multipass --config=svgo.color.yml && svgo ./registrations --multipass --config=svgo.yml && svgo ./services --multipass --config=svgo.yml"
+    "optimize": "svgo ./accounts --multipass --config=svgo.yml && svgo ./apps --multipass --config=svgo.color.yml && svgo ./check-ins --multipass --config=svgo.yml && svgo ./giving --multipass --config=svgo.yml && svgo ./groups --multipass --config=svgo.yml && svgo ./interfaces --multipass --config=svgo.yml && svgo ./people --multipass --config=svgo.yml && svgo ./planning-center --multipass --config=svgo.color.yml && svgo ./registrations --multipass --config=svgo.yml && svgo ./services --multipass --config=svgo.yml"
   },
   "repository": {
     "type": "git",
