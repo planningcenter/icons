@@ -1,0 +1,19 @@
+{
+  "name": "@planningcenter/icons",
+  "version": "0.0.1",
+  "description": "Planning Center Icons",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/planningcenter/icons.git"
+  },
+  "author": "Michael Chan @chantastic",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/planningcenter/icons/issues"
+  },
+  "homepage": "https://github.com/planningcenter/icons#readme"
+}
