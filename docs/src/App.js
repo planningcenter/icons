@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import logo from '../../planning-center/color-planning-center-mark.svg';
 import './App.css';
 
 class App extends Component {
@@ -7,12 +7,15 @@ class App extends Component {
     return (
       <div className="App">
         <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
+          <img
+            src={logo}
+            height="64"
+            width="64"
+            className="App-logo"
+            alt="planning center mark"
+          />
+          <h2>Planning Center Icons</h2>
         </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
       </div>
     );
   }
