@@ -20,7 +20,7 @@ directories.forEach(dir => {
   svgNames.forEach(filename => {
     const file = fs.readFileSync(`${dir}/${filename}`, "utf8")
 
-    const svg = cheerio.load(file)
+    const svg = cheerio.load(file, {xmlMode: true})
 
     svg("svg").attr("aria-labelledby", "title")
 
