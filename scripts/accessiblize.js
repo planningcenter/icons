@@ -27,9 +27,11 @@ directories.forEach(dir => {
       .attr("role", "img")
       .attr("class", `symbol symbol-${filename.slice(0, -4)}`)
 
-    svg("path").attr("role", "presentation")
+    svg("title")
+      .attr("id", "title")
+      .text(`${filename.slice(0, -4)} icon`)
 
-    svg("title").attr("id", "title")
+    svg("path").attr("role", "presentation")
 
     fs.writeFileSync(`./${dir}/${filename}`, svg.html())
   })
