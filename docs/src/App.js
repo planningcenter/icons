@@ -3,8 +3,9 @@ import logo from '../../planning-center/color-planning-center-mark.svg';
 import './App.css';
 
 const iconSets = [
-  {name: "accounts", icons: require("./accounts-icons").default},
-  {name: "app",      icons: require("./app-icons").default},
+  {name: "accounts",  icons: require("./accounts-icons").default},
+  {name: "app",       icons: require("./app-icons").default},
+  {name: "check-ins", icons: require("./check-ins-icons").default},
 ]
 
 class App extends Component {
@@ -23,8 +24,17 @@ class App extends Component {
         </div>
 
         {iconSets.map(({icons, name}, i) =>
-          <section>
-            <h3>{name.charAt(0).toUpperCase() + name.slice(1)} Icons</h3>
+          <section key={i}>
+            <h3 style={{
+              color: "white",
+              backgroundColor: "#222",
+              paddingTop: "1em",
+              paddingBottom: "1em",
+              marginTop: "1px",
+              marginBottom: "2em"
+            }}>
+              {name.charAt(0).toUpperCase() + name.slice(1)} Icons
+            </h3>
             <table style={{margin: "0 auto"}}>
             <style>{`th, td { padding: 1rem }`}</style>
               <thead>
