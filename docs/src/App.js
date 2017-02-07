@@ -50,7 +50,6 @@ class App extends Component {
                 <tr>
                   <th>svg</th>
                   <th>name</th>
-                  <th>collection</th>
                   <th>path</th>
                 </tr>
               </thead>
@@ -62,13 +61,16 @@ class App extends Component {
                       <img
                         alt={`${icons[icon]} icon`}
                         src={icons[icon]}
-                        height={32}
-                        width={32}
+                        className="App-icon"
                       />
                     </td>
                     <td>{icon}</td>
-                    <td>accounts</td>
-                    <td>account/{icon}</td>
+                    <td>
+                      <a
+                        href={`https://github.com/planningcenter/icons/tree/master/${name}/${icon}.svg`}
+                        target="_blank"
+                      >./{name}/{icon}</a>
+                    </td>
                   </tr>
                 )}
               </tbody>
