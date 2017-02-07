@@ -25,6 +25,7 @@ directories.forEach(dir => {
     svg("svg")
       .attr("aria-labelledby", "title")
       .attr("role", "img")
+      .attr("class", `symbol symbol-${filename.slice(0, -4)}`)
 
     svg("path").attr("role", "presentation")
 
