@@ -11,6 +11,7 @@ const iconSets = [
   {name: "interfaces",      icons: require("./interfaces-icons").default},
   {name: "people",          icons: require("./people-icons").default},
   {name: "planning-center", icons: require("./planning-center-icons").default},
+  {name: "registrations",   icons: require("./registrations-icons").default},
 ]
 
 class App extends Component {
