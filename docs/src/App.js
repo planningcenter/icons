@@ -7,6 +7,7 @@ const iconSets = [
   {name: "app",       icons: require("./app-icons").default},
   {name: "check-ins", icons: require("./check-ins-icons").default},
   {name: "giving",    icons: require("./giving-icons").default},
+  {name: "groups",    icons: require("./groups-icons").default},
 ]
 
 class App extends Component {
@@ -25,7 +26,10 @@ class App extends Component {
         </div>
 
         {iconSets.map(({icons, name}, i) =>
-          <section key={i}>
+          <section
+            key={i}
+            id={name}
+          >
             <h3 style={{
               color: "white",
               backgroundColor: "#222",
