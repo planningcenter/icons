@@ -9,6 +9,7 @@ const iconSets = [
   {name: "giving",     icons: require("./giving-icons").default},
   {name: "groups",     icons: require("./groups-icons").default},
   {name: "interfaces", icons: require("./interfaces-icons").default},
+  {name: "people",     icons: require("./people-icons").default},
 ]
 
 class App extends Component {
