@@ -3,11 +3,12 @@ import logo from '../../planning-center/color-planning-center-mark.svg';
 import './App.css';
 
 const iconSets = [
-  {name: "accounts",  icons: require("./accounts-icons").default},
-  {name: "app",       icons: require("./app-icons").default},
-  {name: "check-ins", icons: require("./check-ins-icons").default},
-  {name: "giving",    icons: require("./giving-icons").default},
-  {name: "groups",    icons: require("./groups-icons").default},
+  {name: "accounts",   icons: require("./accounts-icons").default},
+  {name: "app",        icons: require("./app-icons").default},
+  {name: "check-ins",  icons: require("./check-ins-icons").default},
+  {name: "giving",     icons: require("./giving-icons").default},
+  {name: "groups",     icons: require("./groups-icons").default},
+  {name: "interfaces", icons: require("./interfaces-icons").default},
 ]
 
 class App extends Component {
