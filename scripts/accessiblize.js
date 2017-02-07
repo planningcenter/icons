@@ -28,6 +28,8 @@ directories.forEach(dir => {
 
     svg("path").attr("role", "presentation")
 
+    svg("title").attr("id", "title")
+
     fs.writeFileSync(`./${dir}/${filename}`, svg.html())
   })
 })
