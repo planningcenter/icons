@@ -26,6 +26,8 @@ directories.forEach(dir => {
       .attr("aria-labelledby", "title")
       .attr("role", "img")
 
+    svg("path").attr("role", "presentation")
+
     fs.writeFileSync(`./${dir}/${filename}`, svg.html())
   })
 })
