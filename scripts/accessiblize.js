@@ -22,7 +22,9 @@ directories.forEach(dir => {
 
     const svg = cheerio.load(file, {xmlMode: true})
 
-    svg("svg").attr("aria-labelledby", "title")
+    svg("svg")
+      .attr("aria-labelledby", "title")
+      .attr("role", "img")
 
     fs.writeFileSync(`./${dir}/${filename}`, svg.html())
   })
