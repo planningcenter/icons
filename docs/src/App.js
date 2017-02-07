@@ -6,6 +6,7 @@ const iconSets = [
   {name: "accounts",  icons: require("./accounts-icons").default},
   {name: "app",       icons: require("./app-icons").default},
   {name: "check-ins", icons: require("./check-ins-icons").default},
+  {name: "giving",    icons: require("./giving-icons").default},
 ]
 
 class App extends Component {
