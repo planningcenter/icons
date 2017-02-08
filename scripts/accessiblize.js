@@ -16,10 +16,10 @@ const directories = [
 ]
 
 directories.forEach(dir => {
-  const svgNames = fs.readdirSync(dir).filter(x => x !== ".DS_Store");
+  const svgNames = fs.readdirSync(`./svgs/${dir}`).filter(x => x !== ".DS_Store");
 
   svgNames.forEach(filename => {
-    const file = fs.readFileSync(`${dir}/${filename}`, "utf8")
+    const file = fs.readFileSync(`./svgs/${dir}/${filename}`, "utf8")
 
     const svg = cheerio.load(file, {xmlMode: true})
 
@@ -34,6 +34,6 @@ directories.forEach(dir => {
 
     svg("path").attr("role", "presentation")
 
-    fs.writeFileSync(`./${dir}/${filename}`, svg.html())
+    fs.writeFileSync(`./svgs/${dir}/${filename}`, svg.html())
   })
 })
