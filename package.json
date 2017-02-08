@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "optimize": "svgo ./svgs/accounts --multipass --config=svgo.yml && svgo ./svgs/app --multipass --config=svgo.color.yml && svgo ./svgs/check-ins --multipass --config=svgo.yml && svgo ./svgs/giving --multipass --config=svgo.yml && svgo ./svgs/groups --multipass --config=svgo.yml && svgo ./svgs/interfaces --multipass --config=svgo.yml && svgo ./svgs/people --multipass --config=svgo.yml && svgo ./svgs/planning-center --multipass --config=svgo.color.yml && svgo ./svgs/registrations --multipass --config=svgo.yml && svgo ./svgs/services --multipass --config=svgo.yml",
-    "accessiblize": "node ./scripts/accessiblize.js"
+    "accessiblize": "node ./scripts/accessiblize.js",
+    "generate-components": "node ./scripts/generate-components.js"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,8 @@
   "homepage": "https://github.com/planningcenter/icons#readme",
   "dependencies": {
     "cheerio": "^0.22.0",
+    "lodash.camelcase": "^4.3.0",
+    "lodash.upperfirst": "^4.3.1",
     "svgo": "^0.7.2"
   }
 }
