@@ -1,4 +1,5 @@
 const fs = require("fs")
+const path = require("path")
 const cheerio = require("cheerio")
 
 const directories = [
@@ -25,11 +26,11 @@ directories.forEach(dir => {
     svg("svg")
       .attr("aria-labelledby", "title")
       .attr("role", "img")
-      .attr("class", `symbol symbol-${filename.slice(0, -4)}`)
+      .attr("class", `symbol symbol-${path.parse(filename).name}`)
 
     svg("title")
       .attr("id", "title")
-      .text(`${filename.slice(0, -4)} icon`)
+      .text(`${path.parse(filename).name} icon`)
 
     svg("path").attr("role", "presentation")
 
