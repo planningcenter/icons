@@ -1,17 +1,20 @@
 const fs = require("fs")
 const path = require("path")
+const cheerio = require("cheerio")
+const babel = require("babel-core")
 const camelCase = require("lodash.camelCase")
 const upperFirst = require("lodash.upperFirst")
 
+// color icon-sets removed because of JSX conversion
 const directories = [
   "accounts",
-  "app",
+  // "app",
   "check-ins",
   "giving",
   "groups",
   "interfaces",
   "people",
-  "planning-center",
+  // "planning-center",
   "registrations",
   "services",
 ]
@@ -45,8 +48,19 @@ directories.forEach(dir => {
 
   svgNames.forEach(filename => {
     const file = fs.readFileSync(`./svgs/${dir}/${filename}`, "utf8")
-    const fmtFilename = `${getPascalCaseName(path.parse(filename).name)}Icon`
+    const svg = cheerio.load(file, {xmlMode: true})
 
-    fs.writeFileSync(`./components/${dir}/${fmtFilename}.js`, umd(fmtFilename, file))
+    const className = svg("svg").attr("class")
+    svg("svg")
+      .removeAttr("class")
+      .attr("className", className)
+
+    const fmtFilename = `${getPascalCaseName(path.parse(filename).name)}Icon`
+    const JSXModule = umd(fmtFilename, svg.html())
+
+    fs.writeFileSync(
+      `./components/${dir}/${fmtFilename}.js`,
+      babel.transform(JSXModule, {presets: ["latest", "react"]}).code
+    )
   })
 })
