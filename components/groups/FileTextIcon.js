@@ -1,43 +1,39 @@
-"use strict";
-
-var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
-
 (function (global) {
-  "use strict";
+  "use strict"
 
   var React = void 0;
 
-  if ((typeof module === "undefined" ? "undefined" : _typeof(module)) === "object" && module.exports) {
-    React = require("react");
+  if (typeof module === "object" && module.exports) {
+    React = require("react")
   } else {
-    React = global.React;
+    React = global.React
   }
 
   var FileTextIcon = function FileTextIcon() {
     return React.createElement(
-      "svg",
-      { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 16 16", "aria-labelledby": "title", role: "img", className: "symbol symbol-file-text" },
-      React.createElement(
-        "title",
-        { id: "title" },
-        "file-text icon"
-      ),
-      React.createElement(
-        "g",
-        { "data-name": "Layer 1" },
-        React.createElement(
-          "g",
-          { "data-name": "Layer 5" },
-          React.createElement("path", { "class": "cls-1", d: "M7.146 7.212v.516a.291.291 0 0 1-.295.295.3.3 0 0 1-.295-.258h-.35v1.49a.3.3 0 0 1 .258.295.291.291 0 0 1-.295.295h-.514a.291.291 0 0 1-.295-.295.3.3 0 0 1 .258-.295V7.764h-.442a.28.28 0 0 1-.276.258.291.291 0 0 1-.295-.295v-.515a.291.291 0 0 1 .295-.295.3.3 0 0 1 .295.258h1.38a.286.286 0 0 1 .571.037zm3.673 1.136h-2.57a.425.425 0 0 1 0-.85h2.57a.425.425 0 0 1 0 .85zm0 1.479h-2.57a.425.425 0 0 1 0-.85h2.57a.425.425 0 0 1 0 .85zm0 1.479H4.976a.425.425 0 0 1 0-.85h5.844a.425.425 0 0 1 0 .85zm0 1.479H4.976a.425.425 0 1 1 0-.85h5.844a.425.425 0 0 1 0 .85z", role: "presentation" }),
-          React.createElement("path", { "class": "cls-1", d: "M9.845 0H2.35a.8.8 0 0 0-.8.8v14.4a.8.8 0 0 0 .8.8h11.3a.8.8 0 0 0 .8-.8V4.149zm2.564 4.155l-2.453.007a.118.118 0 0 1-.118-.118V1.85zm.7 10.5H2.9V1.349h5.6V4.04a1.468 1.468 0 0 0 1.46 1.471L13.1 5.5z", role: "presentation" })
-        )
-      )
-    );
-  };
-
-  if ((typeof module === "undefined" ? "undefined" : _typeof(module)) === "object" && module.exports) {
-    module.exports = FileTextIcon;
-  } else {
-    global.FileTextIcon = FileTextIcon;
+  "svg",
+  { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 16 16", "aria-labelledby": "title", role: "img", className: "symbol symbol-file-text" },
+  React.createElement(
+    "title",
+    { id: "title" },
+    "file-text icon"
+  ),
+  React.createElement(
+    "g",
+    { "data-name": "Layer 1" },
+    React.createElement(
+      "g",
+      { "data-name": "Layer 5" },
+      React.createElement("path", { "class": "cls-1", d: "M7.146 7.212v.516a.291.291 0 0 1-.295.295.3.3 0 0 1-.295-.258h-.35v1.49a.3.3 0 0 1 .258.295.291.291 0 0 1-.295.295h-.514a.291.291 0 0 1-.295-.295.3.3 0 0 1 .258-.295V7.764h-.442a.28.28 0 0 1-.276.258.291.291 0 0 1-.295-.295v-.515a.291.291 0 0 1 .295-.295.3.3 0 0 1 .295.258h1.38a.286.286 0 0 1 .571.037zm3.673 1.136h-2.57a.425.425 0 0 1 0-.85h2.57a.425.425 0 0 1 0 .85zm0 1.479h-2.57a.425.425 0 0 1 0-.85h2.57a.425.425 0 0 1 0 .85zm0 1.479H4.976a.425.425 0 0 1 0-.85h5.844a.425.425 0 0 1 0 .85zm0 1.479H4.976a.425.425 0 1 1 0-.85h5.844a.425.425 0 0 1 0 .85z", role: "presentation" }),
+      React.createElement("path", { "class": "cls-1", d: "M9.845 0H2.35a.8.8 0 0 0-.8.8v14.4a.8.8 0 0 0 .8.8h11.3a.8.8 0 0 0 .8-.8V4.149zm2.564 4.155l-2.453.007a.118.118 0 0 1-.118-.118V1.85zm.7 10.5H2.9V1.349h5.6V4.04a1.468 1.468 0 0 0 1.46 1.471L13.1 5.5z", role: "presentation" })
+    )
+  )
+);
   }
-})(undefined);
+
+  if (typeof module === "object" && module.exports) {
+    module.exports = FileTextIcon
+  } else {
+    global.FileTextIcon = FileTextIcon
+  }
+})(this)
