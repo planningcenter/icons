@@ -1,0 +1,39 @@
+"use strict";
+
+var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
+
+(function (global) {
+  "use strict";
+
+  var React = void 0;
+
+  if ((typeof module === "undefined" ? "undefined" : _typeof(module)) === "object" && module.exports) {
+    React = require("react");
+  } else {
+    React = global.React;
+  }
+
+  var PlusCircleIcon = function PlusCircleIcon() {
+    return React.createElement(
+      "svg",
+      { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 16 16", "aria-labelledby": "title", role: "img", className: "symbol symbol-plus-circle" },
+      React.createElement(
+        "title",
+        { id: "title" },
+        "plus-circle icon"
+      ),
+      React.createElement(
+        "g",
+        { "data-name": "Layer 1" },
+        React.createElement("path", { "class": "cls-1", d: "M7.994.013a7.994 7.994 0 1 0 7.994 7.994A7.994 7.994 0 0 0 7.994.013zm0 14.317a6.323 6.323 0 1 1 6.323-6.323 6.323 6.323 0 0 1-6.323 6.323z", role: "presentation" }),
+        React.createElement("path", { "class": "cls-1", d: "M11 7.183H8.8v-2.2a.807.807 0 0 0-1.613 0v2.2h-2.2a.807.807 0 0 0 0 1.613h2.2V11A.807.807 0 0 0 8.8 11V8.8H11a.807.807 0 0 0 0-1.613z", role: "presentation" })
+      )
+    );
+  };
+
+  if ((typeof module === "undefined" ? "undefined" : _typeof(module)) === "object" && module.exports) {
+    module.exports = PlusCircleIcon;
+  } else {
+    global.PlusCircleIcon = PlusCircleIcon;
+  }
+})(undefined);
