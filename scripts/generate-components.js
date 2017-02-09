@@ -25,7 +25,7 @@ const umd = (name, svg) =>
 `(function (global) {
   "use strict"
 
-  let React
+  var React = void 0;
 
   if (typeof module === "object" && module.exports) {
     React = require("react")
@@ -33,7 +33,9 @@ const umd = (name, svg) =>
     React = global.React
   }
 
-  const ${name} = () => ${svg}
+  var ${name} = function ${name}() {
+    return ${svg}
+  }
 
   if (typeof module === "object" && module.exports) {
     module.exports = ${name}
@@ -56,11 +58,12 @@ directories.forEach(dir => {
       .attr("className", className)
 
     const fmtFilename = `${getPascalCaseName(path.parse(filename).name)}Icon`
-    const JSXModule = umd(fmtFilename, svg.html())
+    const transformedSVG = babel.transform(svg.html(), {presets: ["latest", "react"]}).code.replace(/"use strict";\n\n/, "")
+    const JSXModule = umd(fmtFilename, transformedSVG)
 
     fs.writeFileSync(
       `./components/${dir}/${fmtFilename}.js`,
-      babel.transform(JSXModule, {presets: ["latest", "react"]}).code
+      JSXModule
     )
   })
 })
