@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from '../../planning-center/color-planning-center-mark.svg';
+import logo from '../../svgs/planning-center/color-planning-center-mark.svg';
 import './App.css';
 
 const iconSets = [
@@ -68,7 +68,7 @@ class App extends Component {
                     <td>{icon}</td>
                     <td>
                       <a
-                        href={`https://github.com/planningcenter/icons/tree/master/${name}/${icon}.svg`}
+                        href={`https://github.com/planningcenter/icons/tree/master/svgs/${name}/${icon}.svg`}
                         target="_blank"
                       >./{name}/{icon}</a>
                     </td>
