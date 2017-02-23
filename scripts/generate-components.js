@@ -8,8 +8,9 @@ const upperFirst = require("lodash.upperFirst")
 // color icon-sets removed because of JSX conversion
 const directories = [
   "accounts",
-  // "app",
+  "apps",
   "check-ins",
+  // "color-apps",
   "giving",
   "groups",
   "interfaces",

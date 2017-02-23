@@ -4,8 +4,9 @@ const cheerio = require("cheerio")
 
 const directories = [
   "accounts",
-  "app",
+  "apps",
   "check-ins",
+  "color-apps",
   "giving",
   "groups",
   "interfaces",
