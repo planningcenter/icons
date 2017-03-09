@@ -9,6 +9,7 @@ const upperFirst = require("lodash.upperFirst")
 const directories = [
   "accounts",
   "apps",
+  "cco",
   "check-ins",
   // "color-apps",
   "giving",
