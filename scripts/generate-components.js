@@ -22,26 +22,27 @@ const directories = [
 
 const getPascalCaseName = name => upperFirst(camelCase(name))
 
-const umd = (name, svg) =>
+const umd = (namespace, name, svg) =>
 `(function (global) {
-  "use strict"
+  "use strict";
 
   var React = void 0;
 
   if (typeof module === "object" && module.exports) {
-    React = require("react")
+    React = require("react");
   } else {
-    React = global.React
+    React = global.React;
   }
 
   var ${name} = function ${name}() {
-    return ${svg}
+    return ${svg};
   }
 
   if (typeof module === "object" && module.exports) {
-    module.exports = ${name}
+    module.exports = ${name};
   } else {
-    global.${name} = ${name}
+    global.${namespace} = global.${namespace} || {};
+    global.${namespace}.${name} = ${name};
   }
 })(this)
 `
@@ -58,9 +59,10 @@ directories.forEach(dir => {
       .removeAttr("class")
       .attr("className", className)
 
-    const fmtFilename = `${getPascalCaseName(path.parse(filename).name)}Icon`
+    const fmtNamespace = `${getPascalCaseName(path.parse(`${dir}`).name)}Icon`
+    const fmtFilename = `${getPascalCaseName(path.parse(`${filename}`).name)}`
     const transformedSVG = babel.transform(svg.html(), {presets: ["latest", "react"]}).code.replace(/"use strict";\n\n/, "")
-    const JSXModule = umd(fmtFilename, transformedSVG)
+    const JSXModule = umd(fmtNamespace, fmtFilename, transformedSVG)
 
     fs.writeFileSync(
       `./components/${dir}/${fmtFilename}.js`,

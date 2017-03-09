@@ -3,6 +3,10 @@
 ### Install
 `npm i -S @planning-center/icons`
 
+or (if you have a `yarn.lock` file)
+
+`yarn add @planning-center/icons`
+
 This is a private organization.
 You'll need to copy the token in `.npmrc` from another app like [People](https://github.com/ministrycentered/people/blob/master/.npmrc).
 
@@ -16,3 +20,26 @@ Docs are a React app, published to the github-pages project page for this repo: 
 
 It has it's own set of commands.
 Run `yarn run` to see them.
+
+### Usage
+
+#### React Components
+
+**Node**
+```
+import ChevronDown from "@planning-center/icons/components/interfaces/ChevronDown"
+
+const MyApp = () =>
+  <div>
+    Stuff...
+    <ChevronDown />
+    Other stuff...
+  </div>
+```
+
+**Script tag**
+```
+<script src="path/to/components/interfaces/ChevronDown.js" />
+
+<InterfacesIcon.ChevronDown />
+```
