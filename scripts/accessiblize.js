@@ -5,6 +5,7 @@ const cheerio = require("cheerio")
 const directories = [
   "accounts",
   "apps",
+  "cco",
   "check-ins",
   "color-apps",
   "giving",
