@@ -20,13 +20,10 @@
   ),
   React.createElement(
     "g",
-    { id: "Layer_1", "data-name": "Layer 1" },
-    React.createElement("path", { d: "M11,1V15H1V1H11m1-1H0V16H12V0Z", style: "fill:#010101", role: "presentation" }),
-    React.createElement("path", { d: "M14,2V13H12V2h2m1-1H11V14h4V1Z", style: "fill:#010101", role: "presentation" }),
-    React.createElement("rect", { x: "3", y: "3", width: "6", height: "1" }),
-    React.createElement("rect", { x: "3", y: "5", width: "6", height: "1" }),
-    React.createElement("rect", { x: "3", y: "7", width: "6", height: "1" }),
-    React.createElement("rect", { x: "3", y: "9", width: "4", height: "1" })
+    { "data-name": "Layer 1" },
+    React.createElement("path", { "class": "cls-1", d: "M11 1v14H1V1h10m1-1H0v16h12V0z", role: "presentation" }),
+    React.createElement("path", { "class": "cls-1", d: "M14 2v11h-2V2h2m1-1h-4v13h4V1z", role: "presentation" }),
+    React.createElement("path", { d: "M3 3h6v1H3zm0 2h6v1H3zm0 2h6v1H3zm0 2h4v1H3z", role: "presentation" })
   )
 );;
   }

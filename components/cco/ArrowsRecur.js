@@ -20,11 +20,10 @@
   ),
   React.createElement(
     "g",
-    { id: "Layer_1", "data-name": "Layer 1" },
-    React.createElement("polygon", { points: "13.81 4 10.76 3.6 13.41 0.96 13.81 4" }),
-    React.createElement("path", { d: "M1.88,10.85a6.64,6.64,0,0,1,9.95-8.18l.83-.54A7.58,7.58,0,0,0,1.09,11.37Z", role: "presentation" }),
-    React.createElement("path", { d: "M14.73,4.75l-.79.51A6.64,6.64,0,0,1,4,13.43L3.19,14A7.57,7.57,0,0,0,14.73,4.75Z", role: "presentation" }),
-    React.createElement("polygon", { points: "1.98 12.02 5.03 12.42 2.39 15.07 1.98 12.02" })
+    { "data-name": "Layer 1" },
+    React.createElement("path", { d: "M13.81 4.005L10.762 3.6 13.406.956l.404 3.049z", role: "presentation" }),
+    React.createElement("path", { d: "M1.877 10.851a6.642 6.642 0 0 1 9.949-8.181l.83-.543A7.576 7.576 0 0 0 1.09 11.365zm12.852-6.102l-.786.515a6.644 6.644 0 0 1-9.924 8.164l-.83.543a7.575 7.575 0 0 0 11.54-9.222z", role: "presentation" }),
+    React.createElement("path", { d: "M1.982 12.018l3.048.404-2.644 2.644-.404-3.048z", role: "presentation" })
   )
 );;
   }

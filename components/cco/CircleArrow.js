@@ -20,9 +20,9 @@
   ),
   React.createElement(
     "g",
-    { id: "Layer_1", "data-name": "Layer 1" },
-    React.createElement("polygon", { points: "9.35 11.35 8.65 10.65 11.79 7.5 8.65 4.35 9.35 3.65 13.21 7.5 9.35 11.35", style: "fill:#231f20" }),
-    React.createElement("rect", { x: "4", y: "7", width: "8.5", height: "1", style: "fill:#231f20" })
+    { "data-name": "Layer 1" },
+    React.createElement("path", { "class": "cls-1", d: "M9.354 11.354l-.708-.708L11.793 7.5 8.646 4.354l.708-.708L13.207 7.5l-3.853 3.854z", role: "presentation" }),
+    React.createElement("path", { "class": "cls-1", d: "M4 7h8.5v1H4z", role: "presentation" })
   )
 );;
   }

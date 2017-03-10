@@ -20,9 +20,9 @@
   ),
   React.createElement(
     "g",
-    { id: "Layer_1", "data-name": "Layer 1" },
-    React.createElement("path", { d: "M8,2A6,6,0,1,1,2,8,6,6,0,0,1,8,2M8,0a8,8,0,1,0,8,8A8,8,0,0,0,8,0Z", role: "presentation" }),
-    React.createElement("path", { d: "M10.94,9.42H8a1,1,0,0,1-1-1V3.82a1,1,0,0,1,2,0v3.6h2a1,1,0,1,1,0,2Z", role: "presentation" })
+    { "data-name": "Layer 1" },
+    React.createElement("path", { d: "M8 2.028a6 6 0 1 1-6 6 6.007 6.007 0 0 1 6-6m0-2a8 8 0 1 0 8 8 8 8 0 0 0-8-8z", role: "presentation" }),
+    React.createElement("path", { d: "M10.941 9.416H7.985a1 1 0 0 1-1-1v-4.6a1 1 0 0 1 2 0v3.6h1.956a1 1 0 1 1 0 2z", role: "presentation" })
   )
 );;
   }

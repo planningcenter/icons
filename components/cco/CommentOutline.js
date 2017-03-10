@@ -18,11 +18,7 @@
     { id: "title" },
     "comment-outline icon"
   ),
-  React.createElement(
-    "g",
-    { id: "Layer_1", "data-name": "Layer 1" },
-    React.createElement("path", { d: "M1,16a1,1,0,0,1-1-1.24l.8-3.2a8,8,0,1,1,3.61,3.61l-3.2.8A1,1,0,0,1,1,16ZM4.58,13.1a1,1,0,0,1,.49.13,6,6,0,1,0-2.29-2.3,1,1,0,0,1,.1.73l-.49,2,2-.49A1,1,0,0,1,4.58,13.1Z", role: "presentation" })
-  )
+  React.createElement("path", { d: "M1.015 15.992a1 1 0 0 1-.967-1.242l.8-3.2a7.974 7.974 0 1 1 3.608 3.613l-3.2.8a1 1 0 0 1-.241.029zM4.584 13.1a1 1 0 0 1 .488.128 6 6 0 1 0-2.294-2.3 1 1 0 0 1 .1.731l-.491 1.961 1.955-.488a.992.992 0 0 1 .242-.032z", "data-name": "Layer 1", role: "presentation" })
 );;
   }
 

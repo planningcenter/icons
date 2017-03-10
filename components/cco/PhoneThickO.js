@@ -20,9 +20,9 @@
   ),
   React.createElement(
     "g",
-    { id: "Layer_1", "data-name": "Layer 1" },
-    React.createElement("path", { d: "M13,0H3A1,1,0,0,0,2,1V15a1,1,0,0,0,1,1H13a1,1,0,0,0,1-1V1A1,1,0,0,0,13,0ZM12,14H4V2h8Z", style: "fill:#231f20", role: "presentation" }),
-    React.createElement("circle", { cx: "8", cy: "11.89", r: "0.99", style: "fill:#231f20" })
+    { "data-name": "Layer 1" },
+    React.createElement("path", { "class": "cls-1", d: "M13.007.009H2.993a1 1 0 0 0-1 1v13.982a1 1 0 0 0 1 1h10.014a1 1 0 0 0 1-1V1.009a1 1 0 0 0-1-1zm-1 13.982H3.993V2.009h8.015z", role: "presentation" }),
+    React.createElement("circle", { "class": "cls-1", cx: "8", cy: "11.894", r: ".989" })
   )
 );;
   }

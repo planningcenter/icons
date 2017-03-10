@@ -18,11 +18,7 @@
     { id: "title" },
     "simple-arrow icon"
   ),
-  React.createElement(
-    "g",
-    { id: "Layer_1", "data-name": "Layer 1" },
-    React.createElement("polygon", { points: "9.18 1.22 7.46 2.98 11.16 6.76 0.18 6.76 0.18 9.24 11.16 9.24 7.46 13.02 9.18 14.78 15.82 8 9.18 1.22", style: "fill:#010201" })
-  )
+  React.createElement("path", { "class": "cls-1", d: "M9.178 1.221L7.456 2.978l3.703 3.779H.179v2.486h10.98l-3.703 3.779 1.722 1.757L15.821 8 9.178 1.221z", "data-name": "Layer 1", role: "presentation" })
 );;
   }
 

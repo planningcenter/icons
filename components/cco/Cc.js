@@ -20,11 +20,9 @@
   ),
   React.createElement(
     "g",
-    { id: "Layer_1", "data-name": "Layer 1" },
-    React.createElement("rect", { x: "5.18", y: "10.18", width: "2.05", height: "1.17" }),
-    React.createElement("rect", { x: "2.5", y: "10.18", width: "2.05", height: "1.17" }),
-    React.createElement("path", { d: "M12,8.29a1.52,1.52,0,0,0-1,.39A1.53,1.53,0,1,0,11,11a1.53,1.53,0,1,0,1-2.67Z", role: "presentation" }),
-    React.createElement("path", { d: "M15.39,1.74H.62a.61.61,0,0,0-.54.33A.52.52,0,0,0,0,2.34v10.8H0a.58.58,0,0,0,0,.22v0h0a.61.61,0,0,0,.56.37H15.39a.61.61,0,0,0,.61-.61V2.35A.61.61,0,0,0,15.39,1.74Zm-.74,3.63H1.36V3.09H14.65Zm-13.29,7V6.87H14.65V12.4Z", role: "presentation" })
+    { "data-name": "Layer 1" },
+    React.createElement("path", { d: "M5.177 10.18h2.049v1.165H5.177zm-2.678 0h2.049v1.165H2.499zm9.509-1.892A1.516 1.516 0 0 0 11 8.674a1.529 1.529 0 1 0 0 2.285 1.526 1.526 0 1 0 1.006-2.671z", role: "presentation" }),
+    React.createElement("path", { d: "M15.388 1.741H.623a.606.606 0 0 0-.535.332.522.522 0 0 0-.076.262v10.8a.578.578 0 0 0 .045.221v.016a.611.611 0 0 0 .561.37h14.77a.612.612 0 0 0 .612-.605V2.353a.612.612 0 0 0-.612-.612zm-.738 3.632H1.361V3.091H14.65zM1.361 12.4V6.867H14.65V12.4z", role: "presentation" })
   )
 );;
   }
