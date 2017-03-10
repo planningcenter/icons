@@ -18,7 +18,7 @@
     { id: "title" },
     "filter icon"
   ),
-  React.createElement("path", { "class": "cls-1", d: "M15.182 1.284H.814a.468.468 0 0 0-.32.81l5.748 6.185V14.4a.342.342 0 0 0 .512.283l2.67-2.259a.7.7 0 0 0 .365-.639V8.282l5.711-6.2a.461.461 0 0 0-.318-.798z", "data-name": "Layer 1", role: "presentation" })
+  React.createElement("path", { className: "cls-1", d: "M15.182 1.284H.814a.468.468 0 0 0-.32.81l5.748 6.185V14.4a.342.342 0 0 0 .512.283l2.67-2.259a.7.7 0 0 0 .365-.639V8.282l5.711-6.2a.461.461 0 0 0-.318-.798z", "data-name": "Layer 1", role: "presentation" })
 );;
   }
 

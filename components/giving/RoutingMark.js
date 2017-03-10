@@ -18,7 +18,7 @@
     { id: "title" },
     "routing-mark icon"
   ),
-  React.createElement("path", { "class": "cls-1", d: "M8.609 3v3h3V3zm0 10h3v-3h-3zm-4-2h2V5h-2z", "data-name": "Layer 1", role: "presentation" })
+  React.createElement("path", { className: "cls-1", d: "M8.609 3v3h3V3zm0 10h3v-3h-3zm-4-2h2V5h-2z", "data-name": "Layer 1", role: "presentation" })
 );;
   }
 

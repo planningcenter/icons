@@ -18,7 +18,7 @@
     { id: "title" },
     "facebook icon"
   ),
-  React.createElement("path", { "class": "cls-1", d: "M11.919 0H9.5S5.716-.381 5.716 3.4v1.573H4.177l-.025 2.978h1.564v7.927H9.3V7.951h2.072l.5-2.979H9.3v-1.21s-.221-1.024 1.055-1.024h1.536z", "data-name": "Layer 1", role: "presentation" })
+  React.createElement("path", { className: "cls-1", d: "M11.919 0H9.5S5.716-.381 5.716 3.4v1.573H4.177l-.025 2.978h1.564v7.927H9.3V7.951h2.072l.5-2.979H9.3v-1.21s-.221-1.024 1.055-1.024h1.536z", "data-name": "Layer 1", role: "presentation" })
 );;
   }
 

@@ -18,7 +18,7 @@
     { id: "title" },
     "chevron-up icon"
   ),
-  React.createElement("path", { "class": "cls-1", d: "M7.938 2.446L.071 11.414l1.77 2.018 6.1-6.95 6.222 7.072 1.77-2.017z", "data-name": "Layer 1", role: "presentation" })
+  React.createElement("path", { className: "cls-1", d: "M7.938 2.446L.071 11.414l1.77 2.018 6.1-6.95 6.222 7.072 1.77-2.017z", "data-name": "Layer 1", role: "presentation" })
 );;
   }
 

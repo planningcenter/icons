@@ -18,7 +18,7 @@
     { id: "title" },
     "medical icon"
   ),
-  React.createElement("path", { "class": "cls-1", d: "M7.988.059a7.952 7.952 0 1 0 7.952 7.953A7.952 7.952 0 0 0 7.988.059zm4.794 10.146h-2.6v2.6H5.795v-2.6h-2.6V5.818h2.6v-2.6h4.387v2.6h2.6z", "data-name": "Layer 1", role: "presentation" })
+  React.createElement("path", { className: "cls-1", d: "M7.988.059a7.952 7.952 0 1 0 7.952 7.953A7.952 7.952 0 0 0 7.988.059zm4.794 10.146h-2.6v2.6H5.795v-2.6h-2.6V5.818h2.6v-2.6h4.387v2.6h2.6z", "data-name": "Layer 1", role: "presentation" })
 );;
   }
 

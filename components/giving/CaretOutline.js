@@ -18,7 +18,7 @@
     { id: "title" },
     "caret-outline icon"
   ),
-  React.createElement("path", { "class": "cls-1", d: "M7.926 13.4L.342 4.754l1.845-1.787 5.739 6.542 5.864-6.665 1.841 1.792z", "data-name": "Layer 1", role: "presentation" })
+  React.createElement("path", { className: "cls-1", d: "M7.926 13.4L.342 4.754l1.845-1.787 5.739 6.542 5.864-6.665 1.841 1.792z", "data-name": "Layer 1", role: "presentation" })
 );;
   }
 

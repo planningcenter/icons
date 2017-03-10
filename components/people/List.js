@@ -21,12 +21,12 @@
   React.createElement(
     "g",
     { "data-name": "Layer 1" },
-    React.createElement("rect", { "class": "cls-1", x: ".473", y: "1.945", width: "2.997", height: "2.891", rx: ".805", ry: ".805" }),
-    React.createElement("rect", { "class": "cls-1", x: "5.207", y: "2.164", width: "10.291", height: "2.461", rx: ".805", ry: ".805" }),
-    React.createElement("rect", { "class": "cls-1", x: ".473", y: "6.7", width: "2.997", height: "2.891", rx: ".805", ry: ".805" }),
-    React.createElement("rect", { "class": "cls-1", x: "5.207", y: "6.919", width: "10.291", height: "2.461", rx: ".805", ry: ".805" }),
-    React.createElement("rect", { "class": "cls-1", x: ".473", y: "11.455", width: "2.997", height: "2.891", rx: ".805", ry: ".805" }),
-    React.createElement("rect", { "class": "cls-1", x: "5.207", y: "11.674", width: "10.291", height: "2.461", rx: ".805", ry: ".805" })
+    React.createElement("rect", { className: "cls-1", x: ".473", y: "1.945", width: "2.997", height: "2.891", rx: ".805", ry: ".805" }),
+    React.createElement("rect", { className: "cls-1", x: "5.207", y: "2.164", width: "10.291", height: "2.461", rx: ".805", ry: ".805" }),
+    React.createElement("rect", { className: "cls-1", x: ".473", y: "6.7", width: "2.997", height: "2.891", rx: ".805", ry: ".805" }),
+    React.createElement("rect", { className: "cls-1", x: "5.207", y: "6.919", width: "10.291", height: "2.461", rx: ".805", ry: ".805" }),
+    React.createElement("rect", { className: "cls-1", x: ".473", y: "11.455", width: "2.997", height: "2.891", rx: ".805", ry: ".805" }),
+    React.createElement("rect", { className: "cls-1", x: "5.207", y: "11.674", width: "10.291", height: "2.461", rx: ".805", ry: ".805" })
   )
 );;
   }

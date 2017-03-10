@@ -21,8 +21,8 @@
   React.createElement(
     "g",
     { "data-name": "Layer 1" },
-    React.createElement("path", { "class": "cls-1", d: "M9.354 11.354l-.708-.708L11.793 7.5 8.646 4.354l.708-.708L13.207 7.5l-3.853 3.854z", role: "presentation" }),
-    React.createElement("path", { "class": "cls-1", d: "M4 7h8.5v1H4z", role: "presentation" })
+    React.createElement("path", { className: "cls-1", d: "M9.354 11.354l-.708-.708L11.793 7.5 8.646 4.354l.708-.708L13.207 7.5l-3.853 3.854z", role: "presentation" }),
+    React.createElement("path", { className: "cls-1", d: "M4 7h8.5v1H4z", role: "presentation" })
   )
 );;
   }

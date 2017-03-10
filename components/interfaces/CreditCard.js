@@ -18,7 +18,7 @@
     { id: "title" },
     "credit-card icon"
   ),
-  React.createElement("path", { "class": "cls-1", d: "M0 11.992a.892.892 0 0 0 .892.893h14.2a.893.893 0 0 0 .892-.893V6.29H0zm11.541-3.571H14.3v2.759h-2.759zM15.09 1.8H.892A.892.892 0 0 0 0 2.692v1.333h15.982V2.692a.893.893 0 0 0-.892-.892z", "data-name": "Layer 1", role: "presentation" })
+  React.createElement("path", { className: "cls-1", d: "M0 11.992a.892.892 0 0 0 .892.893h14.2a.893.893 0 0 0 .892-.893V6.29H0zm11.541-3.571H14.3v2.759h-2.759zM15.09 1.8H.892A.892.892 0 0 0 0 2.692v1.333h15.982V2.692a.893.893 0 0 0-.892-.892z", "data-name": "Layer 1", role: "presentation" })
 );;
   }
 

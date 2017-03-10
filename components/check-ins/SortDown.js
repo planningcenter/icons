@@ -18,7 +18,7 @@
     { id: "title" },
     "sort-down icon"
   ),
-  React.createElement("path", { "class": "cls-1", d: "M3 0v12H0l4 4 4-4H5V0zm4 0v2h9V0zm0 4v2h7V4zm0 4v2h5V8z", "data-name": "Layer 1", role: "presentation" })
+  React.createElement("path", { className: "cls-1", d: "M3 0v12H0l4 4 4-4H5V0zm4 0v2h9V0zm0 4v2h7V4zm0 4v2h5V8z", "data-name": "Layer 1", role: "presentation" })
 );;
   }
 

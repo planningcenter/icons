@@ -18,7 +18,7 @@
     { id: "title" },
     "template-o icon"
   ),
-  React.createElement("path", { "class": "cls-1", d: "M14.819 0H1.11A1.145 1.145 0 0 0-.035 1.145v13.71A1.145 1.145 0 0 0 1.11 16h13.71a1.145 1.145 0 0 0 1.145-1.145V1.145A1.145 1.145 0 0 0 14.819 0zm-.857 5.788h-6.29V2h6.29zM1.966 2h3.7v12h-3.7zm5.706 12V7.79h6.29V14z", "data-name": "Layer 1", role: "presentation" })
+  React.createElement("path", { className: "cls-1", d: "M14.819 0H1.11A1.145 1.145 0 0 0-.035 1.145v13.71A1.145 1.145 0 0 0 1.11 16h13.71a1.145 1.145 0 0 0 1.145-1.145V1.145A1.145 1.145 0 0 0 14.819 0zm-.857 5.788h-6.29V2h6.29zM1.966 2h3.7v12h-3.7zm5.706 12V7.79h6.29V14z", "data-name": "Layer 1", role: "presentation" })
 );;
   }
 

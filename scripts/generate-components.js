@@ -62,7 +62,7 @@ directories.forEach(dir => {
 
     const fmtNamespace = `${getPascalCaseName(path.parse(`${dir}`).name)}Icon`
     const fmtFilename = `${getPascalCaseName(path.parse(`${filename}`).name)}`
-    const transformedSVG = babel.transform(svg.html(), {presets: ["latest", "react"]}).code.replace(/"use strict";\n\n/, "")
+    const transformedSVG = babel.transform(svg.html(), {presets: ["latest", "react"], plugins: ["react-html-attrs"]}).code.replace(/"use strict";\n\n/, "")
     const JSXModule = umd(fmtNamespace, fmtFilename, transformedSVG)
 
     fs.writeFileSync(

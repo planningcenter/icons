@@ -18,7 +18,7 @@
     { id: "title" },
     "bars icon"
   ),
-  React.createElement("path", { "class": "cls-1", d: "M0 3.251h16V5.16H0zM0 7.07h16v1.909H0zm0 3.819h16v1.909H0z", "data-name": "Layer 1", role: "presentation" })
+  React.createElement("path", { className: "cls-1", d: "M0 3.251h16V5.16H0zM0 7.07h16v1.909H0zm0 3.819h16v1.909H0z", "data-name": "Layer 1", role: "presentation" })
 );;
   }
 

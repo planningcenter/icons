@@ -18,7 +18,7 @@
     { id: "title" },
     "info-simple icon"
   ),
-  React.createElement("path", { "class": "cls-1", d: "M8 .1a7.912 7.912 0 1 0 7.91 7.914A7.92 7.92 0 0 0 8 .1zm0 13.7a5.782 5.782 0 1 1 5.78-5.781A5.787 5.787 0 0 1 8 13.8zm-1.065-2.023h2.13V7.516h-2.13zM8 4.085a1.148 1.148 0 1 0 1.148 1.148A1.148 1.148 0 0 0 8 4.085z", "data-name": "Layer 1", role: "presentation" })
+  React.createElement("path", { className: "cls-1", d: "M8 .1a7.912 7.912 0 1 0 7.91 7.914A7.92 7.92 0 0 0 8 .1zm0 13.7a5.782 5.782 0 1 1 5.78-5.781A5.787 5.787 0 0 1 8 13.8zm-1.065-2.023h2.13V7.516h-2.13zM8 4.085a1.148 1.148 0 1 0 1.148 1.148A1.148 1.148 0 0 0 8 4.085z", "data-name": "Layer 1", role: "presentation" })
 );;
   }
 

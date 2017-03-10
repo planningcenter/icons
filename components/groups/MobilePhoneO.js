@@ -18,7 +18,7 @@
     { id: "title" },
     "mobile-phone-o icon"
   ),
-  React.createElement("path", { "class": "cls-1", d: "M12.563 0H3.437a.99.99 0 0 0-.981 1v13.99a.99.99 0 0 0 .981 1h9.125a.99.99 0 0 0 .981-1V1a.99.99 0 0 0-.98-1zM3.706 14.738V1.25h8.588v13.488zm4.4-3.172A1.031 1.031 0 1 0 9.16 12.6a1.045 1.045 0 0 0-1.06-1.033z", "data-name": "Layer 1", role: "presentation" })
+  React.createElement("path", { className: "cls-1", d: "M12.563 0H3.437a.99.99 0 0 0-.981 1v13.99a.99.99 0 0 0 .981 1h9.125a.99.99 0 0 0 .981-1V1a.99.99 0 0 0-.98-1zM3.706 14.738V1.25h8.588v13.488zm4.4-3.172A1.031 1.031 0 1 0 9.16 12.6a1.045 1.045 0 0 0-1.06-1.033z", "data-name": "Layer 1", role: "presentation" })
 );;
   }
 

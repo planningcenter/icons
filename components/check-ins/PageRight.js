@@ -18,7 +18,7 @@
     { id: "title" },
     "page-right icon"
   ),
-  React.createElement("path", { "class": "cls-1", d: "M6.169 1.637L3.467 4.339 7.129 8l-3.662 3.661 2.702 2.702L12.533 8 6.169 1.637z", "data-name": "Layer 1", role: "presentation" })
+  React.createElement("path", { className: "cls-1", d: "M6.169 1.637L3.467 4.339 7.129 8l-3.662 3.661 2.702 2.702L12.533 8 6.169 1.637z", "data-name": "Layer 1", role: "presentation" })
 );;
   }
 

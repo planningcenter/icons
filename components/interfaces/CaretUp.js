@@ -18,7 +18,7 @@
     { id: "title" },
     "caret-up icon"
   ),
-  React.createElement("path", { "class": "cls-1", d: "M15.865 12.028L8.328 2.74a.422.422 0 0 0-.655 0L.135 12.028a.422.422 0 0 0 .328.688h15.074a.422.422 0 0 0 .328-.688z", "data-name": "Layer 1", role: "presentation" })
+  React.createElement("path", { className: "cls-1", d: "M15.865 12.028L8.328 2.74a.422.422 0 0 0-.655 0L.135 12.028a.422.422 0 0 0 .328.688h15.074a.422.422 0 0 0 .328-.688z", "data-name": "Layer 1", role: "presentation" })
 );;
   }
 
