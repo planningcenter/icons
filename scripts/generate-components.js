@@ -1,9 +1,9 @@
-const fs = require("fs")
-const path = require("path")
-const cheerio = require("cheerio")
-const babel = require("babel-core")
-const camelCase = require("lodash.camelCase")
-const upperFirst = require("lodash.upperFirst")
+const fs = require("fs");
+const path = require("path");
+const cheerio = require("cheerio");
+const babel = require("babel-core");
+const camelCase = require("lodash.camelCase");
+const upperFirst = require("lodash.upperFirst");
 
 // color icon-sets removed because of JSX conversion
 const directories = [
@@ -18,13 +18,13 @@ const directories = [
   "people",
   // "planning-center",
   "registrations",
-  "services",
-]
+  "services"
+];
 
-const getPascalCaseName = name => upperFirst(camelCase(name))
+const getPascalCaseName = name => upperFirst(camelCase(name));
 
 const umd = (namespace, name, svg) =>
-`(function (global) {
+  `(function (global) {
   "use strict";
 
   var React = void 0;
@@ -46,28 +46,30 @@ const umd = (namespace, name, svg) =>
     global.${namespace}.${name} = ${name};
   }
 })(this)
-`
+`;
 
 directories.forEach(dir => {
-  const svgNames = fs.readdirSync(`./svgs/${dir}`).filter(x => x !== ".DS_Store");
+  const svgNames = fs
+    .readdirSync(`./svgs/${dir}`)
+    .filter(x => x !== ".DS_Store");
 
   svgNames.forEach(filename => {
-    const file = fs.readFileSync(`./svgs/${dir}/${filename}`, "utf8")
-    const svg = cheerio.load(file, {xmlMode: true})
+    const file = fs.readFileSync(`./svgs/${dir}/${filename}`, "utf8");
+    const svg = cheerio.load(file, { xmlMode: true });
 
-    const className = svg("svg").attr("class")
-    svg("svg")
-      .removeAttr("class")
-      .attr("className", className)
+    const className = svg("svg").attr("class");
+    svg("svg").removeAttr("class").attr("className", className);
 
-    const fmtNamespace = `${getPascalCaseName(path.parse(`${dir}`).name)}Icon`
-    const fmtFilename = `${getPascalCaseName(path.parse(`${filename}`).name)}`
-    const transformedSVG = babel.transform(svg.html(), {presets: ["latest", "react"], plugins: ["react-html-attrs"]}).code.replace(/"use strict";\n\n/, "")
-    const JSXModule = umd(fmtNamespace, fmtFilename, transformedSVG)
+    const fmtNamespace = `${getPascalCaseName(path.parse(`${dir}`).name)}Icon`;
+    const fmtFilename = `${getPascalCaseName(path.parse(`${filename}`).name)}`;
+    const transformedSVG = babel
+      .transform(svg.html(), {
+        presets: ["latest", "react"],
+        plugins: ["react-html-attrs"]
+      })
+      .code.replace(/"use strict";\n\n/, "");
+    const JSXModule = umd(fmtNamespace, fmtFilename, transformedSVG);
 
-    fs.writeFileSync(
-      `./components/${dir}/${fmtFilename}.js`,
-      JSXModule
-    )
-  })
-})
+    fs.writeFileSync(`./components/${dir}/${fmtFilename}.js`, JSXModule);
+  });
+});
