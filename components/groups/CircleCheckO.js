@@ -12,7 +12,7 @@
   var CircleCheckO = function CircleCheckO() {
     return React.createElement(
   "svg",
-  { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 16 16", "aria-labelledby": "title", role: "img", className: "symbol symbol-circle-check-o" },
+  { xmlns: "http://www.w3.org/2000/svg", width: "16", height: "16", viewBox: "0 0 16 16", "aria-labelledby": "title", role: "img", className: "symbol symbol-circle-check-o" },
   React.createElement(
     "title",
     { id: "title" },
@@ -24,8 +24,8 @@
     React.createElement(
       "g",
       { "data-name": "Layer 5" },
-      React.createElement("path", { d: "M8.016 2.044A5.956 5.956 0 1 1 2.092 8a5.947 5.947 0 0 1 5.924-5.956m0-1.585A7.541 7.541 0 1 0 15.516 8a7.521 7.521 0 0 0-7.5-7.541z", role: "presentation" }),
-      React.createElement("path", { d: "M10.764 5.177L7.073 8.891 5.267 7.074l-1.124 1.13 2.927 2.944.048-.05.002.003 4.768-4.795-1.124-1.129z", role: "presentation" })
+      React.createElement("path", { d: "M8 2a6 6 0 1 1-5.91 6A5.95 5.95 0 0 1 8 2M8 .46A7.54 7.54 0 1 0 15.52 8 7.52 7.52 0 0 0 8 .46z", role: "presentation" }),
+      React.createElement("path", { d: "M10.72 4.98L7.03 8.7 5.22 6.88 4.1 8.01l2.92 2.94.05-.05 4.77-4.79-1.12-1.13z", role: "presentation" })
     )
   )
 );;

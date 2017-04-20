@@ -12,7 +12,7 @@
   var Trash = function Trash() {
     return React.createElement(
   "svg",
-  { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 16 16", "aria-labelledby": "title", role: "img", className: "symbol symbol-trash" },
+  { xmlns: "http://www.w3.org/2000/svg", width: "16", height: "16", viewBox: "0 0 16 16", "aria-labelledby": "title", role: "img", className: "symbol symbol-trash" },
   React.createElement(
     "title",
     { id: "title" },
@@ -24,8 +24,8 @@
     React.createElement(
       "g",
       { "data-name": "Layer 5" },
-      React.createElement("path", { d: "M10.259 1.481V.237H5.741v1.244H.75v1.7H2v10.536a2.078 2.078 0 0 0 2.1 2.046h7.677a2.078 2.078 0 0 0 2.1-2.046V3.179h1.373v-1.7zm1.881 12.236a.353.353 0 0 1-.358.348H4.106a.353.353 0 0 1-.357-.348V3.179h8.391z", role: "presentation" }),
-      React.createElement("path", { d: "M5.621 5.151h1.747V12.2H5.621zm2.9 0h1.747V12.2H8.521z", role: "presentation" })
+      React.createElement("path", { d: "M10.26 1.48V.24H5.74v1.24h-5v1.7H2v10.54a2.08 2.08 0 0 0 2.1 2h7.68a2.08 2.08 0 0 0 2.1-2V3.18h1.36v-1.7zm1.88 12.24a.35.35 0 0 1-.36.35H4.11a.35.35 0 0 1-.36-.35V3.18h8.39z", role: "presentation" }),
+      React.createElement("path", { d: "M5.62 5.15h1.75v7.05H5.62zm2.9 0h1.75v7.05H8.52z", role: "presentation" })
     )
   )
 );;

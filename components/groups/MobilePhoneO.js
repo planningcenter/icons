@@ -12,13 +12,13 @@
   var MobilePhoneO = function MobilePhoneO() {
     return React.createElement(
   "svg",
-  { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 16 16", "aria-labelledby": "title", role: "img", className: "symbol symbol-mobile-phone-o" },
+  { xmlns: "http://www.w3.org/2000/svg", width: "16", height: "16", viewBox: "0 0 16 16", "aria-labelledby": "title", role: "img", className: "symbol symbol-mobile-phone-o" },
   React.createElement(
     "title",
     { id: "title" },
     "mobile-phone-o icon"
   ),
-  React.createElement("path", { className: "cls-1", d: "M12.563 0H3.437a.99.99 0 0 0-.981 1v13.99a.99.99 0 0 0 .981 1h9.125a.99.99 0 0 0 .981-1V1a.99.99 0 0 0-.98-1zM3.706 14.738V1.25h8.588v13.488zm4.4-3.172A1.031 1.031 0 1 0 9.16 12.6a1.045 1.045 0 0 0-1.06-1.033z", "data-name": "Layer 1", role: "presentation" })
+  React.createElement("path", { d: "M12.56 0H3.44a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h9.13a1 1 0 0 0 1-1V1a1 1 0 0 0-1.01-1zM3.71 14.74V1.25h8.59v13.49zm4.4-3.17a1 1 0 1 0 1.06 1 1 1 0 0 0-1.07-1z", "data-name": "Layer 1", role: "presentation" })
 );;
   }
 
