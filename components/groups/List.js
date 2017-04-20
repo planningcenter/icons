@@ -21,14 +21,7 @@
   React.createElement(
     "g",
     { "data-name": "Layer 1" },
-    React.createElement("path", { className: "cls-1", d: "M.245 1.591v2.58h15.482v-2.58zm0 7.741h15.482v-2.58H.245zm0 5.161h15.482v-2.58H.245z", "data-name": "Layer 24", role: "presentation" }),
-    React.createElement("path", { className: "cls-1", d: "M.245 1.591v2.58h15.482v-2.58zm0 7.741h15.482v-2.58H.245zm0 5.161h15.482v-2.58H.245z", "data-name": "Layer 21", role: "presentation" }),
-    React.createElement("path", { className: "cls-1", d: "M.245 1.591v2.58h15.482v-2.58zm0 7.741h15.482v-2.58H.245zm0 5.161h15.482v-2.58H.245z", "data-name": "Layer 18", role: "presentation" }),
-    React.createElement("path", { className: "cls-1", d: "M.245 1.591v2.58h15.482v-2.58zm0 7.741h15.482v-2.58H.245zm0 5.161h15.482v-2.58H.245z", "data-name": "Layer 15", role: "presentation" }),
-    React.createElement("path", { className: "cls-1", d: "M.245 1.591v2.58h15.482v-2.58zm0 7.741h15.482v-2.58H.245zm0 5.161h15.482v-2.58H.245z", "data-name": "Layer 12", role: "presentation" }),
-    React.createElement("path", { className: "cls-1", d: "M.245 1.591v2.58h15.482v-2.58zm0 7.741h15.482v-2.58H.245zm0 5.161h15.482v-2.58H.245z", "data-name": "Layer 9", role: "presentation" }),
-    React.createElement("path", { className: "cls-1", d: "M.245 1.591v2.58h15.482v-2.58zm0 7.741h15.482v-2.58H.245zm0 5.161h15.482v-2.58H.245z", "data-name": "Layer 6", role: "presentation" }),
-    React.createElement("path", { className: "cls-1", d: "M.245 1.591v2.58h15.482v-2.58zm0 7.741h15.482v-2.58H.245zm0 5.161h15.482v-2.58H.245z", "data-name": "Layer 5", role: "presentation" })
+    React.createElement("path", { className: "cls-1", d: "M.24 1.59v2.58h15.49V1.59zm0 7.74h15.49V6.75H.24zm0 5.16h15.49v-2.58H.24z", "data-name": "Layer 24", role: "presentation" })
   )
 );;
   }
