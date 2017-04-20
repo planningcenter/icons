@@ -12,13 +12,13 @@
   var TemplateO = function TemplateO() {
     return React.createElement(
   "svg",
-  { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 16 16", "aria-labelledby": "title", role: "img", className: "symbol symbol-template-o" },
+  { xmlns: "http://www.w3.org/2000/svg", width: "16", height: "16", viewBox: "0 0 16 16", "aria-labelledby": "title", role: "img", className: "symbol symbol-template-o" },
   React.createElement(
     "title",
     { id: "title" },
     "template-o icon"
   ),
-  React.createElement("path", { className: "cls-1", d: "M14.819 0H1.11A1.145 1.145 0 0 0-.035 1.145v13.71A1.145 1.145 0 0 0 1.11 16h13.71a1.145 1.145 0 0 0 1.145-1.145V1.145A1.145 1.145 0 0 0 14.819 0zm-.857 5.788h-6.29V2h6.29zM1.966 2h3.7v12h-3.7zm5.706 12V7.79h6.29V14z", "data-name": "Layer 1", role: "presentation" })
+  React.createElement("path", { d: "M14.82 0H1.11A1.15 1.15 0 0 0 0 1.15v13.7A1.15 1.15 0 0 0 1.11 16h13.71A1.15 1.15 0 0 0 16 14.85V1.15A1.15 1.15 0 0 0 14.82 0zM14 5.79H7.67V2H14zM2 2h3.7v12H2zm5.67 12V7.79H14V14z", "data-name": "Layer 1", role: "presentation" })
 );;
   }
 

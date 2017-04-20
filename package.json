@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/planningcenter/icons#readme",
   "dependencies": {
+    "@planning-center/icons": "https://github.com/planningcenter/icons#ds/fix-group-icons",
     "babel-core": "^6.22.1",
     "babel-plugin-react-html-attrs": "^2.0.0",
     "babel-preset-latest": "^6.22.0",
