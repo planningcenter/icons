@@ -43,3 +43,8 @@ const MyApp = () =>
 
 <InterfacesIcon.ChevronDown />
 ```
+
+## CHANGELOG
+
+#### v1.0.1
+* [FIX]: remove duplicate layers from Groups source and exports.
