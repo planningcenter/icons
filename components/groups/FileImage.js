@@ -24,9 +24,9 @@
     React.createElement(
       "g",
       { "data-name": "Layer 5" },
-      React.createElement("path", { className: "cls-1", d: "M9.845.041H2.35a.8.8 0 0 0-.8.8v14.397a.8.8 0 0 0 .8.8h11.3a.8.8 0 0 0 .8-.8V4.191zM12.409 4.2H9.957a.118.118 0 0 1-.118-.118V1.888zm.7 10.5H2.9V1.391h5.6v2.691a1.468 1.468 0 0 0 1.46 1.471l3.14-.009z", role: "presentation" }),
-      React.createElement("path", { className: "cls-1", d: "M4.2 12.679h7.682V6.73H4.2zm6.932-5.2v2.948l-.78-.91-1.16 1.359L6.89 8.19l-1.936 2.258V7.48zM4.954 11.6L6.89 9.342l2.217 2.587H4.954zm4.322.328l1.08-1.26.78.911v.349z", role: "presentation" }),
-      React.createElement("circle", { className: "cls-1", cx: "9.2", cy: "8.748", r: ".433" })
+      React.createElement("path", { className: "cls-1", d: "M9.84 0H2.35a.8.8 0 0 0-.8.8v14.44a.8.8 0 0 0 .8.8h11.3a.8.8 0 0 0 .8-.8v-11zm2.57 4.2H10a.12.12 0 0 1-.12-.12V1.89zm.7 10.5H2.9V1.39h5.6v2.69A1.47 1.47 0 0 0 10 5.55h3.1z", role: "presentation" }),
+      React.createElement("path", { className: "cls-1", d: "M4.2 12.68h7.68V6.73H4.2zm6.93-5.2v2.95l-.78-.91-1.16 1.36-2.3-2.69L5 10.45v-3zM5 11.6l1.89-2.26 2.22 2.59H5zm4.32.33l1.08-1.26.78.91v.35z", role: "presentation" }),
+      React.createElement("circle", { className: "cls-1", cx: "9.2", cy: "8.75", r: ".43" })
     )
   )
 );;
