@@ -20,9 +20,9 @@
   ),
   React.createElement(
     "g",
-    { fill: "#231f20", "data-name": "Layer 1" },
-    React.createElement("path", { d: "M7.88 3.37V.1L.12 2.63v13.26h15.76V5zM5.12 14.79h-2V11.2h2zm1.67 0H6v-4.47H2.27v4.47H1.22V3.43l5.56-1.82v13.18zm1.1 0V4.5l6.9 1.37v5.67h-1v.88h1v.78h-2.23v.88h2.22v.71z", role: "presentation" }),
-    React.createElement("path", { d: "M13.74 7.16H9V10h4.73zm-.88 2h-3V8h3zM4.13 4.4a1.38 1.38 0 1 0 1.38 1.38A1.38 1.38 0 0 0 4.13 4.4zm0 1.88a.5.5 0 1 1 .5-.5.5.5 0 0 1-.5.5z", role: "presentation" })
+    { "data-name": "Layer 1" },
+    React.createElement("path", { className: "cls-1", d: "M7.884 3.374V.1L.119 2.633v13.254h15.762V4.962zM5.116 14.786H3.154V11.2h1.962zm1.667 0H6v-4.471H2.273v4.471H1.22V3.431l5.563-1.818v13.173zm1.1 0V4.5l6.9 1.37v5.675h-.964v.881h.964v.774h-2.22v.881h2.217v.708z", role: "presentation" }),
+    React.createElement("path", { className: "cls-1", d: "M13.74 7.164H9.011v2.858h4.729zm-.881 1.977H9.892v-1.1h2.967zM4.135 4.4a1.379 1.379 0 1 0 1.379 1.377A1.381 1.381 0 0 0 4.135 4.4zm0 1.878a.5.5 0 1 1 .5-.5.5.5 0 0 1-.5.497z", role: "presentation" })
   )
 );;
   }

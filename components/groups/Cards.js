@@ -21,7 +21,7 @@
   React.createElement(
     "g",
     { "data-name": "Layer 1" },
-    React.createElement("path", { d: "M9.32.26h6.45v6.45H9.32zm-9 0h6.45v6.45H.32zm0 9h6.45v6.45H.32zm9 0h6.45v6.45H9.32z", "data-name": "Layer 27", role: "presentation" })
+    React.createElement("path", { d: "M9.318.256h6.453v6.453H9.318zm-9 0h6.453v6.453H.318zm0 9h6.453v6.453H.318zm9 0h6.453v6.453H9.318z", "data-name": "Layer 27", role: "presentation" })
   )
 );;
   }
