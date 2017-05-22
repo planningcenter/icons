@@ -21,28 +21,8 @@
   React.createElement(
     "g",
     { "data-name": "Layer 1" },
-    React.createElement("path", { className: "cls-3", d: "M1.028 11.474v3.498h3.499l6.595-6.595-3.498-3.499-6.596 6.596z", role: "presentation" }),
-    React.createElement(
-      "g",
-      { className: "cls-4" },
-      React.createElement("path", { className: "cls-2", d: "M-319.972-695.972h1727v1927h-1727z", role: "presentation" }),
-      React.createElement(
-        "g",
-        { className: "cls-5" },
-        React.createElement("path", { className: "cls-2", d: "M-3.972-.122h20.094v20.094H-3.972z", role: "presentation" })
-      )
-    ),
-    React.createElement("path", { className: "cls-2", d: "M8.761 3.741l2.714-2.713 3.498 3.499L12.26 7.24z", role: "presentation" }),
-    React.createElement(
-      "g",
-      { className: "cls-6" },
-      React.createElement("path", { className: "cls-2", d: "M-319.972-695.972h1727v1927h-1727z", role: "presentation" }),
-      React.createElement(
-        "g",
-        { className: "cls-5" },
-        React.createElement("path", { className: "cls-2", d: "M3.761-3.972h16.211V12.24H3.761z", role: "presentation" })
-      )
-    )
+    React.createElement("path", { className: "cls-1", d: "M1.028 11.474v3.498h3.499l6.595-6.595-3.498-3.499-6.596 6.596z", role: "presentation" }),
+    React.createElement("path", { className: "cls-2", d: "M8.781 3.76l2.714-2.712 3.498 3.498L12.28 7.26z", role: "presentation" })
   )
 );;
   }
