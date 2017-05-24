@@ -1,38 +1,85 @@
 ## Planning Center Icons
 
+### Add an icon
+*Assumes you've [cloned the planningcenter/icons for development.](#development)*
+
+* run `yarn start` in the root of the project
+* locate the source Illustrator file you'd like to update in `src/ai/{app/collection}`
+* make changes and `save`
+* select `Export for screens`, from the `File` menu
+  - export as `SVG`
+  - select the corresponding `src/svg/{app/collection}` directory
+  - unsure that `precision` is at least `3`
+* type `Control-c` in your termanal to kill the watch script
+* commit and push
+  - in most cases, just push to `master`
+  - if you're changing a shared collection, maybe open a PR.
+
+### Installation and updates
+`yarn add "planningcenter/icons"`
+
+If installed, this should bump the `yarn.lock` file to the latest master.
+
+### Additional Rails Installation
+For use with Sprockets and Rails views,
+this line must be added to `application.rb`.
+It tells Rails that `node_modules` is a place assets can be found.
+
+```rb
+config.assets.paths << Rails.root.join('node_modules')
+```
+
 ### Development
-
-### Installation
-`yarn add @planning-center/icons`
-
-`@planning-center` is a private organization.
-If you're not already setup to use private `@planning-center` packages,
-you'll need to copy the token in `.npmrc` from an app like [People](https://github.com/ministrycentered/people/blob/master/.npmrc).
+* clone [planningcenter/icons](https://github.com/planningcenter/icons)
+* run `yarn` in the project root
 
 ### Usage
 
 #### React Components
 
-**Node**
-```
+##### Node (ESM)
+```js
 import ChevronDown from "@planning-center/icons/components/interfaces/ChevronDown"
 
 const MyApp = () =>
   <div>
-    Stuff...
     <ChevronDown />
-    Other stuff...
   </div>
 ```
 
-**Script tag**
-```
-<script src="path/to/components/interfaces/ChevronDown.js" />
+#### Sprockets (Global)
+*It's strongly recommended that you use
+[safe_global.js](./examples/safe_global.js) to guarantee that missing global
+icons do not interrupt rendering.*
 
-<InterfacesIcon.ChevronDown />
+```js
+// appliction.js
+//= require "@planning-center/icons/interfaces/ChevronDown"
+```
+
+```js
+// SomeComponent.js
+const MyApp = () =>
+  <div>
+    <InterfacesIcon.ChevronDown />
+  </div>
+```
+
+#### Rails
+*Requires helper in [icon_helper.rb](./examples/icon_helper.rb).*
+
+```erb
+<%= icon("interfaces/chevron-down") %>
 ```
 
 ## CHANGELOG
+
+#### v1.2.0
+* [FEAT]: add collection `resources`
+
+#### v1.1.0
+* [FEAT]: add icon `people/new-pencil`
+* [FEAT]: add `yarn start` script
 
 #### v1.0.1
 * [FIX]: remove duplicate layers from Groups source and exports.
