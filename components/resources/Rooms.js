@@ -18,10 +18,7 @@
     { id: "title" },
     "rooms icon"
   ),
-  React.createElement("rect", { className: "cls-1", width: "6.885", height: "6.893", rx: ".4", ry: ".4" }),
-  React.createElement("rect", { className: "cls-1", x: "9.115", width: "6.885", height: "6.893", rx: ".4", ry: ".4" }),
-  React.createElement("rect", { className: "cls-1", y: "9.107", width: "6.885", height: "6.893", rx: ".4", ry: ".4" }),
-  React.createElement("rect", { className: "cls-1", x: "9.115", y: "9.107", width: "6.885", height: "6.893", rx: ".4", ry: ".4" })
+  React.createElement("path", { className: "cls-1", d: "M5 0H2a2 2 0 0 0-2 2v3a2 2 0 0 0 2 2h3a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm.5 5a.5.5 0 0 1-.5.5H2a.5.5 0 0 1-.5-.5V2a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 .5.5zM14 0h-3a2 2 0 0 0-2 2v3a2 2 0 0 0 2 2h3a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm.5 5a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5V2a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 .5.5zM5 9H2a2 2 0 0 0-2 2v3a2 2 0 0 0 2 2h3a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2zm.5 5a.5.5 0 0 1-.5.5H2a.5.5 0 0 1-.5-.5v-3a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 .5.5zM14 9h-3a2 2 0 0 0-2 2v3a2 2 0 0 0 2 2h3a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2zm.5 5a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-3a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 .5.5z", role: "presentation" })
 );;
   }
 

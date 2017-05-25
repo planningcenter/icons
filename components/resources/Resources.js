@@ -18,7 +18,10 @@
     { id: "title" },
     "resources icon"
   ),
-  React.createElement("path", { className: "cls-1", d: "M13.976 4.2l-.255-.089L8.308 1h-.893L2.163 4.112l-.271.111L0 7.586l1.861 1.16v3.979L7.749 16h.385l5.847-3.275V8.772l1.953-1.186zm-10.257.206l3.533-1.888v1.837l-1.21.03-.8.5v1.004L3.125 4.766zm3.558 10.163l-4.063-2.4V9.351l3.256 1.861.806-1.283zM6.07 9.773L1.392 7.267l1.06-1.991 4.839 2.655zm2.536-7.23l3.582 1.876.593.3-2.15 1.17-.022-1.053L9.576 4.4l-.97-.022zm4.02 9.627l-4.063 2.4V9.851l.9 1.274 3.165-1.836zm-2.813-2.4l-1.22-1.839 4.747-2.666 1.151 2z", role: "presentation" })
+  React.createElement("circle", { className: "cls-1", cx: "8", cy: "5", r: "2" }),
+  React.createElement("circle", { className: "cls-1", cx: "5", cy: "10.5", r: "2" }),
+  React.createElement("circle", { className: "cls-1", cx: "11", cy: "10.5", r: "2" }),
+  React.createElement("path", { className: "cls-1", d: "M14 0H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm.5 14a.5.5 0 0 1-.5.5H2a.5.5 0 0 1-.5-.5V2a.5.5 0 0 1 .5-.5h12a.5.5 0 0 1 .5.5z", role: "presentation" })
 );;
   }
 
