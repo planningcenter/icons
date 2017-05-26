@@ -18,7 +18,7 @@
     { id: "title" },
     "resources-reverse icon"
   ),
-  React.createElement("path", { className: "cls-1", d: "M14 0H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zM4.308 13.6a2.462 2.462 0 1 1 2.462-2.462A2.462 2.462 0 0 1 4.308 13.6zm1.23-9.235A2.462 2.462 0 1 1 8 6.827a2.462 2.462 0 0 1-2.462-2.462zm6.154 9.235a2.462 2.462 0 1 1 2.462-2.462 2.462 2.462 0 0 1-2.462 2.462z", role: "presentation" })
+  React.createElement("path", { className: "cls-1", d: "M14 0H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zM5 12.5a2 2 0 1 1 2-2 2 2 0 0 1-2 2zM6 5a2 2 0 1 1 2 2 2 2 0 0 1-2-2zm5 7.5a2 2 0 1 1 2-2 2 2 0 0 1-2 2z", role: "presentation" })
 );;
   }
 
