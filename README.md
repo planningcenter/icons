@@ -74,6 +74,9 @@ const MyApp = () =>
 
 ## CHANGELOG
 
+#### v1.4.0
+* [FEAT]: add icon to `check-ins/microsoft-edge`
+
 #### v1.2.0
 * [FEAT]: add collection `resources`
 
