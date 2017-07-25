@@ -19,7 +19,7 @@ const accessiblize = function(str, name) {
     .attr("role", "img")
     .attr("class", `symbol symbol-${name}`);
 
-  svg("title").attr("id", "title").text(`${name} icon`);
+  svg("title").attr("id", `title-${name}`).text(`${name} icon`);
 
   svg("path").attr("role", "presentation");
 
