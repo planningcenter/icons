@@ -74,6 +74,9 @@ const MyApp = () =>
 
 ## CHANGELOG
 
+#### v1.5.0
+* [FEAT]: add apple, windows, android and linux to `check-ins`
+
 #### v1.4.0
 * [FEAT]: add icon to `check-ins/microsoft-edge`
 
