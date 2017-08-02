@@ -15,11 +15,11 @@ const accessiblize = function(str, name) {
   const svg = cheerio.load(str, { xmlMode: true });
 
   svg("svg")
-    .attr("aria-labelledby", "title")
+    .attr("aria-labelledby", `title-${name}`)
     .attr("role", "img")
     .attr("class", `symbol symbol-${name}`);
 
-  svg("title").attr("id", "title").text(`${name} icon`);
+  svg("title").attr("id", `title-${name}`).text(`${name} icon`);
 
   svg("path").attr("role", "presentation");
 
