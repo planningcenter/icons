@@ -74,6 +74,9 @@ const MyApp = () =>
 
 ## CHANGELOG
 
+#### v1.5.2
+* [FIX]: make public on org NPM registry
+
 #### v1.5.1
 * [FEAT]: add person-remove icon to `groups`
 
