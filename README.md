@@ -74,6 +74,12 @@ const MyApp = () =>
 
 ## CHANGELOG
 
+#### v1.5.6
+* [FIX]: fix export icon in `interfaces`
+
+#### v1.5.4
+* [FEAT]: add export icon to `interfaces`
+
 #### v1.5.3
 * [FEAT]: add payment-sources icon to `giving`
 
