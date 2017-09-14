@@ -74,6 +74,9 @@ const MyApp = () =>
 
 ## CHANGELOG
 
+#### v1.5.3
+* [FEAT]: add payment-sources icon to `giving`
+
 #### v1.5.2
 * [FIX]: make public on org NPM registry
 
