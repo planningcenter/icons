@@ -74,6 +74,9 @@ const MyApp = () =>
 
 ## CHANGELOG
 
+#### v1.5.7
+* [FIX]: add filter icon in `interfaces`
+
 #### v1.5.6
 * [FIX]: fix export icon in `interfaces`
 
