@@ -74,6 +74,9 @@ const MyApp = () =>
 
 ## CHANGELOG
 
+#### v1.6.0
+* [FEAT]: add forms icons to `people`
+
 #### v1.5.7
 * [FIX]: add filter icon in `interfaces`
 
