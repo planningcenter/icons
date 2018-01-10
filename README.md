@@ -74,6 +74,9 @@ const MyApp = () =>
 
 ## CHANGELOG
 
+#### v1.7.1
+* [FEAT]: add advance icon to `people`
+
 #### v1.7.0
 * [FEAT]: add forms icons to `people`
 
