@@ -81,6 +81,9 @@ const MyApp = () =>
 
 ## CHANGELOG
 
+#### v1.7.3
+* [FEAT]: add person-arrow icon to `people`
+
 #### v1.7.2
 * [FEAT]: add duplicate icon to `services`
 
