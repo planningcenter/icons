@@ -81,6 +81,14 @@ const MyApp = () =>
 
 ## CHANGELOG
 
+#### v1.7.4
+* [FEAT]: add bgcheck-status-clear icon to `people`
+* [FEAT]: add bgcheck-status-expired icon to `people`
+* [FEAT]: add bgcheck-status-none icon to `people`
+* [FEAT]: add bgcheck-status-notclear icon to `people`
+* [FEAT]: add bgcheck-status-pending icon to `people`
+* [FEAT]: add bgcheck-status-unknown icon to `people`
+
 #### v1.7.3
 * [FEAT]: add person-arrow icon to `people`
 
