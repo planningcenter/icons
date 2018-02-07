@@ -11,16 +11,15 @@
   - select the corresponding `src/svg/{app/collection}` directory
   - unsure that `precision` is at least `3`
 * type `Control-c` in your terminal to kill the watch script
-* update version
-  - bump the version in `package.json`
-  - add version notes to the changelog in `README.md`
+* publish to npm
+  - in terminal, navigate to the `icons` project
+  - `npm login` (if you haven't)
+  - `yarn publish`
+    - you'll be prompted for a new version number
+    - add version notes to the changelog in `README.md`
 * commit and push
   - in most cases, just push to `master`
   - if you're changing a shared collection, maybe open a PR.
-* publish to npm
-  - in terminal, navigate to the `icons` project
-  - `npm login`
-  - `npm publish`
 
 ### Installation and updates
 `yarn add "planningcenter/icons"`
