@@ -80,6 +80,9 @@ const MyApp = () =>
 
 ## CHANGELOG
 
+#### v1.7.5
+* [TEST]: validating now `yarn`-based instructions
+
 #### v1.7.4
 * [FEAT]: add bgcheck-status-clear icon to `people`
 * [FEAT]: add bgcheck-status-expired icon to `people`
