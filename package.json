@@ -18,7 +18,8 @@
   },
   "files": [
     "components",
-    "svgs"
+    "svgs",
+    "css"
   ],
   "homepage": "https://github.com/planningcenter/icons#readme",
   "devDependencies": {
