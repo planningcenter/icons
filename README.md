@@ -80,6 +80,9 @@ const MyApp = () =>
 
 ## CHANGELOG
 
+#### v1.8.0
+* [FIX]: add `/css` directory back into published `files`
+
 #### v1.7.6
 * [TEST]: adding icon to `groups` for testing new scripts
 
