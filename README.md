@@ -80,6 +80,9 @@ const MyApp = () =>
 
 ## CHANGELOG
 
+#### v1.7.6
+* [TEST]: adding icon to `groups` for testing new scripts
+
 #### v1.7.5
 * [TEST]: validating now `yarn`-based instructions
 
