@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="https://unpkg.com/system-ui.css@2.0.0/system-ui.css" />
+
+  <style>
+    {{{symbolCSS}}}
+
+    .symbol {
+      height: 3em;
+      width: 3em;
+    }
+
+    a {
+      color: rgb(37, 160, 201);
+      text-decoration: none;
+    }
+    a:hover {
+      color: rgb(37, 160, 201);
+      text-decoration: underline;
+    }
+  </style>
+</head>
+
+<body class="system-ui" style="background-color: #eee">
+  <main style="max-width: 75rem; margin: 0 auto">
+  {{#svgsInCollections}}
+  <section style="clear: both" id="{{name}}">
+    <a href="#{{name}}">
+      <h1 style="margin: 0 5rem 3rem 2rem; padding: 3rem 0; text-transform: uppercase; border-bottom: 1px solid #ccc">{{name}}</h1>
+    </a>
+    <div>
+      {{#svgs}}
+      <div style="display: flex; flex-direction: column; align-items: center; margin: 2rem auto; float: left; width: 12rem;">
+        <div style="text-align: center; width: 4rem; box-shadow: 0 .25rem 1rem -.25rem rgba(0,0,0,0.2); border-radius: 1rem; background-color: white; padding: 2rem">
+          {{{file}}}
+        </div>
+        <div style="color: #666; text-align: center; padding-top: 1.5rem;">
+          {{name}}
+        </div>
+        <div style="color: #bbb; margin-top: .5rem">
+          <a href="https://github.com/planningcenter/icons/tree/master/src/svg/{{../name}}/{{name}}.svg" target="_blank">src</a> |
+          <a href="https://github.com/planningcenter/icons/tree/master/svgs/{{../name}}/{{name}}.svg" target="_blank">svg</a> |
+          <a href="https://github.com/planningcenter/icons/tree/master/components/{{../name}}/{{componentName}}.js" target="_blank">react</a>
+        </div>
+      </div>
+      {{/svgs}}
+    </div>
+  </section>
+  {{/svgsInCollections}}
+  </main>
+</body>
+
+</html>
