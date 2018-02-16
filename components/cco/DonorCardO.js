@@ -12,10 +12,10 @@
   var DonorCardO = function DonorCardO() {
     return React.createElement(
   "svg",
-  { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 16 16", "aria-labelledby": "title", role: "img", className: "symbol symbol-donor-card-o" },
+  { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 16 16", "aria-labelledby": "title-donor-card-o", role: "img", className: "symbol symbol-donor-card-o" },
   React.createElement(
     "title",
-    { id: "title" },
+    { id: "title-donor-card-o" },
     "donor-card-o icon"
   ),
   React.createElement(
