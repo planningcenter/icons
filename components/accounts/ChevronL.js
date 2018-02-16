@@ -12,13 +12,13 @@
   var ChevronL = function ChevronL() {
     return React.createElement(
   "svg",
-  { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 16 16", "aria-labelledby": "title", role: "img", className: "symbol symbol-chevron-l" },
+  { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 16 16", "aria-labelledby": "title-chevron-l", role: "img", className: "symbol symbol-chevron-l" },
   React.createElement(
     "title",
-    { id: "title" },
+    { id: "title-chevron-l" },
     "chevron-l icon"
   ),
-  React.createElement("path", { className: "cls-1", d: "M11.737 15.933a1.242 1.242 0 0 1-.881-.365L3.289 8 10.856.433a1.246 1.246 0 0 1 1.762 1.762L6.812 8l5.806 5.806a1.246 1.246 0 0 1-.881 2.127z", "data-name": "Layer 1", role: "presentation" })
+  React.createElement("path", { d: "M11.737 15.933a1.241 1.241 0 0 1-.881-.366L3.289 8 10.856.433a1.246 1.246 0 0 1 1.762 1.761L6.812 8l5.806 5.806a1.247 1.247 0 0 1-.881 2.127z", "data-name": "Layer 1", role: "presentation" })
 );;
   }
 
