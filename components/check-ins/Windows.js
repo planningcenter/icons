@@ -12,13 +12,13 @@
   var Windows = function Windows() {
     return React.createElement(
   "svg",
-  { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 16 16", "aria-labelledby": "title", role: "img", className: "symbol symbol-windows" },
+  { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 16 16", "aria-labelledby": "title-windows", role: "img", className: "symbol symbol-windows" },
   React.createElement(
     "title",
-    { id: "title" },
+    { id: "title-windows" },
     "windows icon"
   ),
-  React.createElement("path", { className: "cls-1", d: "M0 2.27l6.52-.89v6.29L0 7.7zm6.54 6.12v6.29L0 13.79V8.35zm.79-7.13L16 0v7.59l-8.64.07zM16 8.45V16l-8.67-1.22V8.43z", "data-name": "Layer 1", role: "presentation" })
+  React.createElement("path", { d: "M.025 2.265l6.518-.887v6.287L.031 7.7zM6.54 8.39v6.293l-6.515-.9V8.347zm.79-7.129L15.973 0v7.585l-8.643.069zm8.645 7.188V16L7.33 14.78l-.012-6.345z", "data-name": "Layer 1", role: "presentation" })
 );;
   }
 

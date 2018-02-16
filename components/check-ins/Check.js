@@ -12,13 +12,13 @@
   var Check = function Check() {
     return React.createElement(
   "svg",
-  { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 16 16", "aria-labelledby": "title", role: "img", className: "symbol symbol-check" },
+  { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 16 16", "aria-labelledby": "title-check", role: "img", className: "symbol symbol-check" },
   React.createElement(
     "title",
-    { id: "title" },
+    { id: "title-check" },
     "check icon"
   ),
-  React.createElement("path", { className: "cls-1", d: "M16.002 4.328l-2.675-2.675-7.339 7.339-3.429-3.429-2.603 2.602 6.103 6.102.002-.002.002.002 9.939-9.939z", "data-name": "Layer 1", role: "presentation" })
+  React.createElement("path", { "fill-rule": "evenodd", d: "M16.002 4.328l-2.675-2.675-7.339 7.339-3.429-3.429-2.603 2.602 6.103 6.102.002-.002.002.002 9.939-9.939z", "data-name": "Layer 1", role: "presentation" })
 );;
   }
 

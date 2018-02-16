@@ -12,13 +12,13 @@
   var Android = function Android() {
     return React.createElement(
   "svg",
-  { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 16 16", "aria-labelledby": "title", role: "img", className: "symbol symbol-android" },
+  { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 16 16", "aria-labelledby": "title-android", role: "img", className: "symbol symbol-android" },
   React.createElement(
     "title",
-    { id: "title" },
+    { id: "title-android" },
     "android icon"
   ),
-  React.createElement("path", { className: "cls-1", d: "M10.52 2.34a.52.52 0 0 0-1 0 .52.52 0 0 0 1 0zm-3.86 0a.52.52 0 0 0-1 0 .52.52 0 0 0 1 0zm4.77-.71a3.63 3.63 0 0 1 1.08 2.5h-9a3.62 3.62 0 0 1 1.04-2.48L3.72.21A.14.14 0 1 1 4 .07l.8 1.38A4.78 4.78 0 0 1 7.5.28h1a4.78 4.78 0 0 1 2.72 1.15L12 .07a.14.14 0 0 1 .24.14zm2.72 3.5a1 1 0 0 1 1 1v4.29a1 1 0 1 1-2 0V6.13a1 1 0 0 1 1-1zm-12.3 0a1 1 0 0 1 1 1v4.29a1 1 0 1 1-2 0V6.13a1 1 0 0 1 1-1zm7.4 7.3H6.74V15a1 1 0 0 1-2 0v-2.57a1.25 1.25 0 0 1-1.24-1.26V4.56h9.08v6.61a1.25 1.25 0 0 1-1.24 1.26V15a1 1 0 0 1-2 0z", "data-name": "Layer 1", role: "presentation" })
+  React.createElement("path", { d: "M10.518 2.341a.518.518 0 0 0-1.035 0 .518.518 0 0 0 1.035 0zm-3.861 0a.517.517 0 0 0-1.034 0 .517.517 0 0 0 1.034 0zm4.771-.709a3.627 3.627 0 0 1 1.08 2.5H3.492a3.618 3.618 0 0 1 1.059-2.478L3.717.211A.141.141 0 0 1 3.961.07l.8 1.383A4.788 4.788 0 0 1 7.5.282h1a4.8 4.8 0 0 1 2.717 1.151L12.006.07a.14.14 0 1 1 .243.141zm2.722 3.5a1 1 0 0 1 1 1v4.288a1 1 0 1 1-2 0V6.135a1 1 0 0 1 1-1zm-12.3 0a1 1 0 0 1 1 1v4.288a1 1 0 1 1-2 0V6.135a1 1 0 0 1 1.001-1zm7.4 7.3H6.745V15a1 1 0 0 1-2 0v-2.569H4.7a1.248 1.248 0 0 1-1.239-1.262v-6.5c0-.039 0-.077.006-.115h9.076v6.615a1.248 1.248 0 0 1-1.243 1.262h-.049V15a1 1 0 0 1-2 0z", "data-name": "Layer 1", role: "presentation" })
 );;
   }
 

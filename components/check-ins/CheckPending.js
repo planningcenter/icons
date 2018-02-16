@@ -12,17 +12,17 @@
   var CheckPending = function CheckPending() {
     return React.createElement(
   "svg",
-  { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 16 16", "aria-labelledby": "title", role: "img", className: "symbol symbol-check-pending" },
+  { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 16 16", "aria-labelledby": "title-check-pending", role: "img", className: "symbol symbol-check-pending" },
   React.createElement(
     "title",
-    { id: "title" },
+    { id: "title-check-pending" },
     "check-pending icon"
   ),
   React.createElement(
     "g",
-    { "data-name": "Layer 1" },
-    React.createElement("path", { className: "cls-1", d: "M11.63 6.194a5.387 5.387 0 0 1 2.086.419L16 4.328l-2.675-2.675-7.339 7.339-3.429-3.429-2.6 2.6 6.1 6.1.568-.568a5.417 5.417 0 0 1 5-7.505z", role: "presentation" }),
-    React.createElement("path", { className: "cls-1", d: "M11.63 7.276a4.337 4.337 0 1 0 4.337 4.337 4.337 4.337 0 0 0-4.337-4.337zm1.412 6.7a.593.593 0 0 1-.838-.015L10.789 12.5V9.673a.592.592 0 1 1 1.185 0v2.348l1.083 1.122a.592.592 0 0 1-.015.837z", role: "presentation" })
+    { "data-name": "Layer 1", "fill-rule": "evenodd" },
+    React.createElement("path", { d: "M11.63 6.194a5.391 5.391 0 0 1 2.086.419L16 4.328l-2.675-2.675-7.339 7.339-3.429-3.429-2.6 2.6 6.1 6.1.568-.568a5.416 5.416 0 0 1 5-7.5z", role: "presentation" }),
+    React.createElement("path", { d: "M11.63 7.276a4.338 4.338 0 1 0 4.337 4.337 4.338 4.338 0 0 0-4.337-4.337zm1.412 6.7a.593.593 0 0 1-.839-.014L10.789 12.5V9.673a.593.593 0 1 1 1.185 0v2.348l1.082 1.122a.591.591 0 0 1-.014.837z", role: "presentation" })
   )
 );;
   }
