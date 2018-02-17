@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ./scripts/start.js",
+    "start": "node --experimental-modules ./scripts/start.mjs",
     "build-site": "node ./scripts/build-site.js"
   },
   "repository": {
