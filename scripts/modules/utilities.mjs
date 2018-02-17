@@ -1,7 +1,24 @@
+import fs from "fs";
 import cheerio from "cheerio";
 import babel from "babel-core";
 import camelCase from "lodash.camelCase";
 import upperFirst from "lodash.upperFirst";
+
+export const writeSVGFile = ({ data, name, collection }) =>
+  fs.writeFileSync(
+    `./svgs/${collection}/${name}`,
+    accessiblize(data, name.split(".")[0])
+  );
+
+export const writeComponentFile = ({ data, name, collection }) =>
+  fs.writeFileSync(
+    `./components/${collection}/${getPascalCaseName(name.split(".")[0])}.js`,
+    componentize(
+      accessiblize(data, name.split(".")[0]),
+      name.split(".")[0],
+      collection
+    )
+  );
 
 export const accessiblize = (str, name) => {
   const svg = cheerio.load(str, { xmlMode: true });
