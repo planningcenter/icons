@@ -7,6 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "node --experimental-modules ./scripts/build.mjs",
     "start": "node --experimental-modules ./scripts/start.mjs",
+    "build-sprites": "node --experimental-modules ./scripts/build-sprites.mjs",
     "build-site": "node ./scripts/build-site.js"
   },
   "repository": {
