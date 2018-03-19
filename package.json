@@ -1,6 +1,6 @@
 {
   "name": "@planning-center/icons",
-  "version": "2.0.0-0",
+  "version": "2.0.0-1",
   "description": "Planning Center Icons",
   "main": "index.js",
   "scripts": {
@@ -22,6 +22,7 @@
   "files": [
     "components",
     "svgs",
+    "sprites",
     "css"
   ],
   "homepage": "https://github.com/planningcenter/icons#readme",
