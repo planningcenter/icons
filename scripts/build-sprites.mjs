@@ -48,9 +48,10 @@ function collectionSprite(collection) {
         xmlMode: true
       });
 
-      console.log();
-
-      return `<symbol id="${symbol.name}" class="symbol">${cheerio.xml(doc("svg").children())}</symbol>`;
+      return `
+<symbol id="${symbol.name}" class="symbol" viewBox="${doc("svg").attr("viewBox")}">
+  ${cheerio.xml(doc("svg").children())}
+</symbol>`;
     })
     .join("\n")}
     </svg>
