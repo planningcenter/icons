@@ -32,7 +32,6 @@ const svgsInCollections = collections.map(collection => ({
       name: svgPath.replace(".svg", ""),
       componentName: pascalCase(svgPath.replace(".svg", "")),
       path: path.join(collection.path, svgPath),
-      file: fs.readFileSync(path.join(collection.path, svgPath))
     }))
     .filter(svg => isFile(svg.path))
 }));
@@ -44,7 +43,7 @@ consolidate.handlebars(
     if (err) {
       throw err;
     }
-    return fs.writeFileSync("./docs/index.html", html, "utf8");
+    return fs.writeFileSync("./index.html", html, "utf8");
   }
 );
 
@@ -59,7 +58,7 @@ fs.watch(
         if (err) {
           throw err;
         }
-        return fs.writeFileSync("./docs/index.html", html, "utf8");
+        return fs.writeFileSync("./index.html", html, "utf8");
       }
     );
   }

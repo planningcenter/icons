@@ -10,7 +10,13 @@
   <link rel="stylesheet" href="https://unpkg.com/system-ui.css@2.0.0/system-ui.css" />
 
   <style>
-    {{{symbolCSS}}}
+    {
+        {
+          {
+          symbolCSS
+        }
+      }
+    }
 
     .symbol {
       height: 3em;
@@ -25,6 +31,7 @@
       color: rgb(37, 160, 201);
       text-decoration: none;
     }
+
     a:hover {
       color: rgb(37, 160, 201);
       text-decoration: underline;
@@ -34,31 +41,33 @@
 
 <body class="system-ui" style="background-color: #eee">
   <main style="max-width: 75rem; margin: 0 auto">
-  {{#svgsInCollections}}
-  <section style="clear: both" id="{{name}}">
-    <a href="#{{name}}">
-      <h1 style="margin: 0 5rem 3rem 2rem; padding: 3rem 0; text-transform: uppercase; border-bottom: 1px solid #ccc">{{name}}</h1>
-    </a>
-    <div>
-      {{#svgs}}
-      <div style="display: flex; flex-direction: column; align-items: center; margin: 2rem auto; float: left; width: 12rem;">
-        <div style="text-align: center; width: 4rem; box-shadow: 0 .25rem 1rem -.25rem rgba(0,0,0,0.2); border-radius: 1rem; background-color: white; padding: 2rem">
-          {{{file}}}
+    {{#svgsInCollections}}
+    <section style="clear: both" id="{{name}}">
+      <a href="#{{name}}">
+        <h1 style="margin: 0 5rem 3rem 2rem; padding: 3rem 0; text-transform: uppercase; border-bottom: 1px solid #ccc">{{name}}</h1>
+      </a>
+      <div>
+        {{#svgs}}
+        <div style="display: flex; flex-direction: column; align-items: center; margin: 2rem auto; float: left; width: 12rem;">
+          <div style="text-align: center; width: 4rem; box-shadow: 0 .25rem 1rem -.25rem rgba(0,0,0,0.2); border-radius: 1rem; background-color: white; padding: 2rem">
+            <svg class="symbol" role="presentation">
+              <use xlink:href="./sprites/{{../name}}.svg#{{name}}"></use>
+            </svg>
+          </div>
+          <div style="color: #bbb; margin-top: .5rem">
+            <a target="_blank" re="noreferrer noopener" href="https://github.com/planningcenter/icons/tree/master/src/svg/{{../name}}/{{name}}.svg">src</a> |
+            <a target="_blank" re="noreferrer noopener" href="https://github.com/planningcenter/icons/tree/master/svgs/{{../name}}/{{name}}.svg">svg</a> |
+            <a target="_blank" re="noreferrer noopener" href="https://github.com/planningcenter/icons/tree/master/components/{{../name}}/{{componentName}}.js">react</a> |
+            <a target="_blank" re="noreferrer noopener" href="https://github.com/planningcenter/icons/tree/master/sprites/{{../name}}.svg">sprite</a>
+          </div>
         </div>
-        <div style="color: #666; text-align: center; padding-top: 1.5rem;">
-          {{name}}
-        </div>
-        <div style="color: #bbb; margin-top: .5rem">
-          <a href="https://github.com/planningcenter/icons/tree/master/src/svg/{{../name}}/{{name}}.svg">src</a> |
-          <a href="https://github.com/planningcenter/icons/tree/master/svgs/{{../name}}/{{name}}.svg">svg</a> |
-          <a href="https://github.com/planningcenter/icons/tree/master/components/{{../name}}/{{componentName}}.js">react</a>
-        </div>
+        {{/svgs}}
       </div>
-      {{/svgs}}
-    </div>
-  </section>
-  {{/svgsInCollections}}
+    </section>
+    {{/svgsInCollections}}
   </main>
+  <script src="https://unpkg.com/svg4everybody@2.1.9/dist/svg4everybody.js"></script>
+  <script>svg4everybody()</script>
 </body>
 
 </html>

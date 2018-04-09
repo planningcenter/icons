@@ -1,4 +1,100 @@
-## Planning Center Icons
+# Planning Center Icons
+
+## v2 TRANSITION
+
+Changes are in progress for icons.
+Here's what's going down and how it impacts you.
+
+### What we're after
+
+Right now Icons handles the mapping between SVGs and each platform.
+It's a 1:1 relationship.
+Our goal is that icons will be platform agnostic.
+You could use them in any framework or no framework at all.
+
+Icons@v2 is a transitional version where we'll contiuen to build SVGs and platform mappings.
+But we're focusing on using SVGs and SVG sprites/stacks as the primary API.
+
+### External Resource SVG
+
+This will be the new implementation API:
+
+```html
+<svg>
+  <use xlink:href="./path/to/svg/sprite.svg#right-arrow"></use>
+</svg>
+```
+
+It's just web standards.
+
+### Challenges
+
+The external resource SVG standard is not seemlessly integrated for our target browsers.
+
+For example, IE11 does not support them at all.
+We're using SVG4Everybody.js to solve that.
+
+Safari doesn't support the latest `<use href="...">` syntax (no `xlink:`).
+So, we'll be using the old syntax to cover that.
+
+Accessibility is always verbose and this setup forces that onto the implementing developer.
+We'll continue to ship helpersand components that abstract those details.
+
+### App integration
+
+These changes will move mapping into apps.
+
+#### Rails
+
+Here's a sample implementation of the Rails helper for using cached external resource SVGs.
+
+```rb
+def external_icon(name, attrs = {})
+  svg, symbol = name.split("#")
+
+  content_tag(
+    "svg",
+    content_tag(
+      "use",
+      "",
+      {
+        href: asset_path("@planning-center/icons/sprites/#{svg}") + "##{symbol}"
+      }
+    ),
+    {
+      class: class_name,
+      role: "presentation",
+    }.merge(attrs.except(:class))
+  )
+end
+```
+
+#### React/Webpacker
+
+Here's a sample implementation of a React component using `file-loader` with `@rails/webpacker`.
+Though, there are an assortment of methods that could be configured via Webpack.
+
+```jsx
+import general from "@planning-center/icons/sprites/general.svg"
+
+const icons = { general }
+
+const TestingIcons = ({ symbol: s, className, ...platformProps }) => {
+  const [collection, symbol] = s.replace(".svg", "").split("#")
+
+  return (
+    <svg
+      className={cx("symbol", className)}
+      role="presentation"
+      {...platformProps}
+    >
+      <use href={`${icons[collection]}#${symbol}`} />
+    </svg>
+  )
+}
+```
+
+## Installation and Usage
 
 ### Add an icon
 *Assumes you've [cloned the planningcenter/icons for development.](#development)*
