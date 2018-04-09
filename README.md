@@ -80,6 +80,9 @@ const MyApp = () =>
 
 ## CHANGELOG
 
+#### v1.8.2
+* [FEAT]: fix to history icon to `people`
+
 #### v1.8.1
 * [FEAT]: add history icon to `people`
 
