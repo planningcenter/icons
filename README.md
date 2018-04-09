@@ -80,6 +80,9 @@ const MyApp = () =>
 
 ## CHANGELOG
 
+#### v1.8.1
+* [FEAT]: add history icon to `people`
+
 #### v1.8.0
 * [FIX]: add `/css` directory back into published `files`
 
