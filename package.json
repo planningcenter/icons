@@ -1,14 +1,11 @@
 {
   "name": "@planning-center/icons",
-  "version": "1.8.2",
+  "version": "2.0.0-3",
   "description": "Planning Center Icons",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "node --experimental-modules ./scripts/build.mjs",
-    "start": "node --experimental-modules ./scripts/start.mjs",
-    "build-sprites": "node --experimental-modules ./scripts/build-sprites.mjs",
-    "build-site": "node ./scripts/build-site.js"
+    "build": "node --experimental-modules ./scripts/cli.mjs build"
   },
   "repository": {
     "type": "git",
@@ -41,6 +38,7 @@
   },
   "dependencies": {
     "handlebars": "^4.0.11",
+    "minimist": "^1.2.0",
     "npm": "^5.8.0"
   }
 }

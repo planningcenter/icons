@@ -3,9 +3,6 @@
 import fs from "fs";
 import path from "path";
 import consolidate from "consolidate";
-import cheerio from "cheerio";
-
-console.log("building sprites");
 
 function isFile(path) {
   return fs.lstatSync(path).isFile();
@@ -32,39 +29,37 @@ const svgsInCollections = collections.map(collection => ({
     .map(svgPath => ({
       name: svgPath.replace(".svg", ""),
       componentName: pascalCase(svgPath.replace(".svg", "")),
-      path: path.join(collection.path, svgPath),
-      file: fs.readFileSync(path.join(collection.path, svgPath))
+      path: path.join(collection.path, svgPath)
     }))
     .filter(svg => isFile(svg.path))
 }));
 
-function collectionSprite(collection) {
-  return `
-    <svg xmlns="http://www.w3.org/2000/svg">
-    ${collection.svgs
-    .map(symbol => {
-      const doc = cheerio.load(symbol.file, {
-        normalizeWhitespace: true,
-        xmlMode: true
-      });
-
-      return `
-<symbol id="${symbol.name}" class="symbol" viewBox="${doc("svg").attr("viewBox")}">
-  ${cheerio.xml(doc("svg").children())}
-</symbol>`;
-    })
-    .join("\n")}
-    </svg>
-  `.trim();
-}
-
-function writeSVGSpriteForCollection(collection) {
-  return fs.writeFileSync(
-    `sprites/${collection.name}.svg`,
-    collectionSprite(collection),
-    "utf8"
+export function buildSite() {
+  return consolidate.handlebars(
+    "scripts/templates/site.template.hbs",
+    { svgsInCollections, symbolCSS: fs.readFileSync(`./css/symbol.css`) },
+    (err, html) => {
+      if (err) {
+        throw err;
+      }
+      return fs.writeFileSync("./index.html", html, "utf8");
+    }
   );
 }
 
-svgsInCollections.forEach(collection =>
-  writeSVGSpriteForCollection(collection));
+// fs.watch(
+//   "./scripts/site-template.html",
+//   { encoding: "utf8", recursive: true },
+//   (eventType, localFilePath) => {
+//     consolidate.handlebars(
+//       "scripts/site-template.html",
+//       { svgsInCollections, symbolCSS: fs.readFileSync(`./css/symbol.css`) },
+//       (err, html) => {
+//         if (err) {
+//           throw err;
+//         }
+//         return fs.writeFileSync("./index.html", html, "utf8");
+//       }
+//     );
+//   }
+// );

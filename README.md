@@ -1,5 +1,161 @@
 # Planning Center Icons
 
+## Development
+
+### Scripts
+
+| Command                             | Task |
+| ----------------------------------- | ---- |
+| `yarn build`                        | build all collections, once |
+| `yarn build --collection general`   | build specified collection, once |
+| `yarn publish`   | prompts for new version number, and publishes to npm |
+
+`build` commands will build the SVG sprites **and** rebuild the doc-site.
+
+### Workflow
+* Add a new illustration
+  * locate the source Illustrator file you'd like to update in `src/ai/{collection}.ai`
+  * make changes and `save`
+* Export SVGs
+  * select `Export for screens`, from the `File` menu
+  - export as `SVG`
+  - select the corresponding directory (`src/svg/{collection}/`)
+  - ensure that `precision` is at least `3`
+* Process the SVG
+  * run `yarn build` in the project root.
+* Publish to npm
+  - run `npm login` (if you haven't)
+  - run `yarn publish`
+    - you'll be prompted for a new version number
+    - add version notes to the changelog in `README.md`
+* Commit and push
+  - in most cases, just push to `master`
+  - if you're changing a shared collection, maybe open a PR.
+
+### Versioning
+
+Version numbers break down into three parts:
+```
+v1.0.0
+ ^ ^ ^
+ │ │ │
+ │ │ └─ Patch : Documentation and fixes
+ │ └─── Minor : Additions
+ └───── Major : Deletions and edits
+```
+
+When **adding** icons, increment the `Minor` place.
+
+When **editing or removing** icons ("breaking changes"), increment the `Major` place.
+
+When **fixing bugs and updating documentation**, increment the `Patch` place.
+
+**In most cases, you should user the `Minor` place.**
+
+## Setup
+
+<details open>
+<summary>Rails</summary>
+
+Update `config/initializers/assets.rb` to include these lines:
+
+
+```rb
+# Add node_modules as a known asset path
+config.assets.paths << Rails.root.join('node_modules')
+
+# Add assets to pre-compilation step
+Rails.application.config.assets.precompile += %w(
+  @planning-center/icons/sprites/groups.svg
+)
+```
+
+Add this helper to your application.
+
+```rb
+# rubocop:disable all
+module IconHelper
+  def svg_asset_path(symbol = "")
+    asset_path(symbol).gsub!(/.*?(?=\/assets)/im, "")
+  end
+
+  def external_icon(name, attrs = {})
+    svg, symbol = name.split("#")
+
+    begin
+      class_name = attrs[:class].present? ? "symbol #{attrs[:class]}" : "symbol"
+    rescue TypeError => e
+      raise e, "Attributes argument must be a hash"
+    end
+
+    content_tag(
+      "svg",
+      content_tag(
+        "use",
+        "",
+        "xlink:href": svg_asset_path("@planning-center/icons/sprites/#{svg.gsub(/\.svg/, "")}##{symbol}"),
+      ),
+      {
+        class: class_name,
+        role: "presentation",
+      }.merge(attrs.except(:class)),
+    )
+  end
+end
+```
+
+</details>
+
+<details>
+<summary>Webpack</summary>
+
+Run `yarn add file-loader`.
+
+Once installed add it to your existing `config/webpacker/environments` config, for handling the `svg` filetype:
+
+```js
+const { environment } = require("@rails/webpacker")
+
+environment.loaders.append("file", {
+  test: /\.svg$/,
+  use: [
+    {
+      loader: "file-loader",
+    },
+  ],
+})
+
+module.exports = environment
+```
+
+Run `bin/webpack-dev-server` to get fresh assets in development.
+
+</details>
+
+<details>
+<summary>svg4everybdy</summary>
+
+Add `svg4everybody` to your project, to polyfill support for older browsers.
+
+Then require and initialize the code for `turbolinks:load` and `modal:load` events.
+
+```js
+import jQuery from "jquery"
+import svg4everybody from "svg4everybody"
+
+jQuery(document)
+  .on(
+    "turbolinks:load modal:load",
+    () => svg4everybody()
+  )
+```
+</details>
+
+## Old Docs
+
+<details>
+<summary>v2 transition docs (WIP)</summary>
+
 ## v2 TRANSITION
 
 Changes are in progress for icons.
@@ -93,6 +249,10 @@ const TestingIcons = ({ symbol: s, className, ...platformProps }) => {
   )
 }
 ```
+</details>
+
+<details>
+<summary>v1 docs</summary>
 
 ## Installation and Usage
 
@@ -173,8 +333,19 @@ const MyApp = () =>
 ```erb
 <%= icon("interfaces/chevron-down") %>
 ```
+</details>
 
 ## CHANGELOG
+
+<details>
+<summary>v2</summary>
+
+#### v2.0
+
+</details>
+
+<details>
+<summary>v1</summary>
 
 #### v1.8.2
 * [FEAT]: fix to history icon to `people`
@@ -244,3 +415,5 @@ const MyApp = () =>
 
 #### v1.0.1
 * [FIX]: remove duplicate layers from Groups source and exports.
+
+<details>
