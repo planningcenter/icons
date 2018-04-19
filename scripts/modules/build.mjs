@@ -64,20 +64,21 @@ function collectionSprite(collection) {
 }
 
 function writeSVGSpriteForCollection(collection) {
-  svgo
-    .optimize(collectionSprite(collection), {
-      path: `sprites/${collection.name}.svg`
-    })
-    .then(result =>
-      console.log(
-        chalk.green(`successfully built sprites/${collection.name}.svg`)
-      ))
-    .catch(err => console.error(chalk.red(err)));
-  // return fs.writeFileSync(
-  //   `sprites/${collection.name}.svg`,
-  //   collectionSprite(collection),
-  //   "utf8"
-  // );
+  // svgo
+  //   .optimize(collectionSprite(collection))
+  //   .then(({ data }) => {
+  //     fs.writeFileSync(`sprites/${collection.name}.svg`, data, "utf8");
+
+  //     console.log(
+  //       chalk.green(`successfully built sprites/${collection.name}.svg`)
+  //     );
+  //   })
+  //   .catch(err => console.error(chalk.red(err)));
+  return fs.writeFileSync(
+    `sprites/${collection.name}.svg`,
+    collectionSprite(collection),
+    "utf8"
+  );
 }
 
 export function buildAll() {

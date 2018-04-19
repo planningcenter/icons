@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     
 <symbol id="activity-envelope-outline" class="symbol" viewBox="0 0 16 16">
   <defs><style>.cls-1{fill:#010101;}</style></defs><title>activity-envelope-outline</title><g id="Layer_1" data-name="Layer 1"><path class="cls-1" d="M14.161,2.894H1.849A1.764,1.764,0,0,0,.087,4.656v7.166a1.763,1.763,0,0,0,1.762,1.762H14.161a1.763,1.763,0,0,0,1.762-1.762V4.656A1.764,1.764,0,0,0,14.161,2.894Zm-9.3,5.364L1.591,10.727V6.3Zm1.394.834.984.589a1.524,1.524,0,0,0,1.563,0l.984-.589,3.963,2.988H2.3Zm4.925-.834,3.235-1.936V10.7ZM1.849,4.4H14.161a.246.246,0,0,1,.229.189L8.014,8.39,1.627,4.568A.243.243,0,0,1,1.849,4.4Z"/></g>
