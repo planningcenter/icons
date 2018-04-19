@@ -18,14 +18,15 @@ function pascalCase(str) {
 }
 
 const collections = fs
-  .readdirSync(`./svgs/`)
-  .map(name => ({ name, path: path.join(`./svgs/`, name) }))
+  .readdirSync(`./src/svg/`)
+  .map(name => ({ name, path: path.join(`./src/svg/`, name) }))
   .filter(collection => isDirectory(collection.path));
 
 const svgsInCollections = collections.map(collection => ({
   ...collection,
   svgs: fs
     .readdirSync(collection.path)
+    .filter(svgPath => !svgPath.includes(".DS_Store"))
     .map(svgPath => ({
       name: svgPath.replace(".svg", ""),
       componentName: pascalCase(svgPath.replace(".svg", "")),
