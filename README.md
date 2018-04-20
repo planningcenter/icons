@@ -1,18 +1,23 @@
 # Planning Center Icons
 
+## Looking for v1?
+
+If you're looking to make changes to v1 of Icons, use the [`v1` branch](https://github.com/planningcenter/icons/tree/v1).
+
 ## Development
 
 ### Scripts
 
-| Command                             | Task |
-| ----------------------------------- | ---- |
-| `yarn build`                        | build all collections, once |
-| `yarn build --collection general`   | build specified collection, once |
-| `yarn publish`   | prompts for new version number, and publishes to npm |
+| Command                           | Task                                                 |
+| --------------------------------- | ---------------------------------------------------- |
+| `yarn build`                      | build all collections, once                          |
+| `yarn build --collection general` | build specified collection, once                     |
+| `yarn publish`                    | prompts for new version number, and publishes to npm |
 
 `build` commands will build the SVG sprites **and** rebuild the doc-site.
 
 ### Workflow
+
 * Add a new illustration
   * locate the source Illustrator file you'd like to update in `src/ai/{collection}.ai`
   * make changes and `save`
@@ -24,17 +29,18 @@
 * Process the SVG
   * run `yarn build` in the project root.
 * Publish to npm
-  - run `npm login` (if you haven't)
-  - run `yarn publish`
-    - you'll be prompted for a new version number
-    - add version notes to the changelog in `README.md`
+  * run `npm login` (if you haven't)
+  * run `yarn publish`
+    * you'll be prompted for a new version number
+    * add version notes to the changelog in `README.md`
 * Commit and push
-  - in most cases, just push to `master`
-  - if you're changing a shared collection, maybe open a PR.
+  * in most cases, just push to `master`
+  * if you're changing a shared collection, maybe open a PR.
 
 ### Versioning
 
 Version numbers break down into three parts:
+
 ```
 v1.0.0
  ^ ^ ^
@@ -58,7 +64,6 @@ When **fixing bugs and updating documentation**, increment the `Patch` place.
 <summary>Rails</summary>
 
 Update `config/initializers/assets.rb` to include these lines:
-
 
 ```rb
 # Add node_modules as a known asset path
@@ -114,18 +119,18 @@ Run `yarn add file-loader`.
 Once installed add it to your existing `config/webpacker/environments` config, for handling the `svg` filetype:
 
 ```js
-const { environment } = require("@rails/webpacker")
+const { environment } = require("@rails/webpacker");
 
 environment.loaders.append("file", {
   test: /\.svg$/,
   use: [
     {
-      loader: "file-loader",
-    },
-  ],
-})
+      loader: "file-loader"
+    }
+  ]
+});
 
-module.exports = environment
+module.exports = environment;
 ```
 
 Run `bin/webpack-dev-server` to get fresh assets in development.
@@ -140,15 +145,12 @@ Add `svg4everybody` to your project, to polyfill support for older browsers.
 Then require and initialize the code for `turbolinks:load` and `modal:load` events.
 
 ```js
-import jQuery from "jquery"
-import svg4everybody from "svg4everybody"
+import jQuery from "jquery";
+import svg4everybody from "svg4everybody";
 
-jQuery(document)
-  .on(
-    "turbolinks:load modal:load",
-    () => svg4everybody()
-  )
+jQuery(document).on("turbolinks:load modal:load", () => svg4everybody());
 ```
+
 </details>
 
 ## Old Docs
@@ -231,12 +233,12 @@ Here's a sample implementation of a React component using `file-loader` with `@r
 Though, there are an assortment of methods that could be configured via Webpack.
 
 ```jsx
-import general from "@planning-center/icons/sprites/general.svg"
+import general from "@planning-center/icons/sprites/general.svg";
 
-const icons = { general }
+const icons = { general };
 
 const TestingIcons = ({ symbol: s, className, ...platformProps }) => {
-  const [collection, symbol] = s.replace(".svg", "").split("#")
+  const [collection, symbol] = s.replace(".svg", "").split("#");
 
   return (
     <svg
@@ -246,9 +248,10 @@ const TestingIcons = ({ symbol: s, className, ...platformProps }) => {
     >
       <use href={`${icons[collection]}#${symbol}`} />
     </svg>
-  )
-}
+  );
+};
 ```
+
 </details>
 
 <details>
@@ -257,32 +260,35 @@ const TestingIcons = ({ symbol: s, className, ...platformProps }) => {
 ## Installation and Usage
 
 ### Add an icon
-*Assumes you've [cloned the planningcenter/icons for development.](#development)*
+
+_Assumes you've [cloned the planningcenter/icons for development.](#development)_
 
 * run `yarn start` in the root of the project
 * locate the source Illustrator file you'd like to update in `src/ai/{app/collection}`
 * make changes and `save`
 * select `Export for screens`, from the `File` menu
-  - export as `SVG`
-  - select the corresponding `src/svg/{app/collection}` directory
-  - unsure that `precision` is at least `3`
+  * export as `SVG`
+  * select the corresponding `src/svg/{app/collection}` directory
+  * unsure that `precision` is at least `3`
 * type `Control-c` in your terminal to kill the watch script
 * publish to npm
-  - in terminal, navigate to the `icons` project
-  - `npm login` (if you haven't)
-  - `yarn publish`
-    - you'll be prompted for a new version number
-    - add version notes to the changelog in `README.md`
+  * in terminal, navigate to the `icons` project
+  * `npm login` (if you haven't)
+  * `yarn publish`
+    * you'll be prompted for a new version number
+    * add version notes to the changelog in `README.md`
 * commit and push
-  - in most cases, just push to `master`
-  - if you're changing a shared collection, maybe open a PR.
+  * in most cases, just push to `master`
+  * if you're changing a shared collection, maybe open a PR.
 
 ### Installation and updates
+
 `yarn add "planningcenter/icons"`
 
 If installed, this should bump the `yarn.lock` file to the latest master.
 
 ### Additional Rails Installation
+
 For use with Sprockets and Rails views,
 this line must be added to `application.rb`.
 It tells Rails that `node_modules` is a place assets can be found.
@@ -292,6 +298,7 @@ config.assets.paths << Rails.root.join('node_modules')
 ```
 
 ### Development
+
 * clone [planningcenter/icons](https://github.com/planningcenter/icons)
 * run `yarn` in the project root
 
@@ -300,19 +307,22 @@ config.assets.paths << Rails.root.join('node_modules')
 #### React Components
 
 ##### Node (ESM)
-```js
-import ChevronDown from "@planning-center/icons/components/interfaces/ChevronDown"
 
-const MyApp = () =>
+```js
+import ChevronDown from "@planning-center/icons/components/interfaces/ChevronDown";
+
+const MyApp = () => (
   <div>
     <ChevronDown />
   </div>
+);
 ```
 
 #### Sprockets (Global)
-*It's strongly recommended that you use
+
+_It's strongly recommended that you use
 [safe_global.js](./examples/safe_global.js) to guarantee that missing global
-icons do not interrupt rendering.*
+icons do not interrupt rendering._
 
 ```js
 // appliction.js
@@ -321,18 +331,21 @@ icons do not interrupt rendering.*
 
 ```js
 // SomeComponent.js
-const MyApp = () =>
+const MyApp = () => (
   <div>
     <InterfacesIcon.ChevronDown />
   </div>
+);
 ```
 
 #### Rails
-*Requires helper in [icon_helper.rb](./examples/icon_helper.rb).*
+
+_Requires helper in [icon_helper.rb](./examples/icon_helper.rb)._
 
 ```erb
 <%= icon("interfaces/chevron-down") %>
 ```
+
 </details>
 
 ## CHANGELOG
@@ -348,21 +361,27 @@ const MyApp = () =>
 <summary>v1</summary>
 
 #### v1.8.2
+
 * [FEAT]: fix to history icon to `people`
 
 #### v1.8.1
+
 * [FEAT]: add history icon to `people`
 
 #### v1.8.0
+
 * [FIX]: add `/css` directory back into published `files`
 
 #### v1.7.6
+
 * [TEST]: adding icon to `groups` for testing new scripts
 
 #### v1.7.5
+
 * [TEST]: validating now `yarn`-based instructions
 
 #### v1.7.4
+
 * [FEAT]: add bgcheck-status-clear icon to `people`
 * [FEAT]: add bgcheck-status-expired icon to `people`
 * [FEAT]: add bgcheck-status-none icon to `people`
@@ -371,49 +390,64 @@ const MyApp = () =>
 * [FEAT]: add bgcheck-status-unknown icon to `people`
 
 #### v1.7.3
+
 * [FEAT]: add person-arrow icon to `people`
 
 #### v1.7.2
+
 * [FEAT]: add duplicate icon to `services`
 
 #### v1.7.1
+
 * [FEAT]: add advance icon to `people`
 
 #### v1.7.0
+
 * [FEAT]: add forms icons to `people`
 
 #### v1.5.7
+
 * [FIX]: add filter icon in `interfaces`
 
 #### v1.5.6
+
 * [FIX]: fix export icon in `interfaces`
 
 #### v1.5.4
+
 * [FEAT]: add export icon to `interfaces`
 
 #### v1.5.3
+
 * [FEAT]: add payment-sources icon to `giving`
 
 #### v1.5.2
+
 * [FIX]: make public on org NPM registry
 
 #### v1.5.1
+
 * [FEAT]: add person-remove icon to `groups`
 
 #### v1.5.0
+
 * [FEAT]: add apple, windows, android and linux to `check-ins`
 
 #### v1.4.0
+
 * [FEAT]: add icon to `check-ins/microsoft-edge`
 
 #### v1.2.0
+
 * [FEAT]: add collection `resources`
 
 #### v1.1.0
+
 * [FEAT]: add icon `people/new-pencil`
 * [FEAT]: add `yarn start` script
 
 #### v1.0.1
+
 * [FIX]: remove duplicate layers from Groups source and exports.
 
 <details>
