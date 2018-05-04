@@ -24,8 +24,8 @@ function pascalCase(str) {
 }
 
 const collections = fs
-  .readdirSync(`./src/svg/`, { encoding: "utf8" })
-  .map(name => ({ name, path: path.join(`./src/svg/`, name) }))
+  .readdirSync(`./svg/`, { encoding: "utf8" })
+  .map(name => ({ name, path: path.join(`./svg/`, name) }))
   .filter(collection => isDirectory(collection.path));
 
 const svgsInCollections = collections.map(collection => ({

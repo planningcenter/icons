@@ -19,12 +19,12 @@ If you're looking to make changes to v1 of Icons, use the [`v1` branch](https://
 ### Workflow
 
 * Add a new illustration
-  * locate the source Illustrator file you'd like to update in `src/ai/{collection}.ai`
+  * locate the source Illustrator file you'd like to update in `src/{collection}.ai`
   * make changes and `save`
 * Export SVGs
   * select `Export for screens`, from the `File` menu
   - export as `SVG`
-  - select the corresponding directory (`src/svg/{collection}/`)
+  - select the corresponding directory (`svg/{collection}/`)
   - ensure that `precision` is at least `3`
 * Process the SVG
   * run `yarn build` in the project root.
@@ -264,11 +264,11 @@ const TestingIcons = ({ symbol: s, className, ...platformProps }) => {
 _Assumes you've [cloned the planningcenter/icons for development.](#development)_
 
 * run `yarn start` in the root of the project
-* locate the source Illustrator file you'd like to update in `src/ai/{app/collection}`
+* locate the source Illustrator file you'd like to update in `src/{app/collection}`
 * make changes and `save`
 * select `Export for screens`, from the `File` menu
   * export as `SVG`
-  * select the corresponding `src/svg/{app/collection}` directory
+  * select the corresponding `svg/{app/collection}` directory
   * unsure that `precision` is at least `3`
 * type `Control-c` in your terminal to kill the watch script
 * publish to npm
