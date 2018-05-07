@@ -23,16 +23,18 @@ If you're looking to make changes to v1 of Icons, use the [`v1` branch](https://
   * make changes and `save`
 * Export SVGs
   * select `Export for screens`, from the `File` menu
-  - export as `SVG`
-  - select the corresponding directory (`svg/{collection}/`)
-  - ensure that `precision` is at least `3`
+    - export as `SVG`
+    - select the corresponding directory (`svg/{collection}/`)
+  * select these settings
+    - ensure that `styling` is `Presentation Attributes`
+    - ensure that `precision` is at least `3`
 * Process the SVG
   * run `yarn build` in the project root.
 * Publish to npm
   * run `npm login` (if you haven't)
   * run `yarn publish`
-    * you'll be prompted for a new version number
-    * add version notes to the changelog in `README.md`
+    - you'll be prompted for a new version number
+    - add version notes to the changelog in `README.md`
 * Commit and push
   * in most cases, just push to `master`
   * if you're changing a shared collection, maybe open a PR.
