@@ -19,7 +19,8 @@
   "files": [
     "sprites",
     "css",
-    "svg"
+    "svg",
+    "js"
   ],
   "homepage": "https://github.com/planningcenter/icons#readme",
   "devDependencies": {
