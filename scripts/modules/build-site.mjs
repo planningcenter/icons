@@ -4,6 +4,8 @@ import fs from "fs";
 import path from "path";
 import consolidate from "consolidate";
 
+let unpublishedCollections = ["apps", "color-apps"];
+
 function isFile(path) {
   return fs.lstatSync(path).isFile();
 }
@@ -22,18 +24,20 @@ const collections = fs
   .map(name => ({ name, path: path.join(`./svg/`, name) }))
   .filter(collection => isDirectory(collection.path));
 
-const svgsInCollections = collections.map(collection => ({
-  ...collection,
-  svgs: fs
-    .readdirSync(collection.path)
-    .filter(svgPath => !svgPath.includes(".DS_Store"))
-    .map(svgPath => ({
-      name: svgPath.replace(".svg", ""),
-      componentName: pascalCase(svgPath.replace(".svg", "")),
-      path: path.join(collection.path, svgPath)
-    }))
-    .filter(svg => isFile(svg.path))
-}));
+const svgsInCollections = collections
+  .filter(collection => !unpublishedCollections.includes(collection.name))
+  .map(collection => ({
+    ...collection,
+    svgs: fs
+      .readdirSync(collection.path)
+      .filter(svgPath => !svgPath.includes(".DS_Store"))
+      .map(svgPath => ({
+        name: svgPath.replace(".svg", ""),
+        componentName: pascalCase(svgPath.replace(".svg", "")),
+        path: path.join(collection.path, svgPath)
+      }))
+      .filter(svg => isFile(svg.path))
+  }));
 
 export function buildSite() {
   return consolidate.handlebars(
@@ -47,20 +51,3 @@ export function buildSite() {
     }
   );
 }
-
-// fs.watch(
-//   "./scripts/site-template.html",
-//   { encoding: "utf8", recursive: true },
-//   (eventType, localFilePath) => {
-//     consolidate.handlebars(
-//       "scripts/site-template.html",
-//       { svgsInCollections, symbolCSS: fs.readFileSync(`./css/symbol.css`) },
-//       (err, html) => {
-//         if (err) {
-//           throw err;
-//         }
-//         return fs.writeFileSync("./index.html", html, "utf8");
-//       }
-//     );
-//   }
-// );
