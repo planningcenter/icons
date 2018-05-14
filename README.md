@@ -355,7 +355,10 @@ _Requires helper in [icon_helper.rb](./examples/icon_helper.rb)._
 <details>
 <summary>v2</summary>
 
-#### v2.0.0-7
+#### v2.0.0-7-8 & v2.0.0-9
+* [FIX]: strip fill colors from all icons
+
+
 * [FIX]: make sure svg fill colors get stripped from groups-icon and groups-logo in `groups`
 
 #### v2.0.0-6
