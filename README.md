@@ -355,6 +355,9 @@ _Requires helper in [icon_helper.rb](./examples/icon_helper.rb)._
 <details>
 <summary>v2</summary>
 
+#### v2.2.0
+* [FEAT]: add groups logo icon and groups icon to `groups`
+
 #### v2.0
 
 </details>
