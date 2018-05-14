@@ -1,1 +1,8 @@
-<svg id="90658591-9c59-4b34-87dc-f464a1f4b2e7" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>envelope</title><g opacity="0.008"><rect x="-6" y="-6" width="24" height="24"/></g><path d="M20,4H4A2,2,0,0,0,2.01,6L2,18a2.006,2.006,0,0,0,2,2H20a2.006,2.006,0,0,0,2-2V6A2.006,2.006,0,0,0,20,4Z"/><polygon points="12 13.879 3.767 8.939 4.796 7.224 12 11.547 19.204 7.224 20.233 8.939 12 13.879" fill="#fff"/></svg>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <title>envelope</title>
+  <g opacity="0.008">
+    <rect x="-6" y="-6" width="24" height="24"/>
+  </g>
+  <path d="M20,4H4A2,2,0,0,0,2.01,6L2,18a2.006,2.006,0,0,0,2,2H20a2.006,2.006,0,0,0,2-2V6A2.006,2.006,0,0,0,20,4Z"/>
+  <polygon points="12 13.879 3.767 8.939 4.796 7.224 12 11.547 19.204 7.224 20.233 8.939 12 13.879" fill="#fff"/>
+</svg>

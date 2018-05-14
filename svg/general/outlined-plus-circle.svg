@@ -1,1 +1,7 @@
-<svg id="5a3fc9ff-c4ab-4386-af9e-8e80a005a5cf" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>outlined-plus-circle</title><g opacity="0.008"><rect x="-6" y="-6" width="24" height="24"/></g><path d="M12,20a8,8,0,1,1,8-8A8.011,8.011,0,0,1,12,20ZM12,2A10,10,0,1,0,22,12,10,10,0,0,0,12,2Zm1,5H11v4H7v2h4v4h2V13h4V11H13Z"/></svg>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <title>outlined-plus-circle</title>
+  <g opacity="0.008">
+    <rect x="-6" y="-6" width="24" height="24"/>
+  </g>
+  <path d="M12,20a8,8,0,1,1,8-8A8.011,8.011,0,0,1,12,20ZM12,2A10,10,0,1,0,22,12,10,10,0,0,0,12,2Zm1,5H11v4H7v2h4v4h2V13h4V11H13Z"/>
+</svg>

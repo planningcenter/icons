@@ -1,1 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><title>x</title><g id="2792a92f-0ddc-4052-8099-c60778ed6b9c" data-name="Layer 1"><polygon points="14.301 4.34 11.625 1.664 8 5.29 4.375 1.664 1.699 4.34 5.325 7.965 1.699 11.591 4.375 14.266 8 10.641 11.625 14.266 14.301 11.591 10.675 7.965 14.301 4.34" fill-rule="evenodd"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+  <title>x</title>
+  <g id="Layer_1" data-name="Layer 1">
+    <polygon points="14.301 4.34 11.625 1.664 8 5.29 4.375 1.664 1.699 4.34 5.325 7.965 1.699 11.591 4.375 14.266 8 10.641 11.625 14.266 14.301 11.591 10.675 7.965 14.301 4.34" fill-rule="evenodd"/>
+  </g>
+</svg>

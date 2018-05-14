@@ -1,1 +1,9 @@
-<svg id="8f99aefa-003d-4b59-9784-8cb0b25cfb53" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>up-chevron</title><g opacity="0.008"><path d="M25,25H-1V-1H25ZM1,23H23V1H1Z"/></g><polygon points="7.91 15.41 12.5 10.83 17.09 15.41 18.5 14 12.5 8 6.5 14 7.91 15.41"/></svg>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <title>up-chevron</title>
+  <g>
+    <g opacity="0.008">
+      <path d="M25,25H-1V-1H25ZM1,23H23V1H1Z"/>
+    </g>
+    <polygon points="7.91 15.41 12.5 10.83 17.09 15.41 18.5 14 12.5 8 6.5 14 7.91 15.41"/>
+  </g>
+</svg>

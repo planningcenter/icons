@@ -1,1 +1,11 @@
-<svg id="27db9561-fcea-432e-bb06-7a66c2666d9d" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>thick-from-bottom-arrow</title><g opacity="0.008"><rect width="24" height="24"/><rect x="-6" y="-6" width="24" height="24"/></g><rect x="5" y="18" width="14" height="2"/><polygon points="5 10 9 10 9 16 15 16 15 10 19 10 12 3 5 10"/></svg>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <title>thick-from-bottom-arrow</title>
+  <g opacity="0.008">
+    <rect width="24" height="24"/>
+    <rect x="-6" y="-6" width="24" height="24"/>
+  </g>
+  <g>
+    <rect x="5" y="18" width="14" height="2"/>
+    <polygon points="5 10 9 10 9 16 15 16 15 10 19 10 12 3 5 10"/>
+  </g>
+</svg>

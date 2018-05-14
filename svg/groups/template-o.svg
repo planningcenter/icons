@@ -1,1 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><defs><style>.cls-1{fill:#231f20;}</style></defs><title>template-o</title><g id="Layer_1" data-name="Layer 1"><path class="cls-1" d="M14.819,0H1.11A1.145,1.145,0,0,0-.035,1.145v13.71A1.145,1.145,0,0,0,1.11,16h13.71a1.145,1.145,0,0,0,1.145-1.145V1.145A1.145,1.145,0,0,0,14.819,0Zm-.857,5.788H7.672V2h6.29ZM1.966,2h3.7V14h-3.7ZM7.672,14V7.79h6.29V14Z"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+  <title>template-o</title>
+  <g id="Layer_1" data-name="Layer 1">
+    <path d="M14.819,0H1.11A1.145,1.145,0,0,0-.035,1.145v13.71A1.145,1.145,0,0,0,1.11,16H14.819a1.146,1.146,0,0,0,1.146-1.145V1.145A1.146,1.146,0,0,0,14.819,0Zm-.856,5.788H7.672V2h6.291ZM1.966,2H5.671V14h-3.7ZM7.672,14V7.79h6.291V14Z" fill="#231f20"/>
+  </g>
+</svg>

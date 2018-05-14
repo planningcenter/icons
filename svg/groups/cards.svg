@@ -1,1 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><title>cards</title><g id="Layer_1" data-name="Layer 1"><g id="Layer_27" data-name="Layer 27"><rect x="9.318" y="0.256" width="6.453" height="6.453"/><rect x="0.318" y="0.256" width="6.453" height="6.453"/><rect x="0.318" y="9.256" width="6.453" height="6.453"/><rect x="9.318" y="9.256" width="6.453" height="6.453"/></g></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+  <title>cards</title>
+  <g id="Layer_1" data-name="Layer 1">
+    <g id="Layer_27" data-name="Layer 27">
+      <rect x="9.318" y="0.256" width="6.453" height="6.453"/>
+      <rect x="0.318" y="0.256" width="6.453" height="6.453"/>
+      <rect x="0.318" y="9.256" width="6.453" height="6.453"/>
+      <rect x="9.318" y="9.256" width="6.453" height="6.453"/>
+    </g>
+  </g>
+</svg>

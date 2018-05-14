@@ -1,1 +1,8 @@
-<svg id="02346b22-a89d-4900-b1d1-b5aba8f364b8" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>broken-link</title><path d="M9,17.005H8a5,5,0,0,1,0-10H9v2H8a3,3,0,0,0,0,6H9Z"/><path d="M16,17.005H15v-2h1a3,3,0,0,0,0-6H15v-2h1a5,5,0,0,1,0,10Z"/><rect x="7" y="11.005" width="3" height="2"/><rect x="14" y="11.005" width="3" height="2"/><rect x="11" y="6.005" width="2" height="12"/></svg>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <title>broken-link</title>
+  <path d="M9,17.005H8a5,5,0,0,1,0-10H9v2H8a3,3,0,0,0,0,6H9Z"/>
+  <path d="M16,17.005H15v-2h1a3,3,0,0,0,0-6H15v-2h1a5,5,0,0,1,0,10Z"/>
+  <rect x="7" y="11.005" width="3" height="2"/>
+  <rect x="14" y="11.005" width="3" height="2"/>
+  <rect x="11" y="6.005" width="2" height="12"/>
+</svg>

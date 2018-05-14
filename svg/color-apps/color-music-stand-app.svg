@@ -1,1 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32"><defs><linearGradient id="1ad53bdc-71f6-468c-9aa3-257e9811b9e4" x1="4.58" y1="4.58" x2="27.42" y2="27.42" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#3291d2"/><stop offset="1" stop-color="#3c7ec6"/></linearGradient></defs><title>color-music-stand-app</title><g id="9ca4782f-5a5a-44e3-b6e6-ec8bb44faf4b" data-name="New"><path d="M30.275,16c0,11.42-2.855,14.275-14.275,14.275S1.725,27.42,1.725,16,4.58,1.725,16,1.725,30.275,4.58,30.275,16Z" fill="url(#1ad53bdc-71f6-468c-9aa3-257e9811b9e4)"/><path d="M22.377,19.027l-.023-.007c.05,1.059-1.141,2.049-2.735,2.236-1.64.192-3.073-.538-3.2-1.631s1.1-2.136,2.737-2.328a4.123,4.123,0,0,1,1.478.091V12.12l-7.226,2.353V21.02h-.032c-.135.958-1.261,1.808-2.725,1.98-1.64.193-3.074-.538-3.2-1.631s1.1-2.136,2.737-2.328a4.144,4.144,0,0,1,1.478.091V13.047c0-.331.086-.774.4-.878,1.5-.485,8.826-2.891,9.771-3.16a.485.485,0,0,1,.538.4Z" fill="#fff"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="linear-gradient" x1="4.58" y1="4.58" x2="27.42" y2="27.42" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#3291d2"/>
+      <stop offset="1" stop-color="#3c7ec6"/>
+    </linearGradient>
+  </defs>
+  <title>color-music-stand-app</title>
+  <g id="New">
+    <path d="M30.275,16c0,11.42-2.855,14.275-14.275,14.275S1.725,27.42,1.725,16,4.58,1.725,16,1.725,30.275,4.58,30.275,16Z" fill="url(#linear-gradient)"/>
+    <path d="M22.377,19.027l-.023-.007c.05,1.059-1.141,2.049-2.735,2.236-1.64.192-3.073-.538-3.2-1.631s1.1-2.136,2.737-2.328a4.123,4.123,0,0,1,1.478.091V12.12l-7.226,2.353V21.02h-.032c-.135.958-1.261,1.808-2.725,1.98-1.64.193-3.074-.538-3.2-1.631s1.1-2.136,2.737-2.328a4.144,4.144,0,0,1,1.478.091V13.047c0-.331.086-.774.4-.878,1.5-.485,8.826-2.891,9.771-3.16a.485.485,0,0,1,.538.4Z" fill="#fff"/>
+  </g>
+</svg>

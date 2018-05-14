@@ -1,1 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><defs><style>.cls-1{fill:#010101;}</style></defs><title>step-back</title><g id="Layer_1" data-name="Layer 1"><polygon class="cls-1" points="13.05 6.984 6.84 6.984 8.687 5.137 7.25 3.7 2.95 8 7.25 12.3 8.687 10.863 6.84 9.016 13.05 9.016 13.05 6.984"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+  <title>step-back</title>
+  <g id="Layer_1" data-name="Layer 1">
+    <polygon points="13.05 6.984 6.84 6.984 8.687 5.137 7.25 3.7 2.95 8 7.25 12.3 8.687 10.863 6.84 9.016 13.05 9.016 13.05 6.984" fill="#010101"/>
+  </g>
+</svg>

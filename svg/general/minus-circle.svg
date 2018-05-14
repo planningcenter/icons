@@ -1,1 +1,7 @@
-<svg id="19d7b01d-6f3e-49f0-80af-1586500a0157" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>minus-circle</title><g opacity="0.008"><rect x="-6" y="-6" width="24" height="24"/></g><path d="M17,13H7V11H17ZM12,2A10,10,0,1,0,22,12,10,10,0,0,0,12,2Z"/></svg>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <title>minus-circle</title>
+  <g opacity="0.008">
+    <rect x="-6" y="-6" width="24" height="24"/>
+  </g>
+  <path d="M17,13H7V11H17ZM12,2A10,10,0,1,0,22,12,10,10,0,0,0,12,2Z"/>
+</svg>

@@ -1,1 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><defs><style>.cls-1{fill:#010101;}</style></defs><title>add-circle</title><g id="Layer_1" data-name="Layer 1"><path class="cls-1" d="M8.687,4.355H7.672V7.493H4.534V8.507H7.672v3.138H8.687V8.507h3.138V7.493H8.687ZM8.179.284A7.716,7.716,0,1,0,15.9,8,7.725,7.725,0,0,0,8.179.284Zm0,14.417a6.7,6.7,0,1,1,6.7-6.7A6.709,6.709,0,0,1,8.179,14.7Z"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+  <title>add-circle</title>
+  <g id="Layer_1" data-name="Layer 1">
+    <path d="M8.687,4.355H7.672V7.493H4.534V8.507H7.672v3.138H8.687V8.507h3.138V7.493H8.687ZM8.179.284A7.716,7.716,0,1,0,15.9,8,7.724,7.724,0,0,0,8.179.284Zm0,14.417a6.7,6.7,0,1,1,6.7-6.7A6.709,6.709,0,0,1,8.179,14.7Z" fill="#010101"/>
+  </g>
+</svg>

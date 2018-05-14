@@ -1,1 +1,9 @@
-<svg id="a36ce40f-09e0-42e9-9f36-0c04f3bd64ac" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>left-caret</title><g opacity="0.008"><path d="M25,25H-1V-1H25ZM1,23H23V1H1Z"/></g><polygon points="14 7 9 12 14 17 14 7"/></svg>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <title>left-caret</title>
+  <g>
+    <g opacity="0.008">
+      <path d="M25,25H-1V-1H25ZM1,23H23V1H1Z"/>
+    </g>
+    <polygon points="14 7 9 12 14 17 14 7"/>
+  </g>
+</svg>

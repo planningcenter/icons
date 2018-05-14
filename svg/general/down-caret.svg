@@ -1,1 +1,9 @@
-<svg id="378f0b0b-3587-40dd-840e-af99bce12122" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>down-caret</title><g opacity="0.008"><path d="M25,25H-1V-1H25ZM1,23H23V1H1Z"/></g><polygon points="7 10 12 15 17 10 7 10"/></svg>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <title>down-caret</title>
+  <g>
+    <g opacity="0.008">
+      <path d="M25,25H-1V-1H25ZM1,23H23V1H1Z"/>
+    </g>
+    <polygon points="7 10 12 15 17 10 7 10"/>
+  </g>
+</svg>

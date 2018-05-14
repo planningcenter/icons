@@ -1,1 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32"><defs><linearGradient id="f0fce9b4-a986-4954-aee6-2cd93f605de4" x1="1.725" y1="16" x2="30.275" y2="16" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#f5c426"/><stop offset="1" stop-color="#f2b327"/></linearGradient></defs><title>color-giving-app</title><g id="63973f54-1b65-48b1-b7ed-cdb627f6a546" data-name="New"><path d="M30.275,16c0,11.42-2.855,14.275-14.275,14.275S1.725,27.42,1.725,16,4.58,1.725,16,1.725,30.275,4.58,30.275,16Z" fill="url(#f0fce9b4-a986-4954-aee6-2cd93f605de4)"/><path d="M16.425,21.21a.73.73,0,0,1-.85,0c-1.806-1.274-8.581-6.446-4.687-9.8a3.422,3.422,0,0,1,4.611.293l.5.5.5-.5a3.422,3.422,0,0,1,4.611-.293C25.006,14.764,18.231,19.936,16.425,21.21Z" fill="#fff"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="linear-gradient" x1="1.725" y1="16" x2="30.275" y2="16" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f5c426"/>
+      <stop offset="1" stop-color="#f2b327"/>
+    </linearGradient>
+  </defs>
+  <title>color-giving-app</title>
+  <g id="New">
+    <path d="M30.275,16c0,11.42-2.855,14.275-14.275,14.275S1.725,27.42,1.725,16,4.58,1.725,16,1.725,30.275,4.58,30.275,16Z" fill="url(#linear-gradient)"/>
+    <path d="M16.425,21.21a.73.73,0,0,1-.85,0c-1.806-1.274-8.581-6.446-4.687-9.8a3.422,3.422,0,0,1,4.611.293l.5.5.5-.5a3.422,3.422,0,0,1,4.611-.293C25.006,14.764,18.231,19.936,16.425,21.21Z" fill="#fff"/>
+  </g>
+</svg>

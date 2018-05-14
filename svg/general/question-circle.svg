@@ -1,1 +1,13 @@
-<svg id="52223353-cd8d-4774-a351-c8f0b3fb939e" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>question-circle</title><g opacity="0.008"><rect x="-6" y="-6" width="24" height="24"/></g><circle cx="12" cy="12" r="10"/><rect x="11" y="16" width="2" height="2" fill="#fff"/><path d="M12,6a4,4,0,0,0-4,4h2a2,2,0,0,1,4,0c0,2-3,1.75-3,5h2c0-2.25,3-2.5,3-5A4,4,0,0,0,12,6Z" fill="#fff"/></svg>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <title>question-circle</title>
+  <g>
+    <g opacity="0.008">
+      <rect x="-6" y="-6" width="24" height="24"/>
+    </g>
+    <g>
+      <circle cx="12" cy="12" r="10"/>
+      <rect x="11" y="16" width="2" height="2" fill="#fff"/>
+      <path d="M12,6a4,4,0,0,0-4,4h2a2,2,0,0,1,4,0c0,2-3,1.75-3,5h2c0-2.25,3-2.5,3-5A4,4,0,0,0,12,6Z" fill="#fff"/>
+    </g>
+  </g>
+</svg>

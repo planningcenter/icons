@@ -1,1 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><defs><style>.cls-1{fill:#010101;}</style></defs><title>refresh</title><g id="Layer_1" data-name="Layer 1"><g id="Your_Icon" data-name="Your Icon"><path id="refresh-3-icon" class="cls-1" d="M12.585,3.876,11.147,5.315a4.317,4.317,0,0,0-7.37,3.053H5.454L2.775,11.047.1,8.369H1.742A6.352,6.352,0,0,1,12.585,3.876Zm3.43,4.271L13.339,5.469,10.661,8.147h1.677A4.317,4.317,0,0,1,4.968,11.2L3.529,12.64A6.352,6.352,0,0,0,14.373,8.147h1.642Z"/></g></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+  <title>refresh</title>
+  <g id="Layer_1" data-name="Layer 1">
+    <g id="Your_Icon" data-name="Your Icon">
+      <path id="refresh-3-icon" d="M12.585,3.876,11.147,5.315a4.318,4.318,0,0,0-7.37,3.054H5.454L2.775,11.047.1,8.369H1.742A6.352,6.352,0,0,1,12.585,3.876Zm3.43,4.271L13.339,5.469,10.661,8.147h1.677A4.318,4.318,0,0,1,4.968,11.2L3.529,12.64A6.353,6.353,0,0,0,14.373,8.147h1.642Z" fill="#010101"/>
+    </g>
+  </g>
+</svg>

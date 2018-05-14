@@ -1,1 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><defs><style>.cls-1{fill-rule:evenodd;}</style></defs><title>list</title><g id="Layer_1" data-name="Layer 1"><g id="Layer_24" data-name="Layer 24"><path class="cls-1" d="M.245,1.591v2.58H15.727V1.591Zm0,7.741H15.727V6.752H.245Zm0,5.161H15.727v-2.58H.245Z"/></g></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+  <title>list</title>
+  <g id="Layer_1" data-name="Layer 1">
+    <g id="Layer_24" data-name="Layer 24">
+      <path d="M.245,1.591v2.58H15.727V1.591Zm0,7.741H15.727V6.752H.245Zm0,5.16H15.727v-2.58H.245Z" fill-rule="evenodd"/>
+    </g>
+  </g>
+</svg>

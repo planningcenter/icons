@@ -1,1 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32"><defs><linearGradient id="0efe8d9b-c36f-4738-a92f-c03a313b140b" x1="4.406" y1="4.406" x2="27.693" y2="27.693" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ff962d"/><stop offset="1" stop-color="#fc7638"/></linearGradient></defs><title>color-groups-app</title><g id="3a16e6f5-1a8f-418b-a390-44ad92c91eba" data-name="New"><path d="M30.3,16c0,11.44-2.86,14.3-14.3,14.3S1.7,27.44,1.7,16,4.56,1.7,16,1.7,30.3,4.56,30.3,16Z" fill="url(#0efe8d9b-c36f-4738-a92f-c03a313b140b)"/><path d="M17.894,12.683H14.106a2.7,2.7,0,0,1-1.426,1.426v3.782a2.7,2.7,0,0,1,1.426,1.426h3.782a2.7,2.7,0,0,1,1.425-1.426V14.106A2.694,2.694,0,0,1,17.894,12.683Zm5.147,7.679a2.683,2.683,0,0,1-5.153,1.045H14.106a2.683,2.683,0,1,1-3.517-3.516V14.109a2.683,2.683,0,1,1,3.517-3.516h3.788a2.682,2.682,0,1,1,3.51,3.518v3.78A2.683,2.683,0,0,1,23.041,20.362Z" fill="#fff"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="linear-gradient" x1="4.406" y1="4.406" x2="27.693" y2="27.693" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ff962d"/>
+      <stop offset="1" stop-color="#fc7638"/>
+    </linearGradient>
+  </defs>
+  <title>color-groups-app</title>
+  <g id="New">
+    <path d="M30.3,16c0,11.44-2.86,14.3-14.3,14.3S1.7,27.44,1.7,16,4.56,1.7,16,1.7,30.3,4.56,30.3,16Z" fill="url(#linear-gradient)"/>
+    <path d="M17.894,12.683H14.106a2.7,2.7,0,0,1-1.426,1.426v3.782a2.7,2.7,0,0,1,1.426,1.426h3.782a2.7,2.7,0,0,1,1.425-1.426V14.106A2.694,2.694,0,0,1,17.894,12.683Zm5.147,7.679a2.683,2.683,0,0,1-5.153,1.045H14.106a2.683,2.683,0,1,1-3.517-3.516V14.109a2.683,2.683,0,1,1,3.517-3.516h3.788a2.682,2.682,0,1,1,3.51,3.518v3.78A2.683,2.683,0,0,1,23.041,20.362Z" fill="#fff"/>
+  </g>
+</svg>

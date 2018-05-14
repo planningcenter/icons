@@ -1,1 +1,9 @@
-<svg id="6cde595a-13c4-44b2-ab07-f3ec8ffa7feb" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>up-arrow</title><g opacity="0.008"><path d="M25,25H-1V-1H25ZM1,23H23V1H1Z"/></g><polygon points="13 20 13 7.83 18.59 13.42 20 12 12 4 4 12 5.41 13.41 11 7.83 11 20 13 20"/></svg>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <title>up-arrow</title>
+  <g>
+    <g opacity="0.008">
+      <path d="M25,25H-1V-1H25ZM1,23H23V1H1Z"/>
+    </g>
+    <polygon points="13 20 13 7.83 18.59 13.42 20 12 12 4 4 12 5.41 13.41 11 7.83 11 20 13 20"/>
+  </g>
+</svg>

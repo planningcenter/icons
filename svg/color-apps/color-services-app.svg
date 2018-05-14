@@ -1,1 +1,20 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32"><defs><linearGradient id="7f3452af-c6b7-4346-a800-b4f400ff53be" x1="4.552" y1="4.552" x2="27.448" y2="27.448" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#6bb23d"/><stop offset="0.999" stop-color="#659630"/></linearGradient></defs><title>color-services-app</title><g id="ffbc6547-c364-4757-bc61-842742e84013" data-name="New"><path d="M16,1.69C4.552,1.69,1.69,4.552,1.69,16S4.552,30.31,16,30.31,30.31,27.448,30.31,16,27.448,1.69,16,1.69Z" fill="url(#7f3452af-c6b7-4346-a800-b4f400ff53be)"/><circle cx="9.491" cy="11.09" r="1.517" fill="#fff"/><circle cx="9.491" cy="16.025" r="1.517" fill="#fff"/><circle cx="9.491" cy="20.96" r="1.517" fill="#fff"/><path d="M23.19,11.766a.7.7,0,0,1-.7.7H13.352a.7.7,0,0,1-.7-.7V10.414a.7.7,0,0,1,.7-.7H22.5a.7.7,0,0,1,.7.7Z" fill="#fff"/><rect x="12.656" y="14.654" width="10.534" height="2.743" rx="0.695" ry="0.695" fill="#fff"/><rect x="12.656" y="19.588" width="10.534" height="2.743" rx="0.695" ry="0.695" fill="#fff"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="linear-gradient" x1="4.552" y1="4.552" x2="27.448" y2="27.448" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#6bb23d"/>
+      <stop offset="0.999" stop-color="#659630"/>
+    </linearGradient>
+  </defs>
+  <title>color-services-app</title>
+  <g id="New">
+    <path d="M16,1.69C4.552,1.69,1.69,4.552,1.69,16S4.552,30.31,16,30.31,30.31,27.448,30.31,16,27.448,1.69,16,1.69Z" fill="url(#linear-gradient)"/>
+    <g>
+      <circle cx="9.491" cy="11.09" r="1.517" fill="#fff"/>
+      <circle cx="9.491" cy="16.025" r="1.517" fill="#fff"/>
+      <circle cx="9.491" cy="20.96" r="1.517" fill="#fff"/>
+      <path d="M23.19,11.766a.7.7,0,0,1-.7.7H13.352a.7.7,0,0,1-.7-.7V10.414a.7.7,0,0,1,.7-.7H22.5a.7.7,0,0,1,.7.7Z" fill="#fff"/>
+      <rect x="12.656" y="14.654" width="10.534" height="2.743" rx="0.695" ry="0.695" fill="#fff"/>
+      <rect x="12.656" y="19.588" width="10.534" height="2.743" rx="0.695" ry="0.695" fill="#fff"/>
+    </g>
+  </g>
+</svg>

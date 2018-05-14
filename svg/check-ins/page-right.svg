@@ -1,1 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><title>page-right</title><g id="07e7cadd-6b76-4ebe-bac0-f780d127225b" data-name="Layer 1"><polygon points="6.169 1.637 3.467 4.339 7.129 8 3.467 11.661 6.169 14.363 12.533 8 6.169 1.637" fill-rule="evenodd"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+  <title>page-right</title>
+  <g id="Layer_1" data-name="Layer 1">
+    <polygon points="6.169 1.637 3.467 4.339 7.129 8 3.467 11.661 6.169 14.363 12.533 8 6.169 1.637" fill-rule="evenodd"/>
+  </g>
+</svg>

@@ -1,1 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><defs><style>.cls-1{fill:#010101;}</style></defs><title>asterisk</title><g id="Layer_1" data-name="Layer 1"><g id="Rectangle_1" data-name="Rectangle 1"><g id="g4"><path id="path6" class="cls-1" d="M13.944,13.746l-2.708,1.882L8.024,10.762c-.044.032-.014,0-.046.046L4.7,15.627l-2.639-1.9.069-.069L5.66,9.064V9.041L.015,7.5,1.025,4.36l5.553,2L6.3.482H9.63L9.378,6.356l5.576-1.974L15.941,7.5,10.3,9.064Z"/></g></g></g></svg>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+  <title>asterisk</title>
+  <g id="Rectangle_1" data-name="Rectangle 1">
+    <g id="g4">
+      <path id="path6" d="M13.944,13.746l-2.707,1.881L8.024,10.762c-.044.032-.014,0-.046.046L4.7,15.627l-2.639-1.9.069-.069L5.66,9.064V9.041L.015,7.5Q.521,5.932,1.025,4.36l5.553,2Q6.44,3.419,6.3.482H9.63L9.378,6.356l5.576-1.973L15.941,7.5,10.3,9.064Z" fill="#010101"/>
+    </g>
+  </g>
+</svg>
