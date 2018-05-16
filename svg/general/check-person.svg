@@ -1,6 +1,1 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-  <title>check-person</title>
-  <polygon points="4.875 14.161 2.293 11.579 3.707 10.165 4.875 11.333 7.293 8.915 8.707 10.329 4.875 14.161"/>
-  <path d="M14,14c-2.67,0-8,1.34-8,4v2H22V18C22,15.34,16.67,14,14,14Z"/>
-  <circle cx="14" cy="8" r="4"/>
-</svg>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><title>check-person</title><polygon points="2.096 8.25 0 6.153 1.148 5.005 2.096 5.953 4.059 3.99 5.208 5.138 2.096 8.25"/><path d="M9.505,8.119c-2.168,0-6.5,1.088-6.5,3.248V12.99H16V11.367C16,9.207,11.673,8.119,9.505,8.119Z"/><circle cx="9.505" cy="3.248" r="3.248"/></svg>

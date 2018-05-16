@@ -1,8 +1,1 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-  <title>tray</title>
-  <g opacity="0.008">
-    <rect width="24" height="24"/>
-    <rect x="-6" y="-6" width="24" height="24"/>
-  </g>
-  <path d="M19,15H15a3,3,0,0,1-6,0H4.99V5H19ZM19,3H4.99A1.976,1.976,0,0,0,3.01,5L3,19a1.991,1.991,0,0,0,1.99,2H19a2.006,2.006,0,0,0,2-2V5A2,2,0,0,0,19,3Z"/>
-</svg>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><title>tray</title><path d="M14.222,10.667H10.667a2.667,2.667,0,0,1-5.334,0H1.769V1.778H14.222ZM14.222,0H1.769A1.756,1.756,0,0,0,.009,1.778L0,14.222A1.77,1.77,0,0,0,1.769,16H14.222A1.783,1.783,0,0,0,16,14.222V1.778A1.777,1.777,0,0,0,14.222,0Z"/></svg>

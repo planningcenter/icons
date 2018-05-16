@@ -1,9 +1,1 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-  <title>right-caret</title>
-  <g>
-    <g opacity="0.008">
-      <path d="M25,25H-1V-1H25ZM1,23H23V1H1Z"/>
-    </g>
-    <polygon points="10 17 15 12 10 7 10 17"/>
-  </g>
-</svg>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><title>right-caret</title><g opacity="0.008"><path d="M21,21H-5V-5H21ZM-3,19H19V-3H-3Z"/></g><polygon points="6 13 11 8 6 3 6 13"/></svg>

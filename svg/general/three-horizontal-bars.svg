@@ -1,7 +1,1 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-  <title>three-horizontal-bars</title>
-  <path d="M3,7V9H21V7Zm0,7H21V12H3Zm0,5H21V17H3Z"/>
-  <g opacity="0.008">
-    <rect x="-6" y="-6" width="24" height="24"/>
-  </g>
-</svg>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><title>three-horizontal-bars</title><path d="M0,2.467V4.244H16V2.467ZM0,8.689H16V6.911H0Zm0,4.444H16V11.356H0Z"/></svg>

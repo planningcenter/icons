@@ -1,7 +1,1 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-  <title>printer</title>
-  <g opacity="0.008">
-    <rect x="-6" y="-6" width="24" height="24"/>
-  </g>
-  <path d="M18,3H6V6H18Zm1,9a1,1,0,1,1,1-1A1,1,0,0,1,19,12Zm-3,7H8V14h8ZM19,8H5a3,3,0,0,0-3,3v6H6v4H18V17h4V11A3,3,0,0,0,19,8Z"/>
-</svg>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><title>printer</title><path d="M12.667,1H3.333V3.333h9.334Zm.777,7a.778.778,0,1,1,.778-.778A.78.78,0,0,1,13.444,8Zm-2.333,5.444H4.889V9.556h6.222Zm2.333-8.555H2.556A2.33,2.33,0,0,0,.222,7.222v4.667H3.333V15h9.334V11.889h3.111V7.222A2.33,2.33,0,0,0,13.444,4.889Z"/></svg>

@@ -1,314 +1,314 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     
-<symbol id="blank-file" class="symbol" viewBox="0 0 24 24">
-  <title>blank-file</title><g> <polygon points="19.993 5.998 16 2.005 16 5.998 19.993 5.998"/> <path d="M19,8H14V3.005a1,1,0,0,0-1-1H5a1,1,0,0,0-1,1V21a1,1,0,0,0,1,1H19a1,1,0,0,0,1-1V9A1,1,0,0,0,19,8Z"/> </g>
+<symbol id="blank-file" class="symbol" viewBox="0 0 16 16">
+  <title>blank-file</title><polygon points="14.095 3.424 11.05 0.379 11.05 3.424 14.095 3.424"/><path d="M13.337,4.949H9.525V1.142A.763.763,0,0,0,8.762.379h-6.1a.763.763,0,0,0-.763.763V14.863a.763.763,0,0,0,.763.763H13.337a.763.763,0,0,0,.763-.763V5.712A.763.763,0,0,0,13.337,4.949Z"/>
 </symbol>
 
-<symbol id="broken-link" class="symbol" viewBox="0 0 24 24">
-  <title>broken-link</title><path d="M9,17.005H8a5,5,0,0,1,0-10H9v2H8a3,3,0,0,0,0,6H9Z"/><path d="M16,17.005H15v-2h1a3,3,0,0,0,0-6H15v-2h1a5,5,0,0,1,0,10Z"/><rect x="7" y="11.005" width="3" height="2"/><rect x="14" y="11.005" width="3" height="2"/><rect x="11" y="6.005" width="2" height="12"/>
+<symbol id="broken-link" class="symbol" viewBox="0 0 16 16">
+  <title>broken-link</title><path d="M5.333,12.449H4.444a4.445,4.445,0,0,1,0-8.889h.889V5.338H4.444a2.667,2.667,0,0,0,0,5.334h.889Z"/><path d="M11.556,12.449h-.889V10.672h.889a2.667,2.667,0,0,0,0-5.334h-.889V3.56h.889a4.445,4.445,0,0,1,0,8.889Z"/><rect x="3.556" y="7.116" width="2.667" height="1.778"/><rect x="9.778" y="7.116" width="2.667" height="1.778"/><rect x="7.111" y="2.672" width="1.778" height="10.667"/>
 </symbol>
 
-<symbol id="calendar" class="symbol" viewBox="0 0 24 24">
-  <title>calendar</title><g opacity="0.008"> <rect x="-6" y="-6" width="24" height="24"/> </g><path d="M19,20H5V9H19ZM19,4H18V2H16V4H8V2H6V4H5A1.991,1.991,0,0,0,3.01,6L3,20a2,2,0,0,0,2,2H19a2.006,2.006,0,0,0,2-2V6A2.006,2.006,0,0,0,19,4Z"/>
+<symbol id="calendar" class="symbol" viewBox="0 0 16 16">
+  <title>calendar</title><path d="M13.444,14.222H2.556V5.667H13.444Zm0-12.444h-.777V.222H11.111V1.778H4.889V.222H3.333V1.778H2.556A1.548,1.548,0,0,0,1.008,3.333L1,14.222a1.555,1.555,0,0,0,1.556,1.556H13.444A1.56,1.56,0,0,0,15,14.222V3.333A1.56,1.56,0,0,0,13.444,1.778Z"/>
 </symbol>
 
-<symbol id="check-circle" class="symbol" viewBox="0 0 24 24">
-  <title>check-circle</title><g opacity="0.008"> <rect x="-6" y="-6" width="24" height="24"/> </g><circle cx="12" cy="12" r="10"/><polygon points="10.75 16.539 6.293 12.082 7.707 10.668 10.75 13.711 16.293 8.168 17.707 9.582 10.75 16.539" fill="#fff"/>
+<symbol id="check-circle" class="symbol" viewBox="0 0 16 16">
+  <title>check-circle</title><circle cx="8" cy="8" r="8"/><polygon points="7 11.631 3.434 8.066 4.566 6.934 7 9.369 11.434 4.934 12.566 6.066 7 11.631" fill="#fff"/>
 </symbol>
 
-<symbol id="check-person" class="symbol" viewBox="0 0 24 24">
-  <title>check-person</title><polygon points="4.875 14.161 2.293 11.579 3.707 10.165 4.875 11.333 7.293 8.915 8.707 10.329 4.875 14.161"/><path d="M14,14c-2.67,0-8,1.34-8,4v2H22V18C22,15.34,16.67,14,14,14Z"/><circle cx="14" cy="8" r="4"/>
+<symbol id="check-person" class="symbol" viewBox="0 0 16 16">
+  <title>check-person</title><polygon points="2.096 8.25 0 6.153 1.148 5.005 2.096 5.953 4.059 3.99 5.208 5.138 2.096 8.25"/><path d="M9.505,8.119c-2.168,0-6.5,1.088-6.5,3.248V12.99H16V11.367C16,9.207,11.673,8.119,9.505,8.119Z"/><circle cx="9.505" cy="3.248" r="3.248"/>
 </symbol>
 
-<symbol id="check" class="symbol" viewBox="0 0 24 24">
-  <title>check</title><g opacity="0.008"> <rect x="-6" y="-6" width="24" height="24"/> </g><polygon points="9 16.2 4.8 12 3.4 13.4 9 19 21 7 19.6 5.6 9 16.2"/>
+<symbol id="check" class="symbol" viewBox="0 0 16 16">
+  <title>check</title><polygon points="5.091 11.236 1.273 7.418 0 8.691 5.091 13.782 16 2.873 14.727 1.6 5.091 11.236"/>
 </symbol>
 
-<symbol id="clock" class="symbol" viewBox="0 0 24 24">
-  <title>clock</title><circle cx="12" cy="12.005" r="10"/><polygon points="12.5 7 11 7 11 13 16.25 16.15 17 14.92 12.5 12.25 12.5 7" fill="#fff"/>
+<symbol id="clock" class="symbol" viewBox="0 0 16 16">
+  <title>clock</title><circle cx="8" cy="8.005" r="8"/><polygon points="8.4 4.001 7.2 4.001 7.2 8.801 11.4 11.321 12 10.337 8.4 8.201 8.4 4.001" fill="#fff"/>
 </symbol>
 
-<symbol id="cog-person" class="symbol" viewBox="0 0 24 24">
-  <title>cog-person</title><g opacity="0.008"> <rect x="-6" y="-6" width="24" height="24"/> </g><path d="M15,14c-2.67,0-8,1.34-8,4v2H23V18C23,15.34,17.67,14,15,14Z"/><circle cx="15" cy="8" r="4"/><path d="M5.636,12.058a1.571,1.571,0,1,1,1.571-1.571A1.572,1.572,0,0,1,5.636,12.058ZM8.97,10.927a3.041,3.041,0,0,0,0-.88l.947-.74a.226.226,0,0,0,.054-.287l-.9-1.553a.225.225,0,0,0-.273-.1l-1.118.448a3.272,3.272,0,0,0-.758-.439l-.17-1.19A.22.22,0,0,0,6.534,6H4.739a.219.219,0,0,0-.22.188l-.17,1.19a3.451,3.451,0,0,0-.759.439L2.473,7.369a.219.219,0,0,0-.274.1L1.3,9.02a.219.219,0,0,0,.054.287l.946.74a3.138,3.138,0,0,0,0,.88l-.946.74a.225.225,0,0,0-.054.287l.9,1.553a.226.226,0,0,0,.274.1l1.117-.449a3.339,3.339,0,0,0,.759.44l.17,1.189a.219.219,0,0,0,.22.188h1.8a.22.22,0,0,0,.22-.188l.17-1.189a3.465,3.465,0,0,0,.758-.44l1.118.449a.218.218,0,0,0,.273-.1l.9-1.553a.227.227,0,0,0-.054-.287l-.947-.74Z"/>
+<symbol id="cog-person" class="symbol" viewBox="0 0 16 16">
+  <title>cog-person</title><path d="M10.109,9.572c-1.966,0-5.89.987-5.89,2.946V13.99H16V12.518C16,10.559,12.075,9.572,10.109,9.572Z"/><circle cx="10.109" cy="5.154" r="2.945"/><path d="M3.215,8.142A1.157,1.157,0,1,1,4.371,6.986,1.158,1.158,0,0,1,3.215,8.142Zm2.454-.833a2.192,2.192,0,0,0,0-.647l.7-.545a.168.168,0,0,0,.039-.212L5.745,4.762a.165.165,0,0,0-.2-.073l-.823.331A2.448,2.448,0,0,0,4.163,4.7L4.037,3.82a.161.161,0,0,0-.162-.138H2.554a.161.161,0,0,0-.162.138L2.266,4.7a2.564,2.564,0,0,0-.558.324L.885,4.689a.161.161,0,0,0-.2.073L.023,5.905a.163.163,0,0,0,.04.212l.7.545a2.483,2.483,0,0,0-.023.324,2.456,2.456,0,0,0,.023.323l-.7.546a.165.165,0,0,0-.04.211L.684,9.209a.166.166,0,0,0,.2.073l.823-.33a2.408,2.408,0,0,0,.558.323l.126.876a.161.161,0,0,0,.162.139H3.875a.161.161,0,0,0,.162-.139l.126-.876a2.56,2.56,0,0,0,.558-.323l.823.33a.16.16,0,0,0,.2-.073l.661-1.143a.166.166,0,0,0-.039-.211l-.7-.546Z"/>
 </symbol>
 
-<symbol id="cog" class="symbol" viewBox="0 0 24 24">
-  <title>cog</title><g opacity="0.008"> <rect x="-6" y="-6" width="24" height="24"/> </g><g> <g> <polygon points="10.75 17.556 13.25 17.556 12.937 22 11.062 22 10.75 17.556"/> <polygon points="11.062 2 12.937 2 13.25 6.444 10.75 6.444 11.062 2"/> </g> <path d="M12,4.222A7.778,7.778,0,1,0,19.778,12,7.778,7.778,0,0,0,12,4.222ZM12,17a5,5,0,1,1,5-5A5,5,0,0,1,12,17Z"/> <g> <polygon points="15.044 16.812 16.812 15.044 19.734 18.408 18.408 19.734 15.044 16.812"/> <polygon points="4.266 5.592 5.592 4.266 8.956 7.188 7.188 8.956 4.266 5.592"/> </g> <g> <polygon points="17.556 13.25 17.556 10.75 22 11.062 22 12.937 17.556 13.25"/> <polygon points="2 12.937 2 11.062 6.444 10.75 6.444 13.25 2 12.937"/> </g> <g> <polygon points="16.812 8.956 15.044 7.188 18.408 4.266 19.734 5.592 16.812 8.956"/> <polygon points="5.592 19.734 4.266 18.408 7.188 15.044 8.956 16.812 5.592 19.734"/> </g> </g>
+<symbol id="cog" class="symbol" viewBox="0 0 16 16">
+  <title>cog</title><polygon points="7 12.444 9 12.444 8.75 16 7.25 16 7 12.444"/><polygon points="7.25 0 8.75 0 9 3.556 7 3.556 7.25 0"/><path d="M8,1.778A6.222,6.222,0,1,0,14.222,8,6.222,6.222,0,0,0,8,1.778ZM8,12a4,4,0,1,1,4-4A4,4,0,0,1,8,12Z"/><polygon points="10.436 11.85 11.85 10.436 14.187 13.127 13.127 14.187 10.436 11.85"/><polygon points="1.813 2.873 2.873 1.813 5.564 4.15 4.15 5.564 1.813 2.873"/><polygon points="12.444 9 12.444 7 16 7.25 16 8.75 12.444 9"/><polygon points="0 8.75 0 7.25 3.556 7 3.556 9 0 8.75"/><polygon points="11.85 5.564 10.436 4.15 13.127 1.813 14.187 2.873 11.85 5.564"/><polygon points="2.873 14.187 1.813 13.127 4.15 10.436 5.564 11.85 2.873 14.187"/>
 </symbol>
 
-<symbol id="credit-card" class="symbol" viewBox="0 0 24 24">
-  <title>credit-card</title><g opacity="0.008"> <rect width="24" height="24"/> <rect x="-6" y="-6" width="24" height="24"/> </g><path d="M20,8H4V6H20Zm0,10H4V12H20ZM20,4H4A1.985,1.985,0,0,0,2.01,6L2,18a1.993,1.993,0,0,0,2,2H20a1.993,1.993,0,0,0,2-2V6A1.993,1.993,0,0,0,20,4Z"/><rect x="14" y="14" width="4" height="2" rx="1" ry="1"/>
+<symbol id="credit-card" class="symbol" viewBox="0 0 16 16">
+  <title>credit-card</title><path d="M14.4,4.8H1.6V3.2H14.4Zm0,8H1.6V8H14.4Zm0-11.2H1.6A1.588,1.588,0,0,0,.008,3.2L0,12.8a1.594,1.594,0,0,0,1.6,1.6H14.4A1.594,1.594,0,0,0,16,12.8V3.2A1.594,1.594,0,0,0,14.4,1.6Z"/><rect x="9.6" y="9.6" width="3.2" height="1.6" rx="0.8" ry="0.8"/>
 </symbol>
 
-<symbol id="down-arrow" class="symbol" viewBox="0 0 24 24">
-  <title>down-arrow</title><g> <g opacity="0.008"> <path d="M25,25H-1V-1H25ZM1,23H23V1H1Z"/> </g> <polygon points="11 4 11 16.17 5.41 10.58 4 12 12 20 20 12 18.59 10.59 13 16.17 13 4 11 4"/> </g>
+<symbol id="down-arrow" class="symbol" viewBox="0 0 16 16">
+  <title>down-arrow</title><g opacity="0.008"><path d="M21,21H-5V-5H21ZM-3,19H19V-3H-3Z"/></g><polygon points="7 0 7 12.17 1.41 6.58 0 8 8 16 16 8 14.59 6.59 9 12.17 9 0 7 0"/>
 </symbol>
 
-<symbol id="down-caret" class="symbol" viewBox="0 0 24 24">
-  <title>down-caret</title><g> <g opacity="0.008"> <path d="M25,25H-1V-1H25ZM1,23H23V1H1Z"/> </g> <polygon points="7 10 12 15 17 10 7 10"/> </g>
+<symbol id="down-caret" class="symbol" viewBox="0 0 16 16">
+  <title>down-caret</title><g opacity="0.008"><path d="M21,21H-5V-5H21ZM-3,19H19V-3H-3Z"/></g><polygon points="3 6 8 11 13 6 3 6"/>
 </symbol>
 
-<symbol id="down-chevron" class="symbol" viewBox="0 0 24 24">
-  <title>down-chevron</title><g> <g opacity="0.008"> <path d="M25,25H-1V-1H25ZM1,23H23V1H1Z"/> </g> <polygon points="16.09 8.59 11.5 13.17 6.91 8.59 5.5 10 11.5 16 17.5 10 16.09 8.59"/> </g>
+<symbol id="down-chevron" class="symbol" viewBox="0 0 16 16">
+  <title>down-chevron</title><g opacity="0.008"><path d="M21,21H-5V-5H21ZM-3,19H19V-3H-3Z"/></g><polygon points="12.09 4.59 7.5 9.17 2.91 4.59 1.5 6 7.5 12 13.5 6 12.09 4.59"/>
 </symbol>
 
-<symbol id="envelope" class="symbol" viewBox="0 0 24 24">
-  <title>envelope</title><g opacity="0.008"> <rect x="-6" y="-6" width="24" height="24"/> </g><path d="M20,4H4A2,2,0,0,0,2.01,6L2,18a2.006,2.006,0,0,0,2,2H20a2.006,2.006,0,0,0,2-2V6A2.006,2.006,0,0,0,20,4Z"/><polygon points="12 13.879 3.767 8.939 4.796 7.224 12 11.547 19.204 7.224 20.233 8.939 12 13.879" fill="#fff"/>
+<symbol id="envelope" class="symbol" viewBox="0 0 16 16">
+  <title>envelope</title><path d="M14.4,1.6H1.6A1.6,1.6,0,0,0,.008,3.2L0,12.8a1.6,1.6,0,0,0,1.6,1.6H14.4A1.6,1.6,0,0,0,16,12.8V3.2A1.6,1.6,0,0,0,14.4,1.6Z"/><polygon points="8 9.503 1.413 5.551 2.237 4.179 8 7.637 13.763 4.179 14.587 5.551 8 9.503" fill="#fff"/>
 </symbol>
 
-<symbol id="exchange" class="symbol" viewBox="0 0 24 24">
-  <title>exchange</title><g> <path d="M18.7,18.535H4.228v-2H18.7a.207.207,0,0,0,.206-.206V12.712h2v3.617A2.208,2.208,0,0,1,18.7,18.535Z"/> <polygon points="2 17.459 5.873 21 5.873 13.918 2 17.459"/> </g><g> <path d="M5.1,11.288h-2V7.671A2.208,2.208,0,0,1,5.3,5.465H19.772v2H5.3a.206.206,0,0,0-.206.206Z"/> <polygon points="22 6.541 18.127 3 18.127 10.082 22 6.541"/> </g>
+<symbol id="exchange" class="symbol" viewBox="0 0 16 16">
+  <title>exchange</title><path d="M13.4,13.056H1.98V11.478H13.4a.163.163,0,0,0,.162-.163V8.462h1.578v2.853A1.743,1.743,0,0,1,13.4,13.056Z"/><polygon points="0.222 12.206 3.278 15 3.278 9.413 0.222 12.206"/><path d="M2.664,7.338H1.086V4.485A1.743,1.743,0,0,1,2.827,2.744H14.243V4.322H2.827a.163.163,0,0,0-.163.163Z"/><polygon points="16 3.594 12.945 0.8 12.945 6.387 16 3.594"/>
 </symbol>
 
-<symbol id="exclamation-triangle" class="symbol" viewBox="0 0 24 24">
-  <title>exclamation-triangle</title><g opacity="0.008"> <rect x="-6" y="-6" width="24" height="24"/> </g><path d="M13,14H11V10h2Zm0,4H11V16h2ZM2.734,21H21.266a1,1,0,0,0,.865-1.5l-9.266-16a1,1,0,0,0-1.73,0l-9.266,16A1,1,0,0,0,2.734,21Z"/>
+<symbol id="exclamation-triangle" class="symbol" viewBox="0 0 16 16">
+  <title>exclamation-triangle</title><path d="M8.757,9.514H7.243V6.485H8.757Zm0,3.028H7.243V11.028H8.757ZM.986,14.813H15.014a.757.757,0,0,0,.655-1.137L8.655,1.561a.756.756,0,0,0-1.31,0L.331,13.676A.757.757,0,0,0,.986,14.813Z"/>
 </symbol>
 
-<symbol id="folder-open" class="symbol" viewBox="0 0 24 24">
-  <title>folder-open</title><path d="M1.049,12.558A4,4,0,0,1,5.024,9H21V8a2.006,2.006,0,0,0-2-2H11.414a1,1,0,0,1-.707-.293L9.293,4.293A1,1,0,0,0,8.586,4H3A2,2,0,0,0,1.01,6"/><path d="M21,11H5.024a2,2,0,0,0-1.987,1.779l-.556,5A2,2,0,0,0,4.469,20H20.444a2,2,0,0,0,1.988-1.779l.556-5A2,2,0,0,0,21,11Z"/>
+<symbol id="folder-open" class="symbol" viewBox="0 0 16 16">
+  <title>folder-open</title><path d="M.038,8.406A2.906,2.906,0,0,1,2.929,5.819H14.546V5.091a1.459,1.459,0,0,0-1.455-1.454H7.575a.727.727,0,0,1-.514-.213L6.033,2.4a.723.723,0,0,0-.514-.213H1.457A1.452,1.452,0,0,0,.01,3.637"/><path d="M14.546,7.273H2.929A1.453,1.453,0,0,0,1.484,8.567L1.08,12.2a1.454,1.454,0,0,0,1.445,1.615H14.142a1.454,1.454,0,0,0,1.445-1.294l.4-3.635A1.454,1.454,0,0,0,14.546,7.273Z"/>
 </symbol>
 
-<symbol id="folder" class="symbol" viewBox="0 0 24 24">
-  <title>folder</title><g opacity="0.008"> <rect width="24" height="24"/> <rect x="-6" y="-6" width="24" height="24"/> </g><path d="M10.293,4.293A1,1,0,0,0,9.586,4H4A2,2,0,0,0,2.01,6L2,18a2.006,2.006,0,0,0,2,2H20a2.006,2.006,0,0,0,2-2V8a2.006,2.006,0,0,0-2-2H12.414a1,1,0,0,1-.707-.293Z"/>
+<symbol id="folder" class="symbol" viewBox="0 0 16 16">
+  <title>folder</title><path d="M6.672,2.006a.776.776,0,0,0-.55-.228H1.778A1.553,1.553,0,0,0,.23,3.333L.222,12.667a1.56,1.56,0,0,0,1.556,1.555H14.222a1.56,1.56,0,0,0,1.556-1.555V4.889a1.56,1.56,0,0,0-1.556-1.556h-5.9a.781.781,0,0,1-.55-.227Z"/>
 </symbol>
 
-<symbol id="from-cloud-arrow" class="symbol" viewBox="0 0 24 24">
-  <title>from-cloud-arrow</title><g opacity="0.008"> <rect x="-6" y="-6" width="24" height="24"/> </g><path d="M17,13l-5,5L7,13h3V9h4v4Zm2.35-2.96a7.492,7.492,0,0,0-14-2A6,6,0,0,0,6,20H19a4.986,4.986,0,0,0,.35-9.96Z"/>
+<symbol id="from-cloud-arrow" class="symbol" viewBox="0 0 16 16">
+  <title>from-cloud-arrow</title><g opacity="0.008"><rect x="-10" y="-10" width="24" height="24"/></g><path d="M11.333,8.667,8,12,4.667,8.667h2V6H9.333V8.667ZM12.9,6.693A4.995,4.995,0,0,0,3.567,5.36,4,4,0,0,0,4,13.333h8.667a3.324,3.324,0,0,0,.233-6.64Z"/>
 </symbol>
 
-<symbol id="heart" class="symbol" viewBox="0 0 24 24">
-  <title>heart</title><g> <g opacity="0.008"> <rect x="-6" y="-6" width="24" height="24"/> </g> <path d="M12,21.35l-1.45-1.32C5.4,15.36,2,12.28,2,8.5A5.447,5.447,0,0,1,7.5,3,5.988,5.988,0,0,1,12,5.09,5.988,5.988,0,0,1,16.5,3,5.447,5.447,0,0,1,22,8.5c0,3.78-3.4,6.86-8.55,11.54Z"/> <g opacity="0.008"> <rect x="-6" y="-6" width="24" height="24"/> </g> </g>
+<symbol id="heart" class="symbol" viewBox="0 0 16 16">
+  <title>heart</title><g opacity="0.008"><rect x="-6.28" y="-6.28" width="19.04" height="19.04"/></g><path d="M8,15.418,6.85,14.371C2.764,10.666.067,8.222.067,5.223A4.32,4.32,0,0,1,4.43.86,4.75,4.75,0,0,1,8,2.518,4.75,4.75,0,0,1,11.57.86a4.32,4.32,0,0,1,4.363,4.363c0,3-2.7,5.443-6.783,9.156Z"/><g opacity="0.008"><rect x="-6.28" y="-6.28" width="19.04" height="19.04"/></g>
 </symbol>
 
 <symbol id="horizontal-bars" class="symbol" viewBox="0 0 24 24">
   <title>horizontal-bars</title><path d="M3,7V9H21V7Zm0,7H21V12H3Zm0,5H21V17H3Z"/><g opacity="0.008"><rect x="-6" y="-6" width="24" height="24"/></g>
 </symbol>
 
-<symbol id="in-tray" class="symbol" viewBox="0 0 24 24">
-  <title>in-tray</title><g opacity="0.008"> <rect x="-6" y="-6" width="24" height="24"/> </g><path d="M16,10H14V7H10v3H8l4,4Zm3,5H15a3,3,0,0,1-6,0H4.99V5H19ZM19,3H4.99A1.982,1.982,0,0,0,3.01,5L3,19a1.991,1.991,0,0,0,1.99,2H19a2.006,2.006,0,0,0,2-2V5A2.006,2.006,0,0,0,19,3Z"/>
+<symbol id="in-tray" class="symbol" viewBox="0 0 16 16">
+  <title>in-tray</title><path d="M11.556,6.222H9.778V3.556H6.222V6.222H4.444L8,9.778Zm2.666,4.445H10.667a2.667,2.667,0,0,1-5.334,0H1.769V1.778H14.222ZM14.222,0H1.769A1.762,1.762,0,0,0,.009,1.778L0,14.222A1.77,1.77,0,0,0,1.769,16H14.222A1.783,1.783,0,0,0,16,14.222V1.778A1.783,1.783,0,0,0,14.222,0Z"/>
 </symbol>
 
-<symbol id="info-circle" class="symbol" viewBox="0 0 24 24">
-  <title>info-circle</title><g> <rect x="11" y="8.505" width="2" height="2" transform="translate(24 19.01) rotate(180)" fill="#fff"/> <rect x="11" y="11.505" width="2" height="4" transform="translate(24 27.01) rotate(180)" fill="#fff"/> </g><g opacity="0.008"> <rect x="-6" y="-6" width="24" height="24"/> </g><path d="M13,9H11V7h2Zm0,8H11V11h2ZM12,2A10,10,0,1,0,22,12,10,10,0,0,0,12,2Z"/>
+<symbol id="info-circle" class="symbol" viewBox="0 0 16 16">
+  <title>info-circle</title><rect x="7.2" y="5.204" width="1.6" height="1.6" transform="translate(16 12.008) rotate(180)" fill="#fff"/><rect x="7.2" y="7.604" width="1.6" height="3.2" transform="translate(16 18.408) rotate(180)" fill="#fff"/><path d="M8.8,5.6H7.2V4H8.8Zm0,6.4H7.2V7.2H8.8ZM8,0a8,8,0,1,0,8,8A8,8,0,0,0,8,0Z"/>
 </symbol>
 
-<symbol id="into-box" class="symbol" viewBox="0 0 24 24">
-  <title>into-box</title><g opacity="0.008"> <rect x="-6" y="-6" width="24" height="24"/> </g><path d="M19,3H5A2,2,0,0,0,3,5V9H5V5H19V19H5V15H3v4a2,2,0,0,0,2,2H19a2.006,2.006,0,0,0,2-2V5A2.006,2.006,0,0,0,19,3ZM10.09,15.59,11.5,17l5-5-5-5L10.09,8.41,12.67,11H3v2h9.67Z"/>
+<symbol id="into-box" class="symbol" viewBox="0 0 16 16">
+  <title>into-box</title><g opacity="0.008"><rect x="-10" y="-10" width="24" height="24"/></g><path d="M14.222,0H1.778A1.777,1.777,0,0,0,0,1.778V5.333H1.778V1.778H14.222V14.222H1.778V10.667H0v3.555A1.777,1.777,0,0,0,1.778,16H14.222A1.783,1.783,0,0,0,16,14.222V1.778A1.783,1.783,0,0,0,14.222,0ZM6.3,11.191l1.254,1.253L12,8,7.556,3.556,6.3,4.809,8.6,7.111H0V8.889H8.6Z"/>
 </symbol>
 
-<symbol id="left-arrow" class="symbol" viewBox="0 0 24 24">
-  <title>left-arrow</title><g> <g opacity="0.008"> <path d="M25,25H-1V-1H25ZM1,23H23V1H1Z"/> </g> <polygon points="20 11 7.83 11 13.42 5.41 12 4 4 12 12 20 13.41 18.59 7.83 13 20 13 20 11"/> </g>
+<symbol id="left-arrow" class="symbol" viewBox="0 0 16 16">
+  <title>left-arrow</title><g opacity="0.008"><path d="M21,21H-5V-5H21ZM-3,19H19V-3H-3Z"/></g><polygon points="16 7 3.83 7 9.42 1.41 8 0 0 8 8 16 9.41 14.59 3.83 9 16 9 16 7"/>
 </symbol>
 
-<symbol id="left-caret" class="symbol" viewBox="0 0 24 24">
-  <title>left-caret</title><g> <g opacity="0.008"> <path d="M25,25H-1V-1H25ZM1,23H23V1H1Z"/> </g> <polygon points="14 7 9 12 14 17 14 7"/> </g>
+<symbol id="left-caret" class="symbol" viewBox="0 0 16 16">
+  <title>left-caret</title><g opacity="0.008"><path d="M21,21H-5V-5H21ZM-3,19H19V-3H-3Z"/></g><polygon points="10 3 5 8 10 13 10 3"/>
 </symbol>
 
-<symbol id="left-chevron" class="symbol" viewBox="0 0 24 24">
-  <title>left-chevron</title><g> <g opacity="0.008"> <path d="M25,25H-1V-1H25ZM1,23H23V1H1Z"/> </g> <polygon points="15.41 16.09 10.83 11.5 15.41 6.91 14 5.5 8 11.5 14 17.5 15.41 16.09"/> </g>
+<symbol id="left-chevron" class="symbol" viewBox="0 0 16 16">
+  <title>left-chevron</title><g opacity="0.008"><path d="M21,21H-5V-5H21ZM-3,19H19V-3H-3Z"/></g><polygon points="11.41 12.09 6.83 7.5 11.41 2.91 10 1.5 4 7.5 10 13.5 11.41 12.09"/>
 </symbol>
 
-<symbol id="link" class="symbol" viewBox="0 0 24 24">
-  <title>link</title><g opacity="0.008"> <rect x="-6" y="-6" width="24" height="24"/> </g><path d="M17,7H13V8.9h4a3.1,3.1,0,1,1,0,6.2H13V17h4A5,5,0,0,0,17,7ZM8,13h8V11H8ZM3.9,12A3.1,3.1,0,0,1,7,8.9h4V7H7A5,5,0,0,0,7,17h4V15.1H7A3.1,3.1,0,0,1,3.9,12Z"/>
+<symbol id="link" class="symbol" viewBox="0 0 16 16">
+  <title>link</title><path d="M12,4H8.8V5.52H12a2.48,2.48,0,0,1,0,4.96H8.8V12H12a4,4,0,0,0,0-8ZM4.8,8.8h6.4V7.2H4.8ZM1.52,8A2.482,2.482,0,0,1,4,5.52H7.2V4H4a4,4,0,0,0,0,8H7.2V10.48H4A2.482,2.482,0,0,1,1.52,8Z"/>
 </symbol>
 
-<symbol id="location-pin" class="symbol" viewBox="0 0 24 24">
-  <title>location-pin</title><path d="M16.945,5.305h0a7.016,7.016,0,0,0-9.921,0h0a7.015,7.015,0,0,0-.451,9.426l5.411,6.56,5.412-6.56A7.016,7.016,0,0,0,16.945,5.305Zm-4.961,7.231a2,2,0,1,1,2-2A2,2,0,0,1,11.984,12.536Z"/>
+<symbol id="location-pin" class="symbol" viewBox="0 0 16 16">
+  <title>location-pin</title><path d="M12.521,1.9h0a6.416,6.416,0,0,0-9.073,0h0a6.416,6.416,0,0,0-.413,8.619l4.949,6,4.949-6A6.415,6.415,0,0,0,12.521,1.9ZM7.984,8.514A1.829,1.829,0,1,1,9.813,6.685,1.829,1.829,0,0,1,7.984,8.514Z"/>
 </symbol>
 
-<symbol id="lock" class="symbol" viewBox="0 0 24 24">
-  <title>lock</title><g opacity="0.008"> <rect x="-6" y="-6" width="24" height="24"/> </g><path d="M15.1,8H8.9V6a3.1,3.1,0,0,1,6.2,0ZM12,17a2,2,0,1,1,2-2A2.006,2.006,0,0,1,12,17Zm6-9H17V6A5,5,0,0,0,7,6V8H6a2.006,2.006,0,0,0-2,2V20a2.006,2.006,0,0,0,2,2H18a2.006,2.006,0,0,0,2-2V10A2.006,2.006,0,0,0,18,8Z"/>
+<symbol id="lock" class="symbol" viewBox="0 0 16 16">
+  <title>lock</title><path d="M10.4,5.315H5.707V3.8a2.344,2.344,0,1,1,4.688,0Zm-2.344,6.8a1.513,1.513,0,1,1,1.512-1.513A1.517,1.517,0,0,1,8.051,12.12Zm4.537-6.8h-.756V3.8a3.781,3.781,0,1,0-7.561,0V5.315H3.515A1.516,1.516,0,0,0,2,6.827v7.561A1.516,1.516,0,0,0,3.515,15.9h9.073A1.516,1.516,0,0,0,14.1,14.388V6.827A1.516,1.516,0,0,0,12.588,5.315Z"/>
 </symbol>
 
-<symbol id="minus-circle" class="symbol" viewBox="0 0 24 24">
-  <title>minus-circle</title><g opacity="0.008"> <rect x="-6" y="-6" width="24" height="24"/> </g><path d="M17,13H7V11H17ZM12,2A10,10,0,1,0,22,12,10,10,0,0,0,12,2Z"/>
+<symbol id="minus-circle" class="symbol" viewBox="0 0 16 16">
+  <title>minus-circle</title><path d="M12,8.8H4V7.2h8ZM8,0a8,8,0,1,0,8,8A8,8,0,0,0,8,0Z"/>
 </symbol>
 
-<symbol id="mobile-phone" class="symbol" viewBox="0 0 24 24">
-  <title>mobile-phone</title><rect x="11.25" y="16.755" width="1.5" height="1.5" rx="0.75" ry="0.75" fill="#fff"/><g opacity="0.008"> <rect x="-6" y="-6" width="24" height="24"/> </g><path d="M17,19H7V5H17ZM17,1.01,7,1A2.006,2.006,0,0,0,5,3V21a2.006,2.006,0,0,0,2,2H17a2.006,2.006,0,0,0,2-2V3A2,2,0,0,0,17,1.01Z"/>
+<symbol id="mobile-phone" class="symbol" viewBox="0 0 16 16">
+  <title>mobile-phone</title><rect x="7.25" y="12.755" width="1.5" height="1.5" rx="0.75" ry="0.75" fill="#fff"/><path d="M11.571,13H4.429V3h7.142Zm0-12.85L4.429.143A1.433,1.433,0,0,0,3,1.571V14.429a1.433,1.433,0,0,0,1.429,1.428h7.142A1.433,1.433,0,0,0,13,14.429V1.571A1.427,1.427,0,0,0,11.571.15Z"/>
 </symbol>
 
-<symbol id="outlined-blank-file" class="symbol" viewBox="0 0 24 24">
-  <title>outlined-blank-file</title><path d="M14.166,4.083l3.788,3.783V19.927H6.1V4.083h8.07m.827-2H5.513A1.417,1.417,0,0,0,4.1,3.5V20.509a1.417,1.417,0,0,0,1.417,1.418H18.537a1.417,1.417,0,0,0,1.417-1.418V7.037L14.993,2.083Z"/><polygon points="18.537 10.163 11.972 10.163 11.972 3.493 13.972 3.493 13.972 8.163 18.537 8.163 18.537 10.163"/>
+<symbol id="outlined-blank-file" class="symbol" viewBox="0 0 16 16">
+  <title>outlined-blank-file</title><path d="M9.752,1.614l3.057,3.052V14.4H3.241V1.614H9.752M10.42,0H2.771A1.144,1.144,0,0,0,1.627,1.144V14.866A1.144,1.144,0,0,0,2.771,16.01H13.279a1.144,1.144,0,0,0,1.143-1.144V4l-4-4Z"/><polygon points="13.279 6.519 7.982 6.519 7.982 1.137 9.596 1.137 9.596 4.905 13.279 4.905 13.279 6.519"/>
 </symbol>
 
-<symbol id="outlined-clock" class="symbol" viewBox="0 0 24 24">
-  <title>outlined-clock</title><g opacity="0.008"> <rect x="-6" y="-6" width="24" height="24"/> </g><path d="M12.5,7H11v6l5.25,3.15L17,14.92l-4.5-2.67ZM12,20a8,8,0,1,1,8-8A8,8,0,0,1,12,20ZM11.99,2A10,10,0,1,0,22,12,10,10,0,0,0,11.99,2Z"/>
+<symbol id="outlined-clock" class="symbol" viewBox="0 0 16 16">
+  <title>outlined-clock</title><g opacity="0.008"><rect x="-10" y="-10" width="24" height="24"/></g><path d="M8.4,4H7.2V8.8l4.2,2.52.6-.984L8.4,8.2ZM8,14.4A6.4,6.4,0,1,1,14.4,8,6.4,6.4,0,0,1,8,14.4ZM7.992,0A8,8,0,1,0,16,8,8,8,0,0,0,7.992,0Z"/>
 </symbol>
 
-<symbol id="outlined-credit-card" class="symbol" viewBox="0 0 24 24">
-  <title>outlined-credit-card</title><rect x="3" y="5" width="17" height="13"/><g opacity="0.008"> <rect width="24" height="24"/> <rect x="-6" y="-6" width="24" height="24"/> </g><path d="M20,8H4V6H20Zm0,10H4V12H20ZM20,4H4A1.985,1.985,0,0,0,2.01,6L2,18a1.993,1.993,0,0,0,2,2H20a1.993,1.993,0,0,0,2-2V6A1.993,1.993,0,0,0,20,4Z"/><rect x="14" y="14" width="4" height="2" rx="1" ry="1" fill="#fff"/><rect x="2" y="8" width="20" height="2" fill="#fff"/>
+<symbol id="outlined-credit-card" class="symbol" viewBox="0 0 16 16">
+  <title>outlined-credit-card</title><rect x="0.8" y="2.4" width="13.6" height="10.4"/><path d="M14.4,4.8H1.6V3.2H14.4Zm0,8H1.6V8H14.4Zm0-11.2H1.6A1.588,1.588,0,0,0,.008,3.2L0,12.8a1.594,1.594,0,0,0,1.6,1.6H14.4A1.594,1.594,0,0,0,16,12.8V3.2A1.594,1.594,0,0,0,14.4,1.6Z"/><rect x="9.6" y="9.6" width="3.2" height="1.6" rx="0.8" ry="0.8" fill="#fff"/><rect y="4.8" width="16" height="1.6" fill="#fff"/>
 </symbol>
 
-<symbol id="outlined-envelope" class="symbol" viewBox="0 0 24 24">
-  <title>outlined-envelope</title><g opacity="0.008"> <rect x="-6" y="-6" width="24" height="24"/> </g><path d="M20,6V18L4,18V6H20m0-2H4A2,2,0,0,0,2.01,6L2,18a2.006,2.006,0,0,0,2,2H20a2.006,2.006,0,0,0,2-2V6a2.006,2.006,0,0,0-2-2Z"/><polygon points="12 14.125 2.948 8.693 3.978 6.979 12 11.792 20.022 6.979 21.052 8.693 12 14.125"/>
+<symbol id="outlined-envelope" class="symbol" viewBox="0 0 16 16">
+  <title>outlined-envelope</title><g opacity="0.008"><rect x="-10" y="-10" width="24" height="24"/></g><path d="M14.4,3.2v9.6H1.6V3.2H14.4m0-1.6H1.6A1.6,1.6,0,0,0,.008,3.2L0,12.8a1.6,1.6,0,0,0,1.6,1.6H14.4A1.6,1.6,0,0,0,16,12.8V3.2a1.6,1.6,0,0,0-1.6-1.6Z"/><polygon points="8 9.7 0.759 5.355 1.582 3.983 8 7.834 14.418 3.983 15.241 5.355 8 9.7"/>
 </symbol>
 
-<symbol id="outlined-heart" class="symbol" viewBox="0 0 24 24">
-  <title>outlined-heart</title><g> <g opacity="0.008"> <rect width="24" height="24"/> <rect x="-6" y="-6" width="24" height="24"/> </g> <g opacity="0.008"> <rect width="24" height="24"/> <rect x="-6" y="-6" width="24" height="24"/> </g> <path d="M12.1,18.55l-.1.1-.1-.1C7.14,14.24,4,11.39,4,8.5A3.418,3.418,0,0,1,7.5,5a3.909,3.909,0,0,1,3.57,2.36h1.87A3.885,3.885,0,0,1,16.5,5,3.418,3.418,0,0,1,20,8.5C20,11.39,16.86,14.24,12.1,18.55ZM16.5,3A5.988,5.988,0,0,0,12,5.09,5.988,5.988,0,0,0,7.5,3,5.447,5.447,0,0,0,2,8.5c0,3.78,3.4,6.86,8.55,11.54L12,21.35l1.45-1.32C18.6,15.36,22,12.28,22,8.5A5.447,5.447,0,0,0,16.5,3Z"/> </g>
+<symbol id="outlined-heart" class="symbol" viewBox="0 0 16 16">
+  <title>outlined-heart</title><g opacity="0.008"><rect x="-1.645" y="-1.645" width="19.29" height="19.29"/><rect x="-6.467" y="-6.467" width="19.29" height="19.29"/></g><g opacity="0.008"><rect x="-1.645" y="-1.645" width="19.29" height="19.29"/><rect x="-6.467" y="-6.467" width="19.29" height="19.29"/></g><path d="M8.08,13.264,8,13.345l-.08-.081C4.094,9.8,1.57,7.51,1.57,5.187A2.747,2.747,0,0,1,4.383,2.374a3.143,3.143,0,0,1,2.87,1.9h1.5a3.121,3.121,0,0,1,2.861-1.9A2.747,2.747,0,0,1,14.43,5.187C14.43,7.51,11.906,9.8,8.08,13.264ZM11.617.766A4.812,4.812,0,0,0,8,2.446,4.812,4.812,0,0,0,4.383.766,4.378,4.378,0,0,0-.037,5.187c0,3.038,2.732,5.514,6.872,9.275L8,15.515l1.165-1.061c4.14-3.753,6.872-6.229,6.872-9.267A4.378,4.378,0,0,0,11.617.766Z"/>
 </symbol>
 
-<symbol id="outlined-info-circle" class="symbol" viewBox="0 0 24 24">
-  <title>outlined-info-circle</title><g opacity="0.008"> <rect x="-6" y="-6" width="24" height="24"/> </g><path d="M11,9h2V7H11Zm1,11a8,8,0,1,1,8-8A8.011,8.011,0,0,1,12,20ZM12,2A10,10,0,1,0,22,12,10,10,0,0,0,12,2ZM11,17h2V11H11Z"/>
+<symbol id="outlined-info-circle" class="symbol" viewBox="0 0 16 16">
+  <title>outlined-info-circle</title><path d="M7.2,5.6H8.8V4H7.2ZM8,14.4A6.4,6.4,0,1,1,14.4,8,6.408,6.408,0,0,1,8,14.4ZM8,0a8,8,0,1,0,8,8A8,8,0,0,0,8,0ZM7.2,12H8.8V7.2H7.2Z"/>
 </symbol>
 
-<symbol id="outlined-location-pin" class="symbol" viewBox="0 0 24 24">
-  <title>outlined-location-pin</title><path d="M11.984,5.583A4.683,4.683,0,0,1,15.6,13.246l-3.613,4.379L8.372,13.246a4.683,4.683,0,0,1,3.612-7.663m0-2.332a7,7,0,0,0-4.96,2.054h0a7.015,7.015,0,0,0-.451,9.426l5.411,6.56,5.412-6.56a7.016,7.016,0,0,0-.451-9.426h0a7,7,0,0,0-4.961-2.054Z"/><circle cx="11.984" cy="10.536" r="2"/>
+<symbol id="outlined-location-pin" class="symbol" viewBox="0 0 16 16">
+  <title>outlined-location-pin</title><path d="M7.984,2.139A4.293,4.293,0,0,1,11.3,9.165L7.984,13.181,4.672,9.165A4.293,4.293,0,0,1,7.984,2.139M7.984,0A6.412,6.412,0,0,0,3.436,1.884h0a6.433,6.433,0,0,0-.414,8.642l4.962,6.015,4.963-6.015a6.433,6.433,0,0,0-.414-8.642h0A6.412,6.412,0,0,0,7.984,0Z"/><circle cx="7.984" cy="6.536" r="2"/>
 </symbol>
 
-<symbol id="outlined-plus-circle" class="symbol" viewBox="0 0 24 24">
-  <title>outlined-plus-circle</title><g opacity="0.008"> <rect x="-6" y="-6" width="24" height="24"/> </g><path d="M12,20a8,8,0,1,1,8-8A8.011,8.011,0,0,1,12,20ZM12,2A10,10,0,1,0,22,12,10,10,0,0,0,12,2Zm1,5H11v4H7v2h4v4h2V13h4V11H13Z"/>
+<symbol id="outlined-plus-circle" class="symbol" viewBox="0 0 16 16">
+  <title>outlined-plus-circle</title><path d="M8,14.4A6.4,6.4,0,1,1,14.4,8,6.408,6.408,0,0,1,8,14.4ZM8,0a8,8,0,1,0,8,8A8,8,0,0,0,8,0Zm.8,4H7.2V7.2H4V8.8H7.2V12H8.8V8.8H12V7.2H8.8Z"/>
 </symbol>
 
-<symbol id="outlined-question-circle" class="symbol" viewBox="0 0 24 24">
-  <title>outlined-question-circle</title><g opacity="0.008"> <rect x="-6" y="-6" width="24" height="24"/> </g><path d="M12,6a4,4,0,0,0-4,4h2a2,2,0,0,1,4,0c0,2-3,1.75-3,5h2c0-2.25,3-2.5,3-5A4,4,0,0,0,12,6Zm0,14a8,8,0,1,1,8-8A8.011,8.011,0,0,1,12,20ZM12,2A10,10,0,1,0,22,12,10,10,0,0,0,12,2ZM11,18h2V16H11Z"/>
+<symbol id="outlined-question-circle" class="symbol" viewBox="0 0 16 16">
+  <title>outlined-question-circle</title><path d="M8,3.2A3.2,3.2,0,0,0,4.8,6.4H6.4a1.6,1.6,0,1,1,3.2,0c0,1.6-2.4,1.4-2.4,4H8.8c0-1.8,2.4-2,2.4-4A3.2,3.2,0,0,0,8,3.2ZM8,14.4A6.4,6.4,0,1,1,14.4,8,6.408,6.408,0,0,1,8,14.4ZM8,0a8,8,0,1,0,8,8A8,8,0,0,0,8,0ZM7.2,12.8H8.8V11.2H7.2Z"/>
 </symbol>
 
-<symbol id="outlined-text-file" class="symbol" viewBox="0 0 24 24">
-  <title>outlined-text-file</title><path d="M14.212,4.083,18,7.866V19.927H6.141V4.083h8.071m.827-2H5.559A1.418,1.418,0,0,0,4.141,3.5V20.509a1.418,1.418,0,0,0,1.418,1.418H18.583A1.418,1.418,0,0,0,20,20.509V7.037L15.039,2.083Z"/><polygon points="18.512 10.163 11.947 10.163 11.947 3.493 13.947 3.493 13.947 8.163 18.512 8.163 18.512 10.163"/><rect x="9" y="12" width="6" height="2"/><rect x="9" y="15" width="6" height="2"/>
+<symbol id="outlined-text-file" class="symbol" viewBox="0 0 16 16">
+  <title>outlined-text-file</title><path d="M9.8,1.614l3.057,3.052V14.4H3.287V1.614H9.8M10.466,0H2.817A1.144,1.144,0,0,0,1.673,1.144V14.866A1.144,1.144,0,0,0,2.817,16.01H13.325a1.144,1.144,0,0,0,1.143-1.144V4l-4-4Z"/><polygon points="13.267 6.519 7.971 6.519 7.971 1.137 9.585 1.137 9.585 4.905 13.267 4.905 13.267 6.519"/><rect x="5.593" y="8.001" width="4.841" height="1.614"/><rect x="5.593" y="10.421" width="4.841" height="1.614"/>
 </symbol>
 
-<symbol id="outlined-two-blank-files" class="symbol" viewBox="0 0 24 24">
-  <title>outlined-two-blank-files</title><g> <path d="M16.016,4.005,19,6.985V16H9V4.005h7.016m.828-2H8.188A1.188,1.188,0,0,0,7,3.193V16.812A1.188,1.188,0,0,0,8.188,18H19.812A1.188,1.188,0,0,0,21,16.812V6.156L16.844,2.005Z"/> <polygon points="19.812 8.937 14.062 8.937 14.062 3.187 16.062 3.187 16.062 6.937 19.812 6.937 19.812 8.937"/> </g><path d="M17,22H5.187A2.19,2.19,0,0,1,3,19.812V6H5V19.812A.188.188,0,0,0,5.187,20H17Z"/>
+<symbol id="outlined-two-blank-files" class="symbol" viewBox="0 0 16 16">
+  <title>outlined-two-blank-files</title><path d="M11.215,1.6,13.6,3.986V11.2h-8V1.6h5.616M11.877,0H4.948A.95.95,0,0,0,4,.951v10.9a.95.95,0,0,0,.95.95h9.305a.95.95,0,0,0,.951-.95V3.322L11.877,0Z"/><polygon points="14.254 5.548 9.651 5.548 9.651 0.946 11.251 0.946 11.251 3.947 14.254 3.947 14.254 5.548"/><path d="M12,16.005H2.547A1.754,1.754,0,0,1,.8,14.254V3.2H2.4V14.254a.15.15,0,0,0,.15.15H12Z"/>
 </symbol>
 
-<symbol id="outlined-x-circle" class="symbol" viewBox="0 0 24 24">
-  <title>outlined-x-circle</title><g opacity="0.008"> <rect x="-6" y="-6" width="24" height="24"/> </g><path d="M6.343,17.657a8,8,0,1,1,11.314,0A8.012,8.012,0,0,1,6.343,17.657ZM19.071,4.929a10,10,0,1,0,0,14.142A10,10,0,0,0,19.071,4.929ZM16.243,9.172,14.828,7.757,12,10.586,9.172,7.757,7.757,9.172,10.586,12,7.757,14.828l1.415,1.415L12,13.414l2.828,2.829,1.415-1.415L13.414,12Z"/>
+<symbol id="outlined-x-circle" class="symbol" viewBox="0 0 16 16">
+  <title>outlined-x-circle</title><g opacity="0.008"><rect x="-10" y="-10" width="24" height="24"/></g><path d="M3.5,12.5a6.364,6.364,0,1,1,9,0A6.374,6.374,0,0,1,3.5,12.5ZM13.625,2.375a7.955,7.955,0,1,0,0,11.25A7.96,7.96,0,0,0,13.625,2.375ZM11.375,5.75,10.25,4.625,8,6.875,5.75,4.625,4.625,5.75,6.875,8l-2.25,2.25L5.75,11.375,8,9.125l2.25,2.25,1.125-1.125L9.125,8Z"/>
 </symbol>
 
-<symbol id="pencil-person" class="symbol" viewBox="0 0 24 24">
-  <title>pencil-person</title><path d="M8.5,8.711a.422.422,0,0,0,0-.6l-.991-.99a.422.422,0,0,0-.6,0L6.135,7.9,7.722,9.486ZM1,13.033v1.588H2.587l4.32-4.32L5.319,8.714Z"/><g opacity="0.008"> <rect x="-6" y="-6" width="24" height="24"/> </g><path d="M15,14c-2.67,0-8,1.34-8,4v2H23V18C23,15.34,17.67,14,15,14Z"/><circle cx="15" cy="8" r="4"/>
+<symbol id="pencil-person" class="symbol" viewBox="0 0 16 16">
+  <title>pencil-person</title><path d="M5.452,5.608a.307.307,0,0,0,0-.434l-.72-.72a.307.307,0,0,0-.434,0l-.564.563L4.889,6.172ZM0,8.751V9.906H1.154L4.3,6.765,3.141,5.61Z"/><path d="M10.182,9.455c-1.942,0-5.818.974-5.818,2.909v1.454H16V12.364C16,10.429,12.124,9.455,10.182,9.455Z"/><circle cx="10.182" cy="5.091" r="2.909"/>
 </symbol>
 
-<symbol id="pencil" class="symbol" viewBox="0 0 24 24">
-  <title>pencil</title><g opacity="0.008"> <rect x="-6" y="-6" width="24" height="24"/> </g><path d="M20.708,7.041a1,1,0,0,0,0-1.409l-2.34-2.34a1,1,0,0,0-1.409,0l-1.83,1.83,3.749,3.749ZM3,17.249V21H6.751L17,10.749,13.251,7Z"/>
+<symbol id="pencil" class="symbol" viewBox="0 0 16 16">
+  <title>pencil</title><path d="M15.711,3.759a.87.87,0,0,0,0-1.232L13.665.481a.87.87,0,0,0-1.232,0l-1.6,1.6,3.278,3.278ZM.228,12.686v3.278H3.506L12.469,7,9.19,3.723Z"/>
 </symbol>
 
-<symbol id="person-badge" class="symbol" viewBox="0 0 24 24">
-  <title>person-badge</title><g opacity="0.008"> <rect x="-6" y="-6" width="24" height="24"/> </g><path d="M18,19H6V17.6c0-2,4-3.1,6-3.1s6,1.1,6,3.1ZM12,7a3,3,0,1,1-3,3A3,3,0,0,1,12,7Zm0-4a1,1,0,1,1-1,1A1,1,0,0,1,12,3Zm7,0H14.82A2.988,2.988,0,0,0,9.18,3H5A2.006,2.006,0,0,0,3,5V19a2.006,2.006,0,0,0,2,2H19a2.006,2.006,0,0,0,2-2V5A2.006,2.006,0,0,0,19,3Z"/>
+<symbol id="person-badge" class="symbol" viewBox="0 0 16 16">
+  <title>person-badge</title><path d="M12.667,14.3H3.133V13.188c0-1.589,3.178-2.463,4.767-2.463s4.767.874,4.767,2.463ZM7.9,4.767A2.383,2.383,0,1,1,5.517,7.15,2.379,2.379,0,0,1,7.9,4.767Zm0-3.178a.795.795,0,1,1-.794.794A.8.8,0,0,1,7.9,1.589Zm5.561,0H10.14a2.373,2.373,0,0,0-4.48,0H2.339A1.594,1.594,0,0,0,.75,3.178V14.3a1.594,1.594,0,0,0,1.589,1.589H13.461A1.594,1.594,0,0,0,15.05,14.3V3.178A1.594,1.594,0,0,0,13.461,1.589Z"/>
 </symbol>
 
-<symbol id="person" class="symbol" viewBox="0 0 24 24">
-  <title>person</title><g opacity="0.008"> <rect x="-6" y="-6" width="24" height="24"/> </g><path d="M12,14c-2.67,0-8,1.34-8,4v2H20V18C20,15.34,14.67,14,12,14Zm0-2A4,4,0,1,0,8,8,4,4,0,0,0,12,12Z"/>
+<symbol id="person" class="symbol" viewBox="0 0 16 16">
+  <title>person</title><g opacity="0.008"><rect x="-10" y="-10" width="24" height="24"/></g><path d="M8,10c-2.67,0-8,1.34-8,4v2H16V14C16,11.34,10.67,10,8,10ZM8,8A4,4,0,1,0,4,4,4,4,0,0,0,8,8Z"/>
 </symbol>
 
-<symbol id="pico" class="symbol" viewBox="0 0 24 24">
-  <title>pico</title><circle cx="12" cy="4.386" r="2.136"/><ellipse cx="7.228" cy="14.353" rx="1.424" ry="2.136"/><ellipse cx="16.772" cy="14.353" rx="1.424" ry="2.136"/><path d="M12,9.945a22.922,22.922,0,0,1,6.4.882,2.244,2.244,0,0,1,1.564,2.166v2.719A2.246,2.246,0,0,1,18.4,17.879a22.959,22.959,0,0,1-6.4.881,22.959,22.959,0,0,1-6.4-.881,2.246,2.246,0,0,1-1.564-2.167V12.993A2.244,2.244,0,0,1,5.6,10.827,22.922,22.922,0,0,1,12,9.945m0-2a24.766,24.766,0,0,0-6.969.964,4.239,4.239,0,0,0-3,4.084v2.719a4.241,4.241,0,0,0,3,4.085A24.767,24.767,0,0,0,12,20.76a24.767,24.767,0,0,0,6.969-.963,4.241,4.241,0,0,0,3-4.085V12.993a4.239,4.239,0,0,0-3-4.084A24.766,24.766,0,0,0,12,7.945Z"/><path d="M10.576,15.065a1.424,1.424,0,0,0,2.848,0"/>
+<symbol id="pico" class="symbol" viewBox="0 0 16 16">
+  <title>pico</title><circle cx="8" cy="2.029" r="1.643"/><ellipse cx="4.33" cy="9.696" rx="1.095" ry="1.643"/><ellipse cx="11.67" cy="9.696" rx="1.095" ry="1.643"/><path d="M8,6.305a17.66,17.66,0,0,1,4.925.678,1.727,1.727,0,0,1,1.2,1.667v2.091a1.727,1.727,0,0,1-1.2,1.667A17.66,17.66,0,0,1,8,13.086a17.66,17.66,0,0,1-4.925-.678,1.727,1.727,0,0,1-1.2-1.667V8.65a1.727,1.727,0,0,1,1.2-1.667A17.66,17.66,0,0,1,8,6.305M8,4.767a19.065,19.065,0,0,0-5.361.741A3.261,3.261,0,0,0,.333,8.65v2.091a3.261,3.261,0,0,0,2.306,3.142A19.065,19.065,0,0,0,8,14.624a19.065,19.065,0,0,0,5.361-.741,3.261,3.261,0,0,0,2.306-3.142V8.65a3.261,3.261,0,0,0-2.306-3.142A19.065,19.065,0,0,0,8,4.767Z"/><path d="M6.905,10.243a1.1,1.1,0,1,0,2.19,0"/>
 </symbol>
 
-<symbol id="plus-circle" class="symbol" viewBox="0 0 24 24">
-  <title>plus-circle</title><g opacity="0.008"> <rect x="-6" y="-6" width="24" height="24"/> </g><path d="M17,13H13v4H11V13H7V11h4V7h2v4h4ZM12,2A10,10,0,1,0,22,12,10,10,0,0,0,12,2Z"/>
+<symbol id="plus-circle" class="symbol" viewBox="0 0 16 16">
+  <title>plus-circle</title><path d="M12,8.8H8.8V12H7.2V8.8H4V7.2H7.2V4H8.8V7.2H12ZM8,0a8,8,0,1,0,8,8A8,8,0,0,0,8,0Z"/>
 </symbol>
 
-<symbol id="plus-person" class="symbol" viewBox="0 0 24 24">
-  <title>plus-person</title><g opacity="0.008"> <rect x="-6" y="-6" width="24" height="24"/> </g><path d="M15,14c-2.67,0-8,1.34-8,4v2H23V18C23,15.34,17.67,14,15,14ZM6,10V7H4v3H1v2H4v3H6V12H9V10Zm9,2a4,4,0,1,0-4-4A4,4,0,0,0,15,12Z"/>
+<symbol id="plus-person" class="symbol" viewBox="0 0 16 16">
+  <title>plus-person</title><path d="M10.341,9.386c-1.972,0-5.909.99-5.909,2.955v1.477H16.25V12.341C16.25,10.376,12.313,9.386,10.341,9.386ZM3.693,6.432V4.216H2.216V6.432H0V7.909H2.216v2.216H3.693V7.909H5.909V6.432Zm6.648,1.477A2.955,2.955,0,1,0,7.386,4.955,2.953,2.953,0,0,0,10.341,7.909Z"/>
 </symbol>
 
-<symbol id="plus" class="symbol" viewBox="0 0 24 24">
-  <title>plus</title><g opacity="0.008"> <rect x="-6" y="-6" width="24" height="24"/> </g><polygon points="19 13 13 13 13 19 11 19 11 13 5 13 5 11 11 11 11 5 13 5 13 11 19 11 19 13"/>
+<symbol id="plus" class="symbol" viewBox="0 0 16 16">
+  <title>plus</title><polygon points="16 9.143 9.143 9.143 9.143 16 6.857 16 6.857 9.143 0 9.143 0 6.857 6.857 6.857 6.857 0 9.143 0 9.143 6.857 16 6.857 16 9.143"/>
 </symbol>
 
-<symbol id="printer" class="symbol" viewBox="0 0 24 24">
-  <title>printer</title><g opacity="0.008"> <rect x="-6" y="-6" width="24" height="24"/> </g><path d="M18,3H6V6H18Zm1,9a1,1,0,1,1,1-1A1,1,0,0,1,19,12Zm-3,7H8V14h8ZM19,8H5a3,3,0,0,0-3,3v6H6v4H18V17h4V11A3,3,0,0,0,19,8Z"/>
+<symbol id="printer" class="symbol" viewBox="0 0 16 16">
+  <title>printer</title><path d="M12.667,1H3.333V3.333h9.334Zm.777,7a.778.778,0,1,1,.778-.778A.78.78,0,0,1,13.444,8Zm-2.333,5.444H4.889V9.556h6.222Zm2.333-8.555H2.556A2.33,2.33,0,0,0,.222,7.222v4.667H3.333V15h9.334V11.889h3.111V7.222A2.33,2.33,0,0,0,13.444,4.889Z"/>
 </symbol>
 
-<symbol id="question-circle" class="symbol" viewBox="0 0 24 24">
-  <title>question-circle</title><g> <g opacity="0.008"> <rect x="-6" y="-6" width="24" height="24"/> </g> <g> <circle cx="12" cy="12" r="10"/> <rect x="11" y="16" width="2" height="2" fill="#fff"/> <path d="M12,6a4,4,0,0,0-4,4h2a2,2,0,0,1,4,0c0,2-3,1.75-3,5h2c0-2.25,3-2.5,3-5A4,4,0,0,0,12,6Z" fill="#fff"/> </g> </g>
+<symbol id="question-circle" class="symbol" viewBox="0 0 16 16">
+  <title>question-circle</title><circle cx="8" cy="8" r="8"/><rect x="7.2" y="11.2" width="1.6" height="1.6" fill="#fff"/><path d="M8,3.2A3.2,3.2,0,0,0,4.8,6.4H6.4a1.6,1.6,0,1,1,3.2,0c0,1.6-2.4,1.4-2.4,4H8.8c0-1.8,2.4-2,2.4-4A3.2,3.2,0,0,0,8,3.2Z" fill="#fff"/>
 </symbol>
 
 <symbol id="reduced-horizontal-bars" class="symbol" viewBox="0 0 24 24">
   <title>reduced-horizontal-bars</title><g opacity="0.008"><rect x="-6" y="-6" width="24" height="24"/></g><path d="M6,13H18V11H6ZM3,6V8H21V6Zm7,12h4V16H10Z"/>
 </symbol>
 
-<symbol id="right-arrow" class="symbol" viewBox="0 0 24 24">
-  <title>right-arrow</title><g> <g opacity="0.008"> <path d="M25,25H-1V-1H25ZM1,23H23V1H1Z"/> </g> <polygon points="4 13 16.17 13 10.58 18.59 12 20 20 12 12 4 10.59 5.41 16.17 11 4 11 4 13"/> </g>
+<symbol id="right-arrow" class="symbol" viewBox="0 0 16 16">
+  <title>right-arrow</title><g opacity="0.008"><path d="M21,21H-5V-5H21ZM-3,19H19V-3H-3Z"/></g><polygon points="0 9 12.17 9 6.58 14.59 8 16 16 8 8 0 6.59 1.41 12.17 7 0 7 0 9"/>
 </symbol>
 
-<symbol id="right-caret" class="symbol" viewBox="0 0 24 24">
-  <title>right-caret</title><g> <g opacity="0.008"> <path d="M25,25H-1V-1H25ZM1,23H23V1H1Z"/> </g> <polygon points="10 17 15 12 10 7 10 17"/> </g>
+<symbol id="right-caret" class="symbol" viewBox="0 0 16 16">
+  <title>right-caret</title><g opacity="0.008"><path d="M21,21H-5V-5H21ZM-3,19H19V-3H-3Z"/></g><polygon points="6 13 11 8 6 3 6 13"/>
 </symbol>
 
-<symbol id="right-chevron" class="symbol" viewBox="0 0 24 24">
-  <title>right-chevron</title><g> <g opacity="0.008"> <path d="M25,25H-1V-1H25ZM1,23H23V1H1Z"/> </g> <polygon points="8.59 7.91 13.17 12.5 8.59 17.09 10 18.5 16 12.5 10 6.5 8.59 7.91"/> </g>
+<symbol id="right-chevron" class="symbol" viewBox="0 0 16 16">
+  <title>right-chevron</title><g opacity="0.008"><path d="M21,21H-5V-5H21ZM-3,19H19V-3H-3Z"/></g><polygon points="4.59 3.91 9.17 8.5 4.59 13.09 6 14.5 12 8.5 6 2.5 4.59 3.91"/>
 </symbol>
 
-<symbol id="search" class="symbol" viewBox="0 0 24 24">
-  <title>search</title><g opacity="0.008"> <rect x="-6" y="-6" width="24" height="24"/> </g><path d="M10.947,6a4.947,4.947,0,1,1-3.5,1.449A4.914,4.914,0,0,1,10.947,6m0-2A6.948,6.948,0,1,0,15.86,6.035,6.922,6.922,0,0,0,10.947,4Z"/><rect x="16.5" y="13.964" width="2" height="7.071" transform="translate(-7.249 17.5) rotate(-45)"/><path d="M10.947,6a4.947,4.947,0,1,1-3.5,1.449A4.914,4.914,0,0,1,10.947,6m0-2A6.948,6.948,0,1,0,15.86,6.035,6.922,6.922,0,0,0,10.947,4Z"/><rect x="16.5" y="13.964" width="2" height="7.071" transform="translate(-7.249 17.5) rotate(-45)"/>
+<symbol id="search" class="symbol" viewBox="0 0 16 16">
+  <title>search</title><g opacity="0.008"><rect x="-10" y="-10" width="24" height="24"/></g><path d="M6.947,2a4.947,4.947,0,1,1-3.5,1.449A4.914,4.914,0,0,1,6.947,2m0-2A6.948,6.948,0,1,0,11.86,2.035,6.922,6.922,0,0,0,6.947,0Z"/><rect x="12.5" y="9.964" width="2" height="7.071" transform="translate(-5.592 13.5) rotate(-45)"/><path d="M6.947,2a4.947,4.947,0,1,1-3.5,1.449A4.914,4.914,0,0,1,6.947,2m0-2A6.948,6.948,0,1,0,11.86,2.035,6.922,6.922,0,0,0,6.947,0Z"/><rect x="12.5" y="9.964" width="2" height="7.071" transform="translate(-5.592 13.5) rotate(-45)"/>
 </symbol>
 
-<symbol id="star-circle" class="symbol" viewBox="0 0 24 24">
-  <title>star-circle</title><polygon points="12 8.055 13.236 10.557 16 10.958 14 12.905 14.472 15.655 12 14.357 9.528 15.655 10 12.905 8 10.958 10.764 10.557 12 8.055" fill="#fff"/><g opacity="0.008"> <rect x="-6" y="-6" width="24" height="24"/> </g><path d="M16.23,18,12,15.45,7.77,18l1.12-4.81L5.16,9.96l4.92-.42L12,5l1.92,4.53,4.92.42-3.73,3.23ZM11.99,2A10,10,0,1,0,22,12,10,10,0,0,0,11.99,2Z"/>
+<symbol id="star-circle" class="symbol" viewBox="0 0 16 16">
+  <title>star-circle</title><polygon points="8 4.055 9.236 6.557 12 6.958 10 8.905 10.472 11.655 8 10.357 5.528 11.655 6 8.905 4 6.958 6.764 6.557 8 4.055" fill="#fff"/><g opacity="0.008"><rect x="-10" y="-10" width="24" height="24"/></g><path d="M11.384,12.8,8,10.76,4.616,12.8l.9-3.848L2.528,6.368l3.936-.336L8,2.4,9.536,6.024l3.936.336L10.488,8.944ZM7.992,0A8,8,0,1,0,16,8,8,8,0,0,0,7.992,0Z"/>
 </symbol>
 
-<symbol id="star-square" class="symbol" viewBox="0 0 24 24">
-  <title>star-square</title><rect x="2" y="2" width="20" height="20" rx="1" ry="1"/><polygon points="12 5.143 14.163 9.521 19 10.223 15.5 13.631 16.326 18.443 12 16.171 7.674 18.443 8.5 13.631 5 10.223 9.837 9.521 12 5.143" fill="#fff"/>
+<symbol id="star-square" class="symbol" viewBox="0 0 16 16">
+  <title>star-square</title><rect width="16" height="16" rx="0.8" ry="0.8"/><polygon points="8 2.514 9.73 6.017 13.6 6.578 10.8 9.305 11.461 13.154 8 11.337 4.539 13.154 5.2 9.305 2.4 6.578 6.27 6.017 8 2.514" fill="#fff"/>
 </symbol>
 
-<symbol id="star" class="symbol" viewBox="0 0 24 24">
-  <title>star</title><polygon points="12 2.355 15.09 8.609 22 9.612 17 14.481 18.18 21.355 12 18.109 5.82 21.355 7 14.481 2 9.612 8.91 8.609 12 2.355"/>
+<symbol id="star" class="symbol" viewBox="0 0 16 16">
+  <title>star</title><polygon points="8 0 10.555 5.171 16.268 6.001 12.134 10.026 13.11 15.71 8 13.026 2.89 15.71 3.866 10.026 -0.268 6.001 5.445 5.171 8 0"/>
 </symbol>
 
-<symbol id="text-file" class="symbol" viewBox="0 0 24 24">
-  <title>text-file</title><g> <polygon points="19.993 5.998 16 2.005 16 5.998 19.993 5.998"/> <path d="M19,8H14V3.005a1,1,0,0,0-1-1H5a1,1,0,0,0-1,1V21a1,1,0,0,0,1,1H19a1,1,0,0,0,1-1V9A1,1,0,0,0,19,8Zm-3,9H8V15h8Zm0-4H8V11h8Z"/> </g>
+<symbol id="text-file" class="symbol" viewBox="0 0 16 16">
+  <title>text-file</title><polygon points="14.217 3.333 11.111 0.227 11.111 3.333 14.217 3.333"/><path d="M13.444,4.888H9.556V1A.778.778,0,0,0,8.778.227H2.556A.777.777,0,0,0,1.778,1V15a.777.777,0,0,0,.778.777H13.444A.777.777,0,0,0,14.222,15V5.666A.778.778,0,0,0,13.444,4.888Zm-2.333,7H4.889V10.334h6.222Zm0-3.111H4.889V7.223h6.222Z"/>
 </symbol>
 
-<symbol id="thick-from-bottom-arrow" class="symbol" viewBox="0 0 24 24">
-  <title>thick-from-bottom-arrow</title><g opacity="0.008"> <rect width="24" height="24"/> <rect x="-6" y="-6" width="24" height="24"/> </g><g> <rect x="5" y="18" width="14" height="2"/> <polygon points="5 10 9 10 9 16 15 16 15 10 19 10 12 3 5 10"/> </g>
+<symbol id="thick-from-bottom-arrow" class="symbol" viewBox="0 0 16 16">
+  <title>thick-from-bottom-arrow</title><rect x="1.6" y="14.125" width="13.128" height="1.875"/><polygon points="1.6 6.623 5.351 6.623 5.351 12.249 10.977 12.249 10.977 6.623 14.728 6.623 8.164 0.059 1.6 6.623"/>
 </symbol>
 
-<symbol id="thick-to-bottom-arrow" class="symbol" viewBox="0 0 24 24">
-  <title>thick-to-bottom-arrow</title><g opacity="0.008"> <rect width="24" height="24"/> <rect x="-6" y="-6" width="24" height="24"/> </g><path d="M5,18v2H19V18ZM19,9H15V3H9V9H5l7,7Z"/>
+<symbol id="thick-to-bottom-arrow" class="symbol" viewBox="0 0 16 16">
+  <title>thick-to-bottom-arrow</title><path d="M1.45,14.118V16H14.626V14.118ZM14.626,5.647H10.862V0H5.215V5.647H1.45l6.588,6.588Z"/>
 </symbol>
 
-<symbol id="three-horizontal-bars" class="symbol" viewBox="0 0 24 24">
-  <title>three-horizontal-bars</title><path d="M3,7V9H21V7Zm0,7H21V12H3Zm0,5H21V17H3Z"/><g opacity="0.008"> <rect x="-6" y="-6" width="24" height="24"/> </g>
+<symbol id="three-horizontal-bars" class="symbol" viewBox="0 0 16 16">
+  <title>three-horizontal-bars</title><path d="M0,2.467V4.244H16V2.467ZM0,8.689H16V6.911H0Zm0,4.444H16V11.356H0Z"/>
 </symbol>
 
-<symbol id="three-horizontal-list-items" class="symbol" viewBox="0 0 24 24">
-  <title>three-horizontal-list-items</title><g opacity="0.008"> <rect x="-6" y="-6" width="24" height="24"/> </g><path d="M7,7V9H21V7ZM7,17H21V15H7Zm0-4H21V11H7ZM3,9H5V7H3Zm0,8H5V15H3Zm0-4H5V11H3Z"/>
+<symbol id="three-horizontal-list-items" class="symbol" viewBox="0 0 16 16">
+  <title>three-horizontal-list-items</title><path d="M3.556,3.556V5.333H16V3.556Zm0,8.888H16V10.667H3.556Zm0-3.555H16V7.111H3.556ZM0,5.333H1.778V3.556H0Zm0,7.111H1.778V10.667H0ZM0,8.889H1.778V7.111H0Z"/>
 </symbol>
 
-<symbol id="three-reducing-horizontal-bars" class="symbol" viewBox="0 0 24 24">
-  <title>three-reducing-horizontal-bars</title><g opacity="0.008"> <rect x="-6" y="-6" width="24" height="24"/> </g><path d="M6,13H18V11H6ZM3,6V8H21V6Zm7,12h4V16H10Z"/>
+<symbol id="three-reducing-horizontal-bars" class="symbol" viewBox="0 0 16 16">
+  <title>three-reducing-horizontal-bars</title><path d="M2.667,8.889H13.333V7.111H2.667ZM0,2.667V4.444H16V2.667ZM6.222,13.333H9.778V11.556H6.222Z"/>
 </symbol>
 
-<symbol id="to-cloud-arrow" class="symbol" viewBox="0 0 24 24">
-  <title>to-cloud-arrow</title><g opacity="0.008"> <rect x="-6" y="-6" width="24" height="24"/> </g><path d="M14,13v4H10V13H7l5-5,5,5Zm5.35-2.96a7.492,7.492,0,0,0-14-2A6,6,0,0,0,6,20H19a4.986,4.986,0,0,0,.35-9.96Z"/>
+<symbol id="to-cloud-arrow" class="symbol" viewBox="0 0 16 16">
+  <title>to-cloud-arrow</title><g opacity="0.008"><rect x="-10" y="-10" width="24" height="24"/></g><path d="M9.333,8.667v2.666H6.667V8.667h-2L8,5.333l3.333,3.334ZM12.9,6.693A4.995,4.995,0,0,0,3.567,5.36,4,4,0,0,0,4,13.333h8.667a3.324,3.324,0,0,0,.233-6.64Z"/>
 </symbol>
 
-<symbol id="trash" class="symbol" viewBox="0 0 24 24">
-  <title>trash</title><g opacity="0.008"> <rect x="-6" y="-6" width="24" height="24"/> </g><path d="M17,4H15.5l-1-1h-5l-1,1H7A2,2,0,0,0,5,6V7H19V6A2,2,0,0,0,17,4ZM6,19a2.006,2.006,0,0,0,2,2h8a2.006,2.006,0,0,0,2-2V10H6Z"/>
+<symbol id="trash" class="symbol" viewBox="0 0 16 16">
+  <title>trash</title><path d="M12.357,1.029H11.05L10.179.157H5.821l-.871.872H3.643A1.742,1.742,0,0,0,1.9,2.771v.872H14.1V2.771A1.742,1.742,0,0,0,12.357,1.029ZM2.771,14.1a1.748,1.748,0,0,0,1.743,1.743h6.972A1.748,1.748,0,0,0,13.229,14.1V6.257H2.771Z"/>
 </symbol>
 
-<symbol id="tray" class="symbol" viewBox="0 0 24 24">
-  <title>tray</title><g opacity="0.008"> <rect width="24" height="24"/> <rect x="-6" y="-6" width="24" height="24"/> </g><path d="M19,15H15a3,3,0,0,1-6,0H4.99V5H19ZM19,3H4.99A1.976,1.976,0,0,0,3.01,5L3,19a1.991,1.991,0,0,0,1.99,2H19a2.006,2.006,0,0,0,2-2V5A2,2,0,0,0,19,3Z"/>
+<symbol id="tray" class="symbol" viewBox="0 0 16 16">
+  <title>tray</title><path d="M14.222,10.667H10.667a2.667,2.667,0,0,1-5.334,0H1.769V1.778H14.222ZM14.222,0H1.769A1.756,1.756,0,0,0,.009,1.778L0,14.222A1.77,1.77,0,0,0,1.769,16H14.222A1.783,1.783,0,0,0,16,14.222V1.778A1.777,1.777,0,0,0,14.222,0Z"/>
 </symbol>
 
-<symbol id="two-blank-files" class="symbol" viewBox="0 0 24 24">
-  <title>two-blank-files</title><g> <polygon points="20.994 5.423 17.571 2 17.571 5.423 20.994 5.423"/> <path d="M14.714,2H8.143A1.143,1.143,0,0,0,7,3.143V16.857A1.143,1.143,0,0,0,8.143,18H19.857A1.143,1.143,0,0,0,21,16.857V8.28a1.143,1.143,0,0,0-1.143-1.143h-4V3.143A1.143,1.143,0,0,0,14.714,2Z"/> </g><path d="M17,22H5.187A2.19,2.19,0,0,1,3,19.812V6H5V19.812A.188.188,0,0,0,5.187,20H17Z"/>
+<symbol id="two-blank-files" class="symbol" viewBox="0 0 16 16">
+  <title>two-blank-files</title><polygon points="15.046 2.811 12.402 0.167 12.402 2.811 15.046 2.811"/><path d="M10.2.167H5.119a.882.882,0,0,0-.882.882V11.642a.882.882,0,0,0,.882.883h9.048a.883.883,0,0,0,.883-.883V5.017a.882.882,0,0,0-.883-.882H11.078V1.049A.882.882,0,0,0,10.2.167Z"/><path d="M11.96,15.614H2.837a1.692,1.692,0,0,1-1.69-1.689V3.256H2.692V13.925a.144.144,0,0,0,.145.144H11.96Z"/>
 </symbol>
 
-<symbol id="two-people" class="symbol" viewBox="0 0 24 24">
-  <title>two-people</title><g opacity="0.008"> <rect x="-6" y="-7" width="24" height="24"/> </g><path d="M16,12c-.29,0-.62.02-.97.05A4.22,4.22,0,0,1,17,15.5V18h6V15.5C23,13.17,18.33,12,16,12ZM8,12c-2.33,0-7,1.17-7,3.5V18H15V15.5C15,13.17,10.33,12,8,12Zm0-2A3,3,0,1,0,5,7,2.987,2.987,0,0,0,8,10Zm8,0a3,3,0,1,0-3-3A2.987,2.987,0,0,0,16,10Z"/>
+<symbol id="two-people" class="symbol" viewBox="0 0 16 16">
+  <title>two-people</title><path d="M10.882,8.783c-.21,0-.449.014-.7.036a3.06,3.06,0,0,1,1.428,2.5v1.813h4.352V11.321C15.959,9.631,12.572,8.783,10.882,8.783Zm-5.8,0C3.391,8.783,0,9.631,0,11.321v1.813H10.157V11.321C10.157,9.631,6.77,8.783,5.081,8.783Zm0-1.451A2.176,2.176,0,1,0,2.905,5.157,2.165,2.165,0,0,0,5.081,7.332Zm5.8,0A2.176,2.176,0,1,0,8.707,5.157,2.166,2.166,0,0,0,10.882,7.332Z"/>
 </symbol>
 
-<symbol id="up-arrow" class="symbol" viewBox="0 0 24 24">
-  <title>up-arrow</title><g> <g opacity="0.008"> <path d="M25,25H-1V-1H25ZM1,23H23V1H1Z"/> </g> <polygon points="13 20 13 7.83 18.59 13.42 20 12 12 4 4 12 5.41 13.41 11 7.83 11 20 13 20"/> </g>
+<symbol id="up-arrow" class="symbol" viewBox="0 0 16 16">
+  <title>up-arrow</title><g opacity="0.008"><path d="M21,21H-5V-5H21ZM-3,19H19V-3H-3Z"/></g><polygon points="9 16 9 3.83 14.59 9.42 16 8 8 0 0 8 1.41 9.41 7 3.83 7 16 9 16"/>
 </symbol>
 
-<symbol id="up-caret" class="symbol" viewBox="0 0 24 24">
-  <title>up-caret</title><g> <g opacity="0.008"> <path d="M25,25H-1V-1H25ZM1,23H23V1H1Z"/> </g> <polygon points="17 14 12 9 7 14 17 14"/> </g>
+<symbol id="up-caret" class="symbol" viewBox="0 0 16 16">
+  <title>up-caret</title><g opacity="0.008"><path d="M21,21H-5V-5H21ZM-3,19H19V-3H-3Z"/></g><polygon points="13 10 8 5 3 10 13 10"/>
 </symbol>
 
-<symbol id="up-chevron" class="symbol" viewBox="0 0 24 24">
-  <title>up-chevron</title><g> <g opacity="0.008"> <path d="M25,25H-1V-1H25ZM1,23H23V1H1Z"/> </g> <polygon points="7.91 15.41 12.5 10.83 17.09 15.41 18.5 14 12.5 8 6.5 14 7.91 15.41"/> </g>
+<symbol id="up-chevron" class="symbol" viewBox="0 0 16 16">
+  <title>up-chevron</title><g opacity="0.008"><path d="M21,21H-5V-5H21ZM-3,19H19V-3H-3Z"/></g><polygon points="3.91 11.41 8.5 6.83 13.09 11.41 14.5 10 8.5 4 2.5 10 3.91 11.41"/>
 </symbol>
 
-<symbol id="x-circle" class="symbol" viewBox="0 0 24 24">
-  <title>x-circle</title><g opacity="0.008"> <rect x="-6" y="-6" width="24" height="24"/> </g><path d="M14.828,16.243,12,13.414,9.172,16.243,7.757,14.828,10.586,12,7.757,9.172,9.172,7.757,12,10.586l2.828-2.829,1.415,1.415L13.414,12l2.829,2.828ZM19.071,4.929a10,10,0,1,0,0,14.142A10,10,0,0,0,19.071,4.929Z"/>
+<symbol id="x-circle" class="symbol" viewBox="0 0 16 16">
+  <title>x-circle</title><path d="M10.153,11.23,8,9.077,5.847,11.23,4.77,10.153,6.923,8,4.77,5.847,5.847,4.77,8,6.923,10.153,4.77,11.23,5.847,9.077,8l2.153,2.153Zm3.231-8.614a7.614,7.614,0,1,0,0,10.768A7.619,7.619,0,0,0,13.384,2.616Z"/>
 </symbol>
 
-<symbol id="x" class="symbol" viewBox="0 0 24 24">
-  <title>x</title><g opacity="0.008"> <rect x="-6" y="-6" width="24" height="24"/> </g><polygon points="19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41"/>
+<symbol id="x" class="symbol" viewBox="0 0 16 16">
+  <title>x</title><polygon points="16 1.611 14.389 0 8 6.389 1.611 0 0 1.611 6.389 8 0 14.389 1.611 16 8 9.611 14.389 16 16 14.389 9.611 8 16 1.611"/>
 </symbol>
     </svg>

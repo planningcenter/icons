@@ -1,7 +1,1 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-  <title>trash</title>
-  <g opacity="0.008">
-    <rect x="-6" y="-6" width="24" height="24"/>
-  </g>
-  <path d="M17,4H15.5l-1-1h-5l-1,1H7A2,2,0,0,0,5,6V7H19V6A2,2,0,0,0,17,4ZM6,19a2.006,2.006,0,0,0,2,2h8a2.006,2.006,0,0,0,2-2V10H6Z"/>
-</svg>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><title>trash</title><path d="M12.357,1.029H11.05L10.179.157H5.821l-.871.872H3.643A1.742,1.742,0,0,0,1.9,2.771v.872H14.1V2.771A1.742,1.742,0,0,0,12.357,1.029ZM2.771,14.1a1.748,1.748,0,0,0,1.743,1.743h6.972A1.748,1.748,0,0,0,13.229,14.1V6.257H2.771Z"/></svg>

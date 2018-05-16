@@ -1,11 +1,1 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-  <title>info-circle</title>
-  <g>
-    <rect x="11" y="8.505" width="2" height="2" transform="translate(24 19.01) rotate(180)" fill="#fff"/>
-    <rect x="11" y="11.505" width="2" height="4" transform="translate(24 27.01) rotate(180)" fill="#fff"/>
-  </g>
-  <g opacity="0.008">
-    <rect x="-6" y="-6" width="24" height="24"/>
-  </g>
-  <path d="M13,9H11V7h2Zm0,8H11V11h2ZM12,2A10,10,0,1,0,22,12,10,10,0,0,0,12,2Z"/>
-</svg>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><title>info-circle</title><rect x="7.2" y="5.204" width="1.6" height="1.6" transform="translate(16 12.008) rotate(180)" fill="#fff"/><rect x="7.2" y="7.604" width="1.6" height="3.2" transform="translate(16 18.408) rotate(180)" fill="#fff"/><path d="M8.8,5.6H7.2V4H8.8Zm0,6.4H7.2V7.2H8.8ZM8,0a8,8,0,1,0,8,8A8,8,0,0,0,8,0Z"/></svg>

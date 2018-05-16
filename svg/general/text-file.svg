@@ -1,7 +1,1 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-  <title>text-file</title>
-  <g>
-    <polygon points="19.993 5.998 16 2.005 16 5.998 19.993 5.998"/>
-    <path d="M19,8H14V3.005a1,1,0,0,0-1-1H5a1,1,0,0,0-1,1V21a1,1,0,0,0,1,1H19a1,1,0,0,0,1-1V9A1,1,0,0,0,19,8Zm-3,9H8V15h8Zm0-4H8V11h8Z"/>
-  </g>
-</svg>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><title>text-file</title><polygon points="14.217 3.333 11.111 0.227 11.111 3.333 14.217 3.333"/><path d="M13.444,4.888H9.556V1A.778.778,0,0,0,8.778.227H2.556A.777.777,0,0,0,1.778,1V15a.777.777,0,0,0,.778.777H13.444A.777.777,0,0,0,14.222,15V5.666A.778.778,0,0,0,13.444,4.888Zm-2.333,7H4.889V10.334h6.222Zm0-3.111H4.889V7.223h6.222Z"/></svg>

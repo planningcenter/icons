@@ -355,6 +355,9 @@ _Requires helper in [icon_helper.rb](./examples/icon_helper.rb)._
 <details>
 <summary>v2</summary>
 
+#### v2.0.0-10
+* [FIX]: re-export `general` set of icons (now without padding)
+
 #### v2.0.0-7-8 & v2.0.0-9
 * [FIX]: strip fill colors from all icons
 

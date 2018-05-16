@@ -1,5 +1,1 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-  <title>clock</title>
-  <circle cx="12" cy="12.005" r="10"/>
-  <polygon points="12.5 7 11 7 11 13 16.25 16.15 17 14.92 12.5 12.25 12.5 7" fill="#fff"/>
-</svg>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><title>clock</title><circle cx="8" cy="8.005" r="8"/><polygon points="8.4 4.001 7.2 4.001 7.2 8.801 11.4 11.321 12 10.337 8.4 8.201 8.4 4.001" fill="#fff"/></svg>

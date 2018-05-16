@@ -1,7 +1,1 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-  <title>three-horizontal-list-items</title>
-  <g opacity="0.008">
-    <rect x="-6" y="-6" width="24" height="24"/>
-  </g>
-  <path d="M7,7V9H21V7ZM7,17H21V15H7Zm0-4H21V11H7ZM3,9H5V7H3Zm0,8H5V15H3Zm0-4H5V11H3Z"/>
-</svg>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><title>three-horizontal-list-items</title><path d="M3.556,3.556V5.333H16V3.556Zm0,8.888H16V10.667H3.556Zm0-3.555H16V7.111H3.556ZM0,5.333H1.778V3.556H0Zm0,7.111H1.778V10.667H0ZM0,8.889H1.778V7.111H0Z"/></svg>

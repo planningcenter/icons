@@ -1,11 +1,1 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-  <title>thick-from-bottom-arrow</title>
-  <g opacity="0.008">
-    <rect width="24" height="24"/>
-    <rect x="-6" y="-6" width="24" height="24"/>
-  </g>
-  <g>
-    <rect x="5" y="18" width="14" height="2"/>
-    <polygon points="5 10 9 10 9 16 15 16 15 10 19 10 12 3 5 10"/>
-  </g>
-</svg>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><title>thick-from-bottom-arrow</title><rect x="1.6" y="14.125" width="13.128" height="1.875"/><polygon points="1.6 6.623 5.351 6.623 5.351 12.249 10.977 12.249 10.977 6.623 14.728 6.623 8.164 0.059 1.6 6.623"/></svg>

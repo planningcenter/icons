@@ -1,7 +1,1 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-  <title>calendar</title>
-  <g opacity="0.008">
-    <rect x="-6" y="-6" width="24" height="24"/>
-  </g>
-  <path d="M19,20H5V9H19ZM19,4H18V2H16V4H8V2H6V4H5A1.991,1.991,0,0,0,3.01,6L3,20a2,2,0,0,0,2,2H19a2.006,2.006,0,0,0,2-2V6A2.006,2.006,0,0,0,19,4Z"/>
-</svg>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><title>calendar</title><path d="M13.444,14.222H2.556V5.667H13.444Zm0-12.444h-.777V.222H11.111V1.778H4.889V.222H3.333V1.778H2.556A1.548,1.548,0,0,0,1.008,3.333L1,14.222a1.555,1.555,0,0,0,1.556,1.556H13.444A1.56,1.56,0,0,0,15,14.222V3.333A1.56,1.56,0,0,0,13.444,1.778Z"/></svg>

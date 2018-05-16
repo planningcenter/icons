@@ -1,7 +1,1 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-  <title>exclamation-triangle</title>
-  <g opacity="0.008">
-    <rect x="-6" y="-6" width="24" height="24"/>
-  </g>
-  <path d="M13,14H11V10h2Zm0,4H11V16h2ZM2.734,21H21.266a1,1,0,0,0,.865-1.5l-9.266-16a1,1,0,0,0-1.73,0l-9.266,16A1,1,0,0,0,2.734,21Z"/>
-</svg>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><title>exclamation-triangle</title><path d="M8.757,9.514H7.243V6.485H8.757Zm0,3.028H7.243V11.028H8.757ZM.986,14.813H15.014a.757.757,0,0,0,.655-1.137L8.655,1.561a.756.756,0,0,0-1.31,0L.331,13.676A.757.757,0,0,0,.986,14.813Z"/></svg>

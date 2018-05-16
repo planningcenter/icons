@@ -1,9 +1,1 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-  <title>pencil-person</title>
-  <path d="M8.5,8.711a.422.422,0,0,0,0-.6l-.991-.99a.422.422,0,0,0-.6,0L6.135,7.9,7.722,9.486ZM1,13.033v1.588H2.587l4.32-4.32L5.319,8.714Z"/>
-  <g opacity="0.008">
-    <rect x="-6" y="-6" width="24" height="24"/>
-  </g>
-  <path d="M15,14c-2.67,0-8,1.34-8,4v2H23V18C23,15.34,17.67,14,15,14Z"/>
-  <circle cx="15" cy="8" r="4"/>
-</svg>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><title>pencil-person</title><path d="M5.452,5.608a.307.307,0,0,0,0-.434l-.72-.72a.307.307,0,0,0-.434,0l-.564.563L4.889,6.172ZM0,8.751V9.906H1.154L4.3,6.765,3.141,5.61Z"/><path d="M10.182,9.455c-1.942,0-5.818.974-5.818,2.909v1.454H16V12.364C16,10.429,12.124,9.455,10.182,9.455Z"/><circle cx="10.182" cy="5.091" r="2.909"/></svg>
