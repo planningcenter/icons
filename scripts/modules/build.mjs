@@ -32,6 +32,7 @@ const svgsInCollections = collections.map(collection => ({
   ...collection,
   svgs: fs
     .readdirSync(collection.path, { encoding: "utf8" })
+    .filter(svgPath => !svgPath.includes(".DS_Store"))
     .map(svgPath => ({
       name: svgPath.replace(".svg", ""),
       componentName: pascalCase(svgPath.replace(".svg", "")),
