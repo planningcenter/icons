@@ -4,7 +4,7 @@ import fs from "fs";
 import path from "path";
 import consolidate from "consolidate";
 
-let unpublishedCollections = ["apps", "color-apps"];
+let unpublishedCollections = ["color-apps"];
 
 function isFile(path) {
   return fs.lstatSync(path).isFile();
