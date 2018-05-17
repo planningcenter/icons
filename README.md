@@ -355,6 +355,9 @@ _Requires helper in [icon_helper.rb](./examples/icon_helper.rb)._
 <details>
 <summary>v2</summary>
 
+#### v2.0.0-12
+* [FIX]: re-export envelope icon from `general`
+
 #### v2.0.0-10
 * [FIX]: re-export `general` set of icons (now without padding)
 
