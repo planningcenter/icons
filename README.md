@@ -10,9 +10,21 @@ Accessible, scaleable, standard SVG icons for [Planning Center](https://planning
 
 </div>
 
-## Looking for v1?
+**Looking for v1 docs? [click here](https://github.com/planningcenter/icons/tree/v1)**
 
-If you're looking to make changes to v1 of Icons, use the [`v1` branch](https://github.com/planningcenter/icons/tree/v1).
+## TOC
+
+<!-- toc -->
+
+- [Development](#development)
+- [Workflow](#workflow)
+- [Versioning](#versioning)
+- [Platform setup and usage](#platform-setup-and-usage)
+- [Old Docs](#old-docs)
+- [v2 TRANSITION](#v2-transition)
+- [CHANGELOG](#changelog)
+
+<!-- tocstop -->
 
 ## Development
 
@@ -26,37 +38,49 @@ If you're looking to make changes to v1 of Icons, use the [`v1` branch](https://
 
 `build` commands will build the SVG sprites **and** rebuild the doc-site.
 
-### Workflow
+## Workflow
 
-* Add a new illustration
-  * locate the source Illustrator file you'd like to update in `src/{collection}.ai`
-  * make changes and `save`
-* Export SVGs
-  * select `Export for screens`, from the `File` menu
-    - export as `SVG`
-    - select the corresponding directory (`svg/{collection}/`)
-  * select these settings
-    - ensure that `styling` is `Presentation Attributes`
-    - ensure that `precision` is at least `3`
-* Process the SVG
-  * run `yarn build` in the project root.
-* Publish to npm
-  * run `npm login` (if you haven't)
-  * run `yarn publish`
-    - you'll be prompted for a new version number
-    - add version notes to the changelog in `README.md`
+### Overview
+* [Add or edit new illustrations](#add-or-edit-an-illustrations)
+* [Export SVGs](#export-svgs)
+* [Build sprites and docs](#build-sprites-and-docs)
+* [Publish to NPM](#publish-to-npm)
+* [Commit and push](#commit-and-push)
+
+### Add or edit an illustrations
+* locate the source Illustrator file you'd like to update in `src/{collection}.ai`
+* make changes and `save`
+
+### Export SVGs
++ select `Export for screens`, from the `File` menu
+  - export as `SVG`
+  - select the corresponding directory (`svg/{collection}/`)
++ select these settings
+  - `styling` is `Presentation Attributes`
+  - `precision` is at least `3`
+
+### Build sprites and docs
+* run `yarn build` in the project root.
+* watch for errors. the errors should help you.
+
+### Publish to NPM
+* run `npm login` (if you haven't)
++ run `yarn publish`
+  - you'll be prompted for a new version number
+  - add version notes to the changelog in `README.md`
+
+### Commit and Push
 * Commit and push
   * in most cases, just push to `master`
   * if you're changing a shared collection, maybe open a PR.
 
-### Versioning
+## Versioning
 
-Version numbers break down into three parts:
+Versions should break down like so
 
 ```
 v1.0.0
  ^ ^ ^
- │ │ │
  │ │ └─ Patch : Documentation and fixes
  │ └─── Minor : Additions
  └───── Major : Deletions and edits
@@ -70,65 +94,57 @@ When **fixing bugs and updating documentation**, increment the `Patch` place.
 
 **In most cases, you should user the `Minor` place.**
 
-## Setup
+## Platform setup and usage
 
-<details open>
+<details>
 <summary>Rails</summary>
 
-Update `config/initializers/assets.rb` to include these lines:
+### Setup
+
+Add this to `config/initializers/assets.rb`.
 
 ```rb
 # Add node_modules as a known asset path
 config.assets.paths << Rails.root.join('node_modules')
 
-# Add assets to pre-compilation step
+# Add assets to precompile step
+# Add as many sprites as needed
 Rails.application.config.assets.precompile += %w(
-  @planning-center/icons/sprites/groups.svg
+  @planningcenter/icons/sprites/general.svg
 )
 ```
 
-Add this helper to your application.
+Add this helper (it might exist to some degree).
 
 ```rb
-# rubocop:disable all
 module IconHelper
-  def svg_asset_path(symbol = "")
-    asset_path(symbol).gsub!(/.*?(?=\/assets)/im, "")
-  end
-
-  def external_icon(name, attrs = {})
-    svg, symbol = name.split("#")
-
-    begin
-      class_name = attrs[:class].present? ? "symbol #{attrs[:class]}" : "symbol"
-    rescue TypeError => e
-      raise e, "Attributes argument must be a hash"
+  def external_icon(name, **attrs)
+    planningcenter_svg_use_tag(name, attrs) do |path|
+      relativize_asset_path(path)
     end
-
-    content_tag(
-      "svg",
-      content_tag(
-        "use",
-        "",
-        "xlink:href": svg_asset_path("@planning-center/icons/sprites/#{svg.gsub(/\.svg/, "")}##{symbol}"),
-      ),
-      {
-        class: class_name,
-        role: "presentation",
-      }.merge(attrs.except(:class)),
-    )
   end
 end
+```
+
+### Usage
+
+Once Rails is setupwith the `external_icon` helper, it can be used it like so.
+
+```erb
+<%= external_icon("general#down-arrow") %>
 ```
 
 </details>
 
 <details>
-<summary>Webpack</summary>
+<summary>Webpack and React</summary>
 
-Run `yarn add file-loader`.
+### Setup
 
-Once installed add it to your existing `config/webpacker/environments` config, for handling the `svg` filetype:
+Add the `file-loader` npm package (`yarn add file-loader`).
+
+Once installed, add the requisite config to `config/webpacker/environments`.
+This tellos webpack how to handle required SVG files.
 
 ```js
 const { environment } = require("@rails/webpacker");
@@ -145,22 +161,77 @@ environment.loaders.append("file", {
 module.exports = environment;
 ```
 
+With the `file-loader` setup above.
+You can use `import` to resolve digested paths to `.svg` assets.
+
+```js
+import svgPath from "@planningcenter/icons/sprites/general.svg";
+
+//=> "/packs/23besrhaoub-general.svg"
+```
+
+Add `@planningcenter/symbol` to you app (`yarn add @planningcenter/symbol`).
+This component handles the display of your SVG sprite, using `use` tags.
+It also gives you smart accessible defaults.
+
+Add a component to your app that looks lomething like this.
+
+```jsx
+import React from "react"
+import Symbol from "@planningcenter/symbol"
+
+import general from "@planningcenter/icons/sprites/general.svg"
+
+let icons = {
+  general,
+}
+
+function ExternalIcon({ symbol: s, ...platformProps }) {
+  const [collection, symbol] = s.replace(".svg", "").split("#")
+
+  return <Symbol symbol={`${icons[collection]}#${symbol}`} {...platformProps} />
+}
+
+export default ExternalIcon
+```
+
 Run `bin/webpack-dev-server` to get fresh assets in development.
+
+### Usage
+
+With the implementation above you can used cached, accessible icons in React, like so.
+
+```jsx
+import Icon from "./path/to/external_icon.js"
+
+<Icon symbol="general#down-arrow">
+```
 
 </details>
 
 <details>
 <summary>svg4everybdy</summary>
 
-Add `svg4everybody` to your project, to polyfill support for older browsers.
+`svg4everybody` is the polyfill we use support IE11.
 
-Then require and initialize the code for `turbolinks:load` and `modal:load` events.
+Here's how you set it up in Rails apps.
+
+### Setup (sprockets)
 
 ```js
-import jQuery from "jquery";
-import svg4everybody from "svg4everybody";
+//= require "@planningcenter/icons/js/svg4everybody.js
+//= require_self
 
-jQuery(document).on("turbolinks:load modal:load", () => svg4everybody());
+window.svg4everybody()
+```
+
+### Setup (layout)
+
+```erb
+<%= javascript_include_tag "@planningcenter/icons/js/svg4everybody.js">
+<script>
+  window.svg4everybody()
+</script>
 ```
 
 </details>
@@ -268,8 +339,6 @@ const TestingIcons = ({ symbol: s, className, ...platformProps }) => {
 
 <details>
 <summary>v1 docs</summary>
-
-## Installation and Usage
 
 ### Add an icon
 
