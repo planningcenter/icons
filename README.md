@@ -1,3 +1,9 @@
+<div style="text-align: center">
+
+![](./logo.svg)
+
+</div>
+
 # Planning Center Icons
 
 ## Looking for v1?

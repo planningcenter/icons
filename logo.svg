@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="96px" height="96px" viewBox="0 0 96 96" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="-2.49457437%" x2="50%" y2="108.60717%" id="linearGradient-1">
+            <stop stop-color="#1A6BFE" offset="0%"></stop>
+            <stop stop-color="#1D5AE1" offset="65.1%"></stop>
+            <stop stop-color="#1A56E3" offset="99.9%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="logo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="color-planning-center-mark">
+            <path d="M84.621,9.714 L55.749,1.128 C50.6923203,-0.374994951 45.3076797,-0.374994951 40.251,1.128 L11.379,9.714 C4.89138126,11.7548374 0.477951698,17.768955 0.477,24.57 L0.477,71.43 C0.477951698,78.231045 4.89138126,84.2451626 11.379,86.286 L40.251,94.872 C45.3076797,96.374995 50.6923203,96.374995 55.749,94.872 L84.621,86.286 C91.1086187,84.2451626 95.5220483,78.231045 95.523,71.43 L95.523,24.57 C95.5220483,17.768955 91.1086187,11.7548374 84.621,9.714 Z" id="Shape" fill="url(#linearGradient-1)" fill-rule="nonzero"></path>
+            <rect id="Rectangle" stroke="#FFFFFF" stroke-width="6" x="36" y="25.5" width="24" height="45"></rect>
+        </g>
+    </g>
+</svg>
