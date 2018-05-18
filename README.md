@@ -1,10 +1,14 @@
-<div style="text-align: center">
-
-![](./logo.svg)
-
-</div>
+<div align="center">
 
 # Planning Center Icons
+
+![Planning Center Icons logo](./logo.svg)
+
+Accessible, scaleable, standard SVG icons for [Planning Center](https://planning.center) apps 
+
+<hr />
+
+</div>
 
 ## Looking for v1?
 
