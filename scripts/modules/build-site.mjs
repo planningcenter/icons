@@ -15,16 +15,16 @@ function isDirectory(path) {
 }
 
 function pascalCase(str) {
-  const camelCased = str.replace(/-([a-z])/g, g => g[1].toUpperCase());
+  let camelCased = str.replace(/-([a-z])/g, g => g[1].toUpperCase());
   return camelCased.charAt(0).toUpperCase() + camelCased.slice(1);
 }
 
-const collections = fs
+let collections = fs
   .readdirSync(`./svg/`)
   .map(name => ({ name, path: path.join(`./svg/`, name) }))
   .filter(collection => isDirectory(collection.path));
 
-const svgsInCollections = collections
+let svgsInCollections = collections
   .filter(collection => !unpublishedCollections.includes(collection.name))
   .map(collection => ({
     ...collection,

@@ -6,7 +6,7 @@ import cheerio from "cheerio";
 import Svgo from "svgo";
 import chalk from "chalk";
 
-const svgo = new Svgo({
+let svgo = new Svgo({
   multipass: true
 });
 
@@ -19,16 +19,16 @@ function isDirectory(path) {
 }
 
 function pascalCase(str) {
-  const camelCased = str.replace(/-([a-z])/g, g => g[1].toUpperCase());
+  let camelCased = str.replace(/-([a-z])/g, g => g[1].toUpperCase());
   return camelCased.charAt(0).toUpperCase() + camelCased.slice(1);
 }
 
-const collections = fs
+let collections = fs
   .readdirSync(`./svg/`, { encoding: "utf8" })
   .map(name => ({ name, path: path.join(`./svg/`, name) }))
   .filter(collection => isDirectory(collection.path));
 
-const svgsInCollections = collections.map(collection => ({
+let svgsInCollections = collections.map(collection => ({
   ...collection,
   svgs: fs
     .readdirSync(collection.path, { encoding: "utf8" })
@@ -49,7 +49,7 @@ function collectionSprite(collection) {
     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     ${collection.svgs
     .map(symbol => {
-      const doc = cheerio.load(symbol.data, {
+      let doc = cheerio.load(symbol.data, {
         normalizeWhitespace: true,
         xmlMode: true
       });
@@ -64,10 +64,34 @@ function collectionSprite(collection) {
   `.trim();
 }
 
+function attrError(attrName) {
+  return `
+OOPS!
+
+Some of your SVGs include a ${attrName} attributes.
+Please export SVGs using the "presentation attributes" setting and try again.
+`;
+}
+
+function validateCollection(collection) {
+  collection.svgs.forEach(svg => {
+    if (svg.data.includes("class")) {
+      console.error(chalk.red(attrError("class")));
+      process.exit(1);
+    }
+    if (true || svg.data.includes("style")) {
+      console.error(chalk.red(attrError("style")));
+      process.exit(1);
+    }
+  });
+
+  return collection;
+}
+
 function writeSVGSpriteForCollection(collection) {
   return fs.writeFileSync(
     `sprites/${collection.name}.svg`,
-    collectionSprite(collection),
+    collectionSprite(validateCollection(collection)),
     "utf8"
   );
 }
