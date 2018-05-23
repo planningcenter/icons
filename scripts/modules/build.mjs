@@ -79,7 +79,7 @@ function validateCollection(collection) {
       console.error(chalk.red(attrError("class")));
       process.exit(1);
     }
-    if (true || svg.data.includes("style")) {
+    if (svg.data.includes("style")) {
       console.error(chalk.red(attrError("style")));
       process.exit(1);
     }
