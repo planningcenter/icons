@@ -47,11 +47,17 @@ Accessible, scaleable, standard SVG icons for [Planning Center](https://planning
 * [Publish to NPM](#publish-to-npm)
 * [Commit and push](#commit-and-push)
 
-### Add or edit an illustrations
+<details>
+<summary>Add or edit an illustrations</summary>
+
 * locate the source Illustrator file you'd like to update in `src/{collection}.ai`
 * make changes and `save`
 
-### Export SVGs
+</details>
+
+<details>
+<summary>Export SVGs</summary>
+
 + select `Export for screens`, from the `File` menu
   - export as `SVG`
   - select the corresponding directory (`svg/{collection}/`)
@@ -59,20 +65,35 @@ Accessible, scaleable, standard SVG icons for [Planning Center](https://planning
   - `styling` is `Presentation Attributes`
   - `precision` is at least `3`
 
-### Build sprites and docs
+![ai config](./images/ai-config.png)
+
+</details>
+
+<details>
+<summary>Build sprites and docs</summary>
+
 * run `yarn build` in the project root.
 * watch for errors. the errors should help you.
 
-### Publish to NPM
+</details>
+
+<details>
+<summary>Publish to NPM</summary>
+
 * run `npm login` (if you haven't)
 + run `yarn publish`
   - you'll be prompted for a new version number
   - add version notes to the changelog in `README.md`
 
-### Commit and Push
-* Commit and push
-  * in most cases, just push to `master`
-  * if you're changing a shared collection, maybe open a PR.
+</details>
+
+<details>
+<summary>Commit and Push</summary>
+
+* in most cases, just push to `master`
+* if you're changing a shared collection, maybe open a PR.
+
+</details>
 
 ## Versioning
 
@@ -96,10 +117,27 @@ When **fixing bugs and updating documentation**, increment the `Patch` place.
 
 ## Platform setup and usage
 
-<details>
-<summary>Rails</summary>
+### Any
+These icons can be used anywhere on the web.
+You simple need a link to a public path.
 
-### Setup
+```html
+<use href="./path/to/general.svg#down-arrow"></use>
+```
+
+That's it!
+
+When you do this, a few things are up to you:
+
+* accessibily
+* default styling
+* cache busting
+
+Follow the Rails and Webpack/React guides to get those things setup on one of our supported platforms.
+
+### Rails
+<details>
+<summary>Setup</summary>
 
 Add this to `config/initializers/assets.rb`.
 
@@ -126,20 +164,40 @@ module IconHelper
 end
 ```
 
-### Usage
+</details>
 
-Once Rails is setupwith the `external_icon` helper, it can be used it like so.
+<details>
+<summary>Usage</summary>
+Once Rails is setup with the `external_icon` helper, it can be used it like so.
 
 ```erb
 <%= external_icon("general#down-arrow") %>
 ```
 
+By default `external_icon` uses the [symbol class, included in this project.](https://github.com/planningcenter/icons/blob/master/css/symbol.css)
+
+It's **recommended** that you stylize icons from the outside.
+This helps to keep app-code separate from icon implementation:
+
+```erb
+<span style="color: blue; font-size: 20px">
+  <%= external_icon("general#down-arrow") %>
+</span>
+```
+
+You can add HTML attributes to the `use` tag via the helper.
+This can be handy for specially styled icons or those you target via JavaScript.
+
+```erb
+<%= external_icon("general#down-arrow"), id: "myIcon", class: "my-special-icon" %>
+```
+
 </details>
 
-<details>
-<summary>Webpack and React</summary>
+### Webpack and React
 
-### Setup
+<details>
+<summary>Setup</summary>
 
 Add the `file-loader` npm package (`yarn add file-loader`).
 
@@ -197,7 +255,9 @@ export default ExternalIcon
 
 Run `bin/webpack-dev-server` to get fresh assets in development.
 
-### Usage
+</detail>
+
+<detail>
 
 With the implementation above you can used cached, accessible icons in React, like so.
 
@@ -205,6 +265,26 @@ With the implementation above you can used cached, accessible icons in React, li
 import Icon from "./path/to/external_icon.js"
 
 <Icon symbol="general#down-arrow">
+```
+
+It's **recommended** that you stylize icons from the outside.
+This helps to keep app-code separate from icon implementation:
+
+```erb
+<span style={{ color: "blue", fontSize: 20 }}>
+  <%= external_icon("general#down-arrow") %>
+</span>
+```
+
+You can add props to the `use` tag via the `Icon` component.
+This can be handy for specially styled icons or those you target via JavaScript (that's probably not a good idea but maybe you do it).
+
+```erb
+<Icon
+  symbol="general#down-arrow"
+  id="myIcon"
+  class="my-special-icon"
+>
 ```
 
 </details>
@@ -235,11 +315,6 @@ window.svg4everybody()
 ```
 
 </details>
-
-## Old Docs
-
-<details>
-<summary>v2 transition docs (WIP)</summary>
 
 ## v2 TRANSITION
 
@@ -281,158 +356,14 @@ So, we'll be using the old syntax to cover that.
 Accessibility is always verbose and this setup forces that onto the implementing developer.
 We'll continue to ship helpersand components that abstract those details.
 
-### App integration
-
-These changes will move mapping into apps.
-
-#### Rails
-
-Here's a sample implementation of the Rails helper for using cached external resource SVGs.
-
-```rb
-def external_icon(name, attrs = {})
-  svg, symbol = name.split("#")
-
-  content_tag(
-    "svg",
-    content_tag(
-      "use",
-      "",
-      {
-        href: asset_path("@planning-center/icons/sprites/#{svg}") + "##{symbol}"
-      }
-    ),
-    {
-      class: class_name,
-      role: "presentation",
-    }.merge(attrs.except(:class))
-  )
-end
-```
-
-#### React/Webpacker
-
-Here's a sample implementation of a React component using `file-loader` with `@rails/webpacker`.
-Though, there are an assortment of methods that could be configured via Webpack.
-
-```jsx
-import general from "@planning-center/icons/sprites/general.svg";
-
-const icons = { general };
-
-const TestingIcons = ({ symbol: s, className, ...platformProps }) => {
-  const [collection, symbol] = s.replace(".svg", "").split("#");
-
-  return (
-    <svg
-      className={cx("symbol", className)}
-      role="presentation"
-      {...platformProps}
-    >
-      <use href={`${icons[collection]}#${symbol}`} />
-    </svg>
-  );
-};
-```
-
-</details>
-
-<details>
-<summary>v1 docs</summary>
-
-### Add an icon
-
-_Assumes you've [cloned the planningcenter/icons for development.](#development)_
-
-* run `yarn start` in the root of the project
-* locate the source Illustrator file you'd like to update in `src/{app/collection}`
-* make changes and `save`
-* select `Export for screens`, from the `File` menu
-  * export as `SVG`
-  * select the corresponding `svg/{app/collection}` directory
-  * unsure that `precision` is at least `3`
-* type `Control-c` in your terminal to kill the watch script
-* publish to npm
-  * in terminal, navigate to the `icons` project
-  * `npm login` (if you haven't)
-  * `yarn publish`
-    * you'll be prompted for a new version number
-    * add version notes to the changelog in `README.md`
-* commit and push
-  * in most cases, just push to `master`
-  * if you're changing a shared collection, maybe open a PR.
-
-### Installation and updates
-
-`yarn add "planningcenter/icons"`
-
-If installed, this should bump the `yarn.lock` file to the latest master.
-
-### Additional Rails Installation
-
-For use with Sprockets and Rails views,
-this line must be added to `application.rb`.
-It tells Rails that `node_modules` is a place assets can be found.
-
-```rb
-config.assets.paths << Rails.root.join('node_modules')
-```
-
-### Development
-
-* clone [planningcenter/icons](https://github.com/planningcenter/icons)
-* run `yarn` in the project root
-
-### Usage
-
-#### React Components
-
-##### Node (ESM)
-
-```js
-import ChevronDown from "@planning-center/icons/components/interfaces/ChevronDown";
-
-const MyApp = () => (
-  <div>
-    <ChevronDown />
-  </div>
-);
-```
-
-#### Sprockets (Global)
-
-_It's strongly recommended that you use
-[safe_global.js](./examples/safe_global.js) to guarantee that missing global
-icons do not interrupt rendering._
-
-```js
-// appliction.js
-//= require "@planning-center/icons/interfaces/ChevronDown"
-```
-
-```js
-// SomeComponent.js
-const MyApp = () => (
-  <div>
-    <InterfacesIcon.ChevronDown />
-  </div>
-);
-```
-
-#### Rails
-
-_Requires helper in [icon_helper.rb](./examples/icon_helper.rb)._
-
-```erb
-<%= icon("interfaces/chevron-down") %>
-```
-
-</details>
-
 ## CHANGELOG
 
 <details>
 <summary>v2</summary>
+
+#### v2.0.0
+#### v2.3.0
+* [BREAKING] new `use` tag API only
 
 #### v2.0.0-12
 * [FIX]: re-export envelope icon from `general`
