@@ -4,7 +4,7 @@
 
 ![Planning Center Icons logo](./logo.svg)
 
-Accessible, scaleable, standard SVG icons for [Planning Center](https://planning.center) apps 
+Accessible, scaleable, standard SVG icons for [Planning Center](https://planning.center) apps
 
 <hr />
 
@@ -362,6 +362,9 @@ We'll continue to ship helpersand components that abstract those details.
 <summary>v2</summary>
 
 #### v2.0.0
+#### v2.4.1
+* added bulk-actions icon to people
+
 #### v2.3.0
 * [BREAKING] new `use` tag API only
 
