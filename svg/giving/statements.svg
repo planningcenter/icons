@@ -1,1 +1,10 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><title>statements</title><path d="M12.843,1.078V.145H.108v15.71H12.843v-.972H16V1.078ZM1.572,14.55V1.45H11.38v13.1Zm11.271-.973V2.384h1.694V13.577Z"/><rect x="3.383" y="3.417" width="6.185" height="1.306"/><rect x="3.383" y="5.672" width="6.185" height="1.306"/><rect x="3.383" y="7.928" width="6.185" height="1.305"/><rect x="3.383" y="10.183" width="6.185" height="1.305"/></svg>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+  <title>statements</title>
+  <g>
+    <path d="M12.843,1.078V.145H.108v15.71H12.843v-.972H16V1.078ZM1.572,14.55V1.45H11.38v13.1Zm11.271-.973V2.384h1.694V13.577Z"/>
+    <rect x="3.383" y="3.417" width="6.185" height="1.306"/>
+    <rect x="3.383" y="5.672" width="6.185" height="1.306"/>
+    <rect x="3.383" y="7.928" width="6.185" height="1.305"/>
+    <rect x="3.383" y="10.183" width="6.185" height="1.305"/>
+  </g>
+</svg>
