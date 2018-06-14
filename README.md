@@ -360,6 +360,10 @@ We'll continue to ship helpersand components that abstract those details.
 
 <details>
 <summary>v2</summary>
+  
+#### v3.0.0
+#### v3.0.0-0
+* Major update of People Icon library. Removed unused icons and those that are in the General library, updated remaining people icons to match style esablished in General library
 
 #### v2.0.0
 #### v2.5.1
