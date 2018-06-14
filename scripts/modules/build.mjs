@@ -55,7 +55,7 @@ function collectionSprite(collection) {
       });
 
       return `
-<symbol id="${symbol.name}" class="symbol" viewBox="${doc("svg").attr("viewBox")}">
+<symbol id="${symbol.name}" viewBox="${doc("svg").attr("viewBox")}">
   ${cheerio.xml(doc("svg").children())}
 </symbol>`;
     })
