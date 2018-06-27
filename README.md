@@ -41,27 +41,28 @@ Accessible, scaleable, standard SVG icons for [Planning Center](https://planning
 ## Workflow
 
 ### Overview
-* [Add or edit new illustrations](#add-or-edit-an-illustrations)
-* [Export SVGs](#export-svgs)
-* [Build sprites and docs](#build-sprites-and-docs)
-* [Publish to NPM](#publish-to-npm)
-* [Commit and push](#commit-and-push)
+
+- [Add or edit new illustrations](#add-or-edit-an-illustrations)
+- [Export SVGs](#export-svgs)
+- [Build sprites and docs](#build-sprites-and-docs)
+- [Publish to NPM](#publish-to-npm)
+- [Commit and push](#commit-and-push)
 
 <details>
 <summary>Add or edit an illustrations</summary>
 
-* locate the source Illustrator file you'd like to update in `src/{collection}.ai`
-* make changes and `save`
+- locate the source Illustrator file you'd like to update in `src/{collection}.ai`
+- make changes and `save`
 
 </details>
 
 <details>
 <summary>Export SVGs</summary>
 
-+ select `Export for screens`, from the `File` menu
+- select `Export for screens`, from the `File` menu
   - export as `SVG`
   - select the corresponding directory (`svg/{collection}/`)
-+ select these settings
+- select these settings
   - `styling` is `Presentation Attributes`
   - `precision` is at least `3`
 
@@ -72,16 +73,17 @@ Accessible, scaleable, standard SVG icons for [Planning Center](https://planning
 <details>
 <summary>Build sprites and docs</summary>
 
-* run `yarn build` in the project root.
-* watch for errors. the errors should help you.
+- run `yarn build` in the project root.
+- watch for errors. the errors should help you.
 
 </details>
 
 <details>
 <summary>Publish to NPM</summary>
 
-* run `npm login` (if you haven't)
-+ run `yarn publish`
+- run `npm login` (if you haven't)
+
+* run `yarn publish`
   - you'll be prompted for a new version number
   - add version notes to the changelog in `README.md`
 
@@ -90,8 +92,8 @@ Accessible, scaleable, standard SVG icons for [Planning Center](https://planning
 <details>
 <summary>Commit and Push</summary>
 
-* in most cases, just push to `master`
-* if you're changing a shared collection, maybe open a PR.
+- in most cases, just push to `master`
+- if you're changing a shared collection, maybe open a PR.
 
 </details>
 
@@ -118,6 +120,7 @@ When **fixing bugs and updating documentation**, increment the `Patch` place.
 ## Platform setup and usage
 
 ### Any
+
 These icons can be used anywhere on the web.
 You simple need a link to a public path.
 
@@ -129,13 +132,14 @@ That's it!
 
 When you do this, a few things are up to you:
 
-* accessibily
-* default styling
-* cache busting
+- accessibily
+- default styling
+- cache busting
 
 Follow the Rails and Webpack/React guides to get those things setup on one of our supported platforms.
 
 ### Rails
+
 <details>
 <summary>Setup</summary>
 
@@ -235,22 +239,24 @@ It also gives you smart accessible defaults.
 Add a component to your app that looks lomething like this.
 
 ```jsx
-import React from "react"
-import Symbol from "@planningcenter/symbol"
+import React from "react";
+import Symbol from "@planningcenter/symbol";
 
-import general from "@planningcenter/icons/sprites/general.svg"
+import general from "@planningcenter/icons/sprites/general.svg";
 
 let icons = {
-  general,
-}
+  general
+};
 
 function ExternalIcon({ symbol: s, ...platformProps }) {
-  const [collection, symbol] = s.replace(".svg", "").split("#")
+  const [collection, symbol] = s.replace(".svg", "").split("#");
 
-  return <Symbol symbol={`${icons[collection]}#${symbol}`} {...platformProps} />
+  return (
+    <Symbol symbol={`${icons[collection]}#${symbol}`} {...platformProps} />
+  );
 }
 
-export default ExternalIcon
+export default ExternalIcon;
 ```
 
 Run `bin/webpack-dev-server` to get fresh assets in development.
@@ -302,7 +308,7 @@ Here's how you set it up in Rails apps.
 //= require "@planningcenter/icons/js/svg4everybody.js
 //= require_self
 
-window.svg4everybody()
+window.svg4everybody();
 ```
 
 ### Setup (layout)
@@ -358,34 +364,42 @@ We'll continue to ship helpersand components that abstract those details.
 
 ## CHANGELOG
 
+#### v3.0.0-3 (pre-release)
+
+- general#cog: improve visibility at smaller renderings
+
+#### v3.0.0-0 (pre-release)
+
+- [BREAKING]Major update of People Icon library. Removed unused icons and those that are in the General library, updated remaining people icons to match style esablished in General library
+
 <details>
 <summary>v2</summary>
-  
-#### v3.0.0
-#### v3.0.0-0
-* Major update of People Icon library. Removed unused icons and those that are in the General library, updated remaining people icons to match style esablished in General library
 
 #### v2.0.0
 #### v2.5.1
 * added bulk-actions icon to people
 
 #### v2.3.0
-* [BREAKING] new `use` tag API only
+
+- [BREAKING] new `use` tag API only
 
 #### v2.0.0-12
-* [FIX]: re-export envelope icon from `general`
+
+- [FIX]: re-export envelope icon from `general`
 
 #### v2.0.0-10
-* [FIX]: re-export `general` set of icons (now without padding)
+
+- [FIX]: re-export `general` set of icons (now without padding)
 
 #### v2.0.0-7-8 & v2.0.0-9
-* [FIX]: strip fill colors from all icons
 
+- [FIX]: strip fill colors from all icons
 
 * [FIX]: make sure svg fill colors get stripped from groups-icon and groups-logo in `groups`
 
 #### v2.0.0-6
-* [FEAT]: add groups logo icon and groups icon to `groups`
+
+- [FEAT]: add groups logo icon and groups icon to `groups`
 
 #### v2.0
 
@@ -396,92 +410,92 @@ We'll continue to ship helpersand components that abstract those details.
 
 #### v1.8.2
 
-* [FEAT]: fix to history icon to `people`
+- [FEAT]: fix to history icon to `people`
 
 #### v1.8.1
 
-* [FEAT]: add history icon to `people`
+- [FEAT]: add history icon to `people`
 
 #### v1.8.0
 
-* [FIX]: add `/css` directory back into published `files`
+- [FIX]: add `/css` directory back into published `files`
 
 #### v1.7.6
 
-* [TEST]: adding icon to `groups` for testing new scripts
+- [TEST]: adding icon to `groups` for testing new scripts
 
 #### v1.7.5
 
-* [TEST]: validating now `yarn`-based instructions
+- [TEST]: validating now `yarn`-based instructions
 
 #### v1.7.4
 
-* [FEAT]: add bgcheck-status-clear icon to `people`
-* [FEAT]: add bgcheck-status-expired icon to `people`
-* [FEAT]: add bgcheck-status-none icon to `people`
-* [FEAT]: add bgcheck-status-notclear icon to `people`
-* [FEAT]: add bgcheck-status-pending icon to `people`
-* [FEAT]: add bgcheck-status-unknown icon to `people`
+- [FEAT]: add bgcheck-status-clear icon to `people`
+- [FEAT]: add bgcheck-status-expired icon to `people`
+- [FEAT]: add bgcheck-status-none icon to `people`
+- [FEAT]: add bgcheck-status-notclear icon to `people`
+- [FEAT]: add bgcheck-status-pending icon to `people`
+- [FEAT]: add bgcheck-status-unknown icon to `people`
 
 #### v1.7.3
 
-* [FEAT]: add person-arrow icon to `people`
+- [FEAT]: add person-arrow icon to `people`
 
 #### v1.7.2
 
-* [FEAT]: add duplicate icon to `services`
+- [FEAT]: add duplicate icon to `services`
 
 #### v1.7.1
 
-* [FEAT]: add advance icon to `people`
+- [FEAT]: add advance icon to `people`
 
 #### v1.7.0
 
-* [FEAT]: add forms icons to `people`
+- [FEAT]: add forms icons to `people`
 
 #### v1.5.7
 
-* [FIX]: add filter icon in `interfaces`
+- [FIX]: add filter icon in `interfaces`
 
 #### v1.5.6
 
-* [FIX]: fix export icon in `interfaces`
+- [FIX]: fix export icon in `interfaces`
 
 #### v1.5.4
 
-* [FEAT]: add export icon to `interfaces`
+- [FEAT]: add export icon to `interfaces`
 
 #### v1.5.3
 
-* [FEAT]: add payment-sources icon to `giving`
+- [FEAT]: add payment-sources icon to `giving`
 
 #### v1.5.2
 
-* [FIX]: make public on org NPM registry
+- [FIX]: make public on org NPM registry
 
 #### v1.5.1
 
-* [FEAT]: add person-remove icon to `groups`
+- [FEAT]: add person-remove icon to `groups`
 
 #### v1.5.0
 
-* [FEAT]: add apple, windows, android and linux to `check-ins`
+- [FEAT]: add apple, windows, android and linux to `check-ins`
 
 #### v1.4.0
 
-* [FEAT]: add icon to `check-ins/microsoft-edge`
+- [FEAT]: add icon to `check-ins/microsoft-edge`
 
 #### v1.2.0
 
-* [FEAT]: add collection `resources`
+- [FEAT]: add collection `resources`
 
 #### v1.1.0
 
-* [FEAT]: add icon `people/new-pencil`
-* [FEAT]: add `yarn start` script
+- [FEAT]: add icon `people/new-pencil`
+- [FEAT]: add `yarn start` script
 
 #### v1.0.1
 
-* [FIX]: remove duplicate layers from Groups source and exports.
+- [FIX]: remove duplicate layers from Groups source and exports.
 
 <details>
