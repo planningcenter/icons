@@ -364,6 +364,10 @@ We'll continue to ship helpersand components that abstract those details.
 
 ## CHANGELOG
 
+#### v3.0.0-5 (pre-release)
+
+- people#anniversary: fix spacing and fill
+
 #### v3.0.0-4 (pre-release)
 
 - people#anniversary: new icon
