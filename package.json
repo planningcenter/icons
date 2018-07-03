@@ -1,10 +1,6 @@
 {
   "name": "@planningcenter/icons",
-<<<<<<< HEAD
-  "version": "3.0.0-3",
-=======
-  "version": "3.0.0-4",
->>>>>>> 91777ff... v3.0.0-4
+  "version": "3.0.0-5",
   "description": "Planning Center Icons",
   "main": "index.js",
   "scripts": {
