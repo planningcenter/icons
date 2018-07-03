@@ -364,6 +364,10 @@ We'll continue to ship helpersand components that abstract those details.
 
 ## CHANGELOG
 
+#### v3.0.0-4 (pre-release)
+
+- people#anniversary: new icon
+
 #### v3.0.0-3 (pre-release)
 
 - general#cog: improve visibility at smaller renderings
