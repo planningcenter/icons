@@ -364,6 +364,28 @@ We'll continue to ship helpersand components that abstract those details.
 
 ## CHANGELOG
 
+#### v3.0.0-6 (pre-release)
+
+- [BREAKING]Major update of Groups Icon library. Removed unused icons and those that are in the General library. The following icons were removed:
+    - groups
+    - search
+    - categories
+    - list
+    - map-o
+    - plus-encircled-o
+    - trash
+    - mobile-phone-o
+    - alert-exclamation-o
+    - arrows-merging
+    - template-o
+    - circle-check-o
+    - email
+    - info
+    - email-again
+    - groups-logo
+    - groups-icon
+- general#outlined-circle-check new icon
+
 #### v3.0.0-5 (pre-release)
 
 - people#anniversary: fix spacing and fill
