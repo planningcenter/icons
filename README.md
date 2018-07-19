@@ -16,119 +16,36 @@ Accessible, scaleable, standard SVG icons for [Planning Center](https://planning
 
 <!-- toc -->
 
-- [Development](#development)
-- [Workflow](#workflow)
-- [Versioning](#versioning)
-- [Platform setup and usage](#platform-setup-and-usage)
-- [Old Docs](#old-docs)
-- [v2 TRANSITION](#v2-transition)
-- [CHANGELOG](#changelog)
-
 <!-- tocstop -->
 
 ## Development
 
 ### Scripts
 
-| Command                           | Task                                                 |
-| --------------------------------- | ---------------------------------------------------- |
-| `yarn build`                      | build all collections, once                          |
-| `yarn build --collection general` | build specified collection, once                     |
-| `yarn publish`                    | prompts for new version number, and publishes to npm |
+| Command                                | Task                                                 |
+| -------------------------------------- | ---------------------------------------------------- |
+| `yarn build`                           | build all collections, once                          |
+| `yarn build --collection {collection}` | build specified collection, once                     |
+| `yarn publish`                         | prompts for new version number, and publishes to npm |
 
 `build` commands will build the SVG sprites **and** rebuild the doc-site.
 
-## Workflow
+## Contributing
 
-### Overview
-
-- [Add or edit new illustrations](#add-or-edit-an-illustrations)
-- [Export SVGs](#export-svgs)
-- [Build sprites and docs](#build-sprites-and-docs)
-- [Publish to NPM](#publish-to-npm)
-- [Commit and push](#commit-and-push)
-
-<details>
-<summary>Add or edit an illustrations</summary>
-
-- locate the source Illustrator file you'd like to update in `src/{collection}.ai`
-- make changes and `save`
-
-</details>
-
-<details>
-<summary>Export SVGs</summary>
-
-- select `Export for screens`, from the `File` menu
-  - export as `SVG`
-  - select the corresponding directory (`svg/{collection}/`)
-- select these settings
-  - `styling` is `Presentation Attributes`
-  - `precision` is at least `3`
-
-![ai config](./images/ai-config.png)
-
-</details>
-
-<details>
-<summary>Build sprites and docs</summary>
-
-- run `yarn build` in the project root.
-- watch for errors. the errors should help you.
-
-</details>
-
-<details>
-<summary>Publish to NPM</summary>
-
-- run `npm login` (if you haven't)
-
-* run `yarn publish`
-  - you'll be prompted for a new version number
-  - add version notes to the changelog in `README.md`
-
-</details>
-
-<details>
-<summary>Commit and Push</summary>
-
-- in most cases, just push to `master`
-- if you're changing a shared collection, maybe open a PR.
-
-</details>
-
-## Versioning
-
-Versions should break down like so
-
-```
-v1.0.0
- ^ ^ ^
- │ │ └─ Patch : Documentation and fixes
- │ └─── Minor : Additions
- └───── Major : Deletions and edits
-```
-
-When **adding** icons, increment the `Minor` place.
-
-When **editing or removing** icons ("breaking changes"), increment the `Major` place.
-
-When **fixing bugs and updating documentation**, increment the `Patch` place.
-
-**In most cases, you should user the `Minor` place.**
+See [CONTRIBUTING.md](./CONTRIBUTING.md)
 
 ## Platform setup and usage
 
-### Any
+### Anywhere
 
-These icons can be used anywhere on the web.
+@planningcenter/icons can be used anywhere on the web.
 You simple need a link to a public path.
 
 ```html
-<use href="./path/to/general.svg#down-arrow"></use>
+<svg role="img" title="down arrow icon" class="symbol">
+  <use href="./path/to/general.svg#down-arrow"></use>
+</svg>
 ```
-
-That's it!
 
 When you do this, a few things are up to you:
 
@@ -156,7 +73,7 @@ Rails.application.config.assets.precompile += %w(
 )
 ```
 
-Add this helper (it might exist to some degree).
+Add this helper.
 
 ```rb
 module IconHelper
@@ -167,6 +84,9 @@ module IconHelper
   end
 end
 ```
+
+`planningcenter_svg_use_tag` and `relativize_asset_path` are provided by the [ministrycentered/interfaces](https://github.com/ministrycentered/interfaces/) gem.
+It's bundled into all Planning Center apps.
 
 </details>
 
@@ -180,7 +100,7 @@ Once Rails is setup with the `external_icon` helper, it can be used it like so.
 
 By default `external_icon` uses the [symbol class, included in this project.](https://github.com/planningcenter/icons/blob/master/css/symbol.css)
 
-It's **recommended** that you stylize icons from the outside.
+We **recommended** styling icons from an ancestor.
 This helps to keep app-code separate from icon implementation:
 
 ```erb
@@ -192,13 +112,9 @@ This helps to keep app-code separate from icon implementation:
 You can add HTML attributes to the `use` tag via the helper.
 This can be handy for specially styled icons or those you target via JavaScript.
 
-```erb
-<%= external_icon("general#down-arrow"), id: "myIcon", class: "my-special-icon" %>
-```
-
 </details>
 
-### Webpack and React
+### Rails, Webpacker, and React
 
 <details>
 <summary>Setup</summary>
@@ -223,6 +139,10 @@ environment.loaders.append("file", {
 module.exports = environment;
 ```
 
+</details>
+
+<details>
+<summary>usage</summary>
 With the `file-loader` setup above.
 You can use `import` to resolve digested paths to `.svg` assets.
 
@@ -273,7 +193,7 @@ import Icon from "./path/to/external_icon.js"
 <Icon symbol="general#down-arrow">
 ```
 
-It's **recommended** that you stylize icons from the outside.
+We **recommended** styling icons from an ancestor.
 This helps to keep app-code separate from icon implementation:
 
 ```erb
@@ -295,21 +215,28 @@ This can be handy for specially styled icons or those you target via JavaScript 
 
 </details>
 
+### CodeSandbox
 <details>
-<summary>svg4everybdy</summary>
+<summary>Examples</summary>
 
-`svg4everybody` is the polyfill we use support IE11.
+[@planningcenter/icons, single SVG](https://codesandbox.io/s/l557znx8qz)  
+[@planningcenter/icons, SVG sprite](https://codesandbox.io/s/km3xqvxrn3)  
+</details>
 
-Here's how you set it up in Rails apps.
+### IE11 External Resource SVG polyfill — svg4everybody
 
-### Setup (sprockets)
+<details>
+<summary>Anywhere</summary>
 
-```js
-//= require "@planningcenter/icons/js/svg4everybody.js
-//= require_self
-
-window.svg4everybody();
+```html
+<script src="/path/to/svg4everybody.js"></script>
+<script>window.svg4everybody()</script>
 ```
+
+</details>
+
+<details>
+<summary>Rails (<code>.erb</code> layout)</summary>
 
 ### Setup (layout)
 
@@ -322,210 +249,21 @@ window.svg4everybody();
 
 </details>
 
-## v2 TRANSITION
-
-Changes are in progress for icons.
-Here's what's going down and how it impacts you.
-
-### What we're after
-
-Right now Icons handles the mapping between SVGs and each platform.
-It's a 1:1 relationship.
-Our goal is that icons will be platform agnostic.
-You could use them in any framework or no framework at all.
-
-Icons@v2 is a transitional version where we'll contiuen to build SVGs and platform mappings.
-But we're focusing on using SVGs and SVG sprites/stacks as the primary API.
-
-### External Resource SVG
-
-This will be the new implementation API:
-
-```html
-<svg>
-  <use xlink:href="./path/to/svg/sprite.svg#right-arrow"></use>
-</svg>
-```
-
-It's just web standards.
-
-### Challenges
-
-The external resource SVG standard is not seemlessly integrated for our target browsers.
-
-For example, IE11 does not support them at all.
-We're using SVG4Everybody.js to solve that.
-
-Safari doesn't support the latest `<use href="...">` syntax (no `xlink:`).
-So, we'll be using the old syntax to cover that.
-
-Accessibility is always verbose and this setup forces that onto the implementing developer.
-We'll continue to ship helpersand components that abstract those details.
-
-## CHANGELOG
-
-#### v3.0.0-6 (pre-release)
-
-- [BREAKING]Major update of Groups Icon library. Removed unused icons and those that are in the General library. The following icons were removed:
-    - groups
-    - search
-    - categories
-    - list
-    - map-o
-    - plus-encircled-o
-    - trash
-    - mobile-phone-o
-    - alert-exclamation-o
-    - arrows-merging
-    - template-o
-    - circle-check-o
-    - email
-    - info
-    - email-again
-    - groups-logo
-    - groups-icon
-- general#outlined-circle-check new icon
-
-#### v3.0.0-5 (pre-release)
-
-- people#anniversary: fix spacing and fill
-
-#### v3.0.0-4 (pre-release)
-
-- people#anniversary: new icon
-
-#### v3.0.0-3 (pre-release)
-
-- general#cog: improve visibility at smaller renderings
-
-#### v3.0.0-0 (pre-release)
-
-- [BREAKING]Major update of People Icon library. Removed unused icons and those that are in the General library, updated remaining people icons to match style esablished in General library
-
 <details>
-<summary>v2</summary>
+<summary>Rails (sprockets)</summary>
 
-#### v2.0.0
-#### v2.5.1
-* added bulk-actions icon to people
+```js
+//= require "@planningcenter/icons/js/svg4everybody.js
+//= require_self
 
-#### v2.3.0
-
-- [BREAKING] new `use` tag API only
-
-#### v2.0.0-12
-
-- [FIX]: re-export envelope icon from `general`
-
-#### v2.0.0-10
-
-- [FIX]: re-export `general` set of icons (now without padding)
-
-#### v2.0.0-7-8 & v2.0.0-9
-
-- [FIX]: strip fill colors from all icons
-
-* [FIX]: make sure svg fill colors get stripped from groups-icon and groups-logo in `groups`
-
-#### v2.0.0-6
-
-- [FEAT]: add groups logo icon and groups icon to `groups`
-
-#### v2.0
+window.svg4everybody();
+```
 
 </details>
 
-<details>
-<summary>v1</summary>
 
-#### v1.8.2
+### CHANGELOG
 
-- [FEAT]: fix to history icon to `people`
-
-#### v1.8.1
-
-- [FEAT]: add history icon to `people`
-
-#### v1.8.0
-
-- [FIX]: add `/css` directory back into published `files`
-
-#### v1.7.6
-
-- [TEST]: adding icon to `groups` for testing new scripts
-
-#### v1.7.5
-
-- [TEST]: validating now `yarn`-based instructions
-
-#### v1.7.4
-
-- [FEAT]: add bgcheck-status-clear icon to `people`
-- [FEAT]: add bgcheck-status-expired icon to `people`
-- [FEAT]: add bgcheck-status-none icon to `people`
-- [FEAT]: add bgcheck-status-notclear icon to `people`
-- [FEAT]: add bgcheck-status-pending icon to `people`
-- [FEAT]: add bgcheck-status-unknown icon to `people`
-
-#### v1.7.3
-
-- [FEAT]: add person-arrow icon to `people`
-
-#### v1.7.2
-
-- [FEAT]: add duplicate icon to `services`
-
-#### v1.7.1
-
-- [FEAT]: add advance icon to `people`
-
-#### v1.7.0
-
-- [FEAT]: add forms icons to `people`
-
-#### v1.5.7
-
-- [FIX]: add filter icon in `interfaces`
-
-#### v1.5.6
-
-- [FIX]: fix export icon in `interfaces`
-
-#### v1.5.4
-
-- [FEAT]: add export icon to `interfaces`
-
-#### v1.5.3
-
-- [FEAT]: add payment-sources icon to `giving`
-
-#### v1.5.2
-
-- [FIX]: make public on org NPM registry
-
-#### v1.5.1
-
-- [FEAT]: add person-remove icon to `groups`
-
-#### v1.5.0
-
-- [FEAT]: add apple, windows, android and linux to `check-ins`
-
-#### v1.4.0
-
-- [FEAT]: add icon to `check-ins/microsoft-edge`
-
-#### v1.2.0
-
-- [FEAT]: add collection `resources`
-
-#### v1.1.0
-
-- [FEAT]: add icon `people/new-pencil`
-- [FEAT]: add `yarn start` script
-
-#### v1.0.1
-
-- [FIX]: remove duplicate layers from Groups source and exports.
-
-<details>
+[CHANGELOG](./CHANGELOG.md)  
+[CHANGELOG-v1](./changelog/CHANGELOG-v1.md)  
+[CHANGELOG-v2](./changelog/CHANGELOG-v2.md)  
