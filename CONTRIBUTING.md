@@ -1,6 +1,17 @@
 # Contributing
 
 <details>
+<summary>Development scripts</summary>
+| Command                                | Task                                                 |
+| -------------------------------------- | ---------------------------------------------------- |
+| `yarn build`                           | build all collections, once                          |
+| `yarn build --collection {collection}` | build specified collection, once                     |
+| `yarn publish`                         | prompts for new version number, and publishes to npm |
+
+`build` commands will build the SVG sprites **and** rebuild the doc-site.
+</details>
+
+<details>
 <summary>Add or edit an illustrations</summary>
 
 - locate the source Illustrator file you'd like to update in `src/{collection}.ai`

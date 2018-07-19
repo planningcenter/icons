@@ -16,19 +16,10 @@ Accessible, scaleable, standard SVG icons for [Planning Center](https://planning
 
 <!-- toc -->
 
+- [Contributing](#contributing)
+- [Platform setup and usage](#platform-setup-and-usage)
+
 <!-- tocstop -->
-
-## Development
-
-### Scripts
-
-| Command                                | Task                                                 |
-| -------------------------------------- | ---------------------------------------------------- |
-| `yarn build`                           | build all collections, once                          |
-| `yarn build --collection {collection}` | build specified collection, once                     |
-| `yarn publish`                         | prompts for new version number, and publishes to npm |
-
-`build` commands will build the SVG sprites **and** rebuild the doc-site.
 
 ## Contributing
 
@@ -266,4 +257,4 @@ window.svg4everybody();
 
 [CHANGELOG](./CHANGELOG.md)  
 [CHANGELOG-v1](./changelog/CHANGELOG-v1.md)  
-[CHANGELOG-v2](./changelog/CHANGELOG-v2.md)  
+[CHANGELOG-v2](./changelog/CHANGELOG-v2.md)

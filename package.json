@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "node --experimental-modules ./scripts/cli.mjs build",
-    "readme:toc": "$(npm bin)/markdown-toc --maxdepth 2 README.md"
+    "readme:toc": "$(npm bin)/markdown-toc -i --maxdepth 2 README.md"
   },
   "repository": {
     "type": "git",
