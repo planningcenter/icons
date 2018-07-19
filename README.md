@@ -206,6 +206,61 @@ This can be handy for specially styled icons or those you target via JavaScript 
 
 </details>
 
+### Gatsby (most starters)
+
+<details>
+<summary>setup</summary>
+
+add [@planningcenter/icons](https://github.com/planningcenter/icons) and [@planningcenter/symbol](https://github.com/planningcenter/javascript/tree/master/packages/symbol) to your project:
+
+```bash
+yarn @planningcenter/icons @planningcenter/symbol
+```
+</details>
+
+<details>
+<summary>usage</summary>
+
+```jsx
+import general from "@planningcenter/icons/sprite/general.svg"
+import "@planningcenter/icons/css/symbol.css"
+import Symbol from "@planningcenter/symbol"
+
+function App() {
+  return <Symbol symbol={`${general}#down-arrow`} />;
+}
+```
+
+</details>
+
+
+### `create-react-app`
+
+<details>
+<summary>setup</summary>
+
+add [@planningcenter/icons](https://github.com/planningcenter/icons) and [@planningcenter/symbol](https://github.com/planningcenter/javascript/tree/master/packages/symbol) to your project:
+
+```bash
+yarn @planningcenter/icons @planningcenter/symbol
+```
+</details>
+
+<details>
+<summary>usage</summary>
+
+```jsx
+import general from "@planningcenter/icons/sprite/general.svg"
+import "@planningcenter/icons/css/symbol.css"
+import Symbol from "@planningcenter/symbol"
+
+function App() {
+  return <Symbol symbol={`${general}#down-arrow`} />;
+}
+```
+
+</details>
+
 ### CodeSandbox
 <details>
 <summary>Examples</summary>
