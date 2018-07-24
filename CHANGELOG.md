@@ -1,6 +1,9 @@
 # CHANGELOG - v3
 
 ### v3.0.0-6 (pre-release)
+- giving#arrows-merging: formerly referenced from Groups set (now removed)
+
+### v3.0.0-6 (pre-release)
 
 - [BREAKING]Major update of Groups Icon library. Removed unused icons and those that are in the General library. The following icons were removed:
     - groups
