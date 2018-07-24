@@ -1,6 +1,6 @@
 # CHANGELOG - v3
 
-### v3.0.0-6 (pre-release)
+### v3.0.0-7 (pre-release)
 - giving#arrows-merging: formerly referenced from Groups set (now removed)
 
 ### v3.0.0-6 (pre-release)
