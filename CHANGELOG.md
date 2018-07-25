@@ -1,5 +1,41 @@
 # CHANGELOG - v3
 
+### v3.0.0-8 (pre-release)
+[BREAKING] Major update to Giving icon set. Removed 20 unused icons (some duplicates in General), added 5 (removed dependency on Registrations & Check-Ins icon sets) and modified 2 existing icons.
+
+- #### Removed:
+    - ach
+    - asterisk 
+    - bank-confirmed
+    - bank-pending
+    - bank
+    - caret-outline
+    - cc
+    - check-circle-o
+    - check
+    - deposit
+    - dots-outline
+    - eyeball-hide
+    - eyedropper
+    - giving-logo
+    - incomplete-circle-o
+    - phone-outline
+    - r-arr-circle-outline
+    - skip-circle-o
+    - speedy
+    - to-arrow
+   
+- #### Added:
+    - upload
+    - page-right-double
+    - filter
+    - print
+    - communication
+   
+- #### Modified:
+    - bill _(fixed alignment)_
+    - arrows-merging _(corrected non-black fill color)_
+
 ### v3.0.0-7 (pre-release)
 - giving#arrows-merging: formerly referenced from Groups set (now removed)
 
