@@ -1,5 +1,9 @@
 # CHANGELOG - v3
 
+### v3.0.0-9 (pre-release)
+- general#cog: fixed spacing issue caused by misaligned anchor points
+
+
 ### v3.0.0-8 (pre-release)
 [BREAKING] Major update to Giving icon set. Removed 20 unused icons (some duplicates in General), added 5 (removed dependency on Registrations & Check-Ins icon sets) and modified 2 existing icons.
 
