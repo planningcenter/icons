@@ -1,1 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><title>windows</title><g id="Layer_1" data-name="Layer 1"><path d="M0,2.27l6.52-.89V7.67L0,7.7ZM6.54,8.39v6.29L0,13.79V8.35Zm.79-7.13L16,0V7.59l-8.64.06ZM16,8.45V16L7.33,14.78V8.43Z"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+  <title>windows</title>
+  <g id="Layer_1" data-name="Layer 1">
+    <path d="M.025,2.265l6.518-.887,0,6.287L.031,7.7ZM6.54,8.39l0,6.293-6.515-.9V8.347Zm.79-7.129L15.973,0V7.585L7.33,7.654Zm8.645,7.188,0,7.551L7.33,14.78,7.318,8.435Z"/>
+  </g>
+</svg>
