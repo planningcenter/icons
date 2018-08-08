@@ -1,18 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
-  <title>bar-code</title>
-  <g id="Layer_1" data-name="Layer 1">
-    <g>
-      <rect x="1.472" y="4.635" width="1.154" height="6.729"/>
-      <path d="M15.024,3.225H1a1,1,0,0,0-1,1v7.554a1,1,0,0,0,1,1H15.024a1,1,0,0,0,1-1V4.223A1,1,0,0,0,15.024,3.225Zm.411,8.552a.412.412,0,0,1-.411.411H1a.412.412,0,0,1-.411-.411V4.223A.411.411,0,0,1,1,3.812H15.024a.411.411,0,0,1,.411.411Z"/>
-      <rect x="3.839" y="4.635" width="0.567" height="6.729"/>
-      <rect x="3.202" y="4.635" width="0.25" height="6.729"/>
-      <rect x="5.111" y="4.635" width="1.349" height="6.729"/>
-      <rect x="7.028" y="4.635" width="0.587" height="6.729"/>
-      <rect x="10.735" y="4.635" width="1.35" height="6.729"/>
-      <rect x="9.581" y="4.635" width="0.587" height="6.729"/>
-      <rect x="8.368" y="4.635" width="0.587" height="6.729"/>
-      <rect x="13.845" y="4.635" width="0.587" height="6.729"/>
-      <rect x="12.633" y="4.635" width="0.586" height="6.729"/>
-    </g>
-  </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><title>bar-code</title><g id="Layer_1" data-name="Layer 1"><rect x="1.47" y="4.64" width="1.15" height="6.73"/><path d="M15,3.23H1a1,1,0,0,0-1,1v7.56a1,1,0,0,0,1,1H15a1,1,0,0,0,1-1V4.22A1,1,0,0,0,15,3.23Zm.42,8.55a.42.42,0,0,1-.42.41H1a.41.41,0,0,1-.41-.41V4.22A.41.41,0,0,1,1,3.81H15a.42.42,0,0,1,.42.41Z"/><rect x="3.84" y="4.64" width="0.57" height="6.73"/><rect x="3.2" y="4.64" width="0.25" height="6.73"/><rect x="5.11" y="4.64" width="1.35" height="6.73"/><rect x="7.03" y="4.64" width="0.59" height="6.73"/><rect x="10.73" y="4.64" width="1.35" height="6.73"/><rect x="9.58" y="4.64" width="0.59" height="6.73"/><rect x="8.37" y="4.64" width="0.59" height="6.73"/><rect x="13.85" y="4.64" width="0.59" height="6.73"/><rect x="12.63" y="4.64" width="0.59" height="6.73"/></g></svg>
