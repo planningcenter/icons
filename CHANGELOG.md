@@ -1,5 +1,40 @@
 # CHANGELOG - v3
 
+### v3.0.0-10 (pre-release)
+**[BREAKING]** Major updates to Check-Ins icons set.
+
+#### Added
+- `check-ins#bgcheck-check`
+- `check-ins#bgcheck-x`
+- `check-ins#add-household`
+
+#### Removed
+- `check-ins#Artboard-55`
+- `check-ins#admin-panel`
+- `check-ins#calendar`
+- `check-ins#capacity`
+- `check-ins#checkins-logo`
+- `check-ins#email`
+- `check-ins#include`
+- `check-ins#location`
+- `check-ins#medical`
+- `check-ins#options`
+- `check-ins#page-left-double`
+- `check-ins#page-left`
+- `check-ins#page-right-double`
+- `check-ins#page-right`
+- `check-ins#permissions`
+- `check-ins#phone`
+- `check-ins#profile`
+- `check-ins#room`
+- `check-ins#scope`
+- `check-ins#station-time`
+- `check-ins#template`
+- `check-ins#upload`
+
+#### Updated
+- `check-ins#guest-badge`
+
 ### v3.0.0-9 (pre-release)
 - general#cog: fixed spacing issue caused by misaligned anchor points
 
