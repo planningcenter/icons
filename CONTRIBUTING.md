@@ -2,6 +2,7 @@
 
 <details>
 <summary>Development scripts</summary>
+
 | Command                                | Task                                                 |
 | -------------------------------------- | ---------------------------------------------------- |
 | `yarn build`                           | build all collections, once                          |
@@ -48,7 +49,7 @@
 
 * run `yarn publish`
   - you'll be prompted for a new version number
-  - add version notes to the changelog in `README.md`
+  - add version notes to the changelog in [`CHANGELOG.md`](./CHANGELOG.md)
 
 </details>
 
