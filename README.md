@@ -70,7 +70,7 @@ Add this helper.
 module IconHelper
   def external_icon(name, **attrs)
     planningcenter_svg_use_tag(name, attrs) do |path|
-      relativize_asset_path(path)
+      relativize_asset_path(asset_path(path))
     end
   end
 end
