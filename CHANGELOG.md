@@ -1,5 +1,8 @@
 # CHANGELOG - v3
 
+### v3.0.0-11 (pre-release)
+- giving#email-multi: new icon
+
 ### v3.0.0-10 (pre-release)
 **[BREAKING]** Major updates to Check-Ins icons set.
 
