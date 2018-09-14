@@ -1,7 +1,10 @@
 # CHANGELOG - v3
 
+### v3.0.0-13 (pre-release)
+- fixed giving#email-multi (removed non-black elements)
+
 ### v3.0.0-12 (pre-release)
-- included updated sprite from previous commit (forgot `yarn build`...) ¯\_(ツ)_/¯
+- included updated sprite from previous commit
 
 ### v3.0.0-11 (pre-release)
 - giving#email-multi: new icon
