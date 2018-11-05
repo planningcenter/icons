@@ -1,5 +1,8 @@
 # CHANGELOG - v3
 
+### v3.0.0-14 (pre-release)
+- updated Mailchimp logo to 2018 brand revision
+
 ### v3.0.0-13 (pre-release)
 - fixed giving#email-multi (removed non-black elements)
 
@@ -53,7 +56,7 @@
 
 - #### Removed:
     - ach
-    - asterisk 
+    - asterisk
     - bank-confirmed
     - bank-pending
     - bank
@@ -72,14 +75,14 @@
     - skip-circle-o
     - speedy
     - to-arrow
-   
+
 - #### Added:
     - upload
     - page-right-double
     - filter
     - print
     - communication
-   
+
 - #### Modified:
     - bill _(fixed alignment)_
     - arrows-merging _(corrected non-black fill color)_
