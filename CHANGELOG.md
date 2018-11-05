@@ -1,7 +1,10 @@
 # CHANGELOG - v3
 
 ### v3.0.0-14 (pre-release)
-- updated Mailchimp logo to 2018 brand revision
+- fixed update to Mailchimp logo (2018 brand revision)
+
+### v3.0.0-14 (pre-release)
+- failed Mailchimp logo update
 
 ### v3.0.0-13 (pre-release)
 - fixed giving#email-multi (removed non-black elements)
