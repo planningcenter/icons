@@ -1,6 +1,6 @@
 {
   "name": "@planningcenter/icons",
-  "version": "3.0.0-15",
+  "version": "3.0.1",
   "description": "Planning Center Icons",
   "main": "index.js",
   "scripts": {
@@ -32,14 +32,14 @@
     "chalk": "^2.3.1",
     "cheerio": "^0.22.0",
     "consolidate": "^0.15.0",
-    "lodash.camelcase": "^4.3.0",
-    "lodash.upperfirst": "^4.3.1",
-    "prettier": "^0.22.0",
-    "svgo": "^1.0.5",
     "handlebars": "^4.0.11",
     "icon.font": "^1.1.0",
+    "lodash.camelcase": "^4.3.0",
+    "lodash.upperfirst": "^4.3.1",
     "markdown-toc": "^1.2.0",
     "minimist": "^1.2.0",
-    "npm": "^5.10.0"
+    "npm": "^5.10.0",
+    "prettier": "^0.22.0",
+    "svgo": "^1.0.5"
   }
 }
