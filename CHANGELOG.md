@@ -1,5 +1,8 @@
 # CHANGELOG - v3
 
+### v3.1.0
+- added new icon set for API
+
 ### v3.0.0-14 (pre-release)
 - fixed update to Mailchimp logo (2018 brand revision)
 
