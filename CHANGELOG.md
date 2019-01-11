@@ -1,6 +1,11 @@
 # CHANGELOG - v3
 
 ### v3.1.0
+- add icons to `general`
+  - `calendar-repeat`
+  - `faders`
+
+### v3.1.0
 - added new icon set for API
 
 ### v3.0.0-14 (pre-release)
