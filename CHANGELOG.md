@@ -1,5 +1,9 @@
 # CHANGELOG - v3
 
+### v3.4.0
+
+- add Church Center icons to `color-apps`
+
 ### v3.2.0
 
 - add Church Center icons to `apps`
