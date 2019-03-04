@@ -1,5 +1,9 @@
 # CHANGELOG - v3
 
+### v4.0.0
+
+- removed `laptop` icon from **Giving** set and added to **General** _(not Giving-specific anymore)_
+
 ### v3.4.0
 
 - add Church Center icons to `color-apps`
