@@ -1,5 +1,9 @@
 # CHANGELOG - v3
 
+### v4.1.0
+
+- add Publishing icons to `apps`
+
 ### v4.0.0
 
 - removed `laptop` icon from **Giving** set and added to **General** _(not Giving-specific anymore)_
