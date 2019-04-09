@@ -1,5 +1,13 @@
 # CHANGELOG - v3
 
+### v4.3.0
+
+- update `api` icon set
+
+### v4.2.0
+
+- add new icons to `accounts`
+
 ### v4.1.0
 
 - add Publishing icons to `apps`
