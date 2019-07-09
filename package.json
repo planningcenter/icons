@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "node --experimental-modules ./scripts/cli.mjs build",
-    "readme:toc": "$(npm bin)/markdown-toc -i --maxdepth 2 README.md"
+    "build": "node --experimental-modules ./scripts/cli.mjs build"
   },
   "repository": {
     "type": "git",
@@ -36,7 +35,6 @@
     "icon.font": "^1.1.0",
     "lodash.camelcase": "^4.3.0",
     "lodash.upperfirst": "^4.3.1",
-    "markdown-toc": "^1.2.0",
     "minimist": "^1.2.0",
     "prettier": "^1.18.2",
     "svgo": "^1.2.2"
