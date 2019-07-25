@@ -156,8 +156,8 @@
   <title>linkedin</title><g id="Layer_1" data-name="Layer 1"><path d="M.065,15.2H3.458V5.269H.065ZM1.754.8A1.7,1.7,0,0,0,.021,2.466,1.7,1.7,0,0,0,1.754,4.13,1.7,1.7,0,0,0,3.488,2.466,1.7,1.7,0,0,0,1.754.8Zm14.176,8c0-1.758-1.535-3.515-4.37-3.515-1.429,0-2.664.12-3.532,1.135V5.3H4.6v9.9h3.4V8.671a2.4,2.4,0,0,1,1.955-1.13c2.177-.085,2.566,1,2.566,2.428V15.2H15.93Z" fill-rule="evenodd"></path></g>
 </symbol>
 
-<symbol id="logic.png" viewBox="undefined">
-  
+<symbol id="logic" viewBox="0 0 16 16">
+  <title>logic</title><g id="Layer_1" data-name="Layer 1"> <path d="M11.3,6H15V1H10V5.193L8.1,7.25H6.669a3.25,3.25,0,1,0,0,1.5H8.1L10,10.808V15h5V10H11.3L9.453,8ZM3.515,9.75A1.75,1.75,0,1,1,5.265,8,1.752,1.752,0,0,1,3.515,9.75Z"></path> </g>
 </symbol>
 
 <symbol id="merge-people" viewBox="0 0 16 16">
