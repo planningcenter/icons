@@ -1,5 +1,8 @@
 # CHANGELOG - v3
 
+### v4.3.3
+- add new `logic` icon to **people**
+
 ### v4.3.0
 
 - update `api` icon set
