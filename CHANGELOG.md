@@ -1,7 +1,10 @@
 # CHANGELOG - v3
 
+### v4.3.4
+- fix `logic` icon in **People**
+
 ### v4.3.3
-- add new `logic` icon to **people**
+- add new `logic` icon to **People**
 
 ### v4.3.0
 
