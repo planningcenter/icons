@@ -1,5 +1,8 @@
 # CHANGELOG - v3
 
+### v4.4.0
+- add `person-details` icon in **Registrations**
+
 ### v4.3.4
 - fix `logic` icon in **People**
 
