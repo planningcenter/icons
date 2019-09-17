@@ -1,5 +1,8 @@
 # CHANGELOG - v3
 
+### v4.5.0
+- add new `unsubscribed` icon to **People**
+
 ### v4.4.1
 - fix `person-details` icon in **Registrations** by removing fill values that didn't get stripped in previous build
 
