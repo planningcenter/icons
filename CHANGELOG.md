@@ -1,5 +1,8 @@
 # CHANGELOG - v3
 
+### v4.6.0
+- add new icon set for Publishing
+
 ### v4.5.0
 - add new `unsubscribed` icon to **People**
 
