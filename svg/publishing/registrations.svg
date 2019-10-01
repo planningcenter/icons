@@ -2,33 +2,36 @@
   <title>registrations</title>
   <g id="Layer_1" data-name="Layer 1">
     <g>
-      <path d="M15,4.8035H1V14.8928H15Z" fill="none" stroke="#231f20" stroke-linecap="round" stroke-linejoin="round"/>
-      <path d="M7.469,2.39,5.0552,4.8036" fill="none" stroke="#231f20" stroke-linecap="round" stroke-linejoin="round"/>
-      <path d="M8.6276,2.3414l2.3656,2.4622" fill="none" stroke="#231f20" stroke-linecap="round" stroke-linejoin="round"/>
-      <path d="M8.772,1.8587a.7726.7726,0,0,1-1.5446,0,.7726.7726,0,0,1,1.5446,0Z" fill="#231f20" stroke="#231f20"/>
-      <path d="M2.9312,8.6654h.531" fill="none" stroke="#231f20" stroke-linecap="round" stroke-linejoin="round"/>
-      <path d="M2.9312,10.1134h.531" fill="none" stroke="#231f20" stroke-linecap="round" stroke-linejoin="round"/>
-      <path d="M2.9312,11.5619h.531" fill="none" stroke="#231f20" stroke-linecap="round" stroke-linejoin="round"/>
-      <path d="M2.9312,13.01h.531" fill="none" stroke="#231f20" stroke-linecap="round" stroke-linejoin="round"/>
-      <path d="M4.8619,8.6654h.5309" fill="none" stroke="#231f20" stroke-linecap="round" stroke-linejoin="round"/>
-      <path d="M4.8619,10.1134h.5309" fill="none" stroke="#231f20" stroke-linecap="round" stroke-linejoin="round"/>
-      <path d="M4.8619,11.5619h.5309" fill="none" stroke="#231f20" stroke-linecap="round" stroke-linejoin="round"/>
-      <path d="M4.8619,13.01h.5309" fill="none" stroke="#231f20" stroke-linecap="round" stroke-linejoin="round"/>
-      <path d="M6.7931,8.6654H7.324" fill="none" stroke="#231f20" stroke-linecap="round" stroke-linejoin="round"/>
-      <path d="M6.7931,10.1134H7.324" fill="none" stroke="#231f20" stroke-linecap="round" stroke-linejoin="round"/>
-      <path d="M6.7931,11.5619H7.324" fill="none" stroke="#231f20" stroke-linecap="round" stroke-linejoin="round"/>
-      <path d="M6.7931,13.01H7.324" fill="none" stroke="#231f20" stroke-linecap="round" stroke-linejoin="round"/>
-      <path d="M8.7243,8.6654h.531" fill="none" stroke="#231f20" stroke-linecap="round" stroke-linejoin="round"/>
-      <path d="M8.7243,10.1134h.531" fill="none" stroke="#231f20" stroke-linecap="round" stroke-linejoin="round"/>
-      <path d="M8.7243,11.5619h.531" fill="none" stroke="#231f20" stroke-linecap="round" stroke-linejoin="round"/>
-      <path d="M10.6549,8.6654h.531" fill="none" stroke="#231f20" stroke-linecap="round" stroke-linejoin="round"/>
-      <path d="M10.6549,10.1134h.531" fill="none" stroke="#231f20" stroke-linecap="round" stroke-linejoin="round"/>
-      <path d="M10.6549,11.5619h.531" fill="none" stroke="#231f20" stroke-linecap="round" stroke-linejoin="round"/>
-      <path d="M12.5861,8.6654h.531" fill="none" stroke="#231f20" stroke-linecap="round" stroke-linejoin="round"/>
-      <path d="M12.5861,10.1134h.531" fill="none" stroke="#231f20" stroke-linecap="round" stroke-linejoin="round"/>
-      <path d="M12.5861,11.5619h.531" fill="none" stroke="#231f20" stroke-linecap="round" stroke-linejoin="round"/>
-      <path d="M8.7243,13.01h.531" fill="none" stroke="#231f20" stroke-linecap="round" stroke-linejoin="round"/>
-      <path d="M1,6.7342H15" fill="none" stroke="#231f20" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M15,15.39307H1a.49972.49972,0,0,1-.5-.5V4.80371a.49971.49971,0,0,1,.5-.5H15a.49971.49971,0,0,1,.5.5V14.89307A.49972.49972,0,0,1,15,15.39307Zm-13.5-1h13V5.30371H1.5Z" fill="#231f20"/>
+      <path d="M5.05469,5.30371a.5.5,0,0,1-.35352-.85351L7.11523,2.03613a.49995.49995,0,1,1,.707.707L5.4082,5.15723A.49838.49838,0,0,1,5.05469,5.30371Z" fill="#231f20"/>
+      <path d="M10.99316,5.30371a.49668.49668,0,0,1-.36035-.15381L8.26758,2.6875a.4997.4997,0,1,1,.7207-.69238l2.36524,2.4624a.49976.49976,0,0,1-.36036.84619Z" fill="#231f20"/>
+      <g>
+        <path d="M8.772,1.8587a.7726.7726,0,0,1-1.54462,0,.7726.7726,0,0,1,1.54462,0Z" fill="#231f20"/>
+        <path d="M8,3.11035A1.27343,1.27343,0,0,1,6.72754,1.87354,1.279,1.279,0,0,1,7.11328.96729,1.3012,1.3012,0,0,1,8.8877.96875a1.26734,1.26734,0,0,1,.38476.87549v.0293A1.276,1.276,0,0,1,8,3.11035ZM8,1.60693a.27264.27264,0,0,0-.27246.26661.27055.27055,0,0,0,.081.15869.27884.27884,0,0,0,.37989.00195.27429.27429,0,0,0,.083-.17529A.27311.27311,0,0,0,8,1.60693Z" fill="#231f20"/>
+      </g>
+      <path d="M3.46191,9.16553H2.93164a.5.5,0,0,1,0-1h.53027a.5.5,0,0,1,0,1Z" fill="#231f20"/>
+      <path d="M3.46191,10.61328H2.93164a.5.5,0,0,1,0-1h.53027a.5.5,0,0,1,0,1Z" fill="#231f20"/>
+      <path d="M3.46191,12.062H2.93164a.5.5,0,0,1,0-1h.53027a.5.5,0,0,1,0,1Z" fill="#231f20"/>
+      <path d="M3.46191,13.50977H2.93164a.5.5,0,0,1,0-1h.53027a.5.5,0,0,1,0,1Z" fill="#231f20"/>
+      <path d="M5.39258,9.16553H4.8623a.5.5,0,0,1,0-1h.53028a.5.5,0,0,1,0,1Z" fill="#231f20"/>
+      <path d="M5.39258,10.61328H4.8623a.5.5,0,0,1,0-1h.53028a.5.5,0,0,1,0,1Z" fill="#231f20"/>
+      <path d="M5.39258,12.062H4.8623a.5.5,0,0,1,0-1h.53028a.5.5,0,0,1,0,1Z" fill="#231f20"/>
+      <path d="M5.39258,13.50977H4.8623a.5.5,0,0,1,0-1h.53028a.5.5,0,0,1,0,1Z" fill="#231f20"/>
+      <path d="M7.32422,9.16553H6.793a.5.5,0,0,1,0-1h.53125a.5.5,0,0,1,0,1Z" fill="#231f20"/>
+      <path d="M7.32422,10.61328H6.793a.5.5,0,0,1,0-1h.53125a.5.5,0,0,1,0,1Z" fill="#231f20"/>
+      <path d="M7.32422,12.062H6.793a.5.5,0,0,1,0-1h.53125a.5.5,0,0,1,0,1Z" fill="#231f20"/>
+      <path d="M7.32422,13.50977H6.793a.5.5,0,0,1,0-1h.53125a.5.5,0,0,1,0,1Z" fill="#231f20"/>
+      <path d="M9.25488,9.16553H8.72461a.5.5,0,0,1,0-1h.53027a.5.5,0,0,1,0,1Z" fill="#231f20"/>
+      <path d="M9.25488,10.61328H8.72461a.5.5,0,0,1,0-1h.53027a.5.5,0,0,1,0,1Z" fill="#231f20"/>
+      <path d="M9.25488,12.062H8.72461a.5.5,0,1,1,0-1h.53027a.5.5,0,0,1,0,1Z" fill="#231f20"/>
+      <path d="M11.18555,9.16553h-.53028a.5.5,0,1,1,0-1h.53028a.5.5,0,0,1,0,1Z" fill="#231f20"/>
+      <path d="M11.18555,10.61328h-.53028a.5.5,0,1,1,0-1h.53028a.5.5,0,0,1,0,1Z" fill="#231f20"/>
+      <path d="M11.18555,12.062h-.53028a.5.5,0,0,1,0-1h.53028a.5.5,0,0,1,0,1Z" fill="#231f20"/>
+      <path d="M13.11719,9.16553h-.53125a.5.5,0,0,1,0-1h.53125a.5.5,0,0,1,0,1Z" fill="#231f20"/>
+      <path d="M13.11719,10.61328h-.53125a.5.5,0,0,1,0-1h.53125a.5.5,0,0,1,0,1Z" fill="#231f20"/>
+      <path d="M13.11719,12.062h-.53125a.5.5,0,0,1,0-1h.53125a.5.5,0,0,1,0,1Z" fill="#231f20"/>
+      <path d="M9.25488,13.50977H8.72461a.5.5,0,0,1,0-1h.53027a.5.5,0,0,1,0,1Z" fill="#231f20"/>
+      <path d="M15,7.23438H1a.5.5,0,0,1,0-1H15a.5.5,0,0,1,0,1Z" fill="#231f20"/>
     </g>
   </g>
 </svg>

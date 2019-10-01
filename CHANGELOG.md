@@ -1,5 +1,8 @@
 # CHANGELOG - v3
 
+### v4.6.1
+- convert Publishing icon strokes to fills
+
 ### v4.6.0
 - add new icon set for Publishing
 
