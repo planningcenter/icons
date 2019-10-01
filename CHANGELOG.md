@@ -1,5 +1,8 @@
 # CHANGELOG - v3
 
+### v4.6.2
+- remove hardcoded fills from Publishing icons
+
 ### v4.6.1
 - convert Publishing icon strokes to fills
 
