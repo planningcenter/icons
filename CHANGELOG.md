@@ -1,5 +1,11 @@
 # CHANGELOG - v3
 
+### v4.6.4
+- fix publishing icon names
+
+### v4.6.3
+- fix publishing ai file fills
+
 ### v4.6.2
 - remove hardcoded fills from Publishing icons
 
