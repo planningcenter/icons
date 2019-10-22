@@ -1,5 +1,9 @@
 # CHANGELOG - v3
 
+### v5.0.0
+- delete social media `-outline` icons
+- update facebook, twitter, linkedIn, and Instagram icons
+
 ### v4.6.4
 - fix publishing icon names
 
