@@ -1,5 +1,8 @@
 # CHANGELOG - v3
 
+### v5.1.0
+- add `kiosk` icon to **Resources**
+
 ### v5.0.0
 - delete social media `-outline` icons
 - update facebook, twitter, linkedIn, and Instagram icons
