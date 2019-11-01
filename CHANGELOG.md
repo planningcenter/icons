@@ -1,5 +1,8 @@
 # CHANGELOG - v3
 
+### v5.2.0
+- add `page-saved` icon to **Publishing**
+
 ### v5.1.0
 - add `kiosk` icon to **Resources**
 
