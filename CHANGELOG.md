@@ -1,5 +1,8 @@
 # CHANGELOG - v3
 
+### v5.3.0
+- add `school` icon to **People**
+
 ### v5.2.1
 - fix `page-saved` fill in **Publishing**
 
