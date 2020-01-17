@@ -1,13 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32">
-  <defs>
-    <linearGradient id="linear-gradient" x1="4.58" y1="4.58" x2="27.42" y2="27.42" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#f25437"/>
-      <stop offset="1" stop-color="#cd4e39"/>
-    </linearGradient>
-  </defs>
-  <title>color-resources-app</title>
-  <g id="New">
-    <path d="M30.275,16c0,11.42-2.855,14.275-14.275,14.275S1.725,27.42,1.725,16,4.58,1.725,16,1.725,30.275,4.58,30.275,16Z" fill="url(#linear-gradient)"/>
-    <path d="M14.9,21.74a.86.86,0,0,1-.86.86H10.26a.86.86,0,0,1-.86-.86V17.96a.86.86,0,0,1,.86-.86h3.78a.86.86,0,0,1,.86.86Zm0-7.7a.86.86,0,0,1-.86.86H10.26a.86.86,0,0,1-.86-.86V10.26a.86.86,0,0,1,.86-.86h3.78a.86.86,0,0,1,.86.86Zm7.7,7.7a.86.86,0,0,1-.86.86H17.96a.86.86,0,0,1-.86-.86V17.96a.86.86,0,0,1,.86-.86h3.78a.86.86,0,0,1,.86.86Zm0-7.7a.86.86,0,0,1-.86.86H17.96a.86.86,0,0,1-.86-.86V10.26a.86.86,0,0,1,.86-.86h3.78a.86.86,0,0,1,.86.86Z" fill="#fff"/>
-  </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32"><defs><linearGradient id="linear-gradient" x1="4.62" y1="4.76" x2="27.3" y2="27.44" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#f25437"/><stop offset="1" stop-color="#cd4e39"/></linearGradient></defs><title>color-resources-app</title><g id="New"><path d="M30.14,16.1c0,11.34-2.84,14.18-14.18,14.18S1.78,27.44,1.78,16.1,4.62,1.92,16,1.92,30.14,4.76,30.14,16.1Z" fill="url(#linear-gradient)"/><path d="M14.87,21.8a.86.86,0,0,1-.86.85H10.26a.86.86,0,0,1-.86-.85V18.05a.86.86,0,0,1,.86-.86H14a.86.86,0,0,1,.86.86Zm0-7.65A.87.87,0,0,1,14,15H10.26a.87.87,0,0,1-.86-.86V10.4a.87.87,0,0,1,.86-.86H14a.87.87,0,0,1,.86.86Zm7.64,7.65a.85.85,0,0,1-.85.85H17.91a.85.85,0,0,1-.86-.85V18.05a.85.85,0,0,1,.86-.86h3.75a.85.85,0,0,1,.85.86Zm0-7.65a.86.86,0,0,1-.85.86H17.91a.86.86,0,0,1-.86-.86V10.4a.86.86,0,0,1,.86-.86h3.75a.86.86,0,0,1,.85.86Z" fill="#fff"/></g></svg>

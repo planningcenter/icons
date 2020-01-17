@@ -1,13 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32">
-  <defs>
-    <linearGradient id="linear-gradient" x1="4.58" y1="4.58" x2="27.42" y2="27.42" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#3291d2"/>
-      <stop offset="1" stop-color="#3c7ec6"/>
-    </linearGradient>
-  </defs>
-  <title>color-music-stand-app</title>
-  <g id="New">
-    <path d="M30.275,16c0,11.42-2.855,14.275-14.275,14.275S1.725,27.42,1.725,16,4.58,1.725,16,1.725,30.275,4.58,30.275,16Z" fill="url(#linear-gradient)"/>
-    <path d="M22.377,19.027l-.023-.007c.05,1.059-1.141,2.049-2.735,2.236-1.64.192-3.073-.538-3.2-1.631s1.1-2.136,2.737-2.328a4.123,4.123,0,0,1,1.478.091V12.12l-7.226,2.353V21.02h-.032c-.135.958-1.261,1.808-2.725,1.98-1.64.193-3.074-.538-3.2-1.631s1.1-2.136,2.737-2.328a4.144,4.144,0,0,1,1.478.091V13.047c0-.331.086-.774.4-.878,1.5-.485,8.826-2.891,9.771-3.16a.485.485,0,0,1,.538.4Z" fill="#fff"/>
-  </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32"><defs><linearGradient id="linear-gradient" x1="4.58" y1="4.58" x2="27.42" y2="27.42" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#3291d2"/><stop offset="1" stop-color="#3c7ec6"/></linearGradient></defs><title>color-music-stand-app</title><g id="New"><path d="M30.28,16c0,11.42-2.86,14.28-14.28,14.28S1.72,27.42,1.72,16,4.58,1.72,16,1.72,30.28,4.58,30.28,16Z" fill="url(#linear-gradient)"/><path d="M22.38,19h0c0,1.06-1.14,2.05-2.73,2.24s-3.07-.54-3.2-1.64,1.09-2.13,2.73-2.32a4,4,0,0,1,1.48.09V12.12l-7.22,2.35V21h0c-.14,1-1.27,1.81-2.73,2-1.64.19-3.07-.54-3.2-1.63s1.1-2.14,2.74-2.33a4.18,4.18,0,0,1,1.47.09V13.05c0-.33.09-.78.41-.88,1.5-.49,8.82-2.89,9.77-3.16a.49.49,0,0,1,.54.4Z" fill="#fff"/></g></svg>
