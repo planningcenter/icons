@@ -1,9 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
-  <title>phone-thick-o</title>
-  <g id="Layer_1" data-name="Layer 1">
-    <g>
-      <path d="M13.007.009H2.993a1,1,0,0,0-1,1V14.991a1,1,0,0,0,1,1H13.007a1,1,0,0,0,1-1V1.009A1,1,0,0,0,13.007.009Zm-1,13.982H3.993V2.009h8.014Z"/>
-      <path d="M8,12.883a.989.989,0,1,0-.989-.989A.989.989,0,0,0,8,12.883Z"/>
-    </g>
-  </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><title>phone-thick-o</title><g id="Layer_1" data-name="Layer 1"><path d="M13,0H3A1,1,0,0,0,2,1V15a1,1,0,0,0,1,1H13a1,1,0,0,0,1-1V1A1,1,0,0,0,13,0ZM12,14H4V2h8Z"/><path d="M8,12.88a1,1,0,1,0-1-1A1,1,0,0,0,8,12.88Z"/></g></svg>
