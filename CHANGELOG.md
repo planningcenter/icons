@@ -1,5 +1,20 @@
 # CHANGELOG - v3
 
+### v6.1.0
+- add `close` icon to **Giving**
+
+### v6.0.0
+- rebuild all sets from src _(Chan - can you provide further clarification for this version?)_
+
+### v5.6.0
+- new Registrations/Calendar added to apps
+
+### v5.5.0
+- rebuild apps with calendar
+
+### v5.4.0
+- build: **Calendar**
+
 ### v5.3.0
 - add `school` icon to **People**
 
