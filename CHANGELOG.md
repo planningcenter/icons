@@ -4,7 +4,8 @@
 - add `close` icon to **Giving**
 
 ### v6.0.0
-- rebuild all sets from src _(Chan - can you provide further clarification for this version?)_
+- new `Registrations` icon
+- re-build all icons from export and fix path inconsistencies
 
 ### v5.6.0
 - new Registrations/Calendar added to apps
