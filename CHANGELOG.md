@@ -1,5 +1,9 @@
 # CHANGELOG
 
+### v6.4.0
+
+- add `birthday-label-circle` icon to **Check-Ins**
+
 ### v6.3.0
 
 - add `birthday-label` and `birthday-label-add` icons to **Check-Ins**
