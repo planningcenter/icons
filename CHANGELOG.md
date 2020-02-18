@@ -1,5 +1,9 @@
 # CHANGELOG
 
+### v6.3.0
+
+- add `birthday-label` and `birthday-label-add` icons to **Check-Ins**
+
 ### v6.2.0
 
 - add `pencil-circle` icon to **General**
