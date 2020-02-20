@@ -1,5 +1,24 @@
 # CHANGELOG
 
+## v7.0.0-alpha.4
+
+**BREAKING: clean `Check-Ins` set**
+
+- Removed — replace with:
+  - `upload` => `general#to-cloud-arrow`
+- Removed:
+  - `email-circle`
+  - `label`
+  - `logs`
+  - `payment-sources`
+  - `person-plus`
+  - `phone-currency`
+  - `printer-circle`
+  - `routing-mark`
+  - `statements`
+  - `transfers`
+  - `trash-circle-outline`
+
 ## v7.0.0-alpha.3
 
 **BREAKING: clean `Check-Ins` set**
