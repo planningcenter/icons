@@ -1,8 +1,47 @@
 # CHANGELOG
 
+### v7.0.0-alpha.1
+
+- BREAKING: clean `Accounts` set
+- Removed — replace with:
+  - `accounts-logo` => `apps#accounts-badge`
+  - `location` => `general#location-pin`
+  - `upload` => `general#to-cloud-arrow`
+  - `chevron-l` => `use general#left-chevron`
+  - `chevron-r` => `use general#right-chevron`
+  - `down-arrow` => `use general#down-caret`
+- Renamed:
+  - `integrations_1` => `integrations`
+- Removed:
+  -
+  - `accounts-logo-stack`
+  - `administrators`
+  - `applications`
+  - `applications_2`
+  - `billing`
+  - `book`
+  - `edit-person`
+  - `editor_1`
+  - `household-error`
+  - `integrations`
+  - `iphone`
+  - `keys`
+  - `more-c`
+  - `no-results`
+  - `organization-3`
+  - `organization_2`
+  - `payments`
+  - `pco-logo-stack`
+  - `pco-logo-stack2`
+  - `people`
+  - `pico`
+  - `rocket`
+  - `success`
+  - `thank-you`
+
 ### v7.0.0-alpha.0
 
-- BREAKING: remove `Services` Set
+- BREAKING: remove `Services` set
 - Move `serivces#duplicate` => `people#duplicate`
 
 ### v6.4.0
