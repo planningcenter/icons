@@ -1,5 +1,65 @@
 # CHANGELOG
 
+### v7.0.0-alpha.2
+
+- BREAKING: clean `CCO` set
+- Removed — replace with:
+  - `heart-o` => `general#outlined-heart`
+  - `question-outline` => `general#outlined-question-circle`
+  - `simple-arrow` => `general#right-arrow`
+- Removed:
+  - `add-ons-outline`
+  - `add-ons`
+  - `arrows-recur`
+  - `attendee-type-outline`
+  - `attendee-type`
+  - `bill`
+  - `calendar-o`
+  - `cc`
+  - `check`
+  - `circle-arrow`
+  - `clock`
+  - `comment-outline`
+  - `contact-outline`
+  - `discount`
+  - `donor-card-o`
+  - `email-thick-o`
+  - `envelope-open-o`
+  - `file-image`
+  - `file-pdf`
+  - `file-song`
+  - `file-text`
+  - `file-video`
+  - `form-download copy`
+  - `form-download`
+  - `form-line`
+  - `geo-pin-outline`
+  - `group-contact`
+  - `groups`
+  - `info-outline`
+  - `list-outline`
+  - `location-o`
+  - `logout-o`
+  - `overview`
+  - `pencil-underline`
+  - `pencil`
+  - `people-outline`
+  - `person-check-o`
+  - `person-outline`
+  - `phone-thick-o`
+  - `pie-chart-o`
+  - `profile-o`
+  - `profile-thick-o`
+  - `promote`
+  - `refund`
+  - `registrations`
+  - `scholarship`
+  - `sms-thick-o`
+  - `text-give-o`
+  - `ticket`
+  - `trash`
+  - `wallet-o`
+
 ### v7.0.0-alpha.1
 
 - BREAKING: clean `Accounts` set
@@ -13,7 +73,6 @@
 - Renamed:
   - `integrations_1` => `integrations`
 - Removed:
-  -
   - `accounts-logo-stack`
   - `administrators`
   - `applications`
