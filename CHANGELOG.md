@@ -2,6 +2,21 @@
 
 ## v7.0.0-alpha.5
 
+**BREAKING: clean `People` set**
+
+- Removed:
+  - `anniversary`
+  - `bgcheck-status-unknown`
+  - `browser-outline`
+  - `crop`
+  - `form-break`
+  - `key`
+  - `merge-people`
+  - `photo-upload`
+  - `success-uploading`
+
+## v7.0.0-alpha.5
+
 **BREAKING: clean `Groups` set**
 
 - Removed:
