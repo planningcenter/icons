@@ -1,8 +1,15 @@
 # CHANGELOG
 
+## v7.0.0-alpha.5
+
+**BREAKING: clean `Groups` set**
+
+- Removed:
+  - `person-o`
+
 ## v7.0.0-alpha.4
 
-**BREAKING: clean `Check-Ins` set**
+**BREAKING: clean `Giving` set**
 
 - Removed — replace with:
   - `upload` => `general#to-cloud-arrow`
