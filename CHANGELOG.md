@@ -1,5 +1,10 @@
 # CHANGELOG
 
+### v7.0.0-alpha.0
+
+- BREAKING: remove `Services` Set
+- Move `serivces#duplicate` => `people#duplicate`
+
 ### v6.4.0
 
 - add `birthday-label-circle` icon to **Check-Ins**
