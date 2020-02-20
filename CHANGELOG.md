@@ -1,5 +1,28 @@
 # CHANGELOG
 
+## v7.0.0-alpha.3
+
+**BREAKING: clean `Check-Ins` set**
+
+- Removed — replace with:
+  - `clock` => `general#clock`
+  - `event` => `church-center#event`
+  - `l-arr` => `general#left-arrow`
+  - `plus-circle` => `general#outlined-plus-circle`
+  - `r-arr-enclosed` => `general#right-arrow`
+- Renamed:
+  - `bar-code` => `check-ins#barcode`
+- Removed:
+  - `download`
+  - `headcounts`
+  - `house`
+  - `new-station`
+  - `people`
+  - `report-formats`
+  - `sort-down`
+  - `station-options`
+  - `station`
+
 ### v7.0.0-alpha.2
 
 - BREAKING: clean `CCO` set
@@ -60,7 +83,7 @@
   - `trash`
   - `wallet-o`
 
-### v7.0.0-alpha.1
+### v7.0.0-alpha-1
 
 - BREAKING: clean `Accounts` set
 - Removed — replace with:
@@ -98,7 +121,7 @@
   - `success`
   - `thank-you`
 
-### v7.0.0-alpha.0
+### v7.0.0-alpha-0
 
 - BREAKING: remove `Services` set
 - Move `serivces#duplicate` => `people#duplicate`
