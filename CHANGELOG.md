@@ -1,6 +1,45 @@
 # CHANGELOG
 
-## v7.0.0-alpha.8
+## v7.0.0-alpha.10
+
+**BREAKING: extract brand from all sets**
+
+- Moved:
+  - `Accounts`
+    - `android` => `brand#android`
+    - `apple-pay` => `brand#apple-pay`
+    - `apple` => `brand#apple`
+    - `checkr` => `brand#checkr`
+    - `chrome` => `brand#chrome`
+    - `firefox` => `brand#firefox`
+    - `ie` => `brand#ie`
+    - `mailchimp` => `brand#mailchimp`
+    - `safari` => `brand#safari`
+    - `stripe` => `brand#stripe`
+    - `twilio` => `brand#twilio`
+  - `Calendar`
+    - `firefox` => `brand#firefox`
+    - `internet_explorer` => `brand#ie`
+  - `Check-Ins`
+    - `android` => `brand#android-full`
+    - `apple` => `brand#apple`
+    - `linux` => `brand#linux`
+    - `microsoft-edge` => `brand#edge`
+    - `windows` => `brand#windows`
+  - `Giving`
+    - `stripe` => `brand#stripe`
+  - `People`
+    - `checkr-logo` => `brand#checkr`
+    - `facebook` => `brand#facebook`
+    - `instagram` => `brand#instagram`
+    - `linkedin` => `brand#linkedin`
+    - `twitter` => `brand#twitter`
+  - `Registrations`
+    - `facebook-outline` => `brand#facebook-outline`
+    - `stripe` => `brand#stripe`
+    - `twitter-outline` => `brand#twitter-outline`
+
+## v7.0.0-alpha.9
 
 **BREAKING: clean `Calendar` set**
 
