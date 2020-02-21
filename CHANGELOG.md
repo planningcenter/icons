@@ -1,8 +1,62 @@
 # CHANGELOG
 
+## v7.0.0-alpha.11
+
+**BREAKING: extract `proposed-general` from all sets**
+
+- Moved:
+  - `Accounts`
+    - `phone` => `proposed-general#phone`
+    - `viewer` => `proposed-general#viewer`
+  - `Calendar`
+    - `event` => `proposed-general#event`
+    - `file-pdf` => `proposed-general#pdf-file`
+    - `note` => `proposed-general#note`
+    - `share` => `proposed-general#share`
+  - `Check-Ins`
+    - `eyeball-hide` => `proposed-general#eyeball-hide`
+    - `eyeball-show` => `proposed-general#eyeball-show`
+    - `filter` => `proposed-general#funnel`
+  - `Giving`
+    - `external-link` => `proposed-general#expertal-link`
+    - `bill` => `proposed-general#bill`
+    - `checkmark` => `proposed-general#checkmark`
+    - `close` => `proposed-general#close`
+    - `filter` => `proposed-general#filter`
+    - `phone` => `proposed-general#phone`
+  - `Giving`
+    - `dots-outline` => `proposed-general#dots-outline`
+    - `external-link` => `proposed-general#rounded-external-link`
+    - `eye-crossed-out` => `proposed-general#eye-crossed-out`
+    - `eye` => `proposed-general#eye`
+    - `file-image` => `proposed-general#image-file`
+    - `file-pdf` => `proposed-general#pdf-file`
+    - `file-song` => `proposed-general#music-file`
+    - `file-text` => `proposed-general#text-file`
+    - `file-video` => `proposed-general#video-file`
+    - `hang-tag` => `proposed-general#hang-tag`
+    - `phone` => `proposed-general#phone`
+  - `People`
+    - `calendar-check` => `proposed-general#calendar-check`
+    - `envelope-open-outline` => `proposed-general#envelope-open-outline`
+    - `new-window` => `proposed-general#new-window`
+    - `notes` => `proposed-general#notes`
+    - `phone` => `proposed-general#phone`
+    - `pulse-simple` => `proposed-general#simple-pulse`
+    - `refresh` => `proposed-general#refresh`
+    - `star-closed` => `proposed-general#closed-star`
+    - `star-open` => `proposed-general#open-star`
+  - `Registrations`
+    - `bill` => `proposed-general#bill`
+    - `eve-closed` => `proposed-general#eye-closed`
+    - `external-link` => `proposed-general#rounded-external-link`
+    - `eye` => `proposed-general#alt-eye`
+    - `magic-wand` => `proposed-general#magic-wand`
+    - `phone` => `proposed-general#phone`
+
 ## v7.0.0-alpha.10
 
-**BREAKING: extract brand from all sets**
+**BREAKING: extract `brand` from all sets**
 
 - Moved:
   - `Accounts`
