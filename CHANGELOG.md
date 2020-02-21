@@ -1,8 +1,44 @@
 # CHANGELOG
 
-## v7.0.0-alpha.9
+## v7.0.0-alpha.8
 
-**BREAKING: clean `Resources` set**
+**BREAKING: clean `Calendar` set**
+
+- Removed — replace with:
+
+  - `people` => `general#person`
+
+- Removed:
+  - `calendar`
+  - `check`
+  - `chevron_left`
+  - `chevron_right`
+  - `chrome`
+  - `close-disc`
+  - `close`
+  - `dark`
+  - `date`
+  - `delete`
+  - `folder-back`
+  - `folder`
+  - `light`
+  - `menu`
+  - `notification`
+  - `octagon`
+  - `questions`
+  - `room-setup-add`
+  - `room-setup-link`
+  - `time`
+  - `warning`
+
+## v7.0.0-alpha.8
+
+**BREAKING: clean `Calendar` set**
+
+- Removed — replace with:
+  - `calendar-logo` => `apps#calendar-badge`
+
+**BREAKING: remove `Resources` set**
 
 - Removed — replace with:
 
@@ -46,13 +82,6 @@
   - `room-setup-link`
   - `time`
   - `warning`
-
-## v7.0.0-alpha.8
-
-**BREAKING: clean `Calendar` set**
-
-- Removed — replace with:
-  - `calendar-logo` => `apps#calendar-badge`
 
 ## v7.0.0-alpha.7
 
