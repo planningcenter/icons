@@ -1,5 +1,59 @@
 # CHANGELOG
 
+## v7.0.0-alpha.9
+
+**BREAKING: clean `Resources` set**
+
+- Removed — replace with:
+
+  - `people` => `general#person`
+  - `resources-logo` => `apps#calendar-badge`
+  - `event` => `calendar#event`
+  - `file-pdf` => `calendar#file`
+  - `note` => `calendar#note`
+  - `share` => `calendar#share`
+  - `firefox` => `calendar#firefox`
+  - `internet_explorer` => `calendar#internet_explorer`
+  - `approval-group` => `calendar#approval-group`
+  - `kiosk` => `calendar#kiosk`
+  - `primary-room` => `calendar#primary`
+  - `reservation-block` => `calendar#reservation`
+  - `resources-reverse` => `calendar#resources`
+  - `resources` => `calendar#resources`
+  - `room-setup` => `calendar#room`
+  - `rooms-reverse` => `calendar#rooms`
+  - `rooms` => `calendar#rooms`
+
+- Removed:
+  - `calendar`
+  - `check`
+  - `chevron_left`
+  - `chevron_right`
+  - `chrome`
+  - `close-disc`
+  - `close`
+  - `dark`
+  - `date`
+  - `delete`
+  - `folder-back`
+  - `folder`
+  - `light`
+  - `menu`
+  - `notification`
+  - `octagon`
+  - `questions`
+  - `room-setup-add`
+  - `room-setup-link`
+  - `time`
+  - `warning`
+
+## v7.0.0-alpha.8
+
+**BREAKING: clean `Calendar` set**
+
+- Removed — replace with:
+  - `calendar-logo` => `apps#calendar-badge`
+
 ## v7.0.0-alpha.7
 
 **BREAKING: clean `Registrations` set**
