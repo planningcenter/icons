@@ -1,6 +1,56 @@
 # CHANGELOG
 
-## v7.0.0-alpha.5
+## v7.0.0-alpha.7
+
+**BREAKING: clean `Registrations` set**
+
+- Removed — replace with:
+
+  - `forms` => `general#two-blank-files`
+  - `gear` => `general#cog`
+  - `permissions` => `general#lock`
+  - `registrations-logo` => `apps#registrations-badge`
+  - `simple-arrow` => `general#arrow-right`
+
+- Removed:
+
+  - `add-circle`
+  - `add-ons-outline`
+  - `attendee-type-outline`
+  - `bank`
+  - `cc`
+  - `check`
+  - `circle-clock`
+  - `circle-money`
+  - `circle-person`
+  - `clock`
+  - `comment-outline`
+  - `contact-outline`
+  - `dial`
+  - `edit`
+  - `email-envelope`
+  - `email`
+  - `event-settings`
+  - `event-status`
+  - `event-time`
+  - `geo-pin-outline`
+  - `html-link-outline`
+  - `info-outline`
+  - `link-arrow`
+  - `list-outline`
+  - `payment-alt`
+  - `pdf-instruction`
+  - `people-outline`
+  - `person-outline`
+  - `print`
+  - `question-outline`
+  - `registrations`
+  - `restricted`
+  - `simple-person-outline`
+  - `sort`
+  - `view`
+
+## v7.0.0-alpha.6
 
 **BREAKING: clean `People` set**
 
