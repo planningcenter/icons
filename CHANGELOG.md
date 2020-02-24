@@ -145,12 +145,12 @@
   - `internet_explorer` => `calendar#internet_explorer`
   - `approval-group` => `calendar#approval-group`
   - `kiosk` => `calendar#kiosk`
-  - `primary-room` => `calendar#primary`
-  - `reservation-block` => `calendar#reservation`
-  - `resources-reverse` => `calendar#resources`
+  - `primary-room` => `calendar#primary-room`
+  - `reservation-block` => `calendar#reservation-block`
+  - `resources-reverse` => `calendar#resources-reverse`
   - `resources` => `calendar#resources`
-  - `room-setup` => `calendar#room`
-  - `rooms-reverse` => `calendar#rooms`
+  - `room-setup` => `calendar#room-setup`
+  - `rooms-reverse` => `calendar#rooms-reverse`
   - `rooms` => `calendar#rooms`
 
 - Removed:
