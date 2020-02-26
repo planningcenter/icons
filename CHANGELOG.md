@@ -2,6 +2,45 @@
 
 ## v7.0.0-alpha.12
 
+**BREAKING: rename `apps` to `product`**
+
+Adopts "prouduct" verbiage and uses more semantic terms `logomark` and `logotype`.
+
+- Removed:
+
+  - `interfaces-app`
+  - `interfaces-badge`
+  - `projector-app`
+  - `projector-badge`
+  - `projector-app`
+  - `projector-badge`
+
+- Moved:
+  - `accounts-app` => `product#accounts-logomark`
+  - `accounts-badge` => `product#accounts-logotype`
+  - `api-app` => `product#api-logomark`
+  - `api-badge` => `product#api-logotype`
+  - `calendar-app` => `product#calendar-logomark`
+  - `calendar-badge` => `product#calendar-logotype`
+  - `check-ins-app` => `product#check-ins-logomark`
+  - `check-ins-badge` => `product#check-ins-logotype`
+  - `giving-app` => `product#giving-logomark`
+  - `giving-badge` => `product#giving-logotype`
+  - `groups-app` => `product#groups-logomark`
+  - `groups-badge` => `product#groups-logotype`
+  - `music-stand-app` => `product#music-stand-logomark`
+  - `music-stand-badge` => `product#music-stand-logotype`
+  - `people-app` => `product#people-logomark`
+  - `people-badge` => `product#people-logotype`
+  - `publishing-app` => `product#publishing-logomark`
+  - `publishing-badge` => `product#publishing-logotype`
+  - `registrations-app` => `product#registrations-logomark`
+  - `registrations-badge` => `product#registrations-logotype`
+  - `services-app` => `product#services-logomark`
+  - `services-badge` => `product#services-logotype`
+
+## v7.0.0-alpha.12
+
 **BREAKING: extract `general` from all sets**
 
 - Moved/Removed:
