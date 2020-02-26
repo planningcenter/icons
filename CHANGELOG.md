@@ -1,5 +1,51 @@
 # CHANGELOG
 
+## v7.0.0-alpha.12
+
+**BREAKING: extract `general` from all sets**
+
+- Moved/Removed:
+  - `text-file` => `generic-file`
+  - `outlined-text-file` => `outlined-generic-file`
+
+**BREAKING: extract `proposed-general` from all sets**
+
+- Moved/Removed:
+  - `alt-eye` => `general#show-eye`
+  - `bill#bill` => `general#bill`
+  - `calendar-check` => `general#check-calendar`
+  - `checkmark` => `general#thick-checkmark`
+  - `close` => `general#thick-x`
+  - `closed-star` => `general#closed-star`
+  - `dots-outline` => `general#outlined-dots`
+  - `envelope-open-outline` => `general#outlined-open-envelope`
+  - `event` => `general#event`
+  - `external-link` => `general#new-window`
+  - `eye-closed` => `show-eye`
+  - `eye-crossed-out` => `hide-eye`
+  - `eye` => `show-eye`
+  - `eyeball-hide` => `hide-eye`
+  - `eyeball-show` => `show-eye`
+  - `funnel` => `general#funnel`
+  - `hang-tag` => `general#hang-tag`
+  - `image-file` => `general#outlined-image-file`
+  - `magic wand` => `general#magic-wand`
+  - `minus-circle` => `general#outlined-minus-circle`
+  - `music-file` => `general#outlined-music-file`
+  - `new-window` => `general#new-window`
+  - `note` => `general#outlined-note`
+  - `notes` => `general#outlined-notes`
+  - `open-star` => `general#open-star`
+  - `pdf-file` => `general#outlined-pdf-file`
+  - `phone` => `general#phone`
+  - `refresh` => `general#refresh`
+  - `rounded-external-link` => `general#new-window`
+  - `share` => `general#share`
+  - `simple-pulse` => `general#pulse`
+  - `text-file` => `general#outlined-text-file`
+  - `video-file` => `general#outlined-video-file`
+  - `viewier` => `general#show-eye`
+
 ## v7.0.0-alpha.11
 
 **BREAKING: extract `proposed-general` from all sets**
