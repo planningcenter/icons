@@ -16,10 +16,22 @@ Accessible, scaleable, standard SVG icons for [Planning Center](https://planning
 
 <!-- toc -->
 
+- [CHANGELOG](#changelog)
 - [Contributing](#contributing)
 - [Platform setup and usage](#platform-setup-and-usage)
 
 <!-- tocstop -->
+
+## CHANGELOG
+
+- [CHANGELOG](./CHANGELOG.md)
+- [MIGRATION-v7](./changelog/MIGRATION-v7.md)
+- [CHANGELOG-v6](./changelog/CHANGELOG-v6.md)
+- [CHANGELOG-v5](./changelog/CHANGELOG-v5.md)
+- [CHANGELOG-v4](./changelog/CHANGELOG-v4.md)
+- [CHANGELOG-v3](./changelog/CHANGELOG-v3.md)
+- [CHANGELOG-v2](./changelog/CHANGELOG-v2.md)
+- [CHANGELOG-v1](./changelog/CHANGELOG-v1.md)
 
 ## Contributing
 
@@ -216,15 +228,16 @@ add [@planningcenter/icons](https://github.com/planningcenter/icons) and [@plann
 ```bash
 yarn @planningcenter/icons @planningcenter/symbol
 ```
+
 </details>
 
 <details>
 <summary>usage</summary>
 
 ```jsx
-import general from "@planningcenter/icons/sprite/general.svg"
-import "@planningcenter/icons/css/symbol.css"
-import Symbol from "@planningcenter/symbol"
+import general from "@planningcenter/icons/sprite/general.svg";
+import "@planningcenter/icons/css/symbol.css";
+import Symbol from "@planningcenter/symbol";
 
 function App() {
   return <Symbol symbol={`${general}#down-arrow`} />;
@@ -232,7 +245,6 @@ function App() {
 ```
 
 </details>
-
 
 ### `create-react-app`
 
@@ -244,15 +256,16 @@ add [@planningcenter/icons](https://github.com/planningcenter/icons) and [@plann
 ```bash
 yarn @planningcenter/icons @planningcenter/symbol
 ```
+
 </details>
 
 <details>
 <summary>usage</summary>
 
 ```jsx
-import general from "@planningcenter/icons/sprite/general.svg"
-import "@planningcenter/icons/css/symbol.css"
-import Symbol from "@planningcenter/symbol"
+import general from "@planningcenter/icons/sprite/general.svg";
+import "@planningcenter/icons/css/symbol.css";
+import Symbol from "@planningcenter/symbol";
 
 function App() {
   return <Symbol symbol={`${general}#down-arrow`} />;
@@ -262,11 +275,13 @@ function App() {
 </details>
 
 ### CodeSandbox
+
 <details>
 <summary>Examples</summary>
 
 [@planningcenter/icons, single SVG](https://codesandbox.io/s/l557znx8qz)  
-[@planningcenter/icons, SVG sprite](https://codesandbox.io/s/km3xqvxrn3)  
+[@planningcenter/icons, SVG sprite](https://codesandbox.io/s/km3xqvxrn3)
+
 </details>
 
 ### IE11 External Resource SVG polyfill — svg4everybody
@@ -276,7 +291,9 @@ function App() {
 
 ```html
 <script src="/path/to/svg4everybody.js"></script>
-<script>window.svg4everybody()</script>
+<script>
+  window.svg4everybody();
+</script>
 ```
 
 </details>
@@ -306,10 +323,3 @@ window.svg4everybody();
 ```
 
 </details>
-
-
-### CHANGELOG
-
-[CHANGELOG](./CHANGELOG.md)  
-[CHANGELOG-v1](./changelog/CHANGELOG-v1.md)  
-[CHANGELOG-v2](./changelog/CHANGELOG-v2.md)
