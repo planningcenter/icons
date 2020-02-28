@@ -39,7 +39,7 @@
 - Moved:
   - `event` => `general#event`
   - `file-pdf` => `general#pdf-file`
-  - `note` => `general#note`
+  - `note` => `general#outlined-note`
   - `share` => `general#share`
   - `firefox` => `brand#firefox`
   - `internet_explorer` => `brand#ie`
@@ -48,7 +48,6 @@
   - `people` => `general#person`
   - `event` => `calendar#event`
   - `file-pdf` => `calendar#file`
-  - `note` => `calendar#note`
   - `share` => `calendar#share`
   - `firefox` => `calendar#firefox`
   - `internet_explorer` => `calendar#internet_explorer`
@@ -145,7 +144,7 @@
   - `calendar-check` => `general#check-calendar`
   - `envelope-open-outline` => `general#outlined-open-envelope`
   - `new-window` => `general#new-window`
-  - `notes` => `general#notes`
+  - `notes` => `general#outlined-notes`
   - `phone` => `general#phone`
   - `pulse-simple` => `general#pulse`
   - `refresh` => `general#refresh`

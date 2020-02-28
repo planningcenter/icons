@@ -1,5 +1,76 @@
 # CHANGELOG
 
+## v7.0.0-beta.1
+
+Add `church-center`.
+
+- `arrow`
+- `bank-check`
+- `bank`
+- `calendar-events`
+- `calendar`
+- `camera-reverse`
+- `check-circle-fill`
+- `check-ins-o`
+- `check-ins`
+- `check`
+- `chevron-thin-down`
+- `chevron-thin-left`
+- `chevron-thin-right`
+- `chevron-thin-up`
+- `circle`
+- `close`
+- `cog`
+- `credit-card`
+- `cycle`
+- `envelope`
+- `event-circle`
+- `exclamation-circle`
+- `fiber-manual-record`
+- `file`
+- `filter`
+- `flag`
+- `flash-off`
+- `flash-on`
+- `give-heart`
+- `give-money`
+- `giving-o`
+- `giving`
+- `globe`
+- `groups-o`
+- `groups`
+- `home-o`
+- `home`
+- `info-circle`
+- `link`
+- `location-arrow`
+- `lock`
+- `magnifying-glass`
+- `map-marker`
+- `message-circle`
+- `minus-circle`
+- `money-bill`
+- `paste`
+- `pencil`
+- `people`
+- `person`
+- `phone`
+- `photos-android`
+- `photos-ios`
+- `plus-circle`
+- `plus`
+- `profile-o`
+- `profile`
+- `radio-button-off`
+- `registrations-o`
+- `registrations`
+- `share-android`
+- `share-ios`
+- `star-o`
+- `star`
+- `warning`
+- `x-circle`
+
 ## v7.0.0-beta.0
 
 No additional changes.
