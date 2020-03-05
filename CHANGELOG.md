@@ -1,5 +1,24 @@
 # CHANGELOG
 
+## v7.0.0-beta.5
+
+Fix `general#outlined-*-file` [#41](https://github.com/planningcenter/icons/issues/41)
+
+## v7.0.0-beta.4
+
+Add `resources-logomark` and `resources-logotype` back to `product`.
+
+## v7.0.0-beta.3
+
+Fix `accounts#integrations`.
+I chose the wrong duplicated icon.
+
+## v7.0.0-beta.2
+
+Add `church-center` icon set.
+
+PENDING DEDUPLICATION
+
 ## v7.0.0-beta.1
 
 Add `church-center`.
