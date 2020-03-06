@@ -39,6 +39,7 @@ Deduplicate `church-center` set against `general`
 
 - Renamed:
   - `fiber-manual-record` => `circle-dot`
+  
 ## v7.0.0-beta.5
 
 Fix `general#outlined-*-file` [#41](https://github.com/planningcenter/icons/issues/41)
