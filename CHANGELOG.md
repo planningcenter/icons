@@ -1,5 +1,13 @@
 # CHANGELOG
 
+## v7.0.0-beta.7
+
+Removed source SVG for deduplicated `church-center` set
+
+- Removed:
+
+  - `arrow`
+
 ## v7.0.0-beta.6
 
 Deduplicate `church-center` set against `general`
