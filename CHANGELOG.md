@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## v7.0.0-beta.8
+
+Get package.json version back in sync with NPM.
+
 ## v7.0.0-beta.7
 
 Removed source SVG for deduplicated `church-center` set
