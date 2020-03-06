@@ -1,5 +1,44 @@
 # CHANGELOG
 
+## v7.0.0-beta.6
+
+Deduplicate `church-center` set against `general`
+
+- Removed:
+
+  - `calendar`
+  - `check-circle-fill`
+  - `check`
+  - `chevron-thin-down`
+  - `chevron-thin-left`
+  - `chevron-thin-right`
+  - `chevron-thin-up`
+  - `close`
+  - `cog`
+  - `credit-card`
+  - `cycle`
+  - `envelope`
+  - `file`
+  - `filter`
+  - `info-circle`
+  - `link`
+  - `lock`
+  - `magnifying-glass`
+  - `map-marker`
+  - `minus-circle`
+  - `money-bill`
+  - `pencil`
+  - `person`
+  - `phone`
+  - `plus-circle`
+  - `plus`
+  - `star-o`
+  - `star`
+  - `warning`
+  - `x-circle`
+
+- Renamed:
+  - `fiber-manual-record` => `circle-dot`
 ## v7.0.0-beta.5
 
 Fix `general#outlined-*-file` [#41](https://github.com/planningcenter/icons/issues/41)

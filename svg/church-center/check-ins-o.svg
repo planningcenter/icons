@@ -1,1 +1,7 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><title>check-ins-o</title><path d="M11.979,5.925l-.606-.606L7.351,9.34,5.492,7.481l-.606.606,2.465,2.465Z"/><path d="M16,8A8,8,0,1,1,8,0,8,8,0,0,1,16,8Zm-.857,0A7.143,7.143,0,1,1,8,.857,7.143,7.143,0,0,1,15.143,8Z" fill-rule="evenodd"/></svg>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+  <title>check-ins-o</title>
+  <g>
+    <path d="M11.979,5.925l-.606-.606L7.351,9.34,5.492,7.481l-.606.606,2.465,2.465Z"/>
+    <path d="M16,8A8,8,0,1,1,8,0,8,8,0,0,1,16,8Zm-.857,0A7.143,7.143,0,1,1,8,.857,7.143,7.143,0,0,1,15.143,8Z" fill-rule="evenodd"/>
+  </g>
+</svg>
