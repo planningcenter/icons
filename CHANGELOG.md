@@ -1,5 +1,373 @@
 # CHANGELOG
 
+## v7.0.0
+
+First major release of v7!
+
+## Accounts
+
+- Moved:
+  - `phone` => `general#phone`
+  - `viewer` => `general#show-eye`
+  - `android` => `brand#android`
+  - `apple-pay` => `brand#apple-pay`
+  - `apple` => `brand#apple`
+  - `checkr` => `brand#checkr`
+  - `chrome` => `brand#chrome`
+  - `firefox` => `brand#firefox`
+  - `ie` => `brand#ie`
+  - `mailchimp` => `brand#mailchimp`
+  - `safari` => `brand#safari`
+  - `stripe` => `brand#stripe`
+  - `twilio` => `brand#twilio`
+  - `accounts-logo` => `product#accounts-logomark`
+  - `location` => `general#location-pin`
+  - `upload` => `general#to-cloud-arrow`
+  - `chevron-l` => `general#left-chevron`
+  - `chevron-r` => `general#right-chevron`
+  - `down-arrow` => `general#down-caret`
+  - `integrations_1` => `accounts#integrations`
+- Removed:
+  - `accounts-logo-stack`
+  - `administrators`
+  - `applications`
+  - `applications_2`
+  - `billing`
+  - `book`
+  - `edit-person`
+  - `editor_1`
+  - `household-error`
+  - `integrations`
+  - `iphone`
+  - `keys`
+  - `more-c`
+  - `no-results`
+  - `organization-3`
+  - `organization_2`
+  - `payments`
+  - `pco-logo-stack`
+  - `pco-logo-stack2`
+  - `people`
+  - `pico`
+  - `rocket`
+  - `success`
+  - `thank-you`
+
+## General
+
+- Moved:
+  - `text-file` => `generic-file`
+  - `outlined-text-file` => `outlined-generic-file`
+- Moved:
+  - `Registrations`
+
+## Calendar/Resources
+
+- Moved:
+  - `event` => `general#event`
+  - `file-pdf` => `general#pdf-file`
+  - `note` => `general#outlined-note`
+  - `share` => `general#share`
+  - `firefox` => `brand#firefox`
+  - `internet_explorer` => `brand#ie`
+  - `calendar-logo` => `product#calendar-logotype`
+  - `resources-logo` => `apps#calendar-logotype`
+  - `people` => `general#person`
+  - `event` => `calendar#event`
+  - `file-pdf` => `calendar#file`
+  - `share` => `calendar#share`
+  - `firefox` => `calendar#firefox`
+  - `internet_explorer` => `calendar#internet_explorer`
+  - `approval-group` => `calendar#approval-group`
+  - `kiosk` => `calendar#kiosk`
+  - `primary-room` => `calendar#primary-room`
+  - `reservation-block` => `calendar#reservation-block`
+  - `resources-reverse` => `calendar#resources-reverse`
+  - `resources` => `calendar#resources`
+  - `room-setup` => `calendar#room-setup`
+  - `rooms-reverse` => `calendar#rooms-reverse`
+  - `rooms` => `calendar#rooms`
+- Removed:
+  - `calendar`
+  - `check`
+  - `chevron_left`
+  - `chevron_right`
+  - `chrome`
+  - `close-disc`
+  - `close`
+  - `dark`
+  - `date`
+  - `delete`
+  - `folder-back`
+  - `folder`
+  - `light`
+  - `menu`
+  - `notification`
+  - `octagon`
+  - `questions`
+  - `room-setup-add`
+  - `room-setup-link`
+  - `time`
+  - `warning`
+
+## CCO
+
+- Moved:
+  - `heart-o` => `general#outlined-heart`
+  - `question-outline` => `general#outlined-question-circle`
+  - `simple-arrow` => `general#right-arrow`
+- Removed:
+  - `add-ons-outline`
+  - `add-ons`
+  - `arrows-recur`
+  - `attendee-type-outline`
+  - `attendee-type`
+  - `bill`
+  - `calendar-o`
+  - `cc`
+  - `check`
+  - `circle-arrow`
+  - `clock`
+  - `comment-outline`
+  - `contact-outline`
+  - `discount`
+  - `donor-card-o`
+  - `email-thick-o`
+  - `envelope-open-o`
+  - `file-image`
+  - `file-pdf`
+  - `file-song`
+  - `file-text`
+  - `file-video`
+  - `form-download copy`
+  - `form-download`
+  - `form-line`
+  - `geo-pin-outline`
+  - `group-contact`
+  - `groups`
+  - `info-outline`
+  - `list-outline`
+  - `location-o`
+  - `logout-o`
+  - `overview`
+  - `pencil-underline`
+  - `pencil`
+  - `people-outline`
+  - `person-check-o`
+  - `person-outline`
+  - `phone-thick-o`
+  - `pie-chart-o`
+  - `profile-o`
+  - `profile-thick-o`
+  - `promote`
+  - `refund`
+  - `registrations`
+  - `scholarship`
+  - `sms-thick-o`
+  - `text-give-o`
+  - `ticket`
+  - `trash`
+  - `wallet-o`
+
+## Check-Ins
+
+- Moved:
+  - `eyeball-hide` => `general#hide-eye`
+  - `eyeball-show` => `general#show-eye`
+  - `filter` => `general#funnel`
+  - `android` => `brand#android-full`
+  - `apple` => `brand#apple`
+  - `linux` => `brand#linux`
+  - `microsoft-edge` => `brand#edge`
+  - `windows` => `brand#windows`
+  - `bar-code` => `check-ins#barcode`
+  - `clock` => `general#clock`
+  - `event` => `general#event`
+  - `l-arr` => `general#left-arrow`
+  - `plus-circle` => `general#outlined-plus-circle`
+  - `r-arr-enclosed` => `general#right-arrow`
+- Removed:
+  - `download`
+  - `headcounts`
+  - `house`
+  - `new-station`
+  - `people`
+  - `report-formats`
+  - `sort-down`
+  - `station-options`
+  - `station`
+
+## Church Center
+
+- Added:
+  - `bank-check`
+  - `bank`
+  - `calendar-events`
+  - `camera-reverse`
+  - `check-ins-o`
+  - `check-ins`
+  - `circle`
+  - `dot-circle`
+  - `event-circle`
+  - `exclamation-circle`
+  - `flag`
+  - `flash-off`
+  - `flash-on`
+  - `give-heart`
+  - `give-money`
+  - `giving-o`
+  - `giving`
+  - `globe`
+  - `groups-o`
+  - `groups`
+  - `home-o`
+  - `home`
+  - `location-arrow`
+  - `message-circle`
+  - `paste`
+  - `people`
+  - `photos-android`
+  - `photos-ios`
+  - `profile-o`
+  - `profile`
+  - `radio-button-off`
+  - `registrations-o`
+  - `registrations`
+  - `share-android`
+  - `share-ios`
+
+## Giving
+
+- Moved:
+  - `external-link` => `general#new-window`
+  - `bill` => `general#bill`
+  - `checkmark` => `general#thick-checkmark`
+  - `close` => `general#thick-x`
+  - `filter` => `general#funnel`
+  - `phone` => `general#phone`
+  - `stripe` => `brand#stripe`
+  - `upload` => `general#to-cloud-arrow`
+- Removed:
+  - `email-circle`
+  - `label`
+  - `logs`
+  - `payment-sources`
+  - `person-plus`
+  - `phone-currency`
+  - `printer-circle`
+  - `routing-mark`
+  - `statements`
+  - `transfers`
+  - `trash-circle-outline`
+
+## Groups
+
+- Moved:
+  - `dots-outline` => `general#outlined-dots`
+  - `external-link` => `general#new-window`
+  - `eye-crossed-out` => `general#hide-eye`
+  - `eye` => `general#show-eye`
+  - `file-image` => `general#image-file`
+  - `file-pdf` => `general#pdf-file`
+  - `file-song` => `general#music-file`
+  - `file-text` => `general#text-file`
+  - `file-video` => `general#video-file`
+  - `hang-tag` => `general#hang-tag`
+  - `phone` => `general#phone`
+- Removed:
+  - `person-o`
+
+## People
+
+- Moved:
+
+  - `calendar-check` => `general#check-calendar`
+  - `envelope-open-outline` => `general#outlined-open-envelope`
+  - `new-window` => `general#new-window`
+  - `notes` => `general#outlined-notes`
+  - `phone` => `general#phone`
+  - `pulse-simple` => `general#pulse`
+  - `refresh` => `general#refresh`
+  - `star-closed` => `general#closed-star`
+  - `star-open` => `general#open-star`
+  - `checkr-logo` => `brand#checkr`
+  - `facebook` => `brand#facebook`
+  - `instagram` => `brand#instagram`
+  - `linkedin` => `brand#linkedin`
+  - `twitter` => `brand#twitter`
+
+## Registrations
+
+- Moved:
+  - `bill` => `general#bill`
+  - `eve-closed` => `general#eye-closed`
+  - `external-link` => `general#rounded-external-link`
+  - `eye` => `general#alt-eye`
+  - `magic-wand` => `general#magic-wand`
+  - `phone` => `general#phone`
+  - `facebook-outline` => `brand#facebook-outline`
+  - `stripe` => `brand#stripe`
+  - `twitter-outline` => `brand#twitter-outline`
+  - `forms` => `general#two-blank-files`
+  - `gear` => `general#cog`
+  - `permissions` => `general#lock`
+  - `registrations-logo` => `product#registrations-logotype`
+  - `simple-arrow` => `general#arrow-right`
+- Removed:
+  - `add-circle`
+  - `add-ons-outline`
+  - `attendee-type-outline`
+  - `bank`
+  - `cc`
+  - `check`
+  - `circle-clock`
+  - `circle-money`
+  - `circle-person`
+  - `clock`
+  - `comment-outline`
+  - `contact-outline`
+  - `dial`
+  - `edit`
+  - `email-envelope`
+  - `email`
+  - `event-settings`
+  - `event-status`
+  - `event-time`
+  - `geo-pin-outline`
+  - `html-link-outline`
+  - `info-outline`
+  - `link-arrow`
+  - `list-outline`
+  - `payment-alt`
+  - `pdf-instruction`
+  - `people-outline`
+  - `person-outline`
+  - `print`
+  - `question-outline`
+  - `registrations`
+  - `restricted`
+  - `simple-person-outline`
+  - `sort`
+  - `view`
+
+* Removed:
+  - `anniversary`
+  - `bgcheck-status-unknown`
+  - `browser-outline`
+  - `crop`
+  - `form-break`
+  - `key`
+  - `merge-people`
+  - `photo-upload`
+  - `success-uploading`
+
+## `services`
+
+- Move:
+  - `serivces#duplicate` => `people#duplicate`
+- Removed:
+  - all
+
 ## v7.0.0-beta.8
 
 Get package.json version back in sync with NPM.
@@ -50,8 +418,152 @@ Deduplicate `church-center` set against `general`
   - `x-circle`
 
 - Renamed:
+
   - `fiber-manual-record` => `circle-dot`
-  
+
+## v7.0.0-beta.5
+
+Fix `general#outlined-*-file` [#41](https://github.com/planningcenter/icons/issues/41)
+
+## v7.0.0-beta.4
+
+Add `resources-logomark` and `resources-logotype` back to `product`.
+
+## v7.0.0-beta.3
+
+Fix `accounts#integrations`.
+I chose the wrong duplicated icon.
+
+## v7.0.0-beta.2
+
+Add `church-center` icon set.
+
+PENDING DEDUPLICATION
+
+## v7.0.0-beta.1
+
+Add `church-center`.
+
+- `arrow`
+- `bank-check`
+- `bank`
+- `calendar-events`
+- `calendar`
+- `camera-reverse`
+- `check-circle-fill`
+- `check-ins-o`
+- `check-ins`
+- `check`
+- `chevron-thin-down`
+- `chevron-thin-left`
+- `chevron-thin-right`
+- `chevron-thin-up`
+- `circle`
+- `close`
+- `cog`
+- `credit-card`
+- `cycle`
+- `envelope`
+- `event-circle`
+- `exclamation-circle`
+- `fiber-manual-record`
+- `file`
+- `filter`
+- `flag`
+- `flash-off`
+- `flash-on`
+- `give-heart`
+- `give-money`
+- `giving-o`
+- `giving`
+- `globe`
+- `groups-o`
+- `groups`
+- `home-o`
+- `home`
+- `info-circle`
+- `link`
+- `location-arrow`
+- `lock`
+- `magnifying-glass`
+- `map-marker`
+- `message-circle`
+- `minus-circle`
+- `money-bill`
+- `paste`
+- `pencil`
+- `people`
+- `person`
+- `phone`
+- `photos-android`
+- `photos-ios`
+- `plus-circle`
+- `plus`
+- `profile-o`
+- `profile`
+- `radio-button-off`
+- `registrations-o`
+- `registrations`
+- `share-android`
+- `share-ios`
+- `star-o`
+- `star`
+- `warning`
+- `x-circle`
+
+## v7.0.0-beta.8
+
+Get package.json version back in sync with NPM.
+
+## v7.0.0-beta.7
+
+Removed source SVG for deduplicated `church-center` set
+
+- Removed:
+
+  - `arrow`
+
+## v7.0.0-beta.6
+
+Deduplicate `church-center` set against `general`
+
+- Removed:
+
+  - `calendar`
+  - `check-circle-fill`
+  - `check`
+  - `chevron-thin-down`
+  - `chevron-thin-left`
+  - `chevron-thin-right`
+  - `chevron-thin-up`
+  - `close`
+  - `cog`
+  - `credit-card`
+  - `cycle`
+  - `envelope`
+  - `file`
+  - `filter`
+  - `info-circle`
+  - `link`
+  - `lock`
+  - `magnifying-glass`
+  - `map-marker`
+  - `minus-circle`
+  - `money-bill`
+  - `pencil`
+  - `person`
+  - `phone`
+  - `plus-circle`
+  - `plus`
+  - `star-o`
+  - `star`
+  - `warning`
+  - `x-circle`
+
+- Renamed:
+
+  - `fiber-manual-record` => `circle-dot`
+
 ## v7.0.0-beta.5
 
 Fix `general#outlined-*-file` [#41](https://github.com/planningcenter/icons/issues/41)
