@@ -296,6 +296,44 @@ First major release of v7!
   - `linkedin` => `brand#linkedin`
   - `twitter` => `brand#twitter`
 
+## Product (previously Apps)
+
+- Moved:
+
+  - `apps#accounts-app` => `product#accounts-logomark`
+  - `apps#accounts-badge` => `product#accounts-logotype`
+  - `apps#api-app` => `product#api-logomark`
+  - `apps#api-badge` => `product#api-logotype`
+  - `apps#calendar-app` => `product#calendar-logomark`
+  - `apps#calendar-badge` => `product#calendar-logotype`
+  - `apps#check-ins-app` => `product#check-ins-logomark`
+  - `apps#check-ins-badge` => `product#check-ins-logotype`
+  - `apps#giving-app` => `product#giving-logomark`
+  - `apps#giving-badge` => `product#giving-logotype`
+  - `apps#groups-app` => `product#groups-logomark`
+  - `apps#groups-badge` => `product#groups-logotype`
+  - `apps#music-stand-app` => `product#music-stand-logomark`
+  - `apps#music-stand-badge` => `product#music-stand-logotype`
+  - `apps#people-app` => `product#people-logomark`
+  - `apps#people-badge` => `product#people-logotype`
+  - `apps#publishing-app` => `product#publishing-logomark`
+  - `apps#publishing-badge` => `product#publishing-logotype`
+  - `apps#registrations-app` => `product#registrations-logomark`
+  - `apps#registrations-badge` => `product#registrations-logotype`
+  - `apps#services-app` => `product#services-logomark`
+  - `apps#services-badge` => `product#services-logotype`
+
+- Removed:
+  - `anniversary`
+  - `bgcheck-status-unknown`
+  - `browser-outline`
+  - `crop`
+  - `form-break`
+  - `key`
+  - `merge-people`
+  - `photo-upload`
+  - `success-uploading`
+
 ## Registrations
 
 - Moved:
@@ -349,17 +387,6 @@ First major release of v7!
   - `simple-person-outline`
   - `sort`
   - `view`
-
-* Removed:
-  - `anniversary`
-  - `bgcheck-status-unknown`
-  - `browser-outline`
-  - `crop`
-  - `form-break`
-  - `key`
-  - `merge-people`
-  - `photo-upload`
-  - `success-uploading`
 
 ## `services`
 
