@@ -1,5 +1,8 @@
 # CHANGELOG
 
+## v7.1.0
+- added `pledge-pencil`, `pledge-calendar` & `pledge-check` to Giving set
+
 ## v7.0.0
 
 First major release of v7!
