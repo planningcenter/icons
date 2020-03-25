@@ -1,6 +1,20 @@
 # CHANGELOG
 
+## v7.1.1
+
+- Fixed
+- `outlined-blank-file`
+- `outlined-generic-file`
+- `outlined-image-file`
+- `outlined-music-file`
+- `outlined-notes`
+- `outlined-pdf-file`
+- `outlined-text-file`
+- `outlined-two-blank-files`
+- `outlined-video-file`
+
 ## v7.1.0
+
 - added `pledge-pencil`, `pledge-calendar` & `pledge-check` to Giving set
 
 ## v7.0.0
