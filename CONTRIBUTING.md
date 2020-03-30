@@ -3,13 +3,14 @@
 <details>
 <summary>Development scripts</summary>
 
-| Command                                | Task                                                 |
-| -------------------------------------- | ---------------------------------------------------- |
-| `yarn build`                           | build all collections, once                          |
-| `yarn build --collection {collection}` | build specified collection, once                     |
-| `yarn publish`                         | prompts for new version number, and publishes to npm |
+| Command                                   | Task                                                 |
+| ----------------------------------------- | ---------------------------------------------------- |
+| `npm run build`                           | build all collections, once                          |
+| `npm run build --collection {collection}` | build specified collection, once                     |
+| `npm run publish`                         | prompts for new version number, and publishes to npm |
 
 `build` commands will build the SVG sprites **and** rebuild the doc-site.
+
 </details>
 
 <details>
@@ -37,7 +38,7 @@
 <details>
 <summary>Build sprites and docs</summary>
 
-- run `yarn build` in the project root.
+- run `npm run build` in the project root.
 - watch for errors. the errors should help you.
 
 </details>
@@ -47,7 +48,7 @@
 
 - run `npm login` (if you haven't)
 
-* run `yarn publish`
+* run `npm run publish`
   - you'll be prompted for a new version number
   - add version notes to the changelog in [`CHANGELOG.md`](./CHANGELOG.md)
 
