@@ -44,17 +44,6 @@
 </details>
 
 <details>
-<summary>Publish to NPM</summary>
-
-- run `npm login` (if you haven't)
-
-* run `npm run publish`
-  - you'll be prompted for a new version number
-  - add version notes to the changelog in [`CHANGELOG.md`](./CHANGELOG.md)
-
-</details>
-
-<details>
 <summary>Commit and Push</summary>
 
 - in most cases, just push to `master`
