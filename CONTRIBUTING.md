@@ -70,6 +70,6 @@ When **editing or removing** icons ("breaking changes"), increment the `Major` p
 
 When **fixing bugs and updating documentation**, increment the `Patch` place.
 
-**In most cases, you should user the `Minor` place.**
+**In most cases, you should use the `Minor` place.**
 
 </details>
