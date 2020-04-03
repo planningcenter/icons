@@ -32,6 +32,7 @@
     "extract-svg-path": "^2.1.0",
     "handlebars": "^4.7.5",
     "minimist": "^1.2.0",
+    "svg-to-pdfkit": "^0.1.8",
     "svgo": "^1.2.2",
     "webfonts-generator": "^0.4.0"
   },

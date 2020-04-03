@@ -7,6 +7,8 @@ import Svgo from "svgo";
 import chalk from "chalk";
 import extract from "extract-svg-path";
 import webfontsGenerator from "webfonts-generator";
+import PDFDocument from "pdfkit";
+import SVGtoPDF from "svg-to-pdfkit";
 
 let svgo = new Svgo({
   multipass: true
@@ -107,7 +109,7 @@ function validateCollection(collection) {
 }
 
 function writeSVGSpriteForCollection(collection) {
-  console.log(chalk.yellow(`  * /sprites`));
+  console.log(chalk.yellow(`  * /sprites/${collection.name}.svg`));
 
   return fs.writeFileSync(
     `sprites/${collection.name}.svg`,
@@ -117,7 +119,7 @@ function writeSVGSpriteForCollection(collection) {
 }
 
 function writeSVGPathStringsForCollection(collection) {
-  console.log(chalk.yellow(`  * /paths`));
+  console.log(chalk.yellow(`  * /paths/${collection.name}.js`));
   return fs.writeFileSync(
     `paths/${collection.name}.js`,
     collectionPathStrings(validateCollection(collection)),
@@ -126,7 +128,7 @@ function writeSVGPathStringsForCollection(collection) {
 }
 
 function writeIconFontForCollection(collection) {
-  console.log(chalk.yellow(`  * /iconfonts`));
+  console.log(chalk.yellow(`  * /iconfonts/${collection.name}/*`));
 
   webfontsGenerator(
     {
@@ -142,11 +144,30 @@ function writeIconFontForCollection(collection) {
   );
 }
 
+function writePDFsForCollection(collection) {
+  let dir = `pdfs/${collection.name}`;
+  console.log(chalk.yellow(`  * /${dir}/*.pdf`));
+  collection.svgs.forEach(svg => {
+    let doc = new PDFDocument();
+
+    if (!fs.existsSync(dir)) {
+      fs.mkdirSync(dir);
+    }
+
+    let stream = fs.createWriteStream(`${dir}/${svg.name}.pdf`);
+
+    SVGtoPDF(doc, `${svg.data}`, 0, 0, null);
+    doc.pipe(stream);
+    doc.end();
+  });
+}
+
 function writeCollection(collection) {
-  console.log(chalk.yellow(`\nbuilding ${collection.name}:`));
+  console.log(chalk.yellow(`\nBuilding ${collection.name}:`));
   writeSVGSpriteForCollection(collection);
   writeSVGPathStringsForCollection(collection);
   writeIconFontForCollection(collection);
+  writePDFsForCollection(collection);
 }
 
 export function buildAll() {
