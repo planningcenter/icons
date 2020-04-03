@@ -25,7 +25,7 @@
 </symbol>
 
 <symbol id="circle" viewBox="0 0 16 16">
-  <title>circle</title><circle cx="8" cy="8" r="8"></circle>
+  <title>circle</title><path d="M16,8A8,8,0,1,1,8,0,8,8,0,0,1,16,8Z"></path>
 </symbol>
 
 <symbol id="dot-circle" viewBox="0 0 16 16">
@@ -41,7 +41,7 @@
 </symbol>
 
 <symbol id="flag" viewBox="0 0 16 16">
-  <title>flag</title><polygon points="10.319 2.319 10.319 0 1.507 0 1.507 16 1.507 16 3.362 16 3.362 7.42 6.609 7.42 6.609 9.739 14.493 9.739 14.493 2.319 10.319 2.319"></polygon>
+  <title>flag</title><path d="M14.493,2.319v7.42H6.609V7.42H3.362V16H1.507V0h8.812V2.319Z"></path>
 </symbol>
 
 <symbol id="flash-off" viewBox="0 0 16 16">
