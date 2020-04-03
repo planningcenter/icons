@@ -3,11 +3,10 @@
 <details>
 <summary>Development scripts</summary>
 
-| Command                                   | Task                                                 |
-| ----------------------------------------- | ---------------------------------------------------- |
-| `npm run build`                           | build all collections, once                          |
-| `npm run build --collection {collection}` | build specified collection, once                     |
-| `npm run publish`                         | prompts for new version number, and publishes to npm |
+| Command                                      | Task                             |
+| -------------------------------------------- | -------------------------------- |
+| `npm run build`                              | build all collections, once      |
+| `npm run build -- --collection {collection}` | build specified collection, once |
 
 `build` commands will build the SVG sprites **and** rebuild the doc-site.
 

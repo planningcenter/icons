@@ -5,6 +5,7 @@ import path from "path";
 import cheerio from "cheerio";
 import Svgo from "svgo";
 import chalk from "chalk";
+import extract from "extract-svg-path";
 
 let svgo = new Svgo({
   multipass: true
@@ -18,9 +19,16 @@ function isDirectory(path) {
   return fs.lstatSync(path).isDirectory();
 }
 
+function camelCase(str) {
+  return str.replace(/-([a-z])/g, g => g[1].toUpperCase());
+}
+
 function pascalCase(str) {
-  let camelCased = str.replace(/-([a-z])/g, g => g[1].toUpperCase());
-  return camelCased.charAt(0).toUpperCase() + camelCased.slice(1);
+  return (
+    camelCase(str)
+      .charAt(0)
+      .toUpperCase() + camelCased.slice(1)
+  );
 }
 
 let collections = fs
@@ -35,7 +43,7 @@ let svgsInCollections = collections.map(collection => ({
     .filter(svgPath => !svgPath.includes(".DS_Store"))
     .map(svgPath => ({
       name: svgPath.replace(".svg", ""),
-      componentName: pascalCase(svgPath.replace(".svg", "")),
+      // componentName: pascalCase(svgPath.replace(".svg", "")),
       path: path.join(collection.path, svgPath),
       data: fs.readFileSync(path.join(collection.path, svgPath), {
         encoding: "utf8"
@@ -44,22 +52,31 @@ let svgsInCollections = collections.map(collection => ({
     .filter(svg => isFile(svg.path))
 }));
 
+function collectionPathStrings(collection) {
+  return collection.svgs
+    .map(
+      ({ name, path }) =>
+        `export const ${camelCase(name)} = "${extract(path)}";`
+    )
+    .join(`\n\n`);
+}
+
 function collectionSprite(collection) {
   return `
     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     ${collection.svgs
-    .map(symbol => {
-      let doc = cheerio.load(symbol.data, {
-        normalizeWhitespace: true,
-        xmlMode: true
-      });
+      .map(symbol => {
+        let doc = cheerio.load(symbol.data, {
+          normalizeWhitespace: true,
+          xmlMode: true
+        });
 
-      return `
+        return `
 <symbol id="${symbol.name}" viewBox="${doc("svg").attr("viewBox")}">
   ${cheerio.xml(doc("svg").children())}
 </symbol>`;
-    })
-    .join("\n")}
+      })
+      .join("\n")}
     </svg>
   `.trim();
 }
@@ -89,6 +106,8 @@ function validateCollection(collection) {
 }
 
 function writeSVGSpriteForCollection(collection) {
+  console.log(chalk.yellow(`  * /sprites`));
+
   return fs.writeFileSync(
     `sprites/${collection.name}.svg`,
     collectionSprite(validateCollection(collection)),
@@ -96,13 +115,27 @@ function writeSVGSpriteForCollection(collection) {
   );
 }
 
+function writeSVGPathStringsForCollection(collection) {
+  console.log(chalk.yellow(`  * /paths`));
+  return fs.writeFileSync(
+    `paths/${collection.name}.js`,
+    collectionPathStrings(validateCollection(collection)),
+    "utf8"
+  );
+}
+
+function writeCollection(collection) {
+  console.log(chalk.yellow(`\nbuilding ${collection.name}:`));
+  writeSVGSpriteForCollection(collection);
+  writeSVGPathStringsForCollection(collection);
+}
+
 export function buildAll() {
-  return svgsInCollections.forEach(collection =>
-    writeSVGSpriteForCollection(collection));
+  svgsInCollections.forEach(writeCollection);
 }
 
 export function buildCollection(collectionName) {
-  return svgsInCollections
+  svgsInCollections
     .filter(collection => collection.name === collectionName)
-    .forEach(collection => writeSVGSpriteForCollection(collection));
+    .forEach(writeCollection);
 }

@@ -27,7 +27,8 @@
     "chalk": "^3.0.0",
     "cheerio": "^1.0.0-rc.3",
     "consolidate": "^0.15.0",
-    "handlebars": "^4.1.2",
+    "extract-svg-path": "^2.1.0",
+    "handlebars": "^4.7.5",
     "minimist": "^1.2.0",
     "svgo": "^1.2.2"
   },

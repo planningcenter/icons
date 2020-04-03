@@ -6,27 +6,24 @@ import chalk from "chalk";
 import { buildAll, buildCollection } from "./modules/build.mjs";
 import { buildSite } from "./modules/build-site.mjs";
 
+function rebuildDocumentation() {
+  console.info(chalk.yellow(`\nRebuilding documentation`));
+  buildSite();
+}
+
 function main(argv) {
   let { _: cmd, ...options } = argv;
 
   if (cmd.includes("build") && options["collection"]) {
-    console.info(chalk.yellow(`Building ${options.collection} sprite...`));
     buildCollection(options.collection);
-    console.info(chalk.green(`done.`));
-
-    console.info(chalk.yellow(`Building site...`));
-    buildSite();
+    rebuildDocumentation();
     console.info(chalk.green(`done.`));
     return;
   }
 
   if (cmd.includes("build")) {
-    console.info(chalk.yellow(`Building all sprites...`));
     buildAll();
-    console.info(chalk.green(`done.`));
-
-    console.info(chalk.yellow(`Building site...`));
-    buildSite();
+    rebuildDocumentation();
     console.info(chalk.green(`done.`));
     return;
   }
