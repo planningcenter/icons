@@ -1,0 +1,39 @@
+@font-face {
+	font-family: "publishing";
+	src: url("publishing.eot?fcb9256fbce66f737e9131c71ce6a0f9?#iefix") format("embedded-opentype"),
+url("publishing.woff2?fcb9256fbce66f737e9131c71ce6a0f9") format("woff2"),
+url("publishing.woff?fcb9256fbce66f737e9131c71ce6a0f9") format("woff");
+}
+
+.icon {
+	line-height: 1;
+}
+
+.icon:before {
+	font-family: publishing !important;
+	font-style: normal;
+	font-weight: normal !important;
+	vertical-align: top;
+}
+
+.icon-check-ins:before {
+	content: "\f101";
+}
+.icon-giving:before {
+	content: "\f102";
+}
+.icon-groups:before {
+	content: "\f103";
+}
+.icon-home:before {
+	content: "\f104";
+}
+.icon-page-saved:before {
+	content: "\f105";
+}
+.icon-profile:before {
+	content: "\f106";
+}
+.icon-registrations:before {
+	content: "\f107";
+}

@@ -1,0 +1,42 @@
+@font-face {
+	font-family: "groups";
+	src: url("groups.eot?47c5022d77a067e98694596ab1906d48?#iefix") format("embedded-opentype"),
+url("groups.woff2?47c5022d77a067e98694596ab1906d48") format("woff2"),
+url("groups.woff?47c5022d77a067e98694596ab1906d48") format("woff");
+}
+
+.icon {
+	line-height: 1;
+}
+
+.icon:before {
+	font-family: groups !important;
+	font-style: normal;
+	font-weight: normal !important;
+	vertical-align: top;
+}
+
+.icon-cards:before {
+	content: "\f101";
+}
+.icon-lock-o:before {
+	content: "\f102";
+}
+.icon-note-o:before {
+	content: "\f103";
+}
+.icon-notification-o:before {
+	content: "\f104";
+}
+.icon-notification:before {
+	content: "\f105";
+}
+.icon-person-remove-o:before {
+	content: "\f106";
+}
+.icon-promote:before {
+	content: "\f107";
+}
+.icon-unlock-o:before {
+	content: "\f108";
+}

@@ -1,0 +1,108 @@
+@font-face {
+	font-family: "color-apps";
+	src: url("color-apps.eot?d81178804863f6096ab12b5e18abc25d?#iefix") format("embedded-opentype"),
+url("color-apps.woff2?d81178804863f6096ab12b5e18abc25d") format("woff2"),
+url("color-apps.woff?d81178804863f6096ab12b5e18abc25d") format("woff");
+}
+
+.icon {
+	line-height: 1;
+}
+
+.icon:before {
+	font-family: color-apps !important;
+	font-style: normal;
+	font-weight: normal !important;
+	vertical-align: top;
+}
+
+.icon-color-accounts-app:before {
+	content: "\f101";
+}
+.icon-color-accounts-badge:before {
+	content: "\f102";
+}
+.icon-color-api-app:before {
+	content: "\f103";
+}
+.icon-color-api-badge:before {
+	content: "\f104";
+}
+.icon-color-calendar-app:before {
+	content: "\f105";
+}
+.icon-color-calendar-badge:before {
+	content: "\f106";
+}
+.icon-color-check-ins-app:before {
+	content: "\f107";
+}
+.icon-color-check-ins-badge:before {
+	content: "\f108";
+}
+.icon-color-church-center-app:before {
+	content: "\f109";
+}
+.icon-color-church-center-badge:before {
+	content: "\f10a";
+}
+.icon-color-giving-app:before {
+	content: "\f10b";
+}
+.icon-color-giving-badge:before {
+	content: "\f10c";
+}
+.icon-color-groups-app:before {
+	content: "\f10d";
+}
+.icon-color-groups-badge:before {
+	content: "\f10e";
+}
+.icon-color-interfaces-app:before {
+	content: "\f10f";
+}
+.icon-color-interfaces-badge:before {
+	content: "\f110";
+}
+.icon-color-music-stand-app:before {
+	content: "\f111";
+}
+.icon-color-music-stand-badge:before {
+	content: "\f112";
+}
+.icon-color-people-app:before {
+	content: "\f113";
+}
+.icon-color-people-badge:before {
+	content: "\f114";
+}
+.icon-color-projector-app:before {
+	content: "\f115";
+}
+.icon-color-projector-badge:before {
+	content: "\f116";
+}
+.icon-color-publishing-app:before {
+	content: "\f117";
+}
+.icon-color-publishing-badge:before {
+	content: "\f118";
+}
+.icon-color-registrations-app:before {
+	content: "\f119";
+}
+.icon-color-registrations-badge:before {
+	content: "\f11a";
+}
+.icon-color-resources-app:before {
+	content: "\f11b";
+}
+.icon-color-resources-badge:before {
+	content: "\f11c";
+}
+.icon-color-services-app:before {
+	content: "\f11d";
+}
+.icon-color-services-badge:before {
+	content: "\f11e";
+}

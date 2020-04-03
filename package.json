@@ -17,6 +17,7 @@
     "url": "https://github.com/planningcenter/icons/issues"
   },
   "files": [
+    "iconfonts",
     "paths",
     "sprites",
     "css",
@@ -31,7 +32,8 @@
     "extract-svg-path": "^2.1.0",
     "handlebars": "^4.7.5",
     "minimist": "^1.2.0",
-    "svgo": "^1.2.2"
+    "svgo": "^1.2.2",
+    "webfonts-generator": "^0.4.0"
   },
   "dependencies": {}
 }

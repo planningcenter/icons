@@ -6,6 +6,7 @@ import cheerio from "cheerio";
 import Svgo from "svgo";
 import chalk from "chalk";
 import extract from "extract-svg-path";
+import webfontsGenerator from "webfonts-generator";
 
 let svgo = new Svgo({
   multipass: true
@@ -124,10 +125,28 @@ function writeSVGPathStringsForCollection(collection) {
   );
 }
 
+function writeIconFontForCollection(collection) {
+  console.log(chalk.yellow(`  * /iconfonts`));
+
+  webfontsGenerator(
+    {
+      files: collection.svgs.map(({ path }) => path),
+      dest: `iconfonts/${collection.name}/`,
+      fontName: collection.name
+    },
+    function(error) {
+      if (error) {
+        console.log("Fail!", error);
+      }
+    }
+  );
+}
+
 function writeCollection(collection) {
   console.log(chalk.yellow(`\nbuilding ${collection.name}:`));
   writeSVGSpriteForCollection(collection);
   writeSVGPathStringsForCollection(collection);
+  writeIconFontForCollection(collection);
 }
 
 export function buildAll() {

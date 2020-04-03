@@ -1,0 +1,123 @@
+@font-face {
+	font-family: "church-center";
+	src: url("church-center.eot?496409c52f1ddd22219f1d9b388fe122?#iefix") format("embedded-opentype"),
+url("church-center.woff2?496409c52f1ddd22219f1d9b388fe122") format("woff2"),
+url("church-center.woff?496409c52f1ddd22219f1d9b388fe122") format("woff");
+}
+
+.icon {
+	line-height: 1;
+}
+
+.icon:before {
+	font-family: church-center !important;
+	font-style: normal;
+	font-weight: normal !important;
+	vertical-align: top;
+}
+
+.icon-bank-check:before {
+	content: "\f101";
+}
+.icon-bank:before {
+	content: "\f102";
+}
+.icon-calendar-events:before {
+	content: "\f103";
+}
+.icon-camera-reverse:before {
+	content: "\f104";
+}
+.icon-check-ins-o:before {
+	content: "\f105";
+}
+.icon-check-ins:before {
+	content: "\f106";
+}
+.icon-circle:before {
+	content: "\f107";
+}
+.icon-dot-circle:before {
+	content: "\f108";
+}
+.icon-event-circle:before {
+	content: "\f109";
+}
+.icon-exclamation-circle:before {
+	content: "\f10a";
+}
+.icon-flag:before {
+	content: "\f10b";
+}
+.icon-flash-off:before {
+	content: "\f10c";
+}
+.icon-flash-on:before {
+	content: "\f10d";
+}
+.icon-give-heart:before {
+	content: "\f10e";
+}
+.icon-give-money:before {
+	content: "\f10f";
+}
+.icon-giving-o:before {
+	content: "\f110";
+}
+.icon-giving:before {
+	content: "\f111";
+}
+.icon-globe:before {
+	content: "\f112";
+}
+.icon-groups-o:before {
+	content: "\f113";
+}
+.icon-groups:before {
+	content: "\f114";
+}
+.icon-home-o:before {
+	content: "\f115";
+}
+.icon-home:before {
+	content: "\f116";
+}
+.icon-location-arrow:before {
+	content: "\f117";
+}
+.icon-message-circle:before {
+	content: "\f118";
+}
+.icon-paste:before {
+	content: "\f119";
+}
+.icon-people:before {
+	content: "\f11a";
+}
+.icon-photos-android:before {
+	content: "\f11b";
+}
+.icon-photos-ios:before {
+	content: "\f11c";
+}
+.icon-profile-o:before {
+	content: "\f11d";
+}
+.icon-profile:before {
+	content: "\f11e";
+}
+.icon-radio-button-off:before {
+	content: "\f11f";
+}
+.icon-registrations-o:before {
+	content: "\f120";
+}
+.icon-registrations:before {
+	content: "\f121";
+}
+.icon-share-android:before {
+	content: "\f122";
+}
+.icon-share-ios:before {
+	content: "\f123";
+}

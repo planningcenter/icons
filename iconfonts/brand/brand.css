@@ -1,0 +1,81 @@
+@font-face {
+	font-family: "brand";
+	src: url("brand.eot?7b5e6849e4009b9eb2179b779c6f879c?#iefix") format("embedded-opentype"),
+url("brand.woff2?7b5e6849e4009b9eb2179b779c6f879c") format("woff2"),
+url("brand.woff?7b5e6849e4009b9eb2179b779c6f879c") format("woff");
+}
+
+.icon {
+	line-height: 1;
+}
+
+.icon:before {
+	font-family: brand !important;
+	font-style: normal;
+	font-weight: normal !important;
+	vertical-align: top;
+}
+
+.icon-android-full:before {
+	content: "\f101";
+}
+.icon-android:before {
+	content: "\f102";
+}
+.icon-apple-pay:before {
+	content: "\f103";
+}
+.icon-apple:before {
+	content: "\f104";
+}
+.icon-checkr:before {
+	content: "\f105";
+}
+.icon-chrome:before {
+	content: "\f106";
+}
+.icon-edge:before {
+	content: "\f107";
+}
+.icon-facebook-outline:before {
+	content: "\f108";
+}
+.icon-facebook:before {
+	content: "\f109";
+}
+.icon-firefox:before {
+	content: "\f10a";
+}
+.icon-ie:before {
+	content: "\f10b";
+}
+.icon-instagram:before {
+	content: "\f10c";
+}
+.icon-linkedin:before {
+	content: "\f10d";
+}
+.icon-linux:before {
+	content: "\f10e";
+}
+.icon-mailchimp:before {
+	content: "\f10f";
+}
+.icon-safari:before {
+	content: "\f110";
+}
+.icon-stripe:before {
+	content: "\f111";
+}
+.icon-twilio:before {
+	content: "\f112";
+}
+.icon-twitter-outline:before {
+	content: "\f113";
+}
+.icon-twitter:before {
+	content: "\f114";
+}
+.icon-windows:before {
+	content: "\f115";
+}
