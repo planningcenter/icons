@@ -11,7 +11,7 @@ import PDFDocument from "pdfkit";
 import SVGtoPDF from "svg-to-pdfkit";
 
 let svgo = new Svgo({
-  multipass: true
+  multipass: true,
 });
 
 function isFile(path) {
@@ -23,36 +23,33 @@ function isDirectory(path) {
 }
 
 function camelCase(str) {
-  return str.replace(/-([a-z])/g, g => g[1].toUpperCase());
+  return str.replace(/-([a-z])/g, (g) => g[1].toUpperCase());
 }
 
 function pascalCase(str) {
-  return (
-    camelCase(str)
-      .charAt(0)
-      .toUpperCase() + camelCased.slice(1)
-  );
+  return camelCase(str).charAt(0).toUpperCase() + camelCased.slice(1);
 }
 
 let collections = fs
   .readdirSync(`./svg/`, { encoding: "utf8" })
-  .map(name => ({ name, path: path.join(`./svg/`, name) }))
-  .filter(collection => isDirectory(collection.path));
+  .filter((svgPath) => ![".DS_Store", "universal"].includes(svgPath))
+  .map((name) => ({ name, path: path.join(`./svg/`, name) }))
+  .filter((collection) => isDirectory(collection.path));
 
-let svgsInCollections = collections.map(collection => ({
+let svgsInCollections = collections.map((collection) => ({
   ...collection,
   svgs: fs
     .readdirSync(collection.path, { encoding: "utf8" })
-    .filter(svgPath => !svgPath.includes(".DS_Store"))
-    .map(svgPath => ({
+    .filter((svgPath) => !svgPath.includes(".DS_Store"))
+    .map((svgPath) => ({
       name: svgPath.replace(".svg", ""),
       // componentName: pascalCase(svgPath.replace(".svg", "")),
       path: path.join(collection.path, svgPath),
       data: fs.readFileSync(path.join(collection.path, svgPath), {
-        encoding: "utf8"
-      })
+        encoding: "utf8",
+      }),
     }))
-    .filter(svg => isFile(svg.path))
+    .filter((svg) => isFile(svg.path)),
 }));
 
 function collectionPathStrings(collection) {
@@ -68,10 +65,10 @@ function collectionSprite(collection) {
   return `
     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     ${collection.svgs
-      .map(symbol => {
+      .map((symbol) => {
         let doc = cheerio.load(symbol.data, {
           normalizeWhitespace: true,
-          xmlMode: true
+          xmlMode: true,
         });
 
         return `
@@ -94,7 +91,7 @@ Please export SVGs using the "presentation attributes" setting and try again.
 }
 
 function validateCollection(collection) {
-  collection.svgs.forEach(svg => {
+  collection.svgs.forEach((svg) => {
     if (svg.data.includes("class")) {
       console.error(chalk.red(attrError("class")));
       process.exit(1);
@@ -134,9 +131,9 @@ function writeIconFontForCollection(collection) {
     {
       files: collection.svgs.map(({ path }) => path),
       dest: `iconfonts/${collection.name}/`,
-      fontName: collection.name
+      fontName: collection.name,
     },
-    function(error) {
+    function (error) {
       if (error) {
         console.log("Fail!", error);
       }
@@ -147,7 +144,7 @@ function writeIconFontForCollection(collection) {
 function writePDFsForCollection(collection) {
   let dir = `pdfs/${collection.name}`;
   console.log(chalk.yellow(`  * /${dir}/*.pdf`));
-  collection.svgs.forEach(svg => {
+  collection.svgs.forEach((svg) => {
     let doc = new PDFDocument();
 
     if (!fs.existsSync(dir)) {
@@ -176,6 +173,6 @@ export function buildAll() {
 
 export function buildCollection(collectionName) {
   svgsInCollections
-    .filter(collection => collection.name === collectionName)
+    .filter((collection) => collection.name === collectionName)
     .forEach(writeCollection);
 }
