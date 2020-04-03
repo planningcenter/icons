@@ -6,6 +6,7 @@ import extract from "extract-svg-path";
 import webfontsGenerator from "webfonts-generator";
 import PDFDocument from "pdfkit";
 import SVGtoPDF from "svg-to-pdfkit";
+import createSVGSprite from "./create-svg-sprite";
 
 let message = `Building Universal Icons:
 * Web\t\t\t/sprites/universal.svg
@@ -15,7 +16,19 @@ let message = `Building Universal Icons:
 
 export function buildUniversal() {
   console.log(chalk.yellow(message));
+  writeWeb();
   writeIOS();
+}
+
+function writeWeb() {
+  console.log(chalk.yellow(`* Web\t\t\t/sprites/universal.svg`));
+  let svgs = getSVGs(`svg/universal/ios`);
+
+  return fs.writeFileSync(
+    `sprites/universal.svg`,
+    createSVGSprite(svgs),
+    "utf8"
+  );
 }
 
 function writeIOS() {

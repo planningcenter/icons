@@ -2,17 +2,12 @@
 
 import fs from "fs";
 import path from "path";
-import cheerio from "cheerio";
-import Svgo from "svgo";
 import chalk from "chalk";
 import extract from "extract-svg-path";
 import webfontsGenerator from "webfonts-generator";
 import PDFDocument from "pdfkit";
 import SVGtoPDF from "svg-to-pdfkit";
-
-let svgo = new Svgo({
-  multipass: true,
-});
+import createSVGSprite from "./create-svg-sprite";
 
 function isFile(path) {
   return fs.lstatSync(path).isFile();
@@ -61,26 +56,6 @@ function collectionPathStrings(collection) {
     .join(`\n\n`);
 }
 
-function collectionSprite(collection) {
-  return `
-    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    ${collection.svgs
-      .map((symbol) => {
-        let doc = cheerio.load(symbol.data, {
-          normalizeWhitespace: true,
-          xmlMode: true,
-        });
-
-        return `
-<symbol id="${symbol.name}" viewBox="${doc("svg").attr("viewBox")}">
-  ${cheerio.xml(doc("svg").children())}
-</symbol>`;
-      })
-      .join("\n")}
-    </svg>
-  `.trim();
-}
-
 function attrError(attrName) {
   return `
 OOPS!
@@ -90,8 +65,8 @@ Please export SVGs using the "presentation attributes" setting and try again.
 `;
 }
 
-function validateCollection(collection) {
-  collection.svgs.forEach((svg) => {
+function validateSVGs(svgs) {
+  svgs.forEach((svg) => {
     if (svg.data.includes("class")) {
       console.error(chalk.red(attrError("class")));
       process.exit(1);
@@ -102,7 +77,7 @@ function validateCollection(collection) {
     }
   });
 
-  return collection;
+  return svgs;
 }
 
 function writeSVGSpriteForCollection(collection) {
@@ -110,7 +85,7 @@ function writeSVGSpriteForCollection(collection) {
 
   return fs.writeFileSync(
     `sprites/${collection.name}.svg`,
-    collectionSprite(validateCollection(collection)),
+    createSVGSprite(validateSVGs(collection.svgs)),
     "utf8"
   );
 }
@@ -119,7 +94,7 @@ function writeSVGPathStringsForCollection(collection) {
   console.log(chalk.yellow(`  * /paths/${collection.name}.js`));
   return fs.writeFileSync(
     `paths/${collection.name}.js`,
-    collectionPathStrings(validateCollection(collection)),
+    collectionPathStrings(validateSVGs(collection)),
     "utf8"
   );
 }
