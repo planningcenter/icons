@@ -8,6 +8,8 @@ Accessible, scaleable, standard SVG icons for [Planning Center](https://planning
 
 <hr />
 
+![Node.js Package](https://github.com/planningcenter/icons/workflows/Node.js%20Package/badge.svg)
+
 </div>
 
 ## TOC
