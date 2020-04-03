@@ -5,6 +5,7 @@ import chalk from "chalk";
 
 import { buildAll, buildCollection } from "./modules/build.mjs";
 import { buildSite } from "./modules/build-site.mjs";
+import { buildUniversal } from "./modules/build-universal.mjs";
 
 function rebuildDocumentation() {
   console.info(chalk.yellow(`\nRebuilding documentation`));
@@ -13,6 +14,17 @@ function rebuildDocumentation() {
 
 function main(argv) {
   let { _: cmd, ...options } = argv;
+
+  if (
+    cmd.includes("build") &&
+    options["collection"] &&
+    options["collection"] === "universal"
+  ) {
+    buildUniversal();
+    rebuildDocumentation();
+    console.info(chalk.green(`done.`));
+    return;
+  }
 
   if (cmd.includes("build") && options["collection"]) {
     buildCollection(options.collection);
