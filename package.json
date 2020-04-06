@@ -21,9 +21,9 @@
     "iconfonts",
     "js",
     "paths",
-    "pdfs",
     "sprites",
-    "svg"
+    "svg",
+    "universal"
   ],
   "homepage": "https://github.com/planningcenter/icons#readme",
   "devDependencies": {

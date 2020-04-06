@@ -32,11 +32,11 @@ Once your changes are committed and/or merged...
   - `git checkout master`
   - `git pull`
 - Bump the version
-  - `npm version minor`
+  - `yarn version --minor`
     - See [./CONTRIBUTING.md](./CONTRIBUTING.md) for other version options
     - This command will add a git tag for your release
 - Push tags
-  - `git push --tags`
+  - `git push && git push --tags`
   - (Add this option to git config to automatically perform this step: `git config --global push.followTags true`)
 - Visit the [releases](https://github.com/planningcenter/icons/releases) page on the GitHub repo, find your release, and add notes
 

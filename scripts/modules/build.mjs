@@ -47,8 +47,8 @@ let svgsInCollections = collections.map((collection) => ({
     .filter((svg) => isFile(svg.path)),
 }));
 
-function collectionPathStrings(collection) {
-  return collection.svgs
+function collectionPathStrings(svgs) {
+  return svgs
     .map(
       ({ name, path }) =>
         `export const ${camelCase(name)} = "${extract(path)}";`
@@ -94,7 +94,7 @@ function writeSVGPathStringsForCollection(collection) {
   console.log(chalk.yellow(`  * /paths/${collection.name}.js`));
   return fs.writeFileSync(
     `paths/${collection.name}.js`,
-    collectionPathStrings(validateSVGs(collection)),
+    collectionPathStrings(validateSVGs(collection.svgs)),
     "utf8"
   );
 }
@@ -108,6 +108,7 @@ function writeIconFontForCollection(collection) {
       dest: `iconfonts/`,
       fontName: collection.name,
       types: ["ttf"],
+      css: false,
     },
     function (error) {
       if (error) {
@@ -140,7 +141,6 @@ function writeCollection(collection) {
   writeSVGSpriteForCollection(collection);
   writeSVGPathStringsForCollection(collection);
   writeIconFontForCollection(collection);
-  writePDFsForCollection(collection);
 }
 
 export function buildAll() {
