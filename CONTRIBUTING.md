@@ -3,10 +3,10 @@
 <details>
 <summary>Development scripts</summary>
 
-| Command                                      | Task                             |
-| -------------------------------------------- | -------------------------------- |
-| `npm run build`                              | build all collections, once      |
-| `npm run build -- --collection {collection}` | build specified collection, once |
+| Command                                   | Task                             |
+| ----------------------------------------- | -------------------------------- |
+| `yarn build`                              | build all collections, once      |
+| `yarn build -- --collection {collection}` | build specified collection, once |
 
 `build` commands will build the SVG sprites **and** rebuild the doc-site.
 
@@ -37,7 +37,7 @@
 <details>
 <summary>Build sprites and docs</summary>
 
-- run `npm run build` in the project root.
+- run `yarn build` in the project root.
 - watch for errors. the errors should help you.
 
 </details>
