@@ -3,10 +3,11 @@
 <details>
 <summary>Development scripts</summary>
 
-| Command                                    | Task                             |
-| ------------------------------------------ | -------------------------------- |
-| `yarn build`                               | build all collections, once      |
-| `yarn build --collection {collectionName}` | build specified collection, once |
+| Command                                    | Task                               |
+| ------------------------------------------ | ---------------------------------- |
+| `yarn build`                               | build all collections, once        |
+| `yarn build --collection {collectionName}` | build specified collection, once   |
+| `yarn build --collection universal`        | build experimental Universal Icons |
 
 `build` commands will build the SVG sprites **and** rebuild the doc-site.
 
