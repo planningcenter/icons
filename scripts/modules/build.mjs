@@ -105,8 +105,9 @@ function writeIconFontForCollection(collection) {
   webfontsGenerator(
     {
       files: collection.svgs.map(({ path }) => path),
-      dest: `iconfonts/${collection.name}/`,
+      dest: `iconfonts/`,
       fontName: collection.name,
+      types: ["ttf"],
     },
     function (error) {
       if (error) {

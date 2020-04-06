@@ -3,39 +3,105 @@ import chalk from "chalk";
 import fs from "fs";
 import path from "path";
 import extract from "extract-svg-path";
-import webfontsGenerator from "webfonts-generator";
 import PDFDocument from "pdfkit";
 import SVGtoPDF from "svg-to-pdfkit";
 import createSVGSprite from "./create-svg-sprite";
-
-let message = `Building Universal Icons:
-* Web\t\t\t/sprites/universal.svg
-* Android\t\t/svg/universal/*.svg
-* React Native\t/iconfonts/universal/*
-`;
+import webfontsGenerator from "webfonts-generator";
 
 export function buildUniversal() {
-  console.log(chalk.yellow(message));
+  console.log(chalk.yellow(`Building Universal Icons:`));
   writeWeb();
   writeIOS();
+  writeAndroid();
+  writeReactNative();
+  writeJSPaths();
+}
+
+function camelCase(str) {
+  return str.replace(/-([a-z])/g, (g) => g[1].toUpperCase());
+}
+
+function writeJSPaths() {
+  console.log(chalk.yellow(`* JS:`));
+
+  ["web", "android", "ios"].forEach((platform) => {
+    console.log(chalk.yellow(`\t\t/universal/js/${platform}.js`));
+
+    return fs.writeFileSync(
+      `universal/js/${platform}.js`,
+      getSVGs(path.join("universal/src", platform))
+        .map(
+          ({ name }) =>
+            `export const ${camelCase(name)} = "${extract(
+              path.join(`universal/src`, platform, `${name}.svg`)
+            )}";`
+        )
+        .join(`\n\n`),
+      "utf8"
+    );
+  });
+}
+
+function writeReactNative() {
+  console.log(chalk.yellow(`* React Native:`));
+
+  function createWebFont(name, srcDir) {
+    return webfontsGenerator(
+      {
+        files: fs
+          .readdirSync(path.join(srcDir, name), { encoding: "utf8" })
+          .map((filename) => path.join(srcDir, name, filename)),
+        dest: `universal/react-native/`,
+        fontName: name,
+        types: ["ttf"],
+        css: false,
+      },
+      function (error) {
+        if (error) {
+          console.log("Fail!", error);
+        }
+      }
+    );
+  }
+
+  ["web", "android", "ios"].forEach((platform) => {
+    console.log(chalk.yellow(`\t\t/universal/react-native/${platform}.ttf`));
+    createWebFont(platform, `universal/src`);
+  });
+}
+
+function writeAndroid() {
+  console.log(chalk.yellow(`* Android\t/universal/android/{icon}.svg`));
+
+  let srcDir = `universal/src/android`;
+
+  fs.readdirSync(srcDir, { encoding: "utf8" })
+    .filter((filename) => !filename.includes(".DS_Store"))
+    .forEach((filename) => {
+      fs.copyFile(
+        path.join(srcDir, filename),
+        path.join(`universal/android/`, filename),
+        (err) => {}
+      );
+    });
 }
 
 function writeWeb() {
-  console.log(chalk.yellow(`* Web\t\t\t/sprites/universal.svg`));
-  let svgs = getSVGs(`svg/universal/ios`);
+  console.log(chalk.yellow(`* Web\t\t/universal/web/universal.svg`));
+  let svgs = getSVGs(`universal/src/web`);
 
   return fs.writeFileSync(
-    `sprites/universal.svg`,
+    `universal/web/universal.svg`,
     createSVGSprite(svgs),
     "utf8"
   );
 }
 
 function writeIOS() {
-  console.log(chalk.yellow(`* iOS\t\t\t/pdfs/universal/*.pdf`));
+  console.log(chalk.yellow(`* iOS\t\t/universal/ios/{icon}.pdf`));
 
-  let svgs = getSVGs(`svg/universal/ios`);
-  let dstDir = `pdfs/universal`;
+  let svgs = getSVGs(`universal/src/ios`);
+  let dstDir = `universal/ios`;
 
   svgs.forEach((svg) => {
     let doc = new PDFDocument();
