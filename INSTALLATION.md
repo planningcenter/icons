@@ -90,7 +90,11 @@ This can be handy for specially styled icons or those you target via JavaScript.
 Add the `file-loader` npm package (`yarn add file-loader`).
 
 Once installed, add the requisite config to `config/webpacker/environments`.
-This tellos webpack how to handle required SVG files.
+This tells webpack how to handle required SVG files.
+
+The `publicPath` option ensures that SVG use tags point at a relative `/packs`
+path, avoiding using the CloudFront asset host and generating cross-origin
+errors.
 
 ```js
 const { environment } = require("@rails/webpacker");
@@ -99,7 +103,10 @@ environment.loaders.append("file", {
   test: /\.svg$/,
   use: [
     {
-      loader: "file-loader"
+      loader: "file-loader",
+      options: {
+        publicPath: "/packs"
+      }
     }
   ]
 });
