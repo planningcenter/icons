@@ -7,6 +7,7 @@ import PDFDocument from "pdfkit";
 import SVGtoPDF from "svg-to-pdfkit";
 import createSVGSprite from "./create-svg-sprite";
 import webfontsGenerator from "webfonts-generator";
+import SVGO from "svgo";
 
 export function buildUniversal() {
   console.log(chalk.yellow(`Building Universal Icons:`));
@@ -75,14 +76,44 @@ function writeAndroid() {
 
   let srcDir = `universal/src/android`;
 
+  let svgo = new SVGO({
+    plugins: [
+      {
+        removeUselessStrokeAndFill: true,
+      },
+      { convertShapeToPath: true },
+      { removeDimensions: true },
+      { removeAttrs: { attrs: "(stroke|fill)" } },
+    ],
+  });
+
   fs.readdirSync(srcDir, { encoding: "utf8" })
     .filter((filename) => !filename.includes(".DS_Store"))
     .forEach((filename) => {
-      fs.copyFile(
-        path.join(srcDir, filename),
-        path.join(`universal/android/`, filename),
-        (err) => {}
-      );
+      // fs.copyFile(
+      //   path.join(srcDir, filename),
+      //   path.join(`universal/android/`, filename),
+      //   (err) => {}
+      // );
+      let filepath = path.join(srcDir, filename);
+
+      fs.readFile(filepath, "utf8", function (err, data) {
+        if (err) {
+          throw err;
+        }
+
+        svgo.optimize(data).then(function (result) {
+          fs.writeFile(
+            path.join("universal/android", filename),
+            result.data,
+            function (err) {
+              if (err) {
+                throw err;
+              }
+            }
+          );
+        });
+      });
     });
 }
 
