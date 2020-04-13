@@ -1,51 +1,28 @@
 # This workflow will run tests using node and then publish a package to GitHub Packages when a release is created
 # For more information see: https://help.github.com/actions/language-and-framework-guides/publishing-nodejs-packages
 
-name: Node.js Package
+# actions/setup-node configuration: https://github.com/actions/setup-node
+
+name: Publish to npm and GPR
 
 on:
   release:
     types: [created]
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v1
-      - uses: borales/actions-yarn@v2.0.0
-        with:
-          cmd: install
-
-  publish-npm:
-    needs: build
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - uses: borales/actions-yarn@v2.0.0
-        with:
-          cmd: install
-      - uses: borales/actions-yarn@v2.0.0
-        with:
-          cmd: build
-      - uses: borales/actions-yarn@v2.0.0
-        with:
-          cmd: build
-          auth-token: ${{ secrets.npm_token }}
-          NODE_AUTH_TOKEN: ${{secrets.npm_token}}
-
-  publish-gpr:
-    needs: build
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v1
-        with:
-          node-version: 12
-          registry-url: https://npm.pkg.github.com/
-      - uses: borales/actions-yarn@v2.0.0
-        with:
-          cmd: install
-      - uses: borales/actions-yarn@v2.0.0
-        with:
-          cmd: publish
-          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+  steps:
+    - uses: actions/checkout@v2
+    - uses: actions/setup-node@v1
+      with:
+        node-version: "10.x"
+        registry-url: https://registry.npmjs.org/
+    - run: yarn install
+    - run: yarn publish
+      env:
+        NODE_AUTH_TOKEN: ${{ secrets.YARN_TOKEN }}
+    - uses: actions/setup-node@v1
+      with:
+        registry-url: "https://npm.pkg.github.com"
+    - run: yarn publish
+      env:
+        NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
