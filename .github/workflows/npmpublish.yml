@@ -1,9 +1,7 @@
 name: Publish to npm and GPR
-
 on:
   release:
     types: [created]
-
 jobs:
   steps:
     - uses: actions/checkout@v2
