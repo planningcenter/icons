@@ -3,6 +3,7 @@ on:
   release:
     types: [created]
 jobs:
+  runs-on: ubuntu-latest
   build:
     steps:
       - uses: actions/checkout@v2
