@@ -40,6 +40,12 @@ Once your changes are committed and/or merged...
   - (Add this option to git config to automatically perform this step: `git config --global push.followTags true`)
 - Visit the [releases](https://github.com/planningcenter/icons/releases) page on the GitHub repo, find your release, and add notes
 
+### On "experimenting"
+
+If your experimenting and don't feel confident about the final implementation, use `prerelease` versions.
+Use `yarn version --preminor` to use a `prerelease` suffix, like `v7.7.0-1`.
+Tag your release in GitHub releases with the `pre-release` checkbox.
+
 For more details, see [./CONTRIBUTING.md](./CONTRIBUTING.md).
 
 # Installation
