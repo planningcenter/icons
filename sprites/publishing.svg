@@ -33,6 +33,6 @@
 </symbol>
 
 <symbol id="two-horizontal-bars" viewBox="0 0 16 16">
-  <title>two-horizontal-bars</title><path d="M0,9.062H16v2.123H0ZM0,4.815V6.938H16V4.815Z" fill="#231f20"></path>
+  <title>two-horizontal-bars</title><path d="M0,9.062H16v2.123H0ZM0,4.815V6.938H16V4.815Z"></path>
 </symbol>
     </svg>
