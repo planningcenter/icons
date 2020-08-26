@@ -1,6 +1,6 @@
 {
   "name": "@planningcenter/icons",
-  "version": "7.17.2",
+  "version": "7.17.3",
   "description": "Planning Center Icons",
   "main": "index.js",
   "scripts": {
@@ -30,10 +30,10 @@
     "chalk": "^3.0.0",
     "cheerio": "^1.0.0-rc.3",
     "consolidate": "^0.15.0",
-    "extract-svg-path": "^2.1.0",
     "handlebars": "^4.7.5",
     "minimist": "^1.2.0",
     "svg-to-pdfkit": "^0.1.8",
+    "svgson": "^4.1.0",
     "webfonts-generator": "^0.4.0"
   },
   "dependencies": {

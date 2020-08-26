@@ -2,10 +2,10 @@ import chalk from "chalk";
 
 import fs from "fs";
 import path from "path";
-import extract from "extract-svg-path";
 import PDFDocument from "pdfkit";
 import SVGtoPDF from "svg-to-pdfkit";
 import createSVGSprite from "./create-svg-sprite";
+import extractChildrenFromSvg from "./extract-children-from-svg";
 import webfontsGenerator from "webfonts-generator";
 import SVGO from "svgo";
 
@@ -33,9 +33,9 @@ function writeJSPaths() {
       getSVGs(path.join("universal/src", platform))
         .map(
           ({ name }) =>
-            `export const ${camelCase(name)} = "${extract(
+            `export const ${camelCase(name)} = '${extractChildrenFromSvg(
               path.join(`universal/src`, platform, `${name}.svg`)
-            )}";`
+            )}';`
         )
         .join(`\n\n`),
       "utf8"
