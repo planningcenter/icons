@@ -1,5 +1,16 @@
 # CHANGELOG
 
+## v8.1.1
+
+- Fixed Compound paths
+- `check-ins - check`
+- `check-ins - x`
+- `giving - download`
+- `giving - page-right-double`
+- `groups - cards`
+- `people - skip-step`
+- `people - step-back`
+
 ## v7.1.1
 
 - Fixed
