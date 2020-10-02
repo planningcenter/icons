@@ -33,7 +33,7 @@
 </symbol>
 
 <symbol id="check" viewBox="0 0 16 16">
-  <title>check</title><g id="Layer_1" data-name="Layer 1"><polygon points="16.002 4.328 13.327 1.653 5.988 8.992 2.559 5.563 -0.044 8.165 6.059 14.267 6.061 14.265 6.063 14.267 16.002 4.328" fill-rule="evenodd"></polygon></g>
+  <g id="Layer_1" data-name="Layer 1"> <path d="M6.063,14.267l0,0,0,0-6.1-6.1,2.6-2.6L5.988,8.992l7.339-7.339L16,4.328Z" fill-rule="evenodd"></path> </g>
 </symbol>
 
 <symbol id="checkin" viewBox="0 0 16 16">
@@ -117,6 +117,6 @@
 </symbol>
 
 <symbol id="x" viewBox="0 0 16 16">
-  <title>x</title><g id="Layer_1" data-name="Layer 1"><polygon points="14.301 4.34 11.625 1.664 8 5.29 4.375 1.664 1.699 4.34 5.325 7.965 1.699 11.591 4.375 14.266 8 10.641 11.625 14.266 14.301 11.591 10.675 7.965 14.301 4.34" fill-rule="evenodd"></polygon></g>
+  <g id="Layer_1" data-name="Layer 1"> <path d="M10.675,7.965,14.3,11.591l-2.676,2.675L8,10.641,4.375,14.266,1.7,11.591,5.325,7.965,1.7,4.34,4.375,1.664,8,5.29l3.625-3.626L14.3,4.34Z" fill-rule="evenodd"></path> </g>
 </symbol>
     </svg>
