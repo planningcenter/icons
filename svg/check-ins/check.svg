@@ -1,1 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><title>check</title><g id="Layer_1" data-name="Layer 1"><polygon points="16.002 4.328 13.327 1.653 5.988 8.992 2.559 5.563 -0.044 8.165 6.059 14.267 6.061 14.265 6.063 14.267 16.002 4.328" fill-rule="evenodd"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+  <g id="Layer_1" data-name="Layer 1">
+    <path d="M6.063,14.267l0,0,0,0-6.1-6.1,2.6-2.6L5.988,8.992l7.339-7.339L16,4.328Z" fill-rule="evenodd"/>
+  </g>
+</svg>
