@@ -1,5 +1,18 @@
 # CHANGELOG
 
+## v8.1.1
+
+- Fixed
+- `Check-ins => x`
+- `Check-ins => check`
+- `Groups => cards`
+- `Giving => download`
+- `Giving => page-right-double`
+- `People => bars`
+- `People => form-paragraph`
+- `People => step-back`
+- `People => skip-step`
+
 ## v7.1.1
 
 - Fixed
