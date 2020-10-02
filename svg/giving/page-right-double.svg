@@ -1,1 +1,3 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 15.319"><title>page-right-double</title><polygon points="9.637 1.296 6.934 3.998 10.596 7.66 6.934 11.321 9.637 14.023 16 7.66 9.637 1.296" fill-rule="evenodd"/><polygon points="2.702 1.296 0 3.998 3.661 7.66 0 11.321 2.702 14.023 9.066 7.66 2.702 1.296" fill-rule="evenodd"/></svg>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 15.319">
+  <path d="M0,11.321,3.661,7.66,0,4,2.7,1.3,9.066,7.66,2.7,14.023Zm6.935,0,2.7,2.7L16,7.66,9.637,1.3,6.935,4,10.6,7.66Z" fill-rule="evenodd"/>
+</svg>

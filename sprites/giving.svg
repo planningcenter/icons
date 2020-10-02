@@ -41,7 +41,7 @@
 </symbol>
 
 <symbol id="download" viewBox="0 0 16 16">
-  <title>download</title><polygon points="14.121 11.595 14.121 12.797 1.921 12.797 1.921 11.595 0.146 11.595 0.146 14.448 15.896 14.448 15.896 11.595 14.121 11.595" fill-rule="evenodd"></polygon><polygon points="10.286 6.645 8.908 7.926 8.908 2.005 7.133 2.005 7.133 7.94 5.741 6.645 4.472 7.825 6.743 9.94 8.011 11.12 8.013 11.119 8.015 11.12 9.284 9.94 11.555 7.825 10.286 6.645" fill-rule="evenodd"></polygon>
+  <path d="M15.9,11.6v2.853H.146V11.6H1.921v1.2h12.2V11.6Zm-5.61-4.95L8.908,7.926V2.005H7.133V7.94l-1.392-1.3L4.472,7.825,6.743,9.94l1.268,1.18h0L9.284,9.94l2.271-2.115Z" fill-rule="evenodd"></path>
 </symbol>
 
 <symbol id="edit-circle-outline" viewBox="0 0 16 16">
@@ -89,7 +89,7 @@
 </symbol>
 
 <symbol id="page-right-double" viewBox="0 0 16 15.319">
-  <title>page-right-double</title><polygon points="9.637 1.296 6.934 3.998 10.596 7.66 6.934 11.321 9.637 14.023 16 7.66 9.637 1.296" fill-rule="evenodd"></polygon><polygon points="2.702 1.296 0 3.998 3.661 7.66 0 11.321 2.702 14.023 9.066 7.66 2.702 1.296" fill-rule="evenodd"></polygon>
+  <path d="M0,11.321,3.661,7.66,0,4,2.7,1.3,9.066,7.66,2.7,14.023Zm6.935,0,2.7,2.7L16,7.66,9.637,1.3,6.935,4,10.6,7.66Z" fill-rule="evenodd"></path>
 </symbol>
 
 <symbol id="payment-methods" viewBox="0 0 16 16">
