@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     
 <symbol id="cards" viewBox="0 0 16 16">
-  <title>cards</title><g id="Layer_1" data-name="Layer 1"><g id="Layer_27" data-name="Layer 27"><rect x="9.318" y="0.256" width="6.453" height="6.453"></rect><rect x="0.318" y="0.256" width="6.453" height="6.453"></rect><rect x="0.318" y="9.256" width="6.453" height="6.453"></rect><rect x="9.318" y="9.256" width="6.453" height="6.453"></rect></g></g>
+  <g id="Layer_1" data-name="Layer 1"> <g id="Layer_27" data-name="Layer 27"> <path d="M15.771.256V6.709H9.318V.256ZM.318.256V6.709H6.771V.256Zm0,9v6.453H6.771V9.256Zm9,0v6.453h6.453V9.256Z" fill-rule="evenodd"></path> </g> </g>
 </symbol>
 
 <symbol id="lock-o" viewBox="0 0 16 16">
