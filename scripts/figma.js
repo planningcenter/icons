@@ -3,6 +3,7 @@ require('dotenv').config()
 const { fetchImages } = require('figma-tools')
 const { writeFileSync } = require('fs')
 const { resolve } = require('path')
+const fromEntries = require('object.fromentries')
 const SVGO = require('svgo')
 
 const svgo = new SVGO({
@@ -13,6 +14,11 @@ const svgo = new SVGO({
     { removeAttrs: { attrs: '(stroke|fill)' } },
   ],
 })
+
+// required until this PR is published: https://github.com/braposo/figma-transformer/pull/20
+if (!Object.fromEntries) {
+  fromEntries.shim()
+}
 
 fetchImages({
   fileId: 'jkzIOE4y4uwlpUZZc6z4Nz',
