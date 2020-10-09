@@ -33,7 +33,7 @@
     "consolidate": "^0.15.0",
     "dotenv": "^8.2.0",
     "extract-svg-path": "^2.1.0",
-    "figma-tools": "^0.2.0",
+    "figma-tools": "^0.2.1",
     "handlebars": "^4.7.5",
     "minimist": "^1.2.0",
     "object.fromentries": "^2.0.2",

@@ -33,7 +33,7 @@ fetchImages({
       svgs.map((svg) =>
         svgo.optimize(svg.buffer.toString()).catch((err) => {
           console.error(err)
-          console.log(svg)
+          console.log(svg.buffer.toString())
         })
       )
     )
