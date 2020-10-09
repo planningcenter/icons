@@ -1,8 +1,8 @@
 require('dotenv').config()
 
 const { fetchImages } = require('figma-tools')
-const { writeFileSync } = require('fs')
-const { resolve } = require('path')
+const fs = require('fs')
+const path = require('path')
 const fromEntries = require('object.fromentries')
 const SVGO = require('svgo')
 
@@ -26,26 +26,29 @@ fetchImages({
 }).then(async (svgs) => {
   if (svgs.length === 0) {
     console.log(
-      'No components found. Please make sure there are components in the file to export.'
+      `No components found. Please make sure there are components in the file to export.`
     )
   } else {
     const optimizedSvgs = await Promise.all(
       svgs.map((svg) =>
         svgo.optimize(svg.buffer.toString()).catch((err) => {
-          console.error(err)
-          console.log(svg.buffer.toString())
+          console.log(
+            `Oops! Something happened while optimizing "${svg.name}".`
+          )
+          console.log(err)
         })
       )
     )
     svgs.forEach((svg, index) => {
       const optimizedSvg = optimizedSvgs[index].data
-      writeFileSync(
-        resolve(
-          __dirname,
-          `../svg/${svg.frameName.toLowerCase()}/${svg.name}.svg`
-        ),
-        optimizedSvg
+      const directory = path.resolve(
+        __dirname,
+        `../svg/${svg.frameName.toLowerCase()}`
       )
+      if (!fs.existsSync(directory)) {
+        fs.mkdirSync(directory)
+      }
+      fs.writeFileSync(`${directory}/${svg.name}.svg`, optimizedSvg)
     })
   }
 })
