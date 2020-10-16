@@ -127,3 +127,26 @@ Additional Notes:
 
 - slight discrepancies of icons with `16x17` viewBox
 - slight discrepancies of icons with `17x16` viewBox
+
+### Product: Groups
+
+_Uses_: `general`, `groups`, `product`, and `planning-center`
+
+_Interest_: all included sets. only using `planning-center` for `groups-logomark`
+
+_Method_: `@planningcenter/symbol` React, `external_icon` Rails. a11y improvements recommended
+
+_Direct SVG usage_:
+None from :icons:.
+
+### Product: Accounts
+
+_Uses_: `general`, `accounts`, `people`, and `brand` sprites
+
+_Interest_: all included sets. `people`, only used for `import-progress` and `index`.
+
+_Method_: `@planningcenter/symbol` React, `external_icon` Rails. a11y improvements recommended
+
+_Direct SVG usage_:
+None from :icons:.  
+Has logos concept, which are local `SVGs`.
