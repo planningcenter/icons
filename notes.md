@@ -35,3 +35,34 @@ Known issues:
 * Add visual regression testing via `Storybook` and `Chromatic`, like `planningcenter/design`
 * Move remaining global sets into Figma: `product` and `brand`
 * Work as Coalitions to move remaining sets into local figma file
+
+--
+
+### R&F Product Testing (10/16/20)
+**Product:** Check-Ins
+
+1. **Which icon sets each app uses** 
+
+	`check-ins`, `general`, `brand`, `product` + `church-center`
+
+2. **How much are other icon sets used?** _(1 icon? a couple icons in one view? all over the place?)_
+
+	`church-center`: 2 icons in 9 different places
+	
+3. **What does your `<use>` tag wrapping element/component/helper look like?**
+	
+	* 	React: `external_icon.js` component. e.g. `<Icon symbol="set#name" />`
+	*	Ruby/Rails: `external_icon` helper. e.g. `<%= external_icon("set#name") %>`
+
+4. **Is it applying attributes like `title`, `description`, `role`, etc.?**
+
+	Just title and role: `<svg title="name icon" role="img">`
+	
+5. **Are you using `.svg` file directly from :icons: in React and/or Rails?**
+
+	No
+	
+Additional Notes:
+
+*	slight discrepancies of icons with `16x17` viewBox
+
