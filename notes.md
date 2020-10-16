@@ -22,17 +22,24 @@ Known issues:
 ## (10/16) Possible next steps
 
 - If used, document usage of Figma [Distributed](https://www.figma.com/community/plugin/761098431161143653) plugin
+  - Align frames to grid
+  - Control precision with 'to fixed' (2 decimal points)
+    - question: separate `logomark` and `logotype`
+      - ?included app color? (separate build)
 - Conduct a11y research on best practices for `<use>` tag SVGs for our listed browser suppert
   - Document findings and recomendations on `planningcenter.design`
   - Implement findings into of `@planningcenter/symbol`
     - Publish and update apps
   - Implement findinsg into `external_icon`, which exists in apps
-    - Investigate adding a shared implementation to interfaces
+    - Investigate adding a shared implementation to interfaces (+)
   - Document solutions for products using SVGs directly
+    - `title="plus-person" role="presentation" description="add new person" aria-label=` 
+      - pointer event to hide title
 - Rework build script
   - Optimize overly precise SVGs paths
   - ? Build a set of accessible SVGs for direct use
     - (Based on the small number of direct-svg use cases, it might be better to solve this issue locally. further research needed)
+      - logotypes, color, adapts to color-scheme, css variable?, currentColor?
 - Add visual regression testing via `Storybook` and `Chromatic`, like `planningcenter/design`
 - Move remaining global sets into Figma: `product` and `brand`
 - Work as Coalitions to move remaining sets into local figma file
