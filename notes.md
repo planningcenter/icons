@@ -18,3 +18,20 @@ Known issues:
   - Export to root `svg` directory
 - `Export as .fig` to repo ("save")
 - Commit and deploy as normal
+
+## (10/16) Possible next steps
+* If used, document usage of Figma [Distributed](https://www.figma.com/community/plugin/761098431161143653) plugin
+* Conduct a11y research on best practices for `<use>` tag SVGs for our listed browser suppert
+  * Document findings and recomendations on `planningcenter.design`
+  * Implement findings into of `@planningcenter/symbol`
+    * Publish and update apps
+  * Implement findinsg into `external_icon`, which exists in apps
+    * Investigate adding a shared implementation to interfaces
+  * Document solutions for products using SVGs directly
+* Rework build script
+  * Optimize overly precise SVGs paths
+  * ? Build a set of accessible SVGs for direct use
+    * (Based on the small number of direct-svg use cases, it might be better to solve this issue locally. further research needed)
+* Add visual regression testing via `Storybook` and `Chromatic`, like `planningcenter/design`
+* Move remaining global sets into Figma: `product` and `brand`
+* Work as Coalitions to move remaining sets into local figma file
