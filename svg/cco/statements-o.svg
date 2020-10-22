@@ -1,1 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><title>statements-o</title><g id="Layer_1" data-name="Layer 1"><path d="M11,1V15H1V1H11m1-1H0V16H12V0Z"/><path d="M14,2V13H12V2h2m1-1H11V14h4V1Z"/><rect x="3" y="3" width="6" height="1"/><rect x="3" y="5" width="6" height="1"/><rect x="3" y="7" width="6" height="1"/><rect x="3" y="9" width="4" height="1"/></g></svg>
+<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M11.5 1V15H1.5V1H11.5ZM12.5 0H0.5V16H12.5V0Z" fill="black"/>
+<path d="M14.5 2V13H12.5V2H14.5ZM15.5 1H11.5V14H15.5V1Z" fill="black"/>
+<path d="M9.5 3H3.5V4H9.5V3Z" fill="black"/>
+<path d="M9.5 5H3.5V6H9.5V5Z" fill="black"/>
+<path d="M9.5 7H3.5V8H9.5V7Z" fill="black"/>
+<path d="M7.5 9H3.5V10H7.5V9Z" fill="black"/>
+</svg>

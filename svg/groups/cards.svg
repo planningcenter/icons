@@ -1,1 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><title>cards</title><g id="Layer_1" data-name="Layer 1"><g id="Layer_27" data-name="Layer 27"><rect x="9.318" y="0.256" width="6.453" height="6.453"/><rect x="0.318" y="0.256" width="6.453" height="6.453"/><rect x="0.318" y="9.256" width="6.453" height="6.453"/><rect x="9.318" y="9.256" width="6.453" height="6.453"/></g></g></svg>
+<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M15.725 0.275024H9.27325V6.72677H15.725V0.275024Z" fill="black"/>
+<path d="M6.72674 0.275024H0.274994V6.72677H6.72674V0.275024Z" fill="black"/>
+<path d="M6.72674 9.27328H0.274994V15.725H6.72674V9.27328Z" fill="black"/>
+<path d="M15.725 9.27328H9.27325V15.725H15.725V9.27328Z" fill="black"/>
+</svg>
