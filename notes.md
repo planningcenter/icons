@@ -26,6 +26,7 @@ Known issues:
   - Control precision with 'to fixed' (2 decimal points)
     - question: separate `logomark` and `logotype`
       - ?included app color? (separate build)
+      - issue [#21](https://github.com/planningcenter/icons/pull/21) on separate logomarks
 - Conduct a11y research on best practices for `<use>` tag SVGs for our listed browser suppert
   - Document findings and recomendations on `planningcenter.design`
   - Implement findings into of `@planningcenter/symbol`

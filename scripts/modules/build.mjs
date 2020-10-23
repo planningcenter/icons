@@ -140,7 +140,7 @@ function writeCollection(collection) {
   console.log(chalk.yellow(`\nBuilding ${collection.name}:`));
   writeSVGSpriteForCollection(collection);
   writeSVGPathStringsForCollection(collection);
-  writeIconFontForCollection(collection);
+  // writeIconFontForCollection(collection);
 }
 
 export function buildAll() {
