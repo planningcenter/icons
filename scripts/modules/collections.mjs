@@ -1,5 +1,1 @@
-export const spriteBlockList = [
-  "experimental-color-logomark",
-  "experimantal-color-logotype",
-  "logotype",
-];
+export const spriteBlockList = ["color-logomark", "color-logotype", "logotype"];
