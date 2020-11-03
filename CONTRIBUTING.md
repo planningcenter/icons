@@ -17,6 +17,8 @@ Exports can be run with:
 - `file > export`
 - `command + shift + e`
 
+You can find more in depth details here: https://help.figma.com/hc/en-us/articles/360040514533-Export-Settings
+
 ### Export all icons
 
 With no frames selected, [`export`](#export) will export all icon frames.
@@ -48,15 +50,19 @@ Select the frame of the icon you want to export and [`export`](#export)
 - Open [file](#source-in-figma)
 - Find the collection frame you'll be adding to
 - Add a frame and icon art with name `{collection-name}/{icon-name}`
-- Add `Export` in the `Design` property tab
+- Add `SVG` `Export` in the `Design` property tab
+- Add new icon name to `src/stories/{collection-name}.js` test file
+- Continue with regular release instructions
 
 </details>
 
 <details>
 <summary>Remove icon</summary>
 
-- locate the source Illustrator file you'd like to update in `src/{collection}.ai`
-- make changes and `save`
+- Open [file](#source-in-figma)
+- Remove icon frame from desired collection
+- Remove icon name from `src/stories/{collection-name}.js` test file
+- Continue with regular release instructions
 
 </details>
 
