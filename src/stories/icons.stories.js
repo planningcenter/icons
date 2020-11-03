@@ -118,14 +118,6 @@ export function Logomark() {
   );
 }
 
-export function Logotype() {
-  return (
-    <IconGrid>
-      <LogotypeIcons />
-    </IconGrid>
-  );
-}
-
 export function Publishing() {
   return (
     <IconGrid>
