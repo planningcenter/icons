@@ -1,5 +1,34 @@
 # Contributing
 
+## Source in Figma
+
+Icon source lives in Figma.
+
+Link: https://www.figma.com/file/5WSYCrTtlQvFeOUZoakwR4/Icons
+
+Update [this shared Figma file](https://www.figma.com/file/5WSYCrTtlQvFeOUZoakwR4/Icons?node-id=1%3A2) with changes then export icons to `{local-icons-repo-root}/svg`.
+
+## Export
+
+All existing icon frames have are set up with `svg` exports — unless otherwise noted.
+
+Exports can be run with:
+
+- `file > export`
+- `command + shift + e`
+
+### Export all icons
+
+With no frames selected, [`export`](#export) will export all icon frames.
+
+### Export a collection
+
+Select the frame of the collection you want to export and [`export`](#export)
+
+### Export an icon
+
+Select the frame of the icon you want to export and [`export`](#export)
+
 <details>
 <summary>Development scripts</summary>
 
@@ -14,24 +43,20 @@
 </details>
 
 <details>
-<summary>Add or edit an illustrations</summary>
+<summary>Add icon</summary>
 
-- locate the source Illustrator file you'd like to update in `src/{collection}.ai`
-- make changes and `save`
+- Open [file](#source-in-figma)
+- Find the collection frame you'll be adding to
+- Add a frame and icon art with name `{collection-name}/{icon-name}`
+- Add `Export` in the `Design` property tab
 
 </details>
 
 <details>
-<summary>Export SVGs</summary>
+<summary>Remove icon</summary>
 
-- select `Export for screens`, from the `File` menu
-  - export as `SVG`
-  - select the corresponding directory (`svg/{collection}/`)
-- select these settings
-  - `styling` is `Presentation Attributes`
-  - `precision` is at least `3`
-
-![ai config](./images/ai-config.png)
+- locate the source Illustrator file you'd like to update in `src/{collection}.ai`
+- make changes and `save`
 
 </details>
 
