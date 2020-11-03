@@ -8,6 +8,7 @@ import webfontsGenerator from "webfonts-generator";
 import PDFDocument from "pdfkit";
 import SVGtoPDF from "svg-to-pdfkit";
 import createSVGSprite from "./create-svg-sprite";
+import { spriteBlockList } from "./collections";
 
 function isFile(path) {
   return fs.lstatSync(path).isFile();
@@ -137,6 +138,11 @@ function writePDFsForCollection(collection) {
 }
 
 function writeCollection(collection) {
+  if (spriteBlockList.includes(collection.name)) {
+    console.log(chalk.yellow(`\nSkipping color collection ${collection.name}`));
+    return;
+  }
+
   console.log(chalk.yellow(`\nBuilding ${collection.name}:`));
   writeSVGSpriteForCollection(collection);
   writeSVGPathStringsForCollection(collection);

@@ -3,6 +3,7 @@
 import fs from "fs";
 import path from "path";
 import consolidate from "consolidate";
+import { spriteBlockList } from "./collections";
 
 let unpublishedCollections = ["color-apps"];
 
@@ -22,7 +23,8 @@ function pascalCase(str) {
 let collections = fs
   .readdirSync(`./svg/`)
   .map(name => ({ name, path: path.join(`./svg/`, name) }))
-  .filter(collection => isDirectory(collection.path));
+  .filter(collection => isDirectory(collection.path))
+  .filter(({ name }) => !spriteBlockList.includes(name));
 
 let svgsInCollections = collections
   .filter(collection => !unpublishedCollections.includes(collection.name))
