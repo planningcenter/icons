@@ -5,8 +5,6 @@ import path from "path";
 import consolidate from "consolidate";
 import { spriteBlockList } from "./collections";
 
-let unpublishedCollections = ["color-apps"];
-
 function isFile(path) {
   return fs.lstatSync(path).isFile();
 }
@@ -16,30 +14,28 @@ function isDirectory(path) {
 }
 
 function pascalCase(str) {
-  let camelCased = str.replace(/-([a-z])/g, g => g[1].toUpperCase());
+  let camelCased = str.replace(/-([a-z])/g, (g) => g[1].toUpperCase());
   return camelCased.charAt(0).toUpperCase() + camelCased.slice(1);
 }
 
 let collections = fs
   .readdirSync(`./svg/`)
-  .map(name => ({ name, path: path.join(`./svg/`, name) }))
-  .filter(collection => isDirectory(collection.path))
+  .map((name) => ({ name, path: path.join(`./svg/`, name) }))
+  .filter((collection) => isDirectory(collection.path))
   .filter(({ name }) => !spriteBlockList.includes(name));
 
-let svgsInCollections = collections
-  .filter(collection => !unpublishedCollections.includes(collection.name))
-  .map(collection => ({
-    ...collection,
-    svgs: fs
-      .readdirSync(collection.path)
-      .filter(svgPath => !svgPath.includes(".DS_Store"))
-      .map(svgPath => ({
-        name: svgPath.replace(".svg", ""),
-        componentName: pascalCase(svgPath.replace(".svg", "")),
-        path: path.join(collection.path, svgPath)
-      }))
-      .filter(svg => isFile(svg.path))
-  }));
+let svgsInCollections = collections.map((collection) => ({
+  ...collection,
+  svgs: fs
+    .readdirSync(collection.path)
+    .filter((svgPath) => !svgPath.includes(".DS_Store"))
+    .map((svgPath) => ({
+      name: svgPath.replace(".svg", ""),
+      componentName: pascalCase(svgPath.replace(".svg", "")),
+      path: path.join(collection.path, svgPath),
+    }))
+    .filter((svg) => isFile(svg.path)),
+}));
 
 export function buildSite() {
   return consolidate.handlebars(
