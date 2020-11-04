@@ -1,1 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><title>bars</title><g id="Layer_1" data-name="Layer 1"><rect x="0.583" y="0.499" width="1.5" height="15.001"/><rect x="5.028" y="3.278" width="1.5" height="12.222"/><rect x="9.472" y="6.611" width="1.5" height="8.889"/><rect x="13.917" y="1.611" width="1.5" height="13.889"/></g></svg>
+<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M2.0846 0.5H0.585007V15.5H2.0846V0.5Z" fill="black"/>
+<path d="M6.5284 3.27881H5.02881V15.5H6.5284V3.27881Z" fill="black"/>
+<path d="M10.9712 6.61159H9.47161V15.5H10.9712V6.61159Z" fill="black"/>
+<path d="M15.415 1.61193H13.9154V15.5H15.415V1.61193Z" fill="black"/>
+</svg>

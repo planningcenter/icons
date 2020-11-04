@@ -12,7 +12,7 @@ export default function (svgs) {
 
         return `
 <symbol id="${symbol.name}" viewBox="${doc("svg").attr("viewBox")}">
-  ${cheerio.xml(doc("svg").children())}
+  ${cheerio.xml(doc("svg").children().removeAttr("fill"))}
 </symbol>`;
       })
       .join("\n")}

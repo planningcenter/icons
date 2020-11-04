@@ -1,1 +1,3 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><title>left-arrow</title><path d="M15.646,9.257H4.852l4.966,4.965L8.04,16l-8-8,8-8L9.818,1.778,4.852,6.743H15.646Z"/></svg>
+<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M15.646 9.257H4.85198L9.81798 14.222L8.03998 16L0.039978 8L8.03998 0L9.81798 1.778L4.85198 6.743H15.646V9.257Z" fill="black"/>
+</svg>

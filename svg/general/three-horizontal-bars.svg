@@ -1,1 +1,3 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><title>three-horizontal-bars</title><path d="M0,6.911H16V8.689H0Zm0,6.222H16V11.356H0ZM0,2.467V4.244H16V2.467Z"/></svg>
+<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 6.91101H16V8.68901H0V6.91101ZM0 13.133H16V11.356H0V13.133ZM0 2.46701V4.24401H16V2.46701H0Z" fill="black"/>
+</svg>

@@ -9,13 +9,12 @@ import CalendarIcons from "./calendar";
 import CCOIcons from "./cco";
 import CheckInsIcons from "./check-ins";
 import ChurchCenterIcons from "./church-center";
-// import ColorApps from "./color-apps";
 import GeneralIcons from "./general";
 import GivingIcons from "./giving";
 import GroupsIcons from "./groups";
 import PeopleIcons from "./people";
-import PlanningCenterIcons from "./planning-center";
-import ProductIcons from "./product";
+import LogomarkIcons from "./logomark";
+import UIKitIcons from "./ui-kit";
 import PublishingIcons from "./publishing";
 import RegistrationsIcons from "./registrations";
 
@@ -79,14 +78,6 @@ export function ChurchCenter() {
   );
 }
 
-// export function ColorApps() {
-//   return (
-//     <IconGrid>
-//       <ColorAppsIcons />
-//     </IconGrid>
-//   );
-// }
-
 export function General() {
   return (
     <IconGrid>
@@ -119,18 +110,10 @@ export function People() {
   );
 }
 
-export function PlanningCenter() {
+export function Logomark() {
   return (
     <IconGrid>
-      <PlanningCenterIcons />
-    </IconGrid>
-  );
-}
-
-export function Product() {
-  return (
-    <IconGrid>
-      <ProductIcons />
+      <LogomarkIcons />
     </IconGrid>
   );
 }
@@ -147,6 +130,14 @@ export function Registrations() {
   return (
     <IconGrid>
       <RegistrationsIcons />
+    </IconGrid>
+  );
+}
+
+export function UIKit() {
+  return (
+    <IconGrid>
+      <UIKitIcons />
     </IconGrid>
   );
 }
