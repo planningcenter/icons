@@ -4,7 +4,7 @@
 
 ![Planning Center Icons logo](./logo.svg)
 
-Accessible, scaleable, standard SVG icons for [Planning Center](https://planning.center) apps
+Accessible, scaleable, cacheable, and standard SVG icons for [Planning Center](https://planning.center) apps
 
 <hr />
 

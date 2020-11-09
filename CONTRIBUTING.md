@@ -34,6 +34,10 @@ Select the frame of the icon you want to export and [`export`](#export)
 <details>
 <summary>Development scripts</summary>
 
+You shouldn't need to use these scripts.  
+`sprites` and `paths` builds happen in GitHub Actions on the `svgs` directory right before publish.  
+However, you can run them locally for debugging.
+
 | Command                                    | Task                               |
 | ------------------------------------------ | ---------------------------------- |
 | `yarn build`                               | build all collections, once        |
