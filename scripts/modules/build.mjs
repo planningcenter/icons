@@ -81,32 +81,51 @@ function validateSVGs(svgs) {
   return svgs;
 }
 
+function prepareParentDir(dirName) {
+  if (!fs.existsSync(dirName)) {
+    fs.mkdirSync(dirName);
+  }
+}
+
 function writeSVGSpriteForCollection(collection) {
-  console.log(chalk.yellow(`  * /sprites/${collection.name}.svg`));
+  let dirName = "sprites";
+
+  console.log(chalk.yellow(`  * /${dirName}/${collection.name}.svg`));
+
+  prepareParentDir(dirName);
 
   return fs.writeFileSync(
-    `sprites/${collection.name}.svg`,
+    `${dirName}/${collection.name}.svg`,
     createSVGSprite(validateSVGs(collection.svgs)),
     "utf8"
   );
 }
 
 function writeSVGPathStringsForCollection(collection) {
-  console.log(chalk.yellow(`  * /paths/${collection.name}.js`));
+  let dirName = "paths";
+
+  console.log(chalk.yellow(`  * /${dirName}/${collection.name}.js`));
+
+  prepareParentDir(dirName);
+
   return fs.writeFileSync(
-    `paths/${collection.name}.js`,
+    `${dirName}/${collection.name}.js`,
     collectionPathStrings(validateSVGs(collection.svgs)),
     "utf8"
   );
 }
 
 function writeIconFontForCollection(collection) {
-  console.log(chalk.yellow(`  * /iconfonts/${collection.name}/*`));
+  let dirName = "iconfonts";
+
+  console.log(chalk.yellow(`  * /${dirName}/${collection.name}/*`));
+
+  prepareParentDir(dirName);
 
   webfontsGenerator(
     {
       files: collection.svgs.map(({ path }) => path),
-      dest: `iconfonts/`,
+      dest: `${dirName}/`,
       fontName: collection.name,
       types: ["ttf"],
       css: false,
@@ -125,9 +144,7 @@ function writePDFsForCollection(collection) {
   collection.svgs.forEach((svg) => {
     let doc = new PDFDocument();
 
-    if (!fs.existsSync(dir)) {
-      fs.mkdirSync(dir);
-    }
+    prepareParentDir(dir);
 
     let stream = fs.createWriteStream(`${dir}/${svg.name}.pdf`);
 
