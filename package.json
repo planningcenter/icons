@@ -6,8 +6,8 @@
   "scripts": {
     "test": "echo \"No test specified\"",
     "build": "node --experimental-modules ./scripts/cli.mjs build",
-    "storybook": "start-storybook -p 6006 --no-dll",
-    "build-storybook": "build-storybook --no-dll"
+    "storybook": "yarn build && start-storybook -p 6006 --no-dll",
+    "build-storybook": "yarn build && build-storybook --no-dll"
   },
   "repository": {
     "type": "git",

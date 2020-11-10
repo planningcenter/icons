@@ -1,0 +1,16 @@
+export const accounts = [
+  "arrow-indent",
+  "bill",
+  "calendar",
+  "campus",
+  "contact-card",
+  "editor",
+  "integration-connected",
+  "integration-disconnected",
+  "integrations",
+  "lightbulb",
+  "photo",
+  "renew",
+  "safe",
+  "stamp",
+];

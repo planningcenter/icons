@@ -1,143 +1,127 @@
 import React from "react";
-import IconGrid from "./icon-grid";
 import "../../css/symbol.css";
+import { Symbol } from "@planningcenter/symbol";
 
-import AccountsIcons from "./accounts";
-import APIIcons from "./api";
-import BrandIcons from "./brand";
-import CalendarIcons from "./calendar";
-import CCOIcons from "./cco";
-import CheckInsIcons from "./check-ins";
-import ChurchCenterIcons from "./church-center";
-import GeneralIcons from "./general";
-import GivingIcons from "./giving";
-import GroupsIcons from "./groups";
-import PeopleIcons from "./people";
-import LogomarkIcons from "./logomark";
-import UIKitIcons from "./ui-kit";
-import PublishingIcons from "./publishing";
-import RegistrationsIcons from "./registrations";
+import {
+  accounts,
+  accountsSprite,
+  api,
+  apiSprite,
+  brand,
+  brandSprite,
+  calendar,
+  calendarSprite,
+  cco,
+  ccoSprite,
+  checkIns,
+  checkInsSprite,
+  churchCenter,
+  churchCenterSprite,
+  general,
+  generalSprite,
+  giving,
+  givingSprite,
+  groups,
+  groupsSprite,
+  people,
+  peopleSprite,
+  logomark,
+  logomarkSprite,
+  publishing,
+  publishingSprite,
+  registrations,
+  registrationsSprite,
+  uiKit,
+  uiKitSprite,
+} from "./icons";
 
 export default {
   title: "Icons",
 };
 
 export function Accounts() {
-  return (
-    <IconGrid>
-      <AccountsIcons />
-    </IconGrid>
-  );
+  return <Icons icons={accounts} sprite={accountsSprite} />;
 }
 
 export function API() {
-  return (
-    <IconGrid>
-      <APIIcons />
-    </IconGrid>
-  );
+  return <Icons icons={api} sprite={apiSprite} />;
 }
 
 export function Brand() {
-  return (
-    <IconGrid>
-      <BrandIcons />
-    </IconGrid>
-  );
+  return <Icons icons={brand} sprite={brandSprite} />;
 }
 
 export function Calendar() {
-  return (
-    <IconGrid>
-      <CalendarIcons />
-    </IconGrid>
-  );
+  return <Icons icons={calendar} sprite={calendarSprite} />;
 }
 
 export function CCO() {
-  return (
-    <IconGrid>
-      <CCOIcons />
-    </IconGrid>
-  );
+  return <Icons icons={cco} sprite={ccoSprite} />;
 }
 
 export function CheckIns() {
-  return (
-    <IconGrid>
-      <CheckInsIcons />
-    </IconGrid>
-  );
+  return <Icons icons={checkIns} sprite={checkInsSprite} />;
 }
 
 export function ChurchCenter() {
-  return (
-    <IconGrid>
-      <ChurchCenterIcons />
-    </IconGrid>
-  );
+  return <Icons icons={churchCenter} sprite={churchCenterSprite} />;
 }
 
 export function General() {
-  return (
-    <IconGrid>
-      <GeneralIcons />
-    </IconGrid>
-  );
+  return <Icons icons={general} sprite={generalSprite} />;
 }
 
 export function Giving() {
-  return (
-    <IconGrid>
-      <GivingIcons />
-    </IconGrid>
-  );
+  return <Icons icons={giving} sprite={givingSprite} />;
 }
 
 export function Groups() {
-  return (
-    <IconGrid>
-      <GroupsIcons />
-    </IconGrid>
-  );
+  return <Icons icons={groups} sprite={groupsSprite} />;
 }
 
 export function People() {
-  return (
-    <IconGrid>
-      <PeopleIcons />
-    </IconGrid>
-  );
+  return <Icons icons={people} sprite={peopleSprite} />;
 }
 
 export function Logomark() {
-  return (
-    <IconGrid>
-      <LogomarkIcons />
-    </IconGrid>
-  );
+  return <Icons icons={logomark} sprite={logomarkSprite} />;
 }
 
 export function Publishing() {
-  return (
-    <IconGrid>
-      <PublishingIcons />
-    </IconGrid>
-  );
+  return <Icons icons={publishing} sprite={publishingSprite} />;
 }
 
 export function Registrations() {
-  return (
-    <IconGrid>
-      <RegistrationsIcons />
-    </IconGrid>
-  );
+  return <Icons icons={registrations} sprite={registrationsSprite} />;
 }
 
 export function UIKit() {
+  return <Icons icons={uiKit} sprite={uiKitSprite} />;
+}
+
+// private
+
+function Icons({ icons = [], sprite = "", ...props }) {
+  function IconSample({ id, sprite, style, ...props }) {
+    return (
+      <li
+        {...props}
+        style={{ display: "flex", alignItems: "center", padding: ".625rem 0" }}
+      >
+        <span>
+          <Symbol symbol={`${sprite}#${id}`} style={{ fontSize: "1.5rem" }} />
+        </span>
+        <div style={{ margin: ".5rem" }} />
+        <span>{id}</span>
+      </li>
+    );
+  }
+
   return (
-    <IconGrid>
-      <UIKitIcons />
-    </IconGrid>
+    <ul {...props}>
+      {icons.map((icon) => (
+        <IconSample sprite={sprite} id={icon} />
+      ))}
+    </ul>
   );
 }

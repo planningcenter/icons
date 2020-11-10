@@ -1,0 +1,16 @@
+export const logomark = [
+  "planning-center",
+  "accounts",
+  "api",
+  "calendar",
+  "check-ins",
+  "church-center",
+  "giving",
+  "groups",
+  "music-stand",
+  "people",
+  "publishing",
+  "registrations",
+  "resources",
+  "services",
+];
