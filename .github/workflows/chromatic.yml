@@ -16,6 +16,7 @@ jobs:
           registry-url: https://registry.npmjs.org/
       - name: Install dependencies
         run: yarn install
+      - name: Build icon artifacts
         run: yarn build
       - name: Deploy to Chromatic
         uses: chromaui/action@v1
