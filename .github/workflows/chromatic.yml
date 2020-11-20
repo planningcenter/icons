@@ -5,14 +5,20 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v1
+      - name: Checkout repository
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0 # 👈 Required to retrieve git history
+      - name: Install node
+        uses: actions/setup-node@v1
         with:
           node-version: "10.x"
           registry-url: https://registry.npmjs.org/
-      - run: yarn install
-      - run: yarn build
-      - uses: chromaui/action@v1
+      - name: Install dependencies
+        run: yarn install
+        run: yarn build
+      - name: Deploy to Chromatic
+        uses: chromaui/action@v1
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           projectToken: ${{ secrets.CHROMATIC_TOKEN }}
