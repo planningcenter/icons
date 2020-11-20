@@ -24,6 +24,7 @@ export const churchCenter = [
   "home",
   "location-arrow",
   "message-circle",
+  "moon",
   "paper-plane-o",
   "paper-plane",
   "paste",
@@ -43,4 +44,4 @@ export const churchCenter = [
   "three-dots-o",
   "three-dots",
   "trash",
-];
+]
