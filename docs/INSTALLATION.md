@@ -1,29 +1,25 @@
 # Installation
 
-Find instructions for setup installation for Rails, Webpack, Gatsby, create-react-app, CodeSandbox, and others [here](https://github.com/planningcenter/icons/releases).
+## Anywhere
 
-## Platform setup and usage
-
-### Anywhere
-
-@planningcenter/icons can be used anywhere on the web.
-You simple need a link to a public path.
+@planningcenter/icons can be used anywhere on the web.  
+You'll just need a link to a public path.
 
 ```html
-<svg role="img" title="down arrow icon" class="symbol">
+<svg role="img" title="arrow pointing down" class="symbol">
   <use href="./path/to/general.svg#down-arrow"></use>
 </svg>
 ```
 
-When you do this, a few things are up to you:
+A few things are up to you:
 
 - accessibily
 - default styling
 - cache busting
 
-Follow the Rails and Webpack/React guides to get those things setup on one of our supported platforms.
+Follow the Rails and Webpack/React guides to automate these improve the automation of these concerns with your framework.
 
-### Rails
+## Rails
 
 <details>
 <summary>Setup</summary>
@@ -82,7 +78,7 @@ This can be handy for specially styled icons or those you target via JavaScript.
 
 </details>
 
-### Rails, Webpacker, and React
+## Rails, Webpacker, and React
 
 <details>
 <summary>Setup</summary>
@@ -105,10 +101,10 @@ environment.loaders.append("file", {
     {
       loader: "file-loader",
       options: {
-        publicPath: "/packs"
-      }
-    }
-  ]
+        publicPath: "/packs",
+      },
+    },
+  ],
 });
 
 module.exports = environment;
@@ -140,7 +136,7 @@ import Symbol from "@planningcenter/symbol";
 import general from "@planningcenter/icons/sprites/general.svg";
 
 let icons = {
-  general
+  general,
 };
 
 function ExternalIcon({ symbol: s, ...platformProps }) {
@@ -190,7 +186,7 @@ This can be handy for specially styled icons or those you target via JavaScript 
 
 </details>
 
-### Gatsby (most starters)
+## Gatsby (most starters)
 
 <details>
 <summary>setup</summary>
@@ -218,7 +214,7 @@ function App() {
 
 </details>
 
-### `create-react-app`
+## `create-react-app`
 
 <details>
 <summary>setup</summary>
@@ -246,7 +242,7 @@ function App() {
 
 </details>
 
-### CodeSandbox
+## CodeSandbox
 
 <details>
 <summary>Examples</summary>
@@ -256,7 +252,7 @@ function App() {
 
 </details>
 
-### IE11 External Resource SVG polyfill — svg4everybody
+## IE11 External Resource SVG polyfill — svg4everybody
 
 <details>
 <summary>Anywhere</summary>
