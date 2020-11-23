@@ -57,6 +57,8 @@ Changelogs are now kept in [releases](https://github.com/planningcenter/icons/re
 
 Find legacy changelogs and migration docs [here](./changelog)
 
+Changes are also visible in Slack, in the `#icons` channel.
+
 ## Publishing
 
 Once your changes are committed and/or merged...
