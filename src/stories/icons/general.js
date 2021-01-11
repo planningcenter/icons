@@ -29,6 +29,7 @@ export const general = [
   "heart",
   "hide-eye",
   "in-tray",
+  "inactive",
   "info-circle",
   "into-box",
   "laptop",

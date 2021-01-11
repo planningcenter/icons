@@ -28,7 +28,6 @@ export const people = [
   "history",
   "id-card-outline",
   "import-progress",
-  "inactive",
   "logic",
   "mix-gender",
   "money-circle",
