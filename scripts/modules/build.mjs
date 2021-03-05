@@ -3,12 +3,12 @@
 import fs from "fs";
 import path from "path";
 import chalk from "chalk";
-import extract from "extract-svg-path";
 import webfontsGenerator from "webfonts-generator";
 import PDFDocument from "pdfkit";
 import SVGtoPDF from "svg-to-pdfkit";
 import createSVGSprite from "./create-svg-sprite";
 import { spriteBlockList } from "./collections";
+import extractPathFromSvg from "./extract-path-from-svg";
 
 function isFile(path) {
   return fs.lstatSync(path).isFile();
@@ -52,7 +52,7 @@ function collectionPathStrings(svgs) {
   return svgs
     .map(
       ({ name, path }) =>
-        `export const ${camelCase(name)} = "${extract(path)}";`
+        `export const ${camelCase(name)} = ${extractPathFromSvg(path)};`
     )
     .join(`\n\n`);
 }
