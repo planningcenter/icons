@@ -6,9 +6,10 @@ import chalk from "chalk";
 import webfontsGenerator from "webfonts-generator";
 import PDFDocument from "pdfkit";
 import SVGtoPDF from "svg-to-pdfkit";
-import createSVGSprite from "./create-svg-sprite";
-import { spriteBlockList } from "./collections";
-import extractPathFromSvg from "./extract-path-from-svg";
+import createSVGSprite from "./create-svg-sprite.mjs";
+import * as nonStandardCollections from "./collections.mjs";
+import extractPathsToString from "extract-svg-path";
+import extractPathsToArray from "./extract-path-from-svg.mjs";
 
 function isFile(path) {
   return fs.lstatSync(path).isFile();
@@ -48,11 +49,11 @@ let svgsInCollections = collections.map((collection) => ({
     .filter((svg) => isFile(svg.path)),
 }));
 
-function collectionPathStrings(svgs) {
+function collectionPaths(svgs, extractPaths = extractPathsToString) {
   return svgs
     .map(
       ({ name, path }) =>
-        `export const ${camelCase(name)} = ${extractPathFromSvg(path)};`
+        `export const ${camelCase(name)} = ${extractPaths(path)};`
     )
     .join(`\n\n`);
 }
@@ -110,7 +111,12 @@ function writeSVGPathStringsForCollection(collection) {
 
   return fs.writeFileSync(
     `${dirName}/${collection.name}.js`,
-    collectionPathStrings(validateSVGs(collection.svgs)),
+    collectionPaths(
+      validateSVGs(collection.svgs),
+      nonStandardCollections.experimentalMultiPath.includes(collection.name)
+        ? extractPathsToString
+        : extractPathsToArray
+    ),
     "utf8"
   );
 }
@@ -155,9 +161,18 @@ function writePDFsForCollection(collection) {
 }
 
 function writeCollection(collection) {
-  if (spriteBlockList.includes(collection.name)) {
-    console.log(chalk.yellow(`\nSkipping color collection ${collection.name}`));
+  if (nonStandardCollections.color.includes(collection.name)) {
+    console.log(
+      chalk.yellow(`\nSkipping build for collection: ${collection.name}`)
+    );
     return;
+  }
+
+  if (nonStandardCollections.experimentalMultiPath.includes(collection.name)) {
+    console.log(
+      chalk.yellow(`\nSkipping sprite for collection: ${collection.name}`)
+    );
+    return writeSVGPathStringsForCollection(collection);
   }
 
   console.log(chalk.yellow(`\nBuilding ${collection.name}:`));
