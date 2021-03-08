@@ -39,6 +39,3 @@ export { default as publishingSprite } from "../../../sprites/publishing.svg";
 
 export { registrations } from "./registrations";
 export { default as registrationsSprite } from "../../../sprites/registrations.svg";
-
-export { uiKit } from "./ui-kit";
-export { default as uiKitSprite } from "../../../sprites/ui-kit.svg";
