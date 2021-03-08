@@ -3,7 +3,7 @@
 import fs from "fs";
 import path from "path";
 import consolidate from "consolidate";
-import { spriteBlockList } from "./collections";
+import * as nonStandardCollections from "./collections.mjs";
 
 function isFile(path) {
   return fs.lstatSync(path).isFile();
@@ -22,7 +22,7 @@ let collections = fs
   .readdirSync(`./svg/`)
   .map((name) => ({ name, path: path.join(`./svg/`, name) }))
   .filter((collection) => isDirectory(collection.path))
-  .filter(({ name }) => !spriteBlockList.includes(name));
+  .filter(({ name }) => !nonStandardCollections.default.includes(name));
 
 let svgsInCollections = collections.map((collection) => ({
   ...collection,
