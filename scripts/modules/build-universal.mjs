@@ -5,7 +5,7 @@ import path from "path";
 import extract from "extract-svg-path";
 import PDFDocument from "pdfkit";
 import SVGtoPDF from "svg-to-pdfkit";
-import createSVGSprite from "./create-svg-sprite";
+import createSVGSprite from "./create-svg-sprite.mjs";
 import webfontsGenerator from "webfonts-generator";
 import SVGO from "svgo";
 

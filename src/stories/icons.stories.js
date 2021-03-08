@@ -31,8 +31,6 @@ import {
   publishingSprite,
   registrations,
   registrationsSprite,
-  uiKit,
-  uiKitSprite,
 } from "./icons";
 
 export default {
@@ -93,10 +91,6 @@ export function Publishing() {
 
 export function Registrations() {
   return <Icons icons={registrations} sprite={registrationsSprite} />;
-}
-
-export function UIKit() {
-  return <Icons icons={uiKit} sprite={uiKitSprite} />;
 }
 
 // private
