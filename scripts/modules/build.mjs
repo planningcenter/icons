@@ -49,11 +49,20 @@ let svgsInCollections = collections.map((collection) => ({
     .filter((svg) => isFile(svg.path)),
 }));
 
-function collectionPaths(svgs, extractPaths = extractPathsToString) {
+function collectionPathStrings(svgs) {
   return svgs
     .map(
       ({ name, path }) =>
-        `export const ${camelCase(name)} = ${extractPaths(path)};`
+        `export const ${camelCase(name)} = "${extractPathsToString(path)}";`
+    )
+    .join(`\n\n`);
+}
+
+function collectionPathArrays(svgs) {
+  return svgs
+    .map(
+      ({ name, path }) =>
+        `export const ${camelCase(name)} = ${extractPathsToArray(path)};`
     )
     .join(`\n\n`);
 }
@@ -111,12 +120,9 @@ function writeSVGPathStringsForCollection(collection) {
 
   return fs.writeFileSync(
     `${dirName}/${collection.name}.js`,
-    collectionPaths(
-      validateSVGs(collection.svgs),
-      nonStandardCollections.experimentalMultiPath.includes(collection.name)
-        ? extractPathsToString
-        : extractPathsToArray
-    ),
+    nonStandardCollections.experimentalMultiPath.includes(collection.name)
+      ? collectionPathArrays(validateSVGs(collection.svgs))
+      : collectionPathStrings(validateSVGs(collection.svgs)),
     "utf8"
   );
 }
