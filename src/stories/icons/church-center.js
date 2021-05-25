@@ -1,6 +1,7 @@
 export const churchCenter = [
   "bank-check",
   "bank",
+  "calendar-cancel",
   "calendar-events",
   "camera-reverse",
   "check-ins-o",
@@ -38,6 +39,8 @@ export const churchCenter = [
   "radio-button-off",
   "registrations-o",
   "registrations",
+  "services",
+  "services-o",
   "share-android",
   "share-ios",
   "thin-x",
